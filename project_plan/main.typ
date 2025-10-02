@@ -1,6 +1,11 @@
-#set text(font: "Arial")
+#set text(10pt, font: "Arial")
 
 #set page(header: text(8pt)[#align(right)[DDLS 2025 \ Alfred Larsson]])
+
+#let quote2(body) = box(fill: gray.lighten(80%), inset: 8pt, radius: 4pt)[
+    #set text(style: "italic")
+    #body
+]
 
 #show link: set text(fill: blue)
 #text(18pt)[*Project plan*]
@@ -9,7 +14,7 @@
 
 Nuclear Magnetic Resonance (NMR) spectroscopy is an analytical technique that exploits the magnetic properties of atomic nuclei to study molecular structure. When placed in a strong magnetic field, nuclei with spin (such as #super[1]H, #super[13]C) can absorb radiofrequency energy and resonate at characteristic frequencies. ¹H-NMR (proton NMR) is the most common type, since nearly all organic molecules contain hydrogen. Each unique chemical environment around a hydrogen atom causes a slightly different resonance frequency (chemical shift), producing peaks in the spectrum. Peak splitting (multiplets) reveals information about neighboring atoms, while intensities reflect the number of protons, enabling detailed structural interpretation.
 
-= Scientific Question
+= Scientific question
 Can we use supervised machine learning to classify small molecules into broad metabolite families (e.g., amino acids, sugars, lipids, nucleotides) based on their ¹H-NMR peaklist spectra?
 
 = Scientific relevance
@@ -23,7 +28,11 @@ Metabolomics relies on NMR for rapid, non-destructive profiling of metabolites i
 
 = Dataset
 
-Source: Human Metabolome Database (HMDB, hmdb.ca)
+Source: Human Metabolome Database (HMDB, #link("https://hmdb.ca/downloads")[hmdb.ca/downloads])
+
+License and terms of use:
+
+#quote2[HMDB is offered to the public as a freely available resource. Use and re-distribution of the data, in whole or in part, for commercial purposes requires explicit permission of the authors and explicit acknowledgment of the source material (HMDB) and the original publication (see below). We ask that users who download significant portions of the database cite the HMDB paper in any resulting publications.]
 
 *Files:*
 
@@ -72,7 +81,11 @@ Before modeling, we will explore:
 
 - Cross-validation: 5-fold CV to ensure robustness.
 
+= Accessibility
 
+Wrapped pipeline in web application, which lets users upload NMR spectra to determine the metabolite group.
+
+= Feasibility
 
 #pagebreak()
 = Appendix
