@@ -1,4 +1,4 @@
-group,count
+super_class,count
 Organic acids and derivatives,231
 Lipids and lipid-like molecules,192
 Organoheterocyclic compounds,134
@@ -7,4 +7,6 @@ Benzenoids,96
 "Nucleosides, nucleotides, and analogues",55
 Phenylpropanoids and polyketides,39
 Organic nitrogen compounds,29
-Other,9
+Alkaloids and derivatives,4
+Organosulfur compounds,4
+Hydrocarbons,1
