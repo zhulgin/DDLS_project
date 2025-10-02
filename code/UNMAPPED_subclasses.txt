@@ -1,0 +1,12 @@
+unmapped_sub_class
+5'-deoxy-5'-thionucleosides
+Benzenesulfonamides
+Benzothiadiazines
+Chalcones and dihydrochalcones
+Indolecarboxylic acids and derivatives
+Lipoamides
+Nitrophenols
+Pheniramines
+Phenylacetamides
+Pyrimidine deoxyribonucleotides
+Tryptamines and derivatives
