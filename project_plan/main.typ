@@ -87,6 +87,24 @@ Wrapped pipeline in web application, which lets users upload NMR spectra to dete
 
 = Feasibility
 
+*Expected runtime:*
+
+- Preprocessing (binning, metadata join): \<5 minutes.
+
+- Model training (Random Forest, SVM): seconds–minutes on CPU.
+
+- CNN training: \<30 minutes on Colab GPU, still feasible on CPU with reduced dataset.
+
+*Risks:*
+
+- Large XML metadata file (≈6-9 GB) → handled by streaming parser, only extracting needed IDs.
+
+- Class imbalance (e.g., lipids more abundant than amino acids) → mitigated by balanced sampling or weighting.
+
+- Spectral variability (instrument/solvent effects) → normalized by scaling and binning.
+
+*Overall:* Highly feasible in ~2-3 weeks.
+
 #pagebreak()
 = Appendix
 
