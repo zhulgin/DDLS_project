@@ -1,0 +1,2867 @@
+data_bmse001300
+
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             bmse001300
+   _Entry.Title
+;
+Dihydroisorescinnamine
+;
+   _Entry.Type                           'metabolite/natural product'
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2019-09-18
+   _Entry.Accession_date                 2019-09-18
+   _Entry.Last_release_date              2019-09-18
+   _Entry.Original_release_date          2019-09-18
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.1.32
+   _Entry.NMR_STAR_dict_location         .
+   _Entry.Original_NMR_STAR_version      3.2.0.16
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solution
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            10.12018/BMSE001300
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        .
+
+   loop_
+      _Entry_experimental_methods.ID
+      _Entry_experimental_methods.Method
+      _Entry_experimental_methods.Subtype
+      _Entry_experimental_methods.Entry_ID
+
+      1   NMR   solution   bmse001300
+   stop_
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   Maria   Nesterova   M.   .    .   .   bmse001300
+      2   Paulo   Cobra       P.   F.   .   .   bmse001300
+      3   John    Markley     J.   L.   .   .   bmse001300
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1   metabolomics   'National Magnetic Resonance Facility at Madison'   NMRFAM   bmse001300
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   1   bmse001300
+      spectral_peak_list         5   bmse001300
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   35   bmse001300
+      '1H chemical shifts'    44   bmse001300
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1   .   .   2019-09-18   .   original   BMRB   .   bmse001300
+   stop_
+
+   loop_
+      _Auxiliary_files.ID
+      _Auxiliary_files.Name
+      _Auxiliary_files.Format
+      _Auxiliary_files.URI
+      _Auxiliary_files.DOI
+      _Auxiliary_files.Path
+      _Auxiliary_files.Details
+      _Auxiliary_files.Entry_ID
+
+      1   bmse001300_nom.svg   SVG   bmse001300_nom.svg   .   .   'molecule image with all atom labels'   bmse001300
+      2   bmse001300.svg       SVG   bmse001300.svg       .   .   'molecule image'                        bmse001300
+      3   bmse001300.sdf       SDF   bmse001300.sdf       .   .   'molecule structure file'               bmse001300
+      4   bmse001300.png       PNG   bmse001300.png       .   .   'molecule image'                        bmse001300
+      5   bmse001300.mol       MOL   bmse001300.mol       .   .   'molecule structure file'               bmse001300
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     bmse001300
+   _Citation.ID                           1
+   _Citation.Name                         .
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          10.12018/BMSE001300
+   _Citation.PubMed_ID                    .
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Dihydroisorescinnamine
+;
+   _Citation.Status                       published
+   _Citation.Type                         'BMRB only'
+   _Citation.Journal_abbrev               .
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   .
+   _Citation.Page_last                    .
+   _Citation.Year                         2019
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Maria   Nesterova   M.   .    .   .   bmse001300   1
+      2   Paulo   Cobra       P.   F.   .   .   bmse001300   1
+      3   John    Markley     J.   L.   .   .   bmse001300   1
+   stop_
+save_
+
+save_citation_pubmed
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_pubmed
+   _Citation.Entry_ID                     bmse001300
+   _Citation.ID                           2
+   _Citation.Name                         .
+   _Citation.Class                        'reference citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          10.1093/nar/gkl1031
+   _Citation.PubMed_ID                    17170002
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Database resources of the National Center for Biotechnology Information
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'Nucleic Acids Res.'
+   _Citation.Journal_name_full            'Nucleic Acids Research'
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                'Database issue'
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 0305-1048
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   D1
+   _Citation.Page_last                    D2
+   _Citation.Year                         2007
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1    David        Wheeler      D.   L.   .   .   bmse001300   2
+      2    Tanya        Barrett      T.   .    .   .   bmse001300   2
+      3    Dennis       Benson       D.   A.   .   .   bmse001300   2
+      4    Stephen      Bryant       S.   H.   .   .   bmse001300   2
+      5    Kathi        Canese       K.   .    .   .   bmse001300   2
+      6    Vyacheslav   Chetvenin    V.   .    .   .   bmse001300   2
+      7    Deanna       Church       D.   M.   .   .   bmse001300   2
+      8    Michael      DiCuccio     M.   .    .   .   bmse001300   2
+      9    Ron          Edgar        R.   .    .   .   bmse001300   2
+      10   Scott        Federhen     S.   .    .   .   bmse001300   2
+      11   Lewis        Geer         L.   Y.   .   .   bmse001300   2
+      12   Yuri         Kapustin     Y.   .    .   .   bmse001300   2
+      13   Oleg         Khovayko     O.   .    .   .   bmse001300   2
+      14   David        Landsman     D.   .    .   .   bmse001300   2
+      15   David        Lipman       D.   J.   .   .   bmse001300   2
+      16   Thomas       Madden       T.   L.   .   .   bmse001300   2
+      17   Donna        Maglott      D.   R.   .   .   bmse001300   2
+      18   James        Ostell       J.   .    .   .   bmse001300   2
+      19   Vadim        Miller       V.   .    .   .   bmse001300   2
+      20   Kim          Pruitt       K.   D.   .   .   bmse001300   2
+      21   Gregory      Schuler      G.   D.   .   .   bmse001300   2
+      22   Edwin        Sequeira     E.   .    .   .   bmse001300   2
+      23   Steven       Sherry       S.   T.   .   .   bmse001300   2
+      24   Karl         Sirotkin     K.   .    .   .   bmse001300   2
+      25   Alexandre    Souvorov     A.   .    .   .   bmse001300   2
+      26   Grigory      Starchenko   G.   .    .   .   bmse001300   2
+      27   Roman        Tatusov      R.   L.   .   .   bmse001300   2
+      28   Tatiana      Tatusova     T.   A.   .   .   bmse001300   2
+      29   Lukas        Wagner       L.   .    .   .   bmse001300   2
+      30   Eugene       Yaschenko    E.   .    .   .   bmse001300   2
+   stop_
+save_
+
+save_citation_alatis
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_alatis
+   _Citation.Entry_ID                     bmse001300
+   _Citation.ID                           3
+   _Citation.Name                         .
+   _Citation.Class                        'reference citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          10.1038/sdata.2017.73
+   _Citation.PubMed_ID                    28534867
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+Unique identifiers for small molecules enable rigorous labeling of their atoms
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               'Sci. Data'
+   _Citation.Journal_name_full            'Scientific Data'
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                4
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   170073
+   _Citation.Page_last                    563
+   _Citation.Year                         2017
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Hesam     Dashti      H.   .    .   .   bmse001300   3
+      2   William   Westler     W.   M.   .   .   bmse001300   3
+      3   John      Markley     J.   L.   .   .   bmse001300   3
+      4   Hamid     Eghbalnia   H.   R.   .   .   bmse001300   3
+   stop_
+save_
+
+save_citation_nmrbot
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_nmrbot
+   _Citation.Entry_ID                     bmse001300
+   _Citation.ID                           4
+   _Citation.Name                         .
+   _Citation.Class                        'reference citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          10.1007/s11306-012-0490-9
+   _Citation.PubMed_ID                    PMC3651530
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+NMRbot: Python scripts enable high-throughput data collection on current Bruker BioSpin NMR spectrometers
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               Metabolomics
+   _Citation.Journal_name_full            Metabolomics
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                3
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 1573-3882
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   558
+   _Citation.Page_last                    563
+   _Citation.Year                         2013
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Lawrence   Clos       L.   J.   II   .   bmse001300   4
+      2   M.         Jofre      M.   F.   .    .   bmse001300   4
+      3   James      Ellinger   J.   J.   .    .   bmse001300   4
+      4   William    Westler    W.   M.   .    .   bmse001300   4
+      5   John       Markley    J.   L.   .    .   bmse001300   4
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly_1
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly_1
+   _Assembly.Entry_ID                          bmse001300
+   _Assembly.ID                                1
+   _Assembly.Name                              Dihydroisorescinnamine
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       'not present'
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   Dihydroisorescinnamine   1   $entity_1   .   .   yes   native   no   no   .   .   .   bmse001300   1
+   stop_
+
+   loop_
+      _Atom.Assembly_atom_ID
+      _Atom.Entity_assembly_ID
+      _Atom.Entity_ID
+      _Atom.Comp_index_ID
+      _Atom.Seq_ID
+      _Atom.Comp_ID
+      _Atom.Atom_type_ID
+      _Atom.Atom_ID
+      _Atom.Type_symbol
+      _Atom.PDB_one_letter_code
+      _Atom.PDB_strand_ID
+      _Atom.PDB_ins_code
+      _Atom.PDB_asym_ID
+      _Atom.PDB_seq_ID
+      _Atom.PDB_comp_ID
+      _Atom.PDB_group
+      _Atom.PDB_atom_ID
+      _Atom.PDB_atom_type
+      _Atom.Entry_ID
+      _Atom.Assembly_ID
+
+      1    1   1   1   1   BMET001300   .   C1    C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      2    1   1   1   1   BMET001300   .   C2    C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      3    1   1   1   1   BMET001300   .   C3    C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      4    1   1   1   1   BMET001300   .   C4    C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      5    1   1   1   1   BMET001300   .   C5    C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      6    1   1   1   1   BMET001300   .   C6    C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      7    1   1   1   1   BMET001300   .   C7    C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      8    1   1   1   1   BMET001300   .   C8    C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      9    1   1   1   1   BMET001300   .   C9    C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      10   1   1   1   1   BMET001300   .   C10   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      11   1   1   1   1   BMET001300   .   C11   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      12   1   1   1   1   BMET001300   .   C12   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      13   1   1   1   1   BMET001300   .   C13   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      14   1   1   1   1   BMET001300   .   C14   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      15   1   1   1   1   BMET001300   .   C15   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      16   1   1   1   1   BMET001300   .   C16   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      17   1   1   1   1   BMET001300   .   C17   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      18   1   1   1   1   BMET001300   .   C18   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      19   1   1   1   1   BMET001300   .   C19   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      20   1   1   1   1   BMET001300   .   C20   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      21   1   1   1   1   BMET001300   .   C21   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      22   1   1   1   1   BMET001300   .   C22   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      23   1   1   1   1   BMET001300   .   C23   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      24   1   1   1   1   BMET001300   .   C24   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      25   1   1   1   1   BMET001300   .   C25   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      26   1   1   1   1   BMET001300   .   C26   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      27   1   1   1   1   BMET001300   .   C27   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      28   1   1   1   1   BMET001300   .   C28   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      29   1   1   1   1   BMET001300   .   C29   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      30   1   1   1   1   BMET001300   .   C30   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      31   1   1   1   1   BMET001300   .   C31   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      32   1   1   1   1   BMET001300   .   C32   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      33   1   1   1   1   BMET001300   .   C33   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      34   1   1   1   1   BMET001300   .   C34   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      35   1   1   1   1   BMET001300   .   C35   C   .   .   .   .   .   .   .   .   .   bmse001300   1
+      36   1   1   1   1   BMET001300   .   N36   N   .   .   .   .   .   .   .   .   .   bmse001300   1
+      37   1   1   1   1   BMET001300   .   N37   N   .   .   .   .   .   .   .   .   .   bmse001300   1
+      38   1   1   1   1   BMET001300   .   O38   O   .   .   .   .   .   .   .   .   .   bmse001300   1
+      39   1   1   1   1   BMET001300   .   O39   O   .   .   .   .   .   .   .   .   .   bmse001300   1
+      40   1   1   1   1   BMET001300   .   O40   O   .   .   .   .   .   .   .   .   .   bmse001300   1
+      41   1   1   1   1   BMET001300   .   O41   O   .   .   .   .   .   .   .   .   .   bmse001300   1
+      42   1   1   1   1   BMET001300   .   O42   O   .   .   .   .   .   .   .   .   .   bmse001300   1
+      43   1   1   1   1   BMET001300   .   O43   O   .   .   .   .   .   .   .   .   .   bmse001300   1
+      44   1   1   1   1   BMET001300   .   O44   O   .   .   .   .   .   .   .   .   .   bmse001300   1
+      45   1   1   1   1   BMET001300   .   O45   O   .   .   .   .   .   .   .   .   .   bmse001300   1
+      46   1   1   1   1   BMET001300   .   O46   O   .   .   .   .   .   .   .   .   .   bmse001300   1
+      47   1   1   1   1   BMET001300   .   H47   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      48   1   1   1   1   BMET001300   .   H48   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      49   1   1   1   1   BMET001300   .   H49   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      50   1   1   1   1   BMET001300   .   H50   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      51   1   1   1   1   BMET001300   .   H51   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      52   1   1   1   1   BMET001300   .   H52   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      53   1   1   1   1   BMET001300   .   H53   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      54   1   1   1   1   BMET001300   .   H54   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      55   1   1   1   1   BMET001300   .   H55   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      56   1   1   1   1   BMET001300   .   H56   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      57   1   1   1   1   BMET001300   .   H57   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      58   1   1   1   1   BMET001300   .   H58   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      59   1   1   1   1   BMET001300   .   H59   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      60   1   1   1   1   BMET001300   .   H60   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      61   1   1   1   1   BMET001300   .   H61   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      62   1   1   1   1   BMET001300   .   H62   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      63   1   1   1   1   BMET001300   .   H63   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      64   1   1   1   1   BMET001300   .   H64   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      65   1   1   1   1   BMET001300   .   H65   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      66   1   1   1   1   BMET001300   .   H66   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      67   1   1   1   1   BMET001300   .   H67   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      68   1   1   1   1   BMET001300   .   H68   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      69   1   1   1   1   BMET001300   .   H69   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      70   1   1   1   1   BMET001300   .   H70   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      71   1   1   1   1   BMET001300   .   H71   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      72   1   1   1   1   BMET001300   .   H72   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      73   1   1   1   1   BMET001300   .   H73   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      74   1   1   1   1   BMET001300   .   H74   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      75   1   1   1   1   BMET001300   .   H75   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      76   1   1   1   1   BMET001300   .   H76   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      77   1   1   1   1   BMET001300   .   H77   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      78   1   1   1   1   BMET001300   .   H78   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      79   1   1   1   1   BMET001300   .   H79   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      80   1   1   1   1   BMET001300   .   H80   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      81   1   1   1   1   BMET001300   .   H81   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      82   1   1   1   1   BMET001300   .   H82   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      83   1   1   1   1   BMET001300   .   H83   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      84   1   1   1   1   BMET001300   .   H84   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      85   1   1   1   1   BMET001300   .   H85   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      86   1   1   1   1   BMET001300   .   H86   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      87   1   1   1   1   BMET001300   .   H87   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      88   1   1   1   1   BMET001300   .   H88   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      89   1   1   1   1   BMET001300   .   H89   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+      90   1   1   1   1   BMET001300   .   H90   H   .   .   .   .   .   .   .   .   .   bmse001300   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          bmse001300
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              Dihydroisorescinnamine
+   _Entity.Type                              non-polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      .
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       .
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                BMET001300
+   _Entity.Nonpolymer_comp_label             $chem_comp_1
+   _Entity.Number_of_monomers                1
+   _Entity.Number_of_nonpolymer_components   1
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not present'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    636.73186
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1   1   BMET001300   $chem_comp_1   bmse001300   1
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       bmse001300
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   na   'multiple natural sources'   yes   na   na   .   .   na   .   na   na   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       bmse001300
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   'chemical synthesis'   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+   stop_
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_1
+   _Chem_comp.Entry_ID                          bmse001300
+   _Chem_comp.ID                                BMET001300
+   _Chem_comp.Provenance                        BMRB
+   _Chem_comp.Name                              Dihydroisorescinnamine
+   _Chem_comp.Type                              non-polymer
+   _Chem_comp.BMRB_code                         BMET001300
+   _Chem_comp.PDB_code                          .
+   _Chem_comp.Ambiguous_flag                    .
+   _Chem_comp.Initial_date                      2019-09-18
+   _Chem_comp.Modified_date                     .
+   _Chem_comp.Release_status                    .
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 .
+   _Chem_comp.Number_atoms_all                  90
+   _Chem_comp.Number_atoms_nh                   46
+   _Chem_comp.Atom_nomenclature_source          .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code
+
+;
+InChI=1S/C35H44N2O9/c1-40-21-8-9-22-23-11-12-37-18-20-15-29(46-30(38)10-7-19-13-27(41-2)33(43-4)28(14-19)42-3)34(44-5)31(35(39)45-6)24(20)17-26(37)32(23)36-25(22)16-21/h8-9,13-14,16,20,24,26,29,31,34,36H,7,10-12,15,17-18H2,1-6H3/t20-,24-,26+,29-,31-,34+/m0/s1
+;
+
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     0
+   _Chem_comp.Paramagnetic                      no
+   _Chem_comp.Aromatic                          yes
+   _Chem_comp.Formula                           C35H44N2O9
+   _Chem_comp.Formula_weight                    636.73186
+   _Chem_comp.Formula_mono_iso_wt_nat           636.304680998
+   _Chem_comp.Formula_mono_iso_wt_13C           671.422100328
+   _Chem_comp.Formula_mono_iso_wt_15N           638.298750784
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       673.416170114
+   _Chem_comp.Image_file_name                   bmse001300.svg
+   _Chem_comp.Image_file_format                 SVG
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  bmse001300.mol
+   _Chem_comp.Struct_file_format                MOL
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    .
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    .
+   _Chem_comp.Model_coordinates_db_code         .
+   _Chem_comp.Processing_site                   .
+   _Chem_comp.Vendor                            NCI
+   _Chem_comp.Vendor_product_code               NSC29854
+   _Chem_comp.Details                           .
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+      COC(=O)C1C2CC3c4[nH]c5cc(OC)ccc5c4CCN3CC2CC(OC(=O)CCc2cc(OC)c(OC)c(OC)c2)C1OC   SMILES             RDKit             2017.09.3   bmse001300   BMET001300
+      COC(=O)C1C2CC3c4[nH]c5cc(OC)ccc5c4CCN3CC2CC(OC(=O)CCc2cc(OC)c(OC)c(OC)c2)C1OC   SMILES_CANONICAL   RDKit             2017.09.3   bmse001300   BMET001300
+      COC(=O)C1C2CC3c4[nH]c5cc(OC)ccc5c4CCN3CC2CC(OC(=O)CCc2cc(OC)c(OC)c(OC)c2)C1OC   SMILES_ISOMERIC    RDKit             2017.09.3   bmse001300   BMET001300
+
+;
+COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)CCC6=CC(=C(C(=C6)OC)OC)OC
+;
+                                                                                      SMILES_ISOMERIC    PUBCHEM_OPENEYE   na          bmse001300   BMET001300
+
+;
+COc1ccc2c(c1)[nH]c1c2CCN2[C@@H]1C[C@H]1[C@H](C2)C[C@@H]([C@H]([C@H]1C(=O)OC)OC)OC(=O)CCc1cc(OC)c(c(c1)OC)OC
+;
+                                                                                      SMILES             OpenBabel         2.3.2       bmse001300   BMET001300
+
+;
+COc1ccc2c(c1)[nH]c1c2CCN2[C@@H]1C[C@H]1[C@H](C2)C[C@@H]([C@H]([C@H]1C(=O)OC)OC)OC(=O)CCc1cc(OC)c(c(c1)OC)OC
+;
+                                                                                      SMILES_CANONICAL   OpenBabel         2.3.2       bmse001300   BMET001300
+
+;
+InChI=1S/C35H44N2O9/c1-40-21-8-9-22-23-11-12-37-18-20-15-29(46-30(38)10-7-19-13-27(41-2)33(43-4)28(14-19)42-3)34(44-5)31(35(39)45-6)24(20)17-26(37)32(23)36-25(22)16-21/h8-9,13-14,16,20,24,26,29,31,34,36H,7,10-12,15,17-18H2,1-6H3/t20-,24-,26+,29-,31-,34+/m0/s1
+;
+                                                                                      InChI              ALATIS            na          bmse001300   BMET001300
+      PYYLUPQQQNZLDO-RXNDXQBHSA-N                                                     InChI_KEY          OpenBabel         2.3.2       bmse001300   BMET001300
+      PYYLUPQQQNZLDO-UHFFFAOYSA-N                                                     InChI_KEY          PUBCHEM_IUPAC     na          bmse001300   BMET001300
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+      29854   'NSC NUMBER'         na              na   bmse001300   BMET001300
+
+;
+6,18-dimethoxy-17-[1-oxo-3-(3,4,5-trimethoxyphenyl)propoxy]-1,3,11,12,14,15,16,17,18,19,20,21-dodecahydroyohimban-19-carboxylic acid methyl ester
+;
+              'CAS NAME'           PUBCHEM_IUPAC   na   bmse001300   BMET001300
+
+;
+6,18-dimethoxy-17-[3-(3,4,5-trimethoxyphenyl)propanoyloxy]-1,3,11,12,14,15,16,17,18,19,20,21-dodecahydroyohimban-19-carboxylic acid methyl ester
+;
+              'TRADITIONAL NAME'   PUBCHEM_IUPAC   na   bmse001300   BMET001300
+
+;
+methyl 6,18-dimethoxy-17-[3-(3,4,5-trimethoxyphenyl)propanoyloxy]-1,3,11,12,14,15,16,17,18,19,20,21-dodecahydroyohimban-19-carboxylate
+;
+              'SYSTEMATIC NAME'    PUBCHEM_IUPAC   na   bmse001300   BMET001300
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      C1    .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   1    .   bmse001300   BMET001300
+      C2    .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   2    .   bmse001300   BMET001300
+      C3    .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   3    .   bmse001300   BMET001300
+      C4    .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   4    .   bmse001300   BMET001300
+      C5    .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   5    .   bmse001300   BMET001300
+      C6    .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   6    .   bmse001300   BMET001300
+      C7    .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   7    .   bmse001300   BMET001300
+      C8    .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   8    .   bmse001300   BMET001300
+      C9    .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   9    .   bmse001300   BMET001300
+      C10   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   10   .   bmse001300   BMET001300
+      C11   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   11   .   bmse001300   BMET001300
+      C12   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   12   .   bmse001300   BMET001300
+      C13   .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   13   .   bmse001300   BMET001300
+      C14   .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   14   .   bmse001300   BMET001300
+      C15   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   15   .   bmse001300   BMET001300
+      C16   .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   16   .   bmse001300   BMET001300
+      C17   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   17   .   bmse001300   BMET001300
+      C18   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   18   .   bmse001300   BMET001300
+      C19   .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   19   .   bmse001300   BMET001300
+      C20   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   20   .   bmse001300   BMET001300
+      C21   .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   21   .   bmse001300   BMET001300
+      C22   .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   22   .   bmse001300   BMET001300
+      C23   .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   23   .   bmse001300   BMET001300
+      C24   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   24   .   bmse001300   BMET001300
+      C25   .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   25   .   bmse001300   BMET001300
+      C26   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   26   .   bmse001300   BMET001300
+      C27   .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   27   .   bmse001300   BMET001300
+      C28   .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   28   .   bmse001300   BMET001300
+      C29   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   29   .   bmse001300   BMET001300
+      C30   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   30   .   bmse001300   BMET001300
+      C31   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   31   .   bmse001300   BMET001300
+      C32   .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   32   .   bmse001300   BMET001300
+      C33   .   .   .   .   C   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   33   .   bmse001300   BMET001300
+      C34   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   34   .   bmse001300   BMET001300
+      C35   .   .   .   .   C   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   35   .   bmse001300   BMET001300
+      N36   .   .   .   .   N   .   .   N   0   .   .   .   .   yes   .   .   .   .   .   .   .   .   .   .   .   .   .   .   36   .   bmse001300   BMET001300
+      N37   .   .   .   .   N   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   37   .   bmse001300   BMET001300
+      O38   .   .   .   .   O   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   38   .   bmse001300   BMET001300
+      O39   .   .   .   .   O   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   39   .   bmse001300   BMET001300
+      O40   .   .   .   .   O   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   40   .   bmse001300   BMET001300
+      O41   .   .   .   .   O   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   41   .   bmse001300   BMET001300
+      O42   .   .   .   .   O   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   42   .   bmse001300   BMET001300
+      O43   .   .   .   .   O   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   43   .   bmse001300   BMET001300
+      O44   .   .   .   .   O   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   44   .   bmse001300   BMET001300
+      O45   .   .   .   .   O   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   45   .   bmse001300   BMET001300
+      O46   .   .   .   .   O   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   46   .   bmse001300   BMET001300
+      H47   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   47   .   bmse001300   BMET001300
+      H48   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   48   .   bmse001300   BMET001300
+      H49   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   49   .   bmse001300   BMET001300
+      H50   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   50   .   bmse001300   BMET001300
+      H51   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   51   .   bmse001300   BMET001300
+      H52   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   52   .   bmse001300   BMET001300
+      H53   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   53   .   bmse001300   BMET001300
+      H54   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   54   .   bmse001300   BMET001300
+      H55   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   55   .   bmse001300   BMET001300
+      H56   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   56   .   bmse001300   BMET001300
+      H57   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   57   .   bmse001300   BMET001300
+      H58   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   58   .   bmse001300   BMET001300
+      H59   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   59   .   bmse001300   BMET001300
+      H60   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   60   .   bmse001300   BMET001300
+      H61   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   61   .   bmse001300   BMET001300
+      H62   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   62   .   bmse001300   BMET001300
+      H63   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   63   .   bmse001300   BMET001300
+      H64   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   64   .   bmse001300   BMET001300
+      H65   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   65   .   bmse001300   BMET001300
+      H66   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   66   .   bmse001300   BMET001300
+      H67   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   67   .   bmse001300   BMET001300
+      H68   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   68   .   bmse001300   BMET001300
+      H69   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   69   .   bmse001300   BMET001300
+      H70   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   70   .   bmse001300   BMET001300
+      H71   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   71   .   bmse001300   BMET001300
+      H72   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   72   .   bmse001300   BMET001300
+      H73   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   73   .   bmse001300   BMET001300
+      H74   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   74   .   bmse001300   BMET001300
+      H75   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   75   .   bmse001300   BMET001300
+      H76   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   76   .   bmse001300   BMET001300
+      H77   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   77   .   bmse001300   BMET001300
+      H78   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   78   .   bmse001300   BMET001300
+      H79   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   79   .   bmse001300   BMET001300
+      H80   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   80   .   bmse001300   BMET001300
+      H81   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   81   .   bmse001300   BMET001300
+      H82   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   82   .   bmse001300   BMET001300
+      H83   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   83   .   bmse001300   BMET001300
+      H84   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   84   .   bmse001300   BMET001300
+      H85   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   85   .   bmse001300   BMET001300
+      H86   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   86   .   bmse001300   BMET001300
+      H87   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   87   .   bmse001300   BMET001300
+      H88   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   88   .   bmse001300   BMET001300
+      H89   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   89   .   bmse001300   BMET001300
+      H90   .   .   .   .   H   .   .   N   0   .   .   .   .   no    .   .   .   .   .   .   .   .   .   .   .   .   .   .   90   .   bmse001300   BMET001300
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    covalent   SING   C1    H47   no    N   1    .   bmse001300   BMET001300
+      2    covalent   SING   C1    H48   no    N   2    .   bmse001300   BMET001300
+      3    covalent   SING   C1    H49   no    N   3    .   bmse001300   BMET001300
+      4    covalent   SING   C2    H50   no    N   4    .   bmse001300   BMET001300
+      5    covalent   SING   C2    H51   no    N   5    .   bmse001300   BMET001300
+      6    covalent   SING   C2    H52   no    N   6    .   bmse001300   BMET001300
+      7    covalent   SING   C3    H53   no    N   7    .   bmse001300   BMET001300
+      8    covalent   SING   C3    H54   no    N   8    .   bmse001300   BMET001300
+      9    covalent   SING   C3    H55   no    N   9    .   bmse001300   BMET001300
+      10   covalent   SING   C4    H56   no    N   10   .   bmse001300   BMET001300
+      11   covalent   SING   C4    H57   no    N   11   .   bmse001300   BMET001300
+      12   covalent   SING   C4    H58   no    N   12   .   bmse001300   BMET001300
+      13   covalent   SING   C5    H59   no    N   13   .   bmse001300   BMET001300
+      14   covalent   SING   C5    H60   no    N   14   .   bmse001300   BMET001300
+      15   covalent   SING   C5    H61   no    N   15   .   bmse001300   BMET001300
+      16   covalent   SING   C6    H62   no    N   16   .   bmse001300   BMET001300
+      17   covalent   SING   C6    H63   no    N   17   .   bmse001300   BMET001300
+      18   covalent   SING   C6    H64   no    N   18   .   bmse001300   BMET001300
+      19   covalent   SING   C7    C19   no    N   19   .   bmse001300   BMET001300
+      20   covalent   SING   C7    H65   no    N   20   .   bmse001300   BMET001300
+      21   covalent   SING   C7    H66   no    N   21   .   bmse001300   BMET001300
+      22   covalent   AROM   C8    C21   yes   N   22   .   bmse001300   BMET001300
+      23   covalent   SING   C8    H67   no    N   23   .   bmse001300   BMET001300
+      24   covalent   AROM   C9    C8    yes   N   24   .   bmse001300   BMET001300
+      25   covalent   SING   C9    H68   no    N   25   .   bmse001300   BMET001300
+      26   covalent   SING   C10   C7    no    N   26   .   bmse001300   BMET001300
+      27   covalent   SING   C10   H69   no    N   27   .   bmse001300   BMET001300
+      28   covalent   SING   C10   H70   no    N   28   .   bmse001300   BMET001300
+      29   covalent   SING   C11   C23   no    N   29   .   bmse001300   BMET001300
+      30   covalent   SING   C11   H71   no    N   30   .   bmse001300   BMET001300
+      31   covalent   SING   C11   H72   no    N   31   .   bmse001300   BMET001300
+      32   covalent   SING   C12   C11   no    N   32   .   bmse001300   BMET001300
+      33   covalent   SING   C12   H73   no    N   33   .   bmse001300   BMET001300
+      34   covalent   SING   C12   H74   no    N   34   .   bmse001300   BMET001300
+      35   covalent   AROM   C13   C27   yes   N   35   .   bmse001300   BMET001300
+      36   covalent   SING   C13   H75   no    N   36   .   bmse001300   BMET001300
+      37   covalent   AROM   C14   C28   yes   N   37   .   bmse001300   BMET001300
+      38   covalent   SING   C14   H76   no    N   38   .   bmse001300   BMET001300
+      39   covalent   SING   C15   C29   no    N   39   .   bmse001300   BMET001300
+      40   covalent   SING   C15   H77   no    N   40   .   bmse001300   BMET001300
+      41   covalent   SING   C15   H78   no    N   41   .   bmse001300   BMET001300
+      42   covalent   AROM   C16   C21   yes   N   42   .   bmse001300   BMET001300
+      43   covalent   SING   C16   H79   no    N   43   .   bmse001300   BMET001300
+      44   covalent   SING   C17   C26   no    N   44   .   bmse001300   BMET001300
+      45   covalent   SING   C17   H80   no    N   45   .   bmse001300   BMET001300
+      46   covalent   SING   C17   H81   no    N   46   .   bmse001300   BMET001300
+      47   covalent   SING   C18   H82   no    N   47   .   bmse001300   BMET001300
+      48   covalent   SING   C18   H83   no    N   48   .   bmse001300   BMET001300
+      49   covalent   AROM   C19   C13   yes   N   49   .   bmse001300   BMET001300
+      50   covalent   AROM   C19   C14   yes   N   50   .   bmse001300   BMET001300
+      51   covalent   SING   C20   C15   no    N   51   .   bmse001300   BMET001300
+      52   covalent   SING   C20   C18   no    N   52   .   bmse001300   BMET001300
+      53   covalent   SING   C20   H84   no    N   53   .   bmse001300   BMET001300
+      54   covalent   AROM   C22   C9    yes   N   54   .   bmse001300   BMET001300
+      55   covalent   AROM   C22   C25   yes   N   55   .   bmse001300   BMET001300
+      56   covalent   AROM   C23   C22   yes   N   56   .   bmse001300   BMET001300
+      57   covalent   SING   C24   C17   no    N   57   .   bmse001300   BMET001300
+      58   covalent   SING   C24   C20   no    N   58   .   bmse001300   BMET001300
+      59   covalent   SING   C24   C31   no    N   59   .   bmse001300   BMET001300
+      60   covalent   SING   C24   H85   no    N   60   .   bmse001300   BMET001300
+      61   covalent   AROM   C25   C16   yes   N   61   .   bmse001300   BMET001300
+      62   covalent   SING   C26   C32   no    N   62   .   bmse001300   BMET001300
+      63   covalent   SING   C26   H86   no    N   63   .   bmse001300   BMET001300
+      64   covalent   AROM   C27   C33   yes   N   64   .   bmse001300   BMET001300
+      65   covalent   AROM   C28   C33   yes   N   65   .   bmse001300   BMET001300
+      66   covalent   SING   C29   H87   no    N   66   .   bmse001300   BMET001300
+      67   covalent   SING   C30   C10   no    N   67   .   bmse001300   BMET001300
+      68   covalent   SING   C31   C34   no    N   68   .   bmse001300   BMET001300
+      69   covalent   SING   C31   C35   no    N   69   .   bmse001300   BMET001300
+      70   covalent   SING   C31   H88   no    N   70   .   bmse001300   BMET001300
+      71   covalent   AROM   C32   C23   yes   N   71   .   bmse001300   BMET001300
+      72   covalent   SING   C34   C29   no    N   72   .   bmse001300   BMET001300
+      73   covalent   SING   C34   H89   no    N   73   .   bmse001300   BMET001300
+      74   covalent   AROM   N36   C25   yes   N   74   .   bmse001300   BMET001300
+      75   covalent   AROM   N36   C32   yes   N   75   .   bmse001300   BMET001300
+      76   covalent   SING   N36   H90   no    N   76   .   bmse001300   BMET001300
+      77   covalent   SING   N37   C12   no    N   77   .   bmse001300   BMET001300
+      78   covalent   SING   N37   C18   no    N   78   .   bmse001300   BMET001300
+      79   covalent   SING   N37   C26   no    N   79   .   bmse001300   BMET001300
+      80   carbonyl   DOUB   O38   C30   no    N   80   .   bmse001300   BMET001300
+      81   carbonyl   DOUB   O39   C35   no    N   81   .   bmse001300   BMET001300
+      82   covalent   SING   O40   C1    no    N   82   .   bmse001300   BMET001300
+      83   covalent   SING   O40   C21   no    N   83   .   bmse001300   BMET001300
+      84   covalent   SING   O41   C2    no    N   84   .   bmse001300   BMET001300
+      85   covalent   SING   O41   C27   no    N   85   .   bmse001300   BMET001300
+      86   covalent   SING   O42   C3    no    N   86   .   bmse001300   BMET001300
+      87   covalent   SING   O42   C28   no    N   87   .   bmse001300   BMET001300
+      88   covalent   SING   O43   C4    no    N   88   .   bmse001300   BMET001300
+      89   covalent   SING   O43   C33   no    N   89   .   bmse001300   BMET001300
+      90   covalent   SING   O44   C5    no    N   90   .   bmse001300   BMET001300
+      91   covalent   SING   O44   C34   no    N   91   .   bmse001300   BMET001300
+      92   covalent   SING   O45   C6    no    N   92   .   bmse001300   BMET001300
+      93   ester      SING   O45   C35   no    N   93   .   bmse001300   BMET001300
+      94   covalent   SING   O46   C29   no    N   94   .   bmse001300   BMET001300
+      95   ester      SING   O46   C30   no    N   95   .   bmse001300   BMET001300
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_code
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_experimental_method
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_details
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+      no   PubChem   232430   cid   .   .   .   'same molecule'   .   bmse001300   BMET001300
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         bmse001300
+   _Sample.ID                               1
+   _Sample.Name                             .
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   Dihydroisorescinnamine   'natural abundance'   1   $assembly_1   1   $entity_1   .   solute      5       .   .   mg   .   NCI   Dihydroisorescinnamine   NSC29854   bmse001300   1
+      2   DMSO                     .                     1   $assembly_1   1   $entity_1   .   solvent     100.0   .   .   %    .   .     .                        .          bmse001300   1
+      3   TMS                      .                     1   $assembly_1   1   $entity_1   .   reference   0.05    .   .   %    .   .     .                        .          bmse001300   1
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       bmse001300
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Name           .
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pressure      1     .     atm   bmse001300   1
+      temperature   298   0.1   K     bmse001300   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_software_alatis
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_alatis
+   _Software.Entry_ID       bmse001300
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           ALATIS
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      NMRFAM   .   http://alatis.nmrfam.wisc.edu/   bmse001300   1
+   stop_
+
+   loop_
+      _Task.Software_module
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      .   'atom nomenclature correction'   bmse001300   1
+   stop_
+
+   loop_
+      _Software_citation.Citation_ID
+      _Software_citation.Citation_label
+      _Software_citation.Entry_ID
+      _Software_citation.Software_ID
+
+      3   $citation_alatis   bmse001300   1
+   stop_
+save_
+
+save_software_nmrbot
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_nmrbot
+   _Software.Entry_ID       bmse001300
+   _Software.ID             2
+   _Software.Type           .
+   _Software.Name           NMRBot
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      NMRFAM   .   http://www.nmrfam.wisc.edu/software/nmrbot/   bmse001300   2
+   stop_
+
+   loop_
+      _Task.Software_module
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      .   collection   bmse001300   2
+   stop_
+
+   loop_
+      _Software_citation.Citation_ID
+      _Software_citation.Citation_label
+      _Software_citation.Entry_ID
+      _Software_citation.Software_ID
+
+      4   $citation_nmrbot   bmse001300   2
+   stop_
+save_
+
+save_software_topspin
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_topspin
+   _Software.Entry_ID       bmse001300
+   _Software.ID             3
+   _Software.Type           .
+   _Software.Name           TopSpin
+   _Software.Version        3
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'Bruker Biospin'   .   http://www.bruker.com/products/mr/nmr/nmr-software/software/topspin/   bmse001300   3
+   stop_
+
+   loop_
+      _Task.Software_module
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      .   collection        bmse001300   3
+      .   'data analysis'   bmse001300   3
+      .   'peak picking'    bmse001300   3
+      .   processing        bmse001300   3
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_kerry
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_kerry
+   _NMR_spectrometer.Entry_ID         bmse001300
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Name             .
+   _NMR_spectrometer.Details          'equipped with SampleJet automated sample changer'
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            'Avance III'
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   500
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       bmse001300
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1    '1D 1H'                       yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_kerry   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      2    '2D 1H-1H TOCSY'              yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_kerry   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      3    '1D 13C'                      yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_kerry   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      4    '1D DEPT90'                   yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_kerry   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      5    '1D DEPT135'                  yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_kerry   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      6    '2D 1H-13C HSQC'              yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_kerry   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      7    '2D 1H-13C HSQC SW small'     yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_kerry   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      8    '2D 1H-13C HMBC'              yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_kerry   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      9    '2D 1H-1H COSY'               yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_kerry   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      10   '2D 1H-13C HSQC-TOCSY-ADIA'   yes   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $spectrometer_kerry   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+   stop_
+
+   loop_
+      _Experiment_file.Experiment_ID
+      _Experiment_file.Name
+      _Experiment_file.Type
+      _Experiment_file.Content
+      _Experiment_file.Directory_path
+      _Experiment_file.Details
+      _Experiment_file.Entry_ID
+      _Experiment_file.Experiment_list_ID
+
+      1    1                               text/directory   'NMR experiment directory'   nmr/set01                                     '1D 1H'                       bmse001300   1
+      1    1D_1H.png                       image/png        'Spectral image'             nmr/set01/spectra/1D_1H                       .                             bmse001300   1
+      1    1D_1H.xml                       text/xml         'Peak list'                  nmr/set01/transitions/1D_1H                   'TopSpin XML'                 bmse001300   1
+      2    2                               text/directory   'NMR experiment directory'   nmr/set01                                     '2D 1H-1H TOCSY'              bmse001300   1
+      2    2D_1H-1H_TOCSY.png              image/png        'Spectral image'             nmr/set01/spectra/2D_1H-1H_TOCSY              .                             bmse001300   1
+      3    1D_13C.png                      image/png        'Spectral image'             nmr/set01/spectra/1D_13C                      .                             bmse001300   1
+      3    1D_13C.xml                      text/xml         'Peak list'                  nmr/set01/transitions/1D_13C                  'TopSpin XML'                 bmse001300   1
+      3    3                               text/directory   'NMR experiment directory'   nmr/set01                                     '1D 13C'                      bmse001300   1
+      4    1D_DEPT90.png                   image/png        'Spectral image'             nmr/set01/spectra/1D_DEPT90                   .                             bmse001300   1
+      4    1D_DEPT90.xml                   text/xml         'Peak list'                  nmr/set01/transitions/1D_DEPT90               'TopSpin XML'                 bmse001300   1
+      4    4                               text/directory   'NMR experiment directory'   nmr/set01                                     '1D DEPT90'                   bmse001300   1
+      5    1D_DEPT135.png                  image/png        'Spectral image'             nmr/set01/spectra/1D_DEPT135                  .                             bmse001300   1
+      5    1D_DEPT135.xml                  text/xml         'Peak list'                  nmr/set01/transitions/1D_DEPT135              'TopSpin XML'                 bmse001300   1
+      5    5                               text/directory   'NMR experiment directory'   nmr/set01                                     '1D DEPT135'                  bmse001300   1
+      6    2D_1H-13C_HSQC.png              image/png        'Spectral image'             nmr/set01/spectra/2D_1H-13C_HSQC              .                             bmse001300   1
+      6    2D_1H-13C_HSQC.xml              text/xml         'Peak list'                  nmr/set01/transitions/2D_1H-13C_HSQC          'TopSpin XML'                 bmse001300   1
+      6    6                               text/directory   'NMR experiment directory'   nmr/set01                                     '2D 1H-13C HSQC'              bmse001300   1
+      7    7                               text/directory   'NMR experiment directory'   nmr/set01                                     '2D 1H-13C HSQC SW small'     bmse001300   1
+      8    2D_1H-13C_HMBC.png              image/png        'Spectral image'             nmr/set01/spectra/2D_1H-13C_HMBC              .                             bmse001300   1
+      8    8                               text/directory   'NMR experiment directory'   nmr/set01                                     '2D 1H-13C HMBC'              bmse001300   1
+      9    2D_1H-1H_COSY.png               image/png        'Spectral image'             nmr/set01/spectra/2D_1H-1H_COSY               .                             bmse001300   1
+      9    9                               text/directory   'NMR experiment directory'   nmr/set01                                     '2D 1H-1H COSY'               bmse001300   1
+      10   10                              text/directory   'NMR experiment directory'   nmr/set01                                     '2D 1H-13C HSQC-TOCSY-ADIA'   bmse001300   1
+      10   2D_1H-13C_HSQC-TOCSY-ADIA.png   image/png        'Spectral image'             nmr/set01/spectra/2D_1H-13C_HSQC-TOCSY-ADIA   .                             bmse001300   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_ref_set01
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_ref_set01
+   _Chem_shift_reference.Entry_ID       bmse001300
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Name           .
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   TMS   'methyl carbons'   .   .   .   .   ppm   0.0   internal   direct   1.0   .   .   .   .   .   bmse001300   1
+      H   1    TMS   'methyl protons'   .   .   .   .   ppm   0.0   internal   direct   1.0   .   .   .   .   .   bmse001300   1
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_chem_shift_set01
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  chem_shift_set01
+   _Assigned_chem_shift_list.Entry_ID                      bmse001300
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Name                          .
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chem_shift_ref_set01
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1    '1D 1H'                       1   $sample_1   .   bmse001300   1
+      2    '2D 1H-1H TOCSY'              1   $sample_1   .   bmse001300   1
+      3    '1D 13C'                      1   $sample_1   .   bmse001300   1
+      4    '1D DEPT90'                   1   $sample_1   .   bmse001300   1
+      5    '1D DEPT135'                  1   $sample_1   .   bmse001300   1
+      6    '2D 1H-13C HSQC'              1   $sample_1   .   bmse001300   1
+      7    '2D 1H-13C HSQC SW small'     1   $sample_1   .   bmse001300   1
+      8    '2D 1H-13C HMBC'              1   $sample_1   .   bmse001300   1
+      9    '2D 1H-1H COSY'               1   $sample_1   .   bmse001300   1
+      10   '2D 1H-13C HSQC-TOCSY-ADIA'   1   $sample_1   .   bmse001300   1
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      3   $software_topspin   .   .   bmse001300   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1    1    1   1   1   1   BMET001300   C1    C   13   55.1036    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      2    2    1   1   1   1   BMET001300   C2    C   13   55.7009    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      3    3    1   1   1   1   BMET001300   C3    C   13   55.7009    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      4    4    1   1   1   1   BMET001300   C4    C   13   59.9078    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      5    5    1   1   1   1   BMET001300   C5    C   13   60.0884    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      6    6    1   1   1   1   BMET001300   C6    C   13   51.731     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      7    7    1   1   1   1   BMET001300   C7    C   13   30.7283    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      8    8    1   1   1   1   BMET001300   C8    C   13   107.8968   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      9    9    1   1   1   1   BMET001300   C9    C   13   118.0288   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      10   10   1   1   1   1   BMET001300   C10   C   13   35.6691    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      11   11   1   1   1   1   BMET001300   C11   C   13   21.6322    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      12   12   1   1   1   1   BMET001300   C12   C   13   52.5922    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      13   13   1   1   1   1   BMET001300   C13   C   13   105.4334   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      14   14   1   1   1   1   BMET001300   C14   C   13   105.4334   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      15   15   1   1   1   1   BMET001300   C15   C   13   30.3002    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      16   16   1   1   1   1   BMET001300   C16   C   13   94.5966    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      17   17   1   1   1   1   BMET001300   C17   C   13   27.2181    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      18   18   1   1   1   1   BMET001300   C18   C   13   59.2407    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      19   19   1   1   1   1   BMET001300   C19   C   13   136.2098   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      20   20   1   1   1   1   BMET001300   C20   C   13   37.1065    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      21   21   1   1   1   1   BMET001300   C21   C   13   155.0257   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      22   22   1   1   1   1   BMET001300   C22   C   13   121.0567   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      23   23   1   1   1   1   BMET001300   C23   C   13   106.2085   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      24   24   1   1   1   1   BMET001300   C24   C   13   33.6326    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      25   25   1   1   1   1   BMET001300   C25   C   13   136.7166   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      26   26   1   1   1   1   BMET001300   C26   C   13   59.8676    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      27   27   1   1   1   1   BMET001300   C27   C   13   152.6815   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      28   28   1   1   1   1   BMET001300   C28   C   13   152.6815   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      29   29   1   1   1   1   BMET001300   C29   C   13   76.7191    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      30   30   1   1   1   1   BMET001300   C30   C   13   171.7189   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      31   31   1   1   1   1   BMET001300   C31   C   13   51.0793    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      32   32   1   1   1   1   BMET001300   C32   C   13   133.8229   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      33   33   1   1   1   1   BMET001300   C33   C   13   135.6724   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      34   34   1   1   1   1   BMET001300   C34   C   13   77.3776    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      35   35   1   1   1   1   BMET001300   C35   C   13   171.8636   .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      36   47   1   1   1   1   BMET001300   H47   H   1    3.7391     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      37   48   1   1   1   1   BMET001300   H48   H   1    3.7391     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      38   49   1   1   1   1   BMET001300   H49   H   1    3.7391     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      39   50   1   1   1   1   BMET001300   H50   H   1    3.7036     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      40   51   1   1   1   1   BMET001300   H51   H   1    3.7036     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      41   52   1   1   1   1   BMET001300   H52   H   1    3.7036     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      42   53   1   1   1   1   BMET001300   H53   H   1    3.7036     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      43   54   1   1   1   1   BMET001300   H54   H   1    3.7036     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      44   55   1   1   1   1   BMET001300   H55   H   1    3.7036     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      45   56   1   1   1   1   BMET001300   H56   H   1    3.5772     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      46   57   1   1   1   1   BMET001300   H57   H   1    3.5772     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      47   58   1   1   1   1   BMET001300   H58   H   1    3.5772     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      48   59   1   1   1   1   BMET001300   H59   H   1    3.3127     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      49   60   1   1   1   1   BMET001300   H60   H   1    3.3127     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      50   61   1   1   1   1   BMET001300   H61   H   1    3.3127     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      51   62   1   1   1   1   BMET001300   H62   H   1    3.7628     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      52   63   1   1   1   1   BMET001300   H63   H   1    3.7628     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      53   64   1   1   1   1   BMET001300   H64   H   1    3.7628     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      54   65   1   1   1   1   BMET001300   H65   H   1    2.7916     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      55   66   1   1   1   1   BMET001300   H66   H   1    2.7916     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      56   67   1   1   1   1   BMET001300   H67   H   1    6.6156     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      57   68   1   1   1   1   BMET001300   H68   H   1    7.2246     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      58   69   1   1   1   1   BMET001300   H69   H   1    2.6241     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      59   70   1   1   1   1   BMET001300   H70   H   1    2.6241     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      60   71   1   1   1   1   BMET001300   H71   H   1    2.5421     .   .   2   .   .   .   .   .   .   .   .   .   bmse001300   1
+      61   72   1   1   1   1   BMET001300   H72   H   1    2.6989     .   .   2   .   .   .   .   .   .   .   .   .   bmse001300   1
+      62   73   1   1   1   1   BMET001300   H73   H   1    2.3809     .   .   2   .   .   .   .   .   .   .   .   .   bmse001300   1
+      63   74   1   1   1   1   BMET001300   H74   H   1    2.8428     .   .   2   .   .   .   .   .   .   .   .   .   bmse001300   1
+      64   75   1   1   1   1   BMET001300   H75   H   1    6.5181     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      65   76   1   1   1   1   BMET001300   H76   H   1    6.5181     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      66   77   1   1   1   1   BMET001300   H77   H   1    1.6757     .   .   2   .   .   .   .   .   .   .   .   .   bmse001300   1
+      67   78   1   1   1   1   BMET001300   H78   H   1    1.9502     .   .   2   .   .   .   .   .   .   .   .   .   bmse001300   1
+      68   79   1   1   1   1   BMET001300   H79   H   1    6.8127     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      69   80   1   1   1   1   BMET001300   H80   H   1    1.4119     .   .   2   .   .   .   .   .   .   .   .   .   bmse001300   1
+      70   81   1   1   1   1   BMET001300   H81   H   1    1.854      .   .   2   .   .   .   .   .   .   .   .   .   bmse001300   1
+      71   82   1   1   1   1   BMET001300   H82   H   1    2.5151     .   .   2   .   .   .   .   .   .   .   .   .   bmse001300   1
+      72   83   1   1   1   1   BMET001300   H83   H   1    2.7204     .   .   2   .   .   .   .   .   .   .   .   .   bmse001300   1
+      73   84   1   1   1   1   BMET001300   H84   H   1    2.2069     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      74   85   1   1   1   1   BMET001300   H85   H   1    2.0144     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      75   86   1   1   1   1   BMET001300   H86   H   1    3.0442     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      76   87   1   1   1   1   BMET001300   H87   H   1    4.7385     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      77   88   1   1   1   1   BMET001300   H88   H   1    2.7599     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      78   89   1   1   1   1   BMET001300   H89   H   1    3.5238     .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+      79   90   1   1   1   1   BMET001300   H90   H   1    10.5883    .   .   1   .   .   .   .   .   .   .   .   .   bmse001300   1
+   stop_
+
+   loop_
+      _Ambiguous_atom_chem_shift.Ambiguous_shift_set_ID
+      _Ambiguous_atom_chem_shift.Atom_chem_shift_ID
+      _Ambiguous_atom_chem_shift.Entry_ID
+      _Ambiguous_atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1   60   bmse001300   1
+      1   61   bmse001300   1
+      2   62   bmse001300   1
+      2   63   bmse001300   1
+      3   66   bmse001300   1
+      3   67   bmse001300   1
+      4   69   bmse001300   1
+      4   70   bmse001300   1
+      5   71   bmse001300   1
+      5   72   bmse001300   1
+   stop_
+save_
+
+
+    #########################
+    #  Spectral peak lists  #
+    #########################
+
+save_spectral_peaks_1D_1H_set01
+   _Spectral_peak_list.Sf_category                      spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                     spectral_peaks_1D_1H_set01
+   _Spectral_peak_list.Entry_ID                         bmse001300
+   _Spectral_peak_list.ID                               1
+   _Spectral_peak_list.Name                             .
+   _Spectral_peak_list.Sample_ID                        1
+   _Spectral_peak_list.Sample_label                     $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID         1
+   _Spectral_peak_list.Sample_condition_list_label      $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                    1
+   _Spectral_peak_list.Experiment_name                  '1D 1H'
+   _Spectral_peak_list.Experiment_class                 .
+   _Spectral_peak_list.Experiment_type                  .
+   _Spectral_peak_list.Number_of_spectral_dimensions    1
+   _Spectral_peak_list.Chemical_shift_list              .
+   _Spectral_peak_list.Assigned_chem_shift_list_ID      1
+   _Spectral_peak_list.Assigned_chem_shift_list_label   $chem_shift_set01
+   _Spectral_peak_list.Details                          'F1: 1H'
+   _Spectral_peak_list.Text_data_format                 .
+   _Spectral_peak_list.Text_data                        .
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Axis_code
+      _Spectral_dim.Spectrometer_frequency
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Magnetization_linkage_ID
+      _Spectral_dim.Under_sampling_type
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Sweep_width_units
+      _Spectral_dim.Value_first_point
+      _Spectral_dim.Absolute_peak_positions
+      _Spectral_dim.Acquisition
+      _Spectral_dim.Center_frequency_offset
+      _Spectral_dim.Encoding_code
+      _Spectral_dim.Encoded_reduced_dimension_ID
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+      1   .   .   H   1   'Full H'   .   .   16.03   ppm   .   .   .   .   .   .   bmse001300   1
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Method_ID
+      _Spectral_peak_software.Method_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+      3   $software_topspin   .   .   bmse001300   1
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Peak_ID
+      _Spectral_transition.Figure_of_merit
+      _Spectral_transition.Details
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+      1    .   .   .   bmse001300   1
+      2    .   .   .   bmse001300   1
+      3    .   .   .   bmse001300   1
+      4    .   .   .   bmse001300   1
+      5    .   .   .   bmse001300   1
+      6    .   .   .   bmse001300   1
+      7    .   .   .   bmse001300   1
+      8    .   .   .   bmse001300   1
+      9    .   .   .   bmse001300   1
+      10   .   .   .   bmse001300   1
+      11   .   .   .   bmse001300   1
+      12   .   .   .   bmse001300   1
+      13   .   .   .   bmse001300   1
+      14   .   .   .   bmse001300   1
+      15   .   .   .   bmse001300   1
+      16   .   .   .   bmse001300   1
+      17   .   .   .   bmse001300   1
+      18   .   .   .   bmse001300   1
+      19   .   .   .   bmse001300   1
+      20   .   .   .   bmse001300   1
+      21   .   .   .   bmse001300   1
+      22   .   .   .   bmse001300   1
+      23   .   .   .   bmse001300   1
+      24   .   .   .   bmse001300   1
+      25   .   .   .   bmse001300   1
+      26   .   .   .   bmse001300   1
+      27   .   .   .   bmse001300   1
+      28   .   .   .   bmse001300   1
+      29   .   .   .   bmse001300   1
+      30   .   .   .   bmse001300   1
+      31   .   .   .   bmse001300   1
+      32   .   .   .   bmse001300   1
+      33   .   .   .   bmse001300   1
+      34   .   .   .   bmse001300   1
+      35   .   .   .   bmse001300   1
+      36   .   .   .   bmse001300   1
+      37   .   .   .   bmse001300   1
+      38   .   .   .   bmse001300   1
+      39   .   .   .   bmse001300   1
+      40   .   .   .   bmse001300   1
+      41   .   .   .   bmse001300   1
+      42   .   .   .   bmse001300   1
+      43   .   .   .   bmse001300   1
+      44   .   .   .   bmse001300   1
+      45   .   .   .   bmse001300   1
+      46   .   .   .   bmse001300   1
+      47   .   .   .   bmse001300   1
+      48   .   .   .   bmse001300   1
+      49   .   .   .   bmse001300   1
+      50   .   .   .   bmse001300   1
+      51   .   .   .   bmse001300   1
+      52   .   .   .   bmse001300   1
+      53   .   .   .   bmse001300   1
+      54   .   .   .   bmse001300   1
+      55   .   .   .   bmse001300   1
+      56   .   .   .   bmse001300   1
+      57   .   .   .   bmse001300   1
+      58   .   .   .   bmse001300   1
+      59   .   .   .   bmse001300   1
+      60   .   .   .   bmse001300   1
+      61   .   .   .   bmse001300   1
+      62   .   .   .   bmse001300   1
+      63   .   .   .   bmse001300   1
+      64   .   .   .   bmse001300   1
+      65   .   .   .   bmse001300   1
+      66   .   .   .   bmse001300   1
+      67   .   .   .   bmse001300   1
+      68   .   .   .   bmse001300   1
+      69   .   .   .   bmse001300   1
+      70   .   .   .   bmse001300   1
+      71   .   .   .   bmse001300   1
+      72   .   .   .   bmse001300   1
+      73   .   .   .   bmse001300   1
+      74   .   .   .   bmse001300   1
+      75   .   .   .   bmse001300   1
+      76   .   .   .   bmse001300   1
+      77   .   .   .   bmse001300   1
+      78   .   .   .   bmse001300   1
+      79   .   .   .   bmse001300   1
+      80   .   .   .   bmse001300   1
+      81   .   .   .   bmse001300   1
+      82   .   .   .   bmse001300   1
+      83   .   .   .   bmse001300   1
+      84   .   .   .   bmse001300   1
+      85   .   .   .   bmse001300   1
+      86   .   .   .   bmse001300   1
+      87   .   .   .   bmse001300   1
+      88   .   .   .   bmse001300   1
+      89   .   .   .   bmse001300   1
+      90   .   .   .   bmse001300   1
+      91   .   .   .   bmse001300   1
+      92   .   .   .   bmse001300   1
+      93   .   .   .   bmse001300   1
+      94   .   .   .   bmse001300   1
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Peak_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Intensity_val_err
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+      1    .   0.35   .   'relative height'   bmse001300   1
+      2    .   0.27   .   'relative height'   bmse001300   1
+      3    .   0.30   .   'relative height'   bmse001300   1
+      4    .   0.33   .   'relative height'   bmse001300   1
+      5    .   0.34   .   'relative height'   bmse001300   1
+      6    .   0.24   .   'relative height'   bmse001300   1
+      7    .   0.22   .   'relative height'   bmse001300   1
+      8    .   0.24   .   'relative height'   bmse001300   1
+      9    .   0.23   .   'relative height'   bmse001300   1
+      10   .   1.37   .   'relative height'   bmse001300   1
+      11   .   0.01   .   'relative height'   bmse001300   1
+      12   .   0.01   .   'relative height'   bmse001300   1
+      13   .   0.03   .   'relative height'   bmse001300   1
+      14   .   2.01   .   'relative height'   bmse001300   1
+      15   .   2.75   .   'relative height'   bmse001300   1
+      16   .   5.13   .   'relative height'   bmse001300   1
+      17   .   0.12   .   'relative height'   bmse001300   1
+      18   .   0.05   .   'relative height'   bmse001300   1
+      19   .   0.05   .   'relative height'   bmse001300   1
+      20   .   3.01   .   'relative height'   bmse001300   1
+      21   .   0.09   .   'relative height'   bmse001300   1
+      22   .   0.07   .   'relative height'   bmse001300   1
+      23   .   0.14   .   'relative height'   bmse001300   1
+      24   .   0.16   .   'relative height'   bmse001300   1
+      25   .   0.17   .   'relative height'   bmse001300   1
+      26   .   0.14   .   'relative height'   bmse001300   1
+      27   .   0.03   .   'relative height'   bmse001300   1
+      28   .   0.04   .   'relative height'   bmse001300   1
+      29   .   0.22   .   'relative height'   bmse001300   1
+      30   .   2.13   .   'relative height'   bmse001300   1
+      31   .   0.06   .   'relative height'   bmse001300   1
+      32   .   0.05   .   'relative height'   bmse001300   1
+      33   .   0.09   .   'relative height'   bmse001300   1
+      34   .   0.10   .   'relative height'   bmse001300   1
+      35   .   0.07   .   'relative height'   bmse001300   1
+      36   .   0.08   .   'relative height'   bmse001300   1
+      37   .   0.09   .   'relative height'   bmse001300   1
+      38   .   0.11   .   'relative height'   bmse001300   1
+      39   .   0.10   .   'relative height'   bmse001300   1
+      40   .   0.20   .   'relative height'   bmse001300   1
+      41   .   0.19   .   'relative height'   bmse001300   1
+      42   .   0.15   .   'relative height'   bmse001300   1
+      43   .   0.16   .   'relative height'   bmse001300   1
+      44   .   0.18   .   'relative height'   bmse001300   1
+      45   .   0.17   .   'relative height'   bmse001300   1
+      46   .   0.15   .   'relative height'   bmse001300   1
+      47   .   0.16   .   'relative height'   bmse001300   1
+      48   .   0.15   .   'relative height'   bmse001300   1
+      49   .   0.18   .   'relative height'   bmse001300   1
+      50   .   0.08   .   'relative height'   bmse001300   1
+      51   .   0.07   .   'relative height'   bmse001300   1
+      52   .   0.16   .   'relative height'   bmse001300   1
+      53   .   0.16   .   'relative height'   bmse001300   1
+      54   .   0.20   .   'relative height'   bmse001300   1
+      55   .   0.25   .   'relative height'   bmse001300   1
+      56   .   0.13   .   'relative height'   bmse001300   1
+      57   .   0.13   .   'relative height'   bmse001300   1
+      58   .   0.05   .   'relative height'   bmse001300   1
+      59   .   0.03   .   'relative height'   bmse001300   1
+      60   .   0.11   .   'relative height'   bmse001300   1
+      61   .   0.18   .   'relative height'   bmse001300   1
+      62   .   0.19   .   'relative height'   bmse001300   1
+      63   .   0.19   .   'relative height'   bmse001300   1
+      64   .   0.33   .   'relative height'   bmse001300   1
+      65   .   0.45   .   'relative height'   bmse001300   1
+      66   .   0.36   .   'relative height'   bmse001300   1
+      67   .   0.22   .   'relative height'   bmse001300   1
+      68   .   0.05   .   'relative height'   bmse001300   1
+      69   .   0.06   .   'relative height'   bmse001300   1
+      70   .   0.10   .   'relative height'   bmse001300   1
+      71   .   0.09   .   'relative height'   bmse001300   1
+      72   .   0.06   .   'relative height'   bmse001300   1
+      73   .   0.05   .   'relative height'   bmse001300   1
+      74   .   0.06   .   'relative height'   bmse001300   1
+      75   .   0.06   .   'relative height'   bmse001300   1
+      76   .   0.06   .   'relative height'   bmse001300   1
+      77   .   0.07   .   'relative height'   bmse001300   1
+      78   .   0.07   .   'relative height'   bmse001300   1
+      79   .   0.05   .   'relative height'   bmse001300   1
+      80   .   0.09   .   'relative height'   bmse001300   1
+      81   .   0.07   .   'relative height'   bmse001300   1
+      82   .   0.11   .   'relative height'   bmse001300   1
+      83   .   0.10   .   'relative height'   bmse001300   1
+      84   .   0.04   .   'relative height'   bmse001300   1
+      85   .   0.07   .   'relative height'   bmse001300   1
+      86   .   0.08   .   'relative height'   bmse001300   1
+      87   .   0.07   .   'relative height'   bmse001300   1
+      88   .   0.06   .   'relative height'   bmse001300   1
+      89   .   0.06   .   'relative height'   bmse001300   1
+      90   .   0.06   .   'relative height'   bmse001300   1
+      91   .   0.04   .   'relative height'   bmse001300   1
+      92   .   0.09   .   'relative height'   bmse001300   1
+      93   .   0.09   .   'relative height'   bmse001300   1
+      94   .   0.04   .   'relative height'   bmse001300   1
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Peak_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Chem_shift_val_err
+      _Spectral_transition_char.Line_width_val
+      _Spectral_transition_char.Line_width_val_err
+      _Spectral_transition_char.Phase_val
+      _Spectral_transition_char.Phase_val_err
+      _Spectral_transition_char.Decay_rate_val
+      _Spectral_transition_char.Decay_rate_val_err
+      _Spectral_transition_char.Bounding_box_upper_val
+      _Spectral_transition_char.Bounding_box_lower_val
+      _Spectral_transition_char.Bounding_box_width_val
+      _Spectral_transition_char.Derivation_method_ID
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+      1    .   1   10.5840   .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      2    .   1   7.2333    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      3    .   1   7.2162    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      4    .   1   6.8101    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      5    .   1   6.8056    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      6    .   1   6.6200    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      7    .   1   6.6154    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      8    .   1   6.6029    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      9    .   1   6.5983    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      10   .   1   6.5125    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      11   .   1   3.9019    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      12   .   1   3.8858    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      13   .   1   3.8453    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      14   .   1   3.7572    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      15   .   1   3.7448    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      16   .   1   3.7034    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      17   .   1   3.6885    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      18   .   1   3.6079    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      19   .   1   3.5990    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      20   .   1   3.5753    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      21   .   1   3.5683    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      22   .   1   3.5565    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      23   .   1   3.5392    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      24   .   1   3.5203    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      25   .   1   3.5172    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      26   .   1   3.4983    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      27   .   1   3.4465    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      28   .   1   3.4290    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      29   .   1   3.3338    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      30   .   1   3.3073    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      31   .   1   3.2387    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      32   .   1   3.2219    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      33   .   1   3.0527    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      34   .   1   3.0302    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      35   .   1   2.8573    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      36   .   1   2.8458    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      37   .   1   2.8354    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      38   .   1   2.8237    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      39   .   1   2.8112    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      40   .   1   2.7956    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      41   .   1   2.7867    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      42   .   1   2.7802    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      43   .   1   2.7724    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      44   .   1   2.7690    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      45   .   1   2.7589    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      46   .   1   2.7464    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      47   .   1   2.7366    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      48   .   1   2.7265    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      49   .   1   2.7059    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      50   .   1   2.6725    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      51   .   1   2.6596    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      52   .   1   2.6409    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      53   .   1   2.6358    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      54   .   1   2.6260    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      55   .   1   2.6199    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      56   .   1   2.6123    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      57   .   1   2.6044    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      58   .   1   2.5884    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      59   .   1   2.5726    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      60   .   1   2.5472    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      61   .   1   2.5240    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      62   .   1   2.5182    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      63   .   1   2.5109    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      64   .   1   2.5072    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      65   .   1   2.5035    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      66   .   1   2.4999    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      67   .   1   2.4962    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      68   .   1   2.4046    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      69   .   1   2.3967    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      70   .   1   2.3821    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      71   .   1   2.3739    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      72   .   1   2.3595    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      73   .   1   2.3516    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      74   .   1   2.2148    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      75   .   1   2.2062    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      76   .   1   2.1976    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      77   .   1   2.1891    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      78   .   1   2.1804    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      79   .   1   2.0364    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      80   .   1   2.0103    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      81   .   1   1.9791    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      82   .   1   1.9548    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      83   .   1   1.9302    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      84   .   1   1.9049    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      85   .   1   1.8660    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      86   .   1   1.8399    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      87   .   1   1.6814    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      88   .   1   1.6727    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      89   .   1   1.6639    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      90   .   1   1.6559    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      91   .   1   1.4455    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      92   .   1   1.4197    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      93   .   1   1.3961    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+      94   .   1   1.3705    .   .   .   .   .   .   .   .   .   .   .   bmse001300   1
+   stop_
+save_
+
+save_spectral_peaks_1D_13C_set01
+   _Spectral_peak_list.Sf_category                      spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                     spectral_peaks_1D_13C_set01
+   _Spectral_peak_list.Entry_ID                         bmse001300
+   _Spectral_peak_list.ID                               2
+   _Spectral_peak_list.Name                             .
+   _Spectral_peak_list.Sample_ID                        1
+   _Spectral_peak_list.Sample_label                     $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID         1
+   _Spectral_peak_list.Sample_condition_list_label      $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                    3
+   _Spectral_peak_list.Experiment_name                  '1D 13C'
+   _Spectral_peak_list.Experiment_class                 .
+   _Spectral_peak_list.Experiment_type                  .
+   _Spectral_peak_list.Number_of_spectral_dimensions    1
+   _Spectral_peak_list.Chemical_shift_list              .
+   _Spectral_peak_list.Assigned_chem_shift_list_ID      1
+   _Spectral_peak_list.Assigned_chem_shift_list_label   $chem_shift_set01
+   _Spectral_peak_list.Details                          'F1: 13C'
+   _Spectral_peak_list.Text_data_format                 .
+   _Spectral_peak_list.Text_data                        .
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Axis_code
+      _Spectral_dim.Spectrometer_frequency
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Magnetization_linkage_ID
+      _Spectral_dim.Under_sampling_type
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Sweep_width_units
+      _Spectral_dim.Value_first_point
+      _Spectral_dim.Absolute_peak_positions
+      _Spectral_dim.Acquisition
+      _Spectral_dim.Center_frequency_offset
+      _Spectral_dim.Encoding_code
+      _Spectral_dim.Encoded_reduced_dimension_ID
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+      1   .   .   C   13   'Full C'   .   .   248.61   ppm   .   .   .   .   .   .   bmse001300   2
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Method_ID
+      _Spectral_peak_software.Method_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+      3   $software_topspin   .   .   bmse001300   2
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Peak_ID
+      _Spectral_transition.Figure_of_merit
+      _Spectral_transition.Details
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+      1    .   .   .   bmse001300   2
+      2    .   .   .   bmse001300   2
+      3    .   .   .   bmse001300   2
+      4    .   .   .   bmse001300   2
+      5    .   .   .   bmse001300   2
+      6    .   .   .   bmse001300   2
+      7    .   .   .   bmse001300   2
+      8    .   .   .   bmse001300   2
+      9    .   .   .   bmse001300   2
+      10   .   .   .   bmse001300   2
+      11   .   .   .   bmse001300   2
+      12   .   .   .   bmse001300   2
+      13   .   .   .   bmse001300   2
+      14   .   .   .   bmse001300   2
+      15   .   .   .   bmse001300   2
+      16   .   .   .   bmse001300   2
+      17   .   .   .   bmse001300   2
+      18   .   .   .   bmse001300   2
+      19   .   .   .   bmse001300   2
+      20   .   .   .   bmse001300   2
+      21   .   .   .   bmse001300   2
+      22   .   .   .   bmse001300   2
+      23   .   .   .   bmse001300   2
+      24   .   .   .   bmse001300   2
+      25   .   .   .   bmse001300   2
+      26   .   .   .   bmse001300   2
+      27   .   .   .   bmse001300   2
+      28   .   .   .   bmse001300   2
+      29   .   .   .   bmse001300   2
+      30   .   .   .   bmse001300   2
+      31   .   .   .   bmse001300   2
+      32   .   .   .   bmse001300   2
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Peak_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Intensity_val_err
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+      1    .   0.13   .   'relative height'   bmse001300   2
+      2    .   0.13   .   'relative height'   bmse001300   2
+      3    .   0.13   .   'relative height'   bmse001300   2
+      4    .   0.31   .   'relative height'   bmse001300   2
+      5    .   0.12   .   'relative height'   bmse001300   2
+      6    .   0.12   .   'relative height'   bmse001300   2
+      7    .   0.11   .   'relative height'   bmse001300   2
+      8    .   0.11   .   'relative height'   bmse001300   2
+      9    .   0.11   .   'relative height'   bmse001300   2
+      10   .   0.10   .   'relative height'   bmse001300   2
+      11   .   0.11   .   'relative height'   bmse001300   2
+      12   .   0.12   .   'relative height'   bmse001300   2
+      13   .   0.36   .   'relative height'   bmse001300   2
+      14   .   0.11   .   'relative height'   bmse001300   2
+      15   .   0.12   .   'relative height'   bmse001300   2
+      16   .   0.12   .   'relative height'   bmse001300   2
+      17   .   0.17   .   'relative height'   bmse001300   2
+      18   .   0.26   .   'relative height'   bmse001300   2
+      19   .   0.13   .   'relative height'   bmse001300   2
+      20   .   0.08   .   'relative height'   bmse001300   2
+      21   .   0.56   .   'relative height'   bmse001300   2
+      22   .   0.25   .   'relative height'   bmse001300   2
+      23   .   0.08   .   'relative height'   bmse001300   2
+      24   .   0.16   .   'relative height'   bmse001300   2
+      25   .   0.12   .   'relative height'   bmse001300   2
+      26   .   0.11   .   'relative height'   bmse001300   2
+      27   .   0.14   .   'relative height'   bmse001300   2
+      28   .   0.12   .   'relative height'   bmse001300   2
+      29   .   0.14   .   'relative height'   bmse001300   2
+      30   .   0.09   .   'relative height'   bmse001300   2
+      31   .   0.08   .   'relative height'   bmse001300   2
+      32   .   0.09   .   'relative height'   bmse001300   2
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Peak_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Chem_shift_val_err
+      _Spectral_transition_char.Line_width_val
+      _Spectral_transition_char.Line_width_val_err
+      _Spectral_transition_char.Phase_val
+      _Spectral_transition_char.Phase_val_err
+      _Spectral_transition_char.Decay_rate_val
+      _Spectral_transition_char.Decay_rate_val_err
+      _Spectral_transition_char.Bounding_box_upper_val
+      _Spectral_transition_char.Bounding_box_lower_val
+      _Spectral_transition_char.Bounding_box_width_val
+      _Spectral_transition_char.Derivation_method_ID
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+      1    .   1   171.8636   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      2    .   1   171.7189   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      3    .   1   155.0257   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      4    .   1   152.6815   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      5    .   1   136.7166   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      6    .   1   136.2098   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      7    .   1   135.6724   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      8    .   1   133.8229   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      9    .   1   121.0567   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      10   .   1   118.0288   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      11   .   1   107.8968   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      12   .   1   106.2085   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      13   .   1   105.4334   .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      14   .   1   94.5966    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      15   .   1   77.3776    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      16   .   1   76.7191    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      17   .   1   60.0884    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      18   .   1   59.9078    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      19   .   1   59.8676    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      20   .   1   59.2407    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      21   .   1   55.7009    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      22   .   1   55.1036    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      23   .   1   52.5922    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      24   .   1   51.7310    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      25   .   1   51.0793    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      26   .   1   37.1065    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      27   .   1   35.6691    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      28   .   1   33.6326    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      29   .   1   30.7283    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      30   .   1   30.3002    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      31   .   1   27.2181    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+      32   .   1   21.6322    .   .   .   .   .   .   .   .   .   .   .   bmse001300   2
+   stop_
+
+   loop_
+      _Assigned_spectral_transition.Spectral_transition_ID
+      _Assigned_spectral_transition.Spectral_dim_ID
+      _Assigned_spectral_transition.Contribution_fractional_val
+      _Assigned_spectral_transition.Peak_ID
+      _Assigned_spectral_transition.Set_ID
+      _Assigned_spectral_transition.Magnetization_linkage_ID
+      _Assigned_spectral_transition.Assembly_atom_ID
+      _Assigned_spectral_transition.Val
+      _Assigned_spectral_transition.Assigned_chem_shift_list_ID
+      _Assigned_spectral_transition.Atom_chem_shift_ID
+      _Assigned_spectral_transition.Entity_assembly_ID
+      _Assigned_spectral_transition.Entity_ID
+      _Assigned_spectral_transition.Comp_index_ID
+      _Assigned_spectral_transition.Comp_ID
+      _Assigned_spectral_transition.Atom_ID
+      _Assigned_spectral_transition.Figure_of_merit
+      _Assigned_spectral_transition.Resonance_ID
+      _Assigned_spectral_transition.Details
+      _Assigned_spectral_transition.Entry_ID
+      _Assigned_spectral_transition.Spectral_peak_list_ID
+
+      1    1   .   .   .   .   35   171.8636   1   .   1   1   1   BMET001300   C35   .   .   .   bmse001300   2
+      2    1   .   .   .   .   30   171.7189   1   .   1   1   1   BMET001300   C30   .   .   .   bmse001300   2
+      3    1   .   .   .   .   21   155.0257   1   .   1   1   1   BMET001300   C21   .   .   .   bmse001300   2
+      4    1   .   .   .   .   27   152.6815   1   .   1   1   1   BMET001300   C27   .   .   .   bmse001300   2
+      5    1   .   .   .   .   25   136.7166   1   .   1   1   1   BMET001300   C25   .   .   .   bmse001300   2
+      6    1   .   .   .   .   19   136.2098   1   .   1   1   1   BMET001300   C19   .   .   .   bmse001300   2
+      7    1   .   .   .   .   33   135.6724   1   .   1   1   1   BMET001300   C33   .   .   .   bmse001300   2
+      8    1   .   .   .   .   32   133.8229   1   .   1   1   1   BMET001300   C32   .   .   .   bmse001300   2
+      9    1   .   .   .   .   22   121.0567   1   .   1   1   1   BMET001300   C22   .   .   .   bmse001300   2
+      10   1   .   .   .   .   9    118.0288   1   .   1   1   1   BMET001300   C9    .   .   .   bmse001300   2
+      11   1   .   .   .   .   8    107.8968   1   .   1   1   1   BMET001300   C8    .   .   .   bmse001300   2
+      12   1   .   .   .   .   23   106.2085   1   .   1   1   1   BMET001300   C23   .   .   .   bmse001300   2
+      13   1   .   .   .   .   13   105.4334   1   .   1   1   1   BMET001300   C13   .   .   .   bmse001300   2
+      14   1   .   .   .   .   16   94.5966    1   .   1   1   1   BMET001300   C16   .   .   .   bmse001300   2
+      15   1   .   .   .   .   34   77.3776    1   .   1   1   1   BMET001300   C34   .   .   .   bmse001300   2
+      16   1   .   .   .   .   29   76.7191    1   .   1   1   1   BMET001300   C29   .   .   .   bmse001300   2
+      17   1   .   .   .   .   5    60.0884    1   .   1   1   1   BMET001300   C5    .   .   .   bmse001300   2
+      18   1   .   .   .   .   4    59.9078    1   .   1   1   1   BMET001300   C4    .   .   .   bmse001300   2
+      19   1   .   .   .   .   26   59.8676    1   .   1   1   1   BMET001300   C26   .   .   .   bmse001300   2
+      20   1   .   .   .   .   18   59.2407    1   .   1   1   1   BMET001300   C18   .   .   .   bmse001300   2
+      21   1   .   .   .   .   2    55.7009    1   .   1   1   1   BMET001300   C2    .   .   .   bmse001300   2
+      22   1   .   .   .   .   1    55.1036    1   .   1   1   1   BMET001300   C1    .   .   .   bmse001300   2
+      23   1   .   .   .   .   12   52.5922    1   .   1   1   1   BMET001300   C12   .   .   .   bmse001300   2
+      24   1   .   .   .   .   6    51.7310    1   .   1   1   1   BMET001300   C6    .   .   .   bmse001300   2
+      25   1   .   .   .   .   31   51.0793    1   .   1   1   1   BMET001300   C31   .   .   .   bmse001300   2
+      26   1   .   .   .   .   20   37.1065    1   .   1   1   1   BMET001300   C20   .   .   .   bmse001300   2
+      27   1   .   .   .   .   10   35.6691    1   .   1   1   1   BMET001300   C10   .   .   .   bmse001300   2
+      28   1   .   .   .   .   24   33.6326    1   .   1   1   1   BMET001300   C24   .   .   .   bmse001300   2
+      29   1   .   .   .   .   7    30.7283    1   .   1   1   1   BMET001300   C7    .   .   .   bmse001300   2
+      30   1   .   .   .   .   15   30.3002    1   .   1   1   1   BMET001300   C15   .   .   .   bmse001300   2
+      31   1   .   .   .   .   17   27.2181    1   .   1   1   1   BMET001300   C17   .   .   .   bmse001300   2
+      32   1   .   .   .   .   11   21.6322    1   .   1   1   1   BMET001300   C11   .   .   .   bmse001300   2
+   stop_
+save_
+
+save_spectral_peaks_1D_DEPT90_set01
+   _Spectral_peak_list.Sf_category                      spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                     spectral_peaks_1D_DEPT90_set01
+   _Spectral_peak_list.Entry_ID                         bmse001300
+   _Spectral_peak_list.ID                               3
+   _Spectral_peak_list.Name                             .
+   _Spectral_peak_list.Sample_ID                        1
+   _Spectral_peak_list.Sample_label                     $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID         1
+   _Spectral_peak_list.Sample_condition_list_label      $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                    4
+   _Spectral_peak_list.Experiment_name                  '1D DEPT90'
+   _Spectral_peak_list.Experiment_class                 .
+   _Spectral_peak_list.Experiment_type                  .
+   _Spectral_peak_list.Number_of_spectral_dimensions    1
+   _Spectral_peak_list.Chemical_shift_list              .
+   _Spectral_peak_list.Assigned_chem_shift_list_ID      1
+   _Spectral_peak_list.Assigned_chem_shift_list_label   $chem_shift_set01
+   _Spectral_peak_list.Details                          'F1: 13C'
+   _Spectral_peak_list.Text_data_format                 .
+   _Spectral_peak_list.Text_data                        .
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Axis_code
+      _Spectral_dim.Spectrometer_frequency
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Magnetization_linkage_ID
+      _Spectral_dim.Under_sampling_type
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Sweep_width_units
+      _Spectral_dim.Value_first_point
+      _Spectral_dim.Absolute_peak_positions
+      _Spectral_dim.Acquisition
+      _Spectral_dim.Center_frequency_offset
+      _Spectral_dim.Encoding_code
+      _Spectral_dim.Encoded_reduced_dimension_ID
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+      1   .   .   C   13   'Full C'   .   .   236.77   ppm   .   .   .   .   .   .   bmse001300   3
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Method_ID
+      _Spectral_peak_software.Method_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+      3   $software_topspin   .   .   bmse001300   3
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Peak_ID
+      _Spectral_transition.Figure_of_merit
+      _Spectral_transition.Details
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+      1    .   .   .   bmse001300   3
+      2    .   .   .   bmse001300   3
+      3    .   .   .   bmse001300   3
+      4    .   .   .   bmse001300   3
+      5    .   .   .   bmse001300   3
+      6    .   .   .   bmse001300   3
+      7    .   .   .   bmse001300   3
+      8    .   .   .   bmse001300   3
+      9    .   .   .   bmse001300   3
+      10   .   .   .   bmse001300   3
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Peak_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Intensity_val_err
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+      1    .   5.59    .   'relative height'   bmse001300   3
+      2    .   5.73    .   'relative height'   bmse001300   3
+      3    .   15.00   .   'relative height'   bmse001300   3
+      4    .   6.29    .   'relative height'   bmse001300   3
+      5    .   6.42    .   'relative height'   bmse001300   3
+      6    .   6.11    .   'relative height'   bmse001300   3
+      7    .   6.30    .   'relative height'   bmse001300   3
+      8    .   6.41    .   'relative height'   bmse001300   3
+      9    .   5.59    .   'relative height'   bmse001300   3
+      10   .   5.43    .   'relative height'   bmse001300   3
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Peak_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Chem_shift_val_err
+      _Spectral_transition_char.Line_width_val
+      _Spectral_transition_char.Line_width_val_err
+      _Spectral_transition_char.Phase_val
+      _Spectral_transition_char.Phase_val_err
+      _Spectral_transition_char.Decay_rate_val
+      _Spectral_transition_char.Decay_rate_val_err
+      _Spectral_transition_char.Bounding_box_upper_val
+      _Spectral_transition_char.Bounding_box_lower_val
+      _Spectral_transition_char.Bounding_box_width_val
+      _Spectral_transition_char.Derivation_method_ID
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+      1    .   1   117.9740   .   .   .   .   .   .   .   .   .   .   .   bmse001300   3
+      2    .   1   107.8405   .   .   .   .   .   .   .   .   .   .   .   bmse001300   3
+      3    .   1   105.3785   .   .   .   .   .   .   .   .   .   .   .   bmse001300   3
+      4    .   1   94.5405    .   .   .   .   .   .   .   .   .   .   .   bmse001300   3
+      5    .   1   77.3207    .   .   .   .   .   .   .   .   .   .   .   bmse001300   3
+      6    .   1   76.6627    .   .   .   .   .   .   .   .   .   .   .   bmse001300   3
+      7    .   1   59.8107    .   .   .   .   .   .   .   .   .   .   .   bmse001300   3
+      8    .   1   51.0225    .   .   .   .   .   .   .   .   .   .   .   bmse001300   3
+      9    .   1   37.0503    .   .   .   .   .   .   .   .   .   .   .   bmse001300   3
+      10   .   1   33.5761    .   .   .   .   .   .   .   .   .   .   .   bmse001300   3
+   stop_
+save_
+
+save_spectral_peaks_1D_DEPT135_set01
+   _Spectral_peak_list.Sf_category                      spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                     spectral_peaks_1D_DEPT135_set01
+   _Spectral_peak_list.Entry_ID                         bmse001300
+   _Spectral_peak_list.ID                               4
+   _Spectral_peak_list.Name                             .
+   _Spectral_peak_list.Sample_ID                        1
+   _Spectral_peak_list.Sample_label                     $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID         1
+   _Spectral_peak_list.Sample_condition_list_label      $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                    5
+   _Spectral_peak_list.Experiment_name                  '1D DEPT135'
+   _Spectral_peak_list.Experiment_class                 .
+   _Spectral_peak_list.Experiment_type                  .
+   _Spectral_peak_list.Number_of_spectral_dimensions    1
+   _Spectral_peak_list.Chemical_shift_list              .
+   _Spectral_peak_list.Assigned_chem_shift_list_ID      1
+   _Spectral_peak_list.Assigned_chem_shift_list_label   $chem_shift_set01
+   _Spectral_peak_list.Details                          'F1: 13C'
+   _Spectral_peak_list.Text_data_format                 .
+   _Spectral_peak_list.Text_data                        .
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Axis_code
+      _Spectral_dim.Spectrometer_frequency
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Magnetization_linkage_ID
+      _Spectral_dim.Under_sampling_type
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Sweep_width_units
+      _Spectral_dim.Value_first_point
+      _Spectral_dim.Absolute_peak_positions
+      _Spectral_dim.Acquisition
+      _Spectral_dim.Center_frequency_offset
+      _Spectral_dim.Encoding_code
+      _Spectral_dim.Encoded_reduced_dimension_ID
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+      1   .   .   C   13   'Full C'   .   .   236.77   ppm   .   .   .   .   .   .   bmse001300   4
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Method_ID
+      _Spectral_peak_software.Method_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+      3   $software_topspin   .   .   bmse001300   4
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Peak_ID
+      _Spectral_transition.Figure_of_merit
+      _Spectral_transition.Details
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+      1    .   .   .   bmse001300   4
+      2    .   .   .   bmse001300   4
+      3    .   .   .   bmse001300   4
+      4    .   .   .   bmse001300   4
+      5    .   .   .   bmse001300   4
+      6    .   .   .   bmse001300   4
+      7    .   .   .   bmse001300   4
+      8    .   .   .   bmse001300   4
+      9    .   .   .   bmse001300   4
+      10   .   .   .   bmse001300   4
+      11   .   .   .   bmse001300   4
+      12   .   .   .   bmse001300   4
+      13   .   .   .   bmse001300   4
+      14   .   .   .   bmse001300   4
+      15   .   .   .   bmse001300   4
+      16   .   .   .   bmse001300   4
+      17   .   .   .   bmse001300   4
+      18   .   .   .   bmse001300   4
+      19   .   .   .   bmse001300   4
+      20   .   .   .   bmse001300   4
+      21   .   .   .   bmse001300   4
+      22   .   .   .   bmse001300   4
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Peak_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Intensity_val_err
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+      1    .   1.98    .   'relative height'   bmse001300   4
+      2    .   2.09    .   'relative height'   bmse001300   4
+      3    .   5.12    .   'relative height'   bmse001300   4
+      4    .   2.31    .   'relative height'   bmse001300   4
+      5    .   2.57    .   'relative height'   bmse001300   4
+      6    .   2.38    .   'relative height'   bmse001300   4
+      7    .   8.06    .   'relative height'   bmse001300   4
+      8    .   10.52   .   'relative height'   bmse001300   4
+      9    .   2.61    .   'relative height'   bmse001300   4
+      10   .   -1.95   .   'relative height'   bmse001300   4
+      11   .   15.00   .   'relative height'   bmse001300   4
+      12   .   12.59   .   'relative height'   bmse001300   4
+      13   .   -2.07   .   'relative height'   bmse001300   4
+      14   .   7.66    .   'relative height'   bmse001300   4
+      15   .   2.58    .   'relative height'   bmse001300   4
+      16   .   1.94    .   'relative height'   bmse001300   4
+      17   .   -3.08   .   'relative height'   bmse001300   4
+      18   .   2.04    .   'relative height'   bmse001300   4
+      19   .   -3.39   .   'relative height'   bmse001300   4
+      20   .   -1.78   .   'relative height'   bmse001300   4
+      21   .   -1.92   .   'relative height'   bmse001300   4
+      22   .   -1.93   .   'relative height'   bmse001300   4
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Peak_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Chem_shift_val_err
+      _Spectral_transition_char.Line_width_val
+      _Spectral_transition_char.Line_width_val_err
+      _Spectral_transition_char.Phase_val
+      _Spectral_transition_char.Phase_val_err
+      _Spectral_transition_char.Decay_rate_val
+      _Spectral_transition_char.Decay_rate_val_err
+      _Spectral_transition_char.Bounding_box_upper_val
+      _Spectral_transition_char.Bounding_box_lower_val
+      _Spectral_transition_char.Bounding_box_width_val
+      _Spectral_transition_char.Derivation_method_ID
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+      1    .   1   117.9778   .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      2    .   1   107.8454   .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      3    .   1   105.3827   .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      4    .   1   94.5470    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      5    .   1   77.3273    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      6    .   1   76.6695    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      7    .   1   60.0413    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      8    .   1   59.8610    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      9    .   1   59.8179    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      10   .   1   59.1919    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      11   .   1   55.6485    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      12   .   1   55.0554    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      13   .   1   52.5425    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      14   .   1   51.6808    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      15   .   1   51.0299    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      16   .   1   37.0584    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      17   .   1   35.6205    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      18   .   1   33.5843    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      19   .   1   30.6798    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      20   .   1   30.2522    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      21   .   1   27.1691    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+      22   .   1   21.5843    .   .   .   .   .   .   .   .   .   .   .   bmse001300   4
+   stop_
+save_
+
+save_spectral_peaks_2D_1H-13C_HSQC_set01
+   _Spectral_peak_list.Sf_category                      spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                     spectral_peaks_2D_1H-13C_HSQC_set01
+   _Spectral_peak_list.Entry_ID                         bmse001300
+   _Spectral_peak_list.ID                               5
+   _Spectral_peak_list.Name                             .
+   _Spectral_peak_list.Sample_ID                        1
+   _Spectral_peak_list.Sample_label                     $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID         1
+   _Spectral_peak_list.Sample_condition_list_label      $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                    6
+   _Spectral_peak_list.Experiment_name                  '2D 1H-13C HSQC'
+   _Spectral_peak_list.Experiment_class                 .
+   _Spectral_peak_list.Experiment_type                  .
+   _Spectral_peak_list.Number_of_spectral_dimensions    2
+   _Spectral_peak_list.Chemical_shift_list              .
+   _Spectral_peak_list.Assigned_chem_shift_list_ID      1
+   _Spectral_peak_list.Assigned_chem_shift_list_label   $chem_shift_set01
+   _Spectral_peak_list.Details                          'F1: 13C, F2: 1H'
+   _Spectral_peak_list.Text_data_format                 .
+   _Spectral_peak_list.Text_data                        .
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Axis_code
+      _Spectral_dim.Spectrometer_frequency
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Magnetization_linkage_ID
+      _Spectral_dim.Under_sampling_type
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Sweep_width_units
+      _Spectral_dim.Value_first_point
+      _Spectral_dim.Absolute_peak_positions
+      _Spectral_dim.Acquisition
+      _Spectral_dim.Center_frequency_offset
+      _Spectral_dim.Encoding_code
+      _Spectral_dim.Encoded_reduced_dimension_ID
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+      1   .   .   C   13   'Full C'   .   .   165.00   ppm   .   .   .   .   .   .   bmse001300   5
+      2   .   .   H   1    'Full H'   .   .   12.99    ppm   .   .   .   .   .   .   bmse001300   5
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Method_ID
+      _Spectral_peak_software.Method_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+      3   $software_topspin   .   .   bmse001300   5
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Peak_ID
+      _Spectral_transition.Figure_of_merit
+      _Spectral_transition.Details
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+      1    .   .   .   bmse001300   5
+      2    .   .   .   bmse001300   5
+      3    .   .   .   bmse001300   5
+      4    .   .   .   bmse001300   5
+      5    .   .   .   bmse001300   5
+      6    .   .   .   bmse001300   5
+      7    .   .   .   bmse001300   5
+      8    .   .   .   bmse001300   5
+      9    .   .   .   bmse001300   5
+      10   .   .   .   bmse001300   5
+      11   .   .   .   bmse001300   5
+      12   .   .   .   bmse001300   5
+      13   .   .   .   bmse001300   5
+      14   .   .   .   bmse001300   5
+      15   .   .   .   bmse001300   5
+      16   .   .   .   bmse001300   5
+      17   .   .   .   bmse001300   5
+      18   .   .   .   bmse001300   5
+      19   .   .   .   bmse001300   5
+      20   .   .   .   bmse001300   5
+      21   .   .   .   bmse001300   5
+      22   .   .   .   bmse001300   5
+      23   .   .   .   bmse001300   5
+      24   .   .   .   bmse001300   5
+      25   .   .   .   bmse001300   5
+      26   .   .   .   bmse001300   5
+      27   .   .   .   bmse001300   5
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Peak_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Intensity_val_err
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+      1    .   77075.04    .   'relative height'   bmse001300   5
+      2    .   64605.33    .   'relative height'   bmse001300   5
+      3    .   154304.14   .   'relative height'   bmse001300   5
+      4    .   55089.18    .   'relative height'   bmse001300   5
+      5    .   57506.91    .   'relative height'   bmse001300   5
+      6    .   65258.96    .   'relative height'   bmse001300   5
+      7    .   249427.54   .   'relative height'   bmse001300   5
+      8    .   221078.93   .   'relative height'   bmse001300   5
+      9    .   70755.62    .   'relative height'   bmse001300   5
+      10   .   63087.07    .   'relative height'   bmse001300   5
+      11   .   69499.91    .   'relative height'   bmse001300   5
+      12   .   489667.69   .   'relative height'   bmse001300   5
+      13   .   281221.61   .   'relative height'   bmse001300   5
+      14   .   250037.91   .   'relative height'   bmse001300   5
+      15   .   52764.66    .   'relative height'   bmse001300   5
+      16   .   62787.24    .   'relative height'   bmse001300   5
+      17   .   58553.87    .   'relative height'   bmse001300   5
+      18   .   43178.40    .   'relative height'   bmse001300   5
+      19   .   106738.86   .   'relative height'   bmse001300   5
+      20   .   34554.86    .   'relative height'   bmse001300   5
+      21   .   97350.91    .   'relative height'   bmse001300   5
+      22   .   41565.51    .   'relative height'   bmse001300   5
+      23   .   25615.42    .   'relative height'   bmse001300   5
+      24   .   24908.10    .   'relative height'   bmse001300   5
+      25   .   43662.21    .   'relative height'   bmse001300   5
+      26   .   41617.41    .   'relative height'   bmse001300   5
+      27   .   33558.14    .   'relative height'   bmse001300   5
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Peak_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Chem_shift_val_err
+      _Spectral_transition_char.Line_width_val
+      _Spectral_transition_char.Line_width_val_err
+      _Spectral_transition_char.Phase_val
+      _Spectral_transition_char.Phase_val_err
+      _Spectral_transition_char.Decay_rate_val
+      _Spectral_transition_char.Decay_rate_val_err
+      _Spectral_transition_char.Bounding_box_upper_val
+      _Spectral_transition_char.Bounding_box_lower_val
+      _Spectral_transition_char.Bounding_box_width_val
+      _Spectral_transition_char.Derivation_method_ID
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+      1    .   1   117.7521   .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      1    .   2   7.2246     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      2    .   1   107.7046   .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      2    .   2   6.6156     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      3    .   1   105.2592   .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      3    .   2   6.5181     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      4    .   1   94.5206    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      4    .   2   6.8127     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      5    .   1   77.2308    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      5    .   2   3.5238     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      6    .   1   76.5278    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      6    .   2   4.7385     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      7    .   1   59.8073    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      7    .   2   3.3127     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      8    .   1   59.6725    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      8    .   2   3.5772     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      9    .   1   59.5827    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      9    .   2   3.0442     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      10   .   1   58.9536    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      10   .   2   2.5151     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      11   .   1   58.9087    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      11   .   2   2.7204     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      12   .   1   55.4937    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      12   .   2   3.7036     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      13   .   1   54.8646    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      13   .   2   3.7391     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      14   .   1   51.4945    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      14   .   2   3.7628     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      15   .   1   52.3483    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      15   .   2   2.3809     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      16   .   1   52.3033    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      16   .   2   2.8428     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      17   .   1   50.8205    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      17   .   2   2.7599     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      18   .   1   36.7981    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      18   .   2   2.2069     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      19   .   1   35.3572    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      19   .   2   2.6241     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      20   .   1   33.4175    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      20   .   2   2.0144     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      21   .   1   30.4803    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      21   .   2   2.7916     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      22   .   1   30.0370    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      22   .   2   1.6757     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      23   .   1   29.9816    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      23   .   2   1.9502     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      24   .   1   26.9889    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      24   .   2   1.4119     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      25   .   1   27.0998    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      25   .   2   1.8540     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      26   .   1   21.4471    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      26   .   2   2.5421     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      27   .   1   21.4471    .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+      27   .   2   2.6989     .   .   .   .   .   .   .   .   .   .   .   bmse001300   5
+   stop_
+save_
+

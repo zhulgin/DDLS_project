@@ -1,0 +1,668 @@
+data_bmse001029
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmse001029
+   _Entry.Title                         4_chlorobenzaldehyde
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2010-01-12
+   _Entry.Accession_date                2013-02-25
+   _Entry.Last_release_date             2013-03-06
+   _Entry.Original_release_date         2013-02-26
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.31
+   _Entry.Original_NMR_STAR_version     3.1.1.31
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   solution
+   _Entry.DOI                           10.13018/BMSE001029
+   _Entry.BMRB_internal_directory_name  4_chlorobenzaldehyde
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.Middle_initials
+      _Entry_author.Entry_ID
+
+     1   Francisca   Jofre      ?    bmse001029    
+     2   Mark        Anderson   E.   bmse001029    
+     3   John        Markley    L.   bmse001029    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   metabolomics   'National Magnetic Facility at Madison'   NMRFAM   bmse001029    
+     2   metabolomics   'Biological Magnetic Resonance Bank'      BMRB     bmse001029    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1   2013-02-26   2010-01-12   original   BMRB   'Original spectra from BMRB'                                                           bmse001029    
+     2   2013-03-06   2010-01-12   update     BMRB   'Added PubChem SID 160963348 to database loop'                                         bmse001029    
+     3   2017-10-12   2017-10-12   update     BMRB   'Remediated Experiment_file loop if present and standardized mol and png file tags.'   bmse001029    
+     4   2017-12-19   2017-10-12   update     BMRB   'InChI numbering updated according to ALATIS'                                          bmse001029    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citation_1
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citation_1
+   _Citation.Entry_ID      bmse001029
+   _Citation.ID            1
+   _Citation.Class         'reference citation'
+   _Citation.PubMed_ID     17170002
+   _Citation.Title         'Database resources of the National Center for Biotechnology Information.'
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://pubchem.ncbi.nlm.nih.gov/
+   _Citation.Year          2006
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    D.   Wheeler      D.   L.   bmse001029   1    
+     2    T.   Barrett      T.   ?    bmse001029   1    
+     3    D.   Benson       D.   A.   bmse001029   1    
+     4    S.   Bryant       S.   H.   bmse001029   1    
+     5    K.   Canese       K.   ?    bmse001029   1    
+     6    V.   Chetvenin    V.   ?    bmse001029   1    
+     7    D.   Church       D.   M.   bmse001029   1    
+     8    M.   DiCuccio     M.   ?    bmse001029   1    
+     9    R.   Edgar        R.   ?    bmse001029   1    
+     10   S.   Federhen     S.   ?    bmse001029   1    
+     11   L.   Geer         L.   Y.   bmse001029   1    
+     12   W.   Helmberg     W.   ?    bmse001029   1    
+     13   Y.   Kapustin     Y.   ?    bmse001029   1    
+     14   D.   Kenton       D.   L.   bmse001029   1    
+     15   O.   Khovayko     O.   ?    bmse001029   1    
+     16   D.   Lipman       D.   J.   bmse001029   1    
+     17   T.   Madden       T.   L.   bmse001029   1    
+     18   D.   Maglott      D.   R.   bmse001029   1    
+     19   J.   Ostell       J.   ?    bmse001029   1    
+     20   K.   Pruitt       K.   D.   bmse001029   1    
+     21   G.   Schuler      G.   D.   bmse001029   1    
+     22   L.   Schriml      L.   M.   bmse001029   1    
+     23   E.   Sequeira     E.   ?    bmse001029   1    
+     24   S.   Sherry       S.   T.   bmse001029   1    
+     25   K.   Sirotkin     K.   ?    bmse001029   1    
+     26   A.   Souvorov     A.   ?    bmse001029   1    
+     27   G.   Starchenko   G.   ?    bmse001029   1    
+     28   T.   Suzek        T.   O.   bmse001029   1    
+     29   R.   Tatusov      R.   ?    bmse001029   1    
+     30   T.   Tatusova     T.   A.   bmse001029   1    
+     31   L.   Bagner       L.   ?    bmse001029   1    
+     32   E.   Yaschenko    E.   ?    bmse001029   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmse001029
+   _Assembly.ID                    1
+   _Assembly.Name                  4-chlorobenzaldehyde
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   4-chlorobenzaldehyde   1   $4-chlorobenzaldehyde   yes   native   no   no   bmse001029   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_4-chlorobenzaldehyde
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     4-chlorobenzaldehyde
+   _Entity.Entry_ID                         bmse001029
+   _Entity.ID                               1
+   _Entity.Name                             4-chlorobenzaldehyde
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmse001029   1    
+
+   stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category   natural_source
+   _Entity_natural_src_list.Sf_framecode  natural_source
+   _Entity_natural_src_list.Entry_ID      bmse001029
+   _Entity_natural_src_list.ID            1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+     1   1   $4-chlorobenzaldehyde   'not applicable'   bmse001029   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category   experimental_source
+   _Entity_experimental_src_list.Sf_framecode  experimental_source
+   _Entity_experimental_src_list.Entry_ID      bmse001029
+   _Entity_experimental_src_list.ID            1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+     1   1   $4-chlorobenzaldehyde   'chemical synthesis'   bmse001029   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                      chem_comp
+   _Chem_comp.Sf_framecode                     chem_comp_1
+   _Chem_comp.Entry_ID                         bmse001029
+   _Chem_comp.ID                               1
+   _Chem_comp.Name                             4-chlorobenzaldehyde
+   _Chem_comp.Type                             non-polymer
+   _Chem_comp.BMRB_code                        bmse001029
+   _Chem_comp.InChI_code                       InChI=1S/C7H5ClO/c8-7-3-1-6(5-9)2-4-7/h1-5H
+   _Chem_comp.Paramagnetic                     no
+   _Chem_comp.Aromatic                         yes
+   _Chem_comp.Formula                          'C7 H5 O Cl'
+   _Chem_comp.Formula_weight                   140.567
+   _Chem_comp.Formula_mono_iso_wt_nat          140.0028924926
+   _Chem_comp.Formula_mono_iso_wt_13C          147.0263763572
+   _Chem_comp.Formula_mono_iso_wt_15N          140.0028924926
+   _Chem_comp.Formula_mono_iso_wt_13C_15N      147.0263763572
+   _Chem_comp.Image_file_name                  bmse001029.png
+   _Chem_comp.Image_file_format                png
+   _Chem_comp.Struct_file_name                 bmse001029.mol
+   _Chem_comp.Struct_file_format               mol
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     4-chlorobenzaldehyde            synonym   bmse001029   1    
+     p-Chlorobenzaldehyde            synonym   bmse001029   1    
+     4-Chlorobenzenaldehyde          synonym   bmse001029   1    
+     4-Chlorobenzaldehyde            synonym   bmse001029   1    
+     p-Chlorobenzenecarboxaldehyde   synonym   bmse001029   1    
+     'Benzaldehyde, 4-chloro-'       synonym   bmse001029   1    
+     'Benzaldehyde, p-chloro-'       synonym   bmse001029   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+     InChI=1S/C7H5ClO/c8-7-3-1-6(5-9)2-4-7/h1-5H   INCHI   na       na      bmse001029   1    
+     InChI=1S/C7H5ClO/c8-7-3-1-6(5-9)2-4-7/h1-5H   INCHI   ALATIS   3.003   bmse001029   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     4-chlorobenzaldehyde      PUBCHEM_IUPAC_NAME               bmse001029   1    
+     4-chlorobenzaldehyde      PUBCHEM_IUPAC_TRADITIONAL_NAME   bmse001029   1    
+     4-chlorobenzaldehyde      PUBCHEM_IUPAC_OPENEYE_NAME       bmse001029   1    
+     4-chlorobenzaldehyde      PUBCHEM_IUPAC_CAS_NAME           bmse001029   1    
+     4-chloranylbenzaldehyde   PUBCHEM_IUPAC_SYSTEMATIC_NAME    bmse001029   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     canonical   C1=CC(=CC=C1C=O)Cl   bmse001029   1    
+     isomeric    C1=CC(=CC=C1C=O)Cl   bmse001029   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     Cl8   Cl   2.8660   -2.2500   1    bmse001029   1    
+     O9    O    3.7320   2.2500    2    bmse001029   1    
+     C6    C    2.8660   0.7500    3    bmse001029   1    
+     C1    C    2.0000   0.2500    4    bmse001029   1    
+     C2    C    3.7320   0.2500    5    bmse001029   1    
+     C3    C    2.0000   -0.7500   6    bmse001029   1    
+     C4    C    3.7320   -0.7500   7    bmse001029   1    
+     C7    C    2.8660   -1.2500   8    bmse001029   1    
+     C5    C    2.8660   1.7500    9    bmse001029   1    
+     H10   H    1.4631   0.5600    10   bmse001029   1    
+     H11   H    4.2690   0.5600    11   bmse001029   1    
+     H12   H    1.4631   -1.0600   12   bmse001029   1    
+     H13   H    4.2690   -1.0600   13   bmse001029   1    
+     H14   H    2.3291   2.0600    14   bmse001029   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     Cl8   Cl1   BMRB     bmse001029   1    
+     O9    O2    BMRB     bmse001029   1    
+     C6    C3    BMRB     bmse001029   1    
+     C1    C4    BMRB     bmse001029   1    
+     C2    C5    BMRB     bmse001029   1    
+     C3    C6    BMRB     bmse001029   1    
+     C4    C7    BMRB     bmse001029   1    
+     C7    C8    BMRB     bmse001029   1    
+     C5    C9    BMRB     bmse001029   1    
+     H10   H10   BMRB     bmse001029   1    
+     H11   H11   BMRB     bmse001029   1    
+     H12   H12   BMRB     bmse001029   1    
+     H13   H13   BMRB     bmse001029   1    
+     H14   H14   BMRB     bmse001029   1    
+     Cl8   Cl8   ALATIS   bmse001029   1    
+     O9    O9    ALATIS   bmse001029   1    
+     C6    C6    ALATIS   bmse001029   1    
+     C1    C1    ALATIS   bmse001029   1    
+     C2    C2    ALATIS   bmse001029   1    
+     C3    C3    ALATIS   bmse001029   1    
+     C4    C4    ALATIS   bmse001029   1    
+     C7    C7    ALATIS   bmse001029   1    
+     C5    C5    ALATIS   bmse001029   1    
+     H10   H10   ALATIS   bmse001029   1    
+     H11   H11   ALATIS   bmse001029   1    
+     H12   H12   ALATIS   bmse001029   1    
+     H13   H13   ALATIS   bmse001029   1    
+     H14   H14   ALATIS   bmse001029   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1    covalent   SING   Cl8   C7    bmse001029   1    
+     2    covalent   DOUB   O9    C5    bmse001029   1    
+     3    covalent   DOUB   C6    C1    bmse001029   1    
+     4    covalent   SING   C6    C2    bmse001029   1    
+     5    covalent   SING   C6    C5    bmse001029   1    
+     6    covalent   SING   C1    C3    bmse001029   1    
+     7    covalent   SING   C1    H10   bmse001029   1    
+     8    covalent   DOUB   C2    C4    bmse001029   1    
+     9    covalent   SING   C2    H11   bmse001029   1    
+     10   covalent   DOUB   C3    C7    bmse001029   1    
+     11   covalent   SING   C3    H12   bmse001029   1    
+     12   covalent   SING   C4    C7    bmse001029   1    
+     13   covalent   SING   C4    H13   bmse001029   1    
+     14   covalent   SING   C5    H14   bmse001029   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     no    PubChem          160963348    sid                 4-chlorobenzaldehyde   'matching entry'   bmse001029   1    
+     yes   PubChem          7726         cid                 4-chlorobenzaldehyde   'matching entry'   bmse001029   1    
+     no    PubChem          48422543     sid                 4-chlorobenzaldehyde   'matching entry'   bmse001029   1    
+     no    PubChem          134970671    sid                 4-chlorobenzaldehyde   'matching entry'   bmse001029   1    
+     no    PubChem          8874         sid                 4-chlorobenzaldehyde   'matching entry'   bmse001029   1    
+     no    PubChem          142291536    sid                 4-chlorobenzaldehyde   'matching entry'   bmse001029   1    
+     no    'CAS Registry'   104-88-1     'registry number'   4-chlorobenzaldehyde   'matching entry'   bmse001029   1    
+     no    'EPA DSSTox'     30393        ?                   4-chlorobenzaldehyde   'matching entry'   bmse001029   1    
+     no    EINECS           203-247-4    ?                   4-chlorobenzaldehyde   'matching entry'   bmse001029   1    
+     no    CCRIS            857          ?                   4-chlorobenzaldehyde   'matching entry'   bmse001029   1    
+     no    KEGG             C06648       'compound ID'       4-chlorobenzaldehyde   'matching entry'   bmse001029   1    
+     no    ChemIDplus       0000104881   ?                   4-chlorobenzaldehyde   'matching entry'   bmse001029   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citation_1   bmse001029   1    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category   sample
+   _Sample.Sf_framecode  sample_1
+   _Sample.Entry_ID      bmse001029
+   _Sample.ID            1
+   _Sample.Type          solution
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_units
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   4-chlorobenzaldehyde   'natural abundance'   1   $4-chlorobenzaldehyde   Solute      100    mM   sigma   4-chlorobenzaldehyde   bmse001029   1    
+     2   benzene                ?                     ?   ?                       Solvent     100    %    ?       ?                      bmse001029   1    
+     3   TMS                    ?                     ?   ?                       Reference   0.05   mM   ?       ?                      bmse001029   1    
+
+   stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category   sample_conditions
+   _Sample_condition_list.Sf_framecode  sample_conditions_1
+   _Sample_condition_list.Entry_ID      bmse001029
+   _Sample_condition_list.ID            1
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+     pH            n/a   pH   bmse001029   1    
+     temperature   298   K    bmse001029   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmse001029
+   _Software.ID            1
+   _Software.Name          TopSpin
+   _Software.Version       3.1
+
+   loop_
+      _Vendor.Name
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Bruker Biospin'   bmse001029   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     Collection        bmse001029   1    
+     Processing        bmse001029   1    
+     'Data analysis'   bmse001029   1    
+     'Peak picking'    bmse001029   1    
+
+   stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_Bruker_DMX_400
+   _NMR_spectrometer.Sf_category     NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode    Bruker_DMX_400
+   _NMR_spectrometer.Entry_ID        bmse001029
+   _NMR_spectrometer.ID              1
+   _NMR_spectrometer.Manufacturer    Bruker
+   _NMR_spectrometer.Model           DMX
+   _NMR_spectrometer.Field_strength  400
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category   experiment_list
+   _Experiment_list.Sf_framecode  experiment_list
+   _Experiment_list.Entry_ID      bmse001029
+   _Experiment_list.ID            1
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+     1   '1D 1H'              yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_400   bmse001029   1    
+     2   '2D [1H,1H]-TOCSY'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_400   bmse001029   1    
+     3   '1D 13C'             yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_400   bmse001029   1    
+     4   '1D DEPT90'          yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_400   bmse001029   1    
+     5   '1D DEPT135'         yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_400   bmse001029   1    
+     6   '2D [1H,13C]-HSQC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_400   bmse001029   1    
+     7   '2D [1H,13C]-HMBC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_400   bmse001029   1    
+     8   '2D [1H,1H]-COSY'    yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_400   bmse001029   1    
+
+   stop_
+
+   loop_
+      _Experiment_file.Experiment_ID
+      _Experiment_file.Name
+      _Experiment_file.Type
+      _Experiment_file.Directory_path
+      _Experiment_file.Details
+      _Experiment_file.Entry_ID
+      _Experiment_file.Experiment_list_ID
+
+     1   1H            text/directory   nmr/set01/                      'NMR experiment directory'   bmse001029   1    
+     1   00.png        image/png        nmr/set01/spectra/1H            'Spectral image'             bmse001029   1    
+     2   HH_TOCSY      text/directory   nmr/set01/                      'NMR experiment directory'   bmse001029   1    
+     2   00.png        image/png        nmr/set01/spectra/HH_TOCSY      'Spectral image'             bmse001029   1    
+     3   13C           text/directory   nmr/set01/                      'NMR experiment directory'   bmse001029   1    
+     3   00.png        image/png        nmr/set01/spectra/13C           'Spectral image'             bmse001029   1    
+     4   DEPT_90       text/directory   nmr/set01/                      'NMR experiment directory'   bmse001029   1    
+     4   00.png        image/png        nmr/set01/spectra/DEPT_90       'Spectral image'             bmse001029   1    
+     5   DEPT_135      text/directory   nmr/set01/                      'NMR experiment directory'   bmse001029   1    
+     5   00.png        image/png        nmr/set01/spectra/DEPT_135      'Spectral image'             bmse001029   1    
+     6   1H_13C_HSQC   text/directory   nmr/set01/                      'NMR experiment directory'   bmse001029   1    
+     6   00.png        image/png        nmr/set01/spectra/1H_13C_HSQC   'Spectral image'             bmse001029   1    
+     7   1H_13C_HMBC   text/directory   nmr/set01/                      'NMR experiment directory'   bmse001029   1    
+     7   00.png        image/png        nmr/set01/spectra/1H_13C_HMBC   'Spectral image'             bmse001029   1    
+     8   HH_COSY       text/directory   nmr/set01/                      'NMR experiment directory'   bmse001029   1    
+     8   00.png        image/png        nmr/set01/spectra/HH_COSY       'Spectral image'             bmse001029   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference
+   _Chem_shift_reference.Entry_ID      bmse001029
+   _Chem_shift_reference.ID            1
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    TMS   'methyl protons'   ppm   0.00   internal   direct   1.000000000   bmse001029   1    
+     C   13   TMS   'methyl carbons'   ppm   0.00   internal   direct   1.000000000   bmse001029   1    
+
+   stop_
+
+save_

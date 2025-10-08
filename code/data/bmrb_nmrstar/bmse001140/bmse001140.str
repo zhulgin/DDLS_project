@@ -1,0 +1,1932 @@
+data_bmse001140
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                  entry_information
+   _Entry.Sf_framecode                 entry_information
+   _Entry.ID                           bmse001140
+   _Entry.Title                      
+;
+2,3-dihydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one
+;
+   _Entry.Type                         'metabolite/natural product'
+   _Entry.Version_type                 original
+   _Entry.Submission_date              2016-02-16
+   _Entry.Accession_date               2016-02-17
+   _Entry.Last_release_date            2016-02-17
+   _Entry.Original_release_date        2016-02-17
+   _Entry.Origination                  author
+   _Entry.NMR_STAR_version             3.1.1.92
+   _Entry.Original_NMR_STAR_version    3.1.1.92
+   _Entry.Experimental_method          NMR
+   _Entry.Experimental_method_subtype  solution
+   _Entry.DOI                          10.13018/BMSE001140
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+     1   Maria         Nesterova   M.   .    .    bmse001140    
+     2   Lawrence      Clos        L.   J.   II   bmse001140    
+     3   Christopher   Stancic     C.   .    .    bmse001140    
+     4   Mark          Anderson    M.   E.   .    bmse001140    
+     5   John          Markley     J.   L.   .    bmse001140    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   metabolomics   'National Magnetic Resonance Facility at Madison'   NMRFAM   bmse001140    
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+     assigned_chemical_shifts   1   bmse001140    
+     spectral_peak_list         5   bmse001140    
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+     '13C chemical shifts'   18   bmse001140    
+     '1H chemical shifts'    20   bmse001140    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1   .   .   2016-02-17   .            original   BMRB   .                                                                                      bmse001140    
+     2   .   .   2017-10-12   2017-10-12   update     BMRB   'Remediated Experiment_file loop if present and standardized mol and png file tags.'   bmse001140    
+     3   .   .   2017-12-19   2017-10-12   update     BMRB   'InChI numbering updated according to ALATIS'                                          bmse001140    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citation_pubchem
+   _Citation.Sf_category        citations
+   _Citation.Sf_framecode       citation_pubchem
+   _Citation.Entry_ID           bmse001140
+   _Citation.ID                 1
+   _Citation.Class              'reference citation'
+   _Citation.DOI                10.1093/nar/gkl1031
+   _Citation.PubMed_ID          17170002
+   _Citation.Title            
+;
+Database resources of the National Center for Biotechnology Information
+;
+   _Citation.Status             published
+   _Citation.Type               journal
+   _Citation.Journal_abbrev     'Nucleic Acids Res.'
+   _Citation.Journal_name_full  'Nucleic Acids Research'
+   _Citation.Journal_volume     35
+   _Citation.Journal_issue      'Database issue'
+   _Citation.Journal_ISSN       0305-1048
+   _Citation.Page_first         D1
+   _Citation.Page_last          D2
+   _Citation.Year               2007
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    David        Wheeler      D.   L.   bmse001140   1    
+     2    Tanya        Barrett      T.   .    bmse001140   1    
+     3    Dennis       Benson       D.   A.   bmse001140   1    
+     4    Stephen      Bryant       S.   H.   bmse001140   1    
+     5    Kathi        Canese       K.   .    bmse001140   1    
+     6    Vyacheslav   Chetvenin    V.   .    bmse001140   1    
+     7    Deanna       Church       D.   M.   bmse001140   1    
+     8    Michael      DiCuccio     M.   .    bmse001140   1    
+     9    Ron          Edgar        R.   .    bmse001140   1    
+     10   Scott        Federhen     S.   .    bmse001140   1    
+     11   Lewis        Geer         L.   Y.   bmse001140   1    
+     13   Yuri         Kapustin     Y.   .    bmse001140   1    
+     14   Oleg         Khovayko     O.   .    bmse001140   1    
+     15   David        Landsman     D.   .    bmse001140   1    
+     16   David        Lipman       D.   J.   bmse001140   1    
+     17   Thomas       Madden       T.   L.   bmse001140   1    
+     18   Donna        Maglott      D.   R.   bmse001140   1    
+     19   James        Ostell       J.   .    bmse001140   1    
+     20   Vadim        Miller       V.   .    bmse001140   1    
+     21   Kim          Pruitt       K.   D.   bmse001140   1    
+     22   Gregory      Schuler      G.   D.   bmse001140   1    
+     23   Edwin        Sequeira     E.   .    bmse001140   1    
+     24   Steven       Sherry       S.   T.   bmse001140   1    
+     25   Karl         Sirotkin     K.   .    bmse001140   1    
+     26   Alexandre    Souvorov     A.   .    bmse001140   1    
+     27   Grigory      Starchenko   G.   .    bmse001140   1    
+     28   Roman        Tatusov      R.   L.   bmse001140   1    
+     29   Tatiana      Tatusova     T.   A.   bmse001140   1    
+     30   Lukas        Wagner       L.   .    bmse001140   1    
+     31   Eugene       Yaschenko    E.   .    bmse001140   1    
+
+   stop_
+
+save_
+
+save_citation_nmrbot
+   _Citation.Sf_category        citations
+   _Citation.Sf_framecode       citation_nmrbot
+   _Citation.Entry_ID           bmse001140
+   _Citation.ID                 2
+   _Citation.Class              'reference citation'
+   _Citation.DOI                10.1007/s11306-012-0490-9
+   _Citation.PubMed_ID          PMC3651530
+   _Citation.Title            
+;
+NMRbot: Python scripts enable high-throughput data collection on current Bruker BioSpin NMR spectrometers
+;
+   _Citation.Status             published
+   _Citation.Type               journal
+   _Citation.Journal_abbrev     Metabolomics
+   _Citation.Journal_name_full  Metabolomics
+   _Citation.Journal_volume     9
+   _Citation.Journal_issue      3
+   _Citation.Journal_ISSN       1573-3882
+   _Citation.Page_first         558
+   _Citation.Page_last          563
+   _Citation.Year               2013
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1   Lawrence   Clos       L.   J.   II   bmse001140   2    
+     2   M          Jofre      M.   F.   .    bmse001140   2    
+     3   James      Ellinger   J.   J.   .    bmse001140   2    
+     4   William    Westler    W.   M.   .    bmse001140   2    
+     5   John       Markley    J.   L.   .    bmse001140   2    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly_1
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly_1
+   _Assembly.Entry_ID              bmse001140
+   _Assembly.ID                    1
+   _Assembly.Name                  2,3-dihydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one
+   _Assembly.Number_of_components  1
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not present'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   2,3-dihydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one   1   $entity_1   yes   native   no   no   bmse001140   1    
+
+   stop_
+
+   loop_
+      _Atom.Assembly_atom_ID
+      _Atom.Entity_assembly_ID
+      _Atom.Entity_ID
+      _Atom.Comp_index_ID
+      _Atom.Seq_ID
+      _Atom.Comp_ID
+      _Atom.Atom_ID
+      _Atom.Type_symbol
+      _Atom.Entry_ID
+      _Atom.Assembly_ID
+
+     1    1   1   1   1   BMET001140   O21   O   bmse001140   1    
+     2    1   1   1   1   BMET001140   O20   O   bmse001140   1    
+     3    1   1   1   1   BMET001140   O19   O   bmse001140   1    
+     4    1   1   1   1   BMET001140   C14   C   bmse001140   1    
+     5    1   1   1   1   BMET001140   C18   C   bmse001140   1    
+     6    1   1   1   1   BMET001140   C12   C   bmse001140   1    
+     7    1   1   1   1   BMET001140   C11   C   bmse001140   1    
+     8    1   1   1   1   BMET001140   C7    C   bmse001140   1    
+     9    1   1   1   1   BMET001140   C4    C   bmse001140   1    
+     10   1   1   1   1   BMET001140   C6    C   bmse001140   1    
+     11   1   1   1   1   BMET001140   C3    C   bmse001140   1    
+     12   1   1   1   1   BMET001140   C17   C   bmse001140   1    
+     13   1   1   1   1   BMET001140   C5    C   bmse001140   1    
+     14   1   1   1   1   BMET001140   C1    C   bmse001140   1    
+     15   1   1   1   1   BMET001140   C13   C   bmse001140   1    
+     16   1   1   1   1   BMET001140   C2    C   bmse001140   1    
+     17   1   1   1   1   BMET001140   C10   C   bmse001140   1    
+     18   1   1   1   1   BMET001140   C9    C   bmse001140   1    
+     19   1   1   1   1   BMET001140   C8    C   bmse001140   1    
+     20   1   1   1   1   BMET001140   C16   C   bmse001140   1    
+     21   1   1   1   1   BMET001140   C15   C   bmse001140   1    
+     22   1   1   1   1   BMET001140   H43   H   bmse001140   1    
+     23   1   1   1   1   BMET001140   H42   H   bmse001140   1    
+     24   1   1   1   1   BMET001140   H41   H   bmse001140   1    
+     25   1   1   1   1   BMET001140   H40   H   bmse001140   1    
+     26   1   1   1   1   BMET001140   H39   H   bmse001140   1    
+     27   1   1   1   1   BMET001140   H35   H   bmse001140   1    
+     28   1   1   1   1   BMET001140   H36   H   bmse001140   1    
+     29   1   1   1   1   BMET001140   H29   H   bmse001140   1    
+     30   1   1   1   1   BMET001140   H30   H   bmse001140   1    
+     31   1   1   1   1   BMET001140   H33   H   bmse001140   1    
+     32   1   1   1   1   BMET001140   H34   H   bmse001140   1    
+     33   1   1   1   1   BMET001140   H27   H   bmse001140   1    
+     34   1   1   1   1   BMET001140   H28   H   bmse001140   1    
+     35   1   1   1   1   BMET001140   H31   H   bmse001140   1    
+     36   1   1   1   1   BMET001140   H32   H   bmse001140   1    
+     37   1   1   1   1   BMET001140   H23   H   bmse001140   1    
+     38   1   1   1   1   BMET001140   H24   H   bmse001140   1    
+     39   1   1   1   1   BMET001140   H22   H   bmse001140   1    
+     40   1   1   1   1   BMET001140   H25   H   bmse001140   1    
+     41   1   1   1   1   BMET001140   H26   H   bmse001140   1    
+     42   1   1   1   1   BMET001140   H38   H   bmse001140   1    
+     43   1   1   1   1   BMET001140   H37   H   bmse001140   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_entity_1
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     entity_1
+   _Entity.Entry_ID                         bmse001140
+   _Entity.ID                               1
+   _Entity.Name                             2,3-dihydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Nonpolymer_comp_ID               BMET001140
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Formula_weight                   286.36548
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   BMET001140   $chem_comp_1   bmse001140   1    
+
+   stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category   natural_source
+   _Entity_natural_src_list.Sf_framecode  natural_source
+   _Entity_natural_src_list.Entry_ID      bmse001140
+   _Entity_natural_src_list.ID            1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+     1   1   $entity_1   na   'multiple natural sources'   yes   na   na   na   na   na   bmse001140   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category   experimental_source
+   _Entity_experimental_src_list.Sf_framecode  experimental_source
+   _Entity_experimental_src_list.Entry_ID      bmse001140
+   _Entity_experimental_src_list.ID            1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+     1   1   $entity_1   'chemical synthesis'   bmse001140   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                  chem_comp
+   _Chem_comp.Sf_framecode                 chem_comp_1
+   _Chem_comp.Entry_ID                     bmse001140
+   _Chem_comp.ID                           BMET001140
+   _Chem_comp.Provenance                   BMRB
+   _Chem_comp.Name                         2,3-dihydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one
+   _Chem_comp.Type                         non-polymer
+   _Chem_comp.BMRB_code                    BMET001140
+   _Chem_comp.Initial_date                 2016-02-16
+   _Chem_comp.Number_atoms_all             43
+   _Chem_comp.Number_atoms_nh              21
+   _Chem_comp.InChI_code                   InChI=1S/C18H22O3/c1-18-7-6-11-12(14(18)4-5-17(18)21)3-2-10-8-15(19)16(20)9-13(10)11/h8-9,11-12,14,19-20H,2-7H2,1H3/t11-,12+,14-,18-/m0/s1
+   _Chem_comp.Formal_charge                0
+   _Chem_comp.Paramagnetic                 no
+   _Chem_comp.Aromatic                     yes
+   _Chem_comp.Formula                      C18H22O3
+   _Chem_comp.Formula_weight               286.36548
+   _Chem_comp.Formula_mono_iso_wt_nat      286.156894564001
+   _Chem_comp.Formula_mono_iso_wt_13C      304.217281648001
+   _Chem_comp.Formula_mono_iso_wt_15N      286.156894564001
+   _Chem_comp.Formula_mono_iso_wt_13C_15N  304.217281648001
+   _Chem_comp.Image_file_name              bmse001140.png
+   _Chem_comp.Image_file_format            png
+   _Chem_comp.Struct_file_name             bmse001140.mol
+   _Chem_comp.Struct_file_format           mol
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     2-Hydroxyestrone   name   bmse001140   BMET001140    
+
+   stop_
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+     CC12CCC3C(C1CCC2=O)CCC4=CC(=C(C=C34)O)O                                                                                                       SMILES_CANONICAL   PUBCHEM_OPENEYE   na          bmse001140   BMET001140    
+     CC12CCC3c4cc(O)c(O)cc4CCC3C1CCC2=O                                                                                                            SMILES_CANONICAL   RDKit             2015.09.2   bmse001140   BMET001140    
+     C[C@]12CC[C@@H]3c4cc(O)c(O)cc4CC[C@H]3[C@@H]1CCC2=O                                                                                           SMILES_ISOMERIC    RDKit             2015.09.2   bmse001140   BMET001140    
+     C[C@]12CC[C@H]3[C@H]([C@@H]1CCC2=O)CCC4=CC(=C(C=C34)O)O                                                                                       SMILES_ISOMERIC    PUBCHEM_OPENEYE   na          bmse001140   BMET001140    
+     
+;
+InChI=1S/C18H22O3/c1-18-7-6-11-12(14(18)4-5-17(18)21)3-2-10-8-15(19)16(20)9-13(10)11/h8-9,11-12,14,19-20H,2-7H2,1H3/t11-,12+,14-,18-/m0/s1
+;
+INCHI              OpenBabel         2.3.2       bmse001140   BMET001140    
+     
+;
+InChI=1S/C18H22O3/c1-18-7-6-11-12(14(18)4-5-17(18)21)3-2-10-8-15(19)16(20)9-13(10)11/h8-9,11-12,14,19-20H,2-7H2,1H3/t11-,12+,14-,18-/m0/s1
+;
+INCHI              PUBCHEM_IUPAC     na          bmse001140   BMET001140    
+     
+;
+InChI=1S/C18H22O3/c1-18-7-6-11-12(14(18)4-5-17(18)21)3-2-10-8-15(19)16(20)9-13(10)11/h8-9,11-12,14,19-20H,2-7H2,1H3/t11-,12+,14-,18-/m0/s1
+;
+INCHI              RDKit             2015.09.2   bmse001140   BMET001140    
+     O=C1C2(C)C(C3C(CC2)c2c(cc(O)c(O)c2)CC3)CC1                                                                                                    SMILES             RDKit             2015.09.2   bmse001140   BMET001140    
+     O=C1CC[C@@H]2[C@]1(C)CC[C@H]1[C@H]2CCc2c1cc(O)c(c2)O                                                                                          SMILES             OpenBabel         2.3.2       bmse001140   BMET001140    
+     O=C1CC[C@@H]2[C@]1(C)CC[C@H]1[C@H]2CCc2c1cc(O)c(c2)O                                                                                          SMILES_CANONICAL   OpenBabel         2.3.2       bmse001140   BMET001140    
+     SWINWPBPEKHUOD-JPVZDGGYSA-N                                                                                                                   INCHI_KEY          OpenBabel         2.3.2       bmse001140   BMET001140    
+     SWINWPBPEKHUOD-JPVZDGGYSA-N                                                                                                                   INCHI_KEY          PUBCHEM_IUPAC     na          bmse001140   BMET001140    
+     SWINWPBPEKHUOD-JPVZDGGYSA-N                                                                                                                   INCHI_KEY          RDKit             2015.09.2   bmse001140   BMET001140    
+     InChI=1S/C18H22O3/c1-18-7-6-11-12(14(18)4-5-17(18)21)3-2-10-8-15(19)16(20)9-13(10)11/h8-9,11-12,14,19-20H,2-7H2,1H3/t11-,12+,14-,18-/m0/s1    INCHI              ALATIS            1.0         bmse001140   BMET001140    
+
+   stop_
+
+   loop_
+      _Chem_comp_identifier.Identifier
+      _Chem_comp_identifier.Type
+      _Chem_comp_identifier.Program
+      _Chem_comp_identifier.Program_version
+      _Chem_comp_identifier.Entry_ID
+      _Chem_comp_identifier.Comp_ID
+
+     (8R,9S,13S,14S)-13-methyl-2,3-bis(oxidanyl)-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one   PUBCHEM_IUPAC_SYSTEMATIC_NAME    na                   na   bmse001140   BMET001140    
+     (8R,9S,13S,14S)-2,3-dihydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one       PUBCHEM_IUPAC_CAS_NAME           na                   na   bmse001140   BMET001140    
+     (8R,9S,13S,14S)-2,3-dihydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one       PUBCHEM_IUPAC_NAME               na                   na   bmse001140   BMET001140    
+     (8R,9S,13S,14S)-2,3-dihydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one       PUBCHEM_IUPAC_OPENEYE_NAME       na                   na   bmse001140   BMET001140    
+     (8R,9S,13S,14S)-2,3-dihydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one       PUBCHEM_IUPAC_TRADITIONAL_NAME   na                   na   bmse001140   BMET001140    
+     (8R,9S,13S,14S)-2,3-dihydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one       'SYSTEMATIC NAME'                cactus.nci.nih.gov   na   bmse001140   BMET001140    
+     2,3-dihydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one                       'SYSTEMATIC NAME'                cactus.nci.nih.gov   na   bmse001140   BMET001140    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     O21   O   N   0   no    8.6524   2.4638    1    bmse001140   BMET001140    
+     O20   O   N   0   no    2.0185   0.2478    2    bmse001140   BMET001140    
+     O19   O   N   0   no    2.0024   -1.8438   3    bmse001140   BMET001140    
+     C14   C   S   0   no    7.3955   0.2085    4    bmse001140   BMET001140    
+     C18   C   S   0   no    7.3955   1.2085    5    bmse001140   BMET001140    
+     C12   C   R   0   no    6.5294   -0.2915   6    bmse001140   BMET001140    
+     C11   C   S   0   no    5.6634   0.2085    7    bmse001140   BMET001140    
+     C7    C   N   0   no    6.5294   1.7085    8    bmse001140   BMET001140    
+     C4    C   N   0   no    8.3417   -0.0962   9    bmse001140   BMET001140    
+     C6    C   N   0   no    5.6634   1.2085    10   bmse001140   BMET001140    
+     C3    C   N   0   no    6.5455   -1.333    11   bmse001140   BMET001140    
+     C17   C   N   0   no    8.3417   1.5133    12   bmse001140   BMET001140    
+     C5    C   N   0   no    8.9253   0.7085    13   bmse001140   BMET001140    
+     C1    C   N   0   no    7.3955   2.2085    14   bmse001140   BMET001140    
+     C13   C   N   0   yes   4.7534   -0.2983   15   bmse001140   BMET001140    
+     C2    C   N   0   no    5.6475   -1.8607   16   bmse001140   BMET001140    
+     C10   C   N   0   yes   4.7454   -1.3399   17   bmse001140   BMET001140    
+     C9    C   N   0   yes   3.8266   0.2658    18   bmse001140   BMET001140    
+     C8    C   N   0   yes   3.81     -1.8896   19   bmse001140   BMET001140    
+     C16   C   N   0   yes   2.8787   -0.2622   20   bmse001140   BMET001140    
+     C15   C   N   0   yes   2.8703   -1.3471   21   bmse001140   BMET001140    
+     H43   H   N   0   no    7.4854   -0.6367   22   bmse001140   BMET001140    
+     H42   H   N   0   no    7.2688   -0.7108   23   bmse001140   BMET001140    
+     H41   H   N   0   no    6.3995   0.6335    24   bmse001140   BMET001140    
+     H40   H   N   0   no    6.928    2.1835    25   bmse001140   BMET001140    
+     H39   H   N   0   no    6.1309   2.1835    26   bmse001140   BMET001140    
+     H35   H   N   0   no    8.0907   -0.6631   27   bmse001140   BMET001140    
+     H36   H   N   0   no    8.8791   -0.4054   28   bmse001140   BMET001140    
+     H29   H   N   0   no    5.4514   1.7912    29   bmse001140   BMET001140    
+     H30   H   N   0   no    5.0528   1.1009    30   bmse001140   BMET001140    
+     H33   H   N   0   no    6.7635   -1.9134   31   bmse001140   BMET001140    
+     H34   H   N   0   no    7.1546   -1.2175   32   bmse001140   BMET001140    
+     H27   H   N   0   no    9.3862   0.2938    33   bmse001140   BMET001140    
+     H28   H   N   0   no    9.3862   1.1233    34   bmse001140   BMET001140    
+     H31   H   N   0   no    8.0155   2.2085    35   bmse001140   BMET001140    
+     H32   H   N   0   no    7.3955   2.8285    36   bmse001140   BMET001140    
+     H23   H   N   0   no    6.7755   2.2085    37   bmse001140   BMET001140    
+     H24   H   N   0   no    5.2502   -2.3367   38   bmse001140   BMET001140    
+     H22   H   N   0   no    6.0484   -2.3336   39   bmse001140   BMET001140    
+     H25   H   N   0   no    3.8385   0.8857    40   bmse001140   BMET001140    
+     H26   H   N   0   no    3.8124   -2.5096   41   bmse001140   BMET001140    
+     H38   H   N   0   no    2.0257   0.8678    42   bmse001140   BMET001140    
+     H37   H   N   0   no    2.0      -2.4638   43   bmse001140   BMET001140    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1    carbonyl   DOUB   O21   C17   no    N   1    bmse001140   BMET001140    
+     2    covalent   SING   O20   C16   no    N   2    bmse001140   BMET001140    
+     3    covalent   SING   O20   H38   no    N   3    bmse001140   BMET001140    
+     4    covalent   SING   O19   C15   no    N   4    bmse001140   BMET001140    
+     5    covalent   SING   O19   H37   no    N   5    bmse001140   BMET001140    
+     6    covalent   SING   C14   C18   no    N   6    bmse001140   BMET001140    
+     7    covalent   SING   C14   C12   no    N   7    bmse001140   BMET001140    
+     8    covalent   SING   C14   C4    no    N   8    bmse001140   BMET001140    
+     9    covalent   SING   C14   H43   no    N   9    bmse001140   BMET001140    
+     10   covalent   SING   C18   C7    no    N   10   bmse001140   BMET001140    
+     11   covalent   SING   C18   C17   no    N   11   bmse001140   BMET001140    
+     12   covalent   SING   C18   C1    no    N   12   bmse001140   BMET001140    
+     13   covalent   SING   C12   C11   no    N   13   bmse001140   BMET001140    
+     14   covalent   SING   C12   C3    no    N   14   bmse001140   BMET001140    
+     15   covalent   SING   C12   H42   no    N   15   bmse001140   BMET001140    
+     16   covalent   SING   C11   C6    no    N   16   bmse001140   BMET001140    
+     17   covalent   SING   C11   C13   no    N   17   bmse001140   BMET001140    
+     18   covalent   SING   C11   H41   no    N   18   bmse001140   BMET001140    
+     19   covalent   SING   C7    C6    no    N   19   bmse001140   BMET001140    
+     20   covalent   SING   C7    H40   no    N   20   bmse001140   BMET001140    
+     21   covalent   SING   C7    H39   no    N   21   bmse001140   BMET001140    
+     22   covalent   SING   C4    C5    no    N   22   bmse001140   BMET001140    
+     23   covalent   SING   C4    H35   no    N   23   bmse001140   BMET001140    
+     24   covalent   SING   C4    H36   no    N   24   bmse001140   BMET001140    
+     25   covalent   SING   C6    H29   no    N   25   bmse001140   BMET001140    
+     26   covalent   SING   C6    H30   no    N   26   bmse001140   BMET001140    
+     27   covalent   SING   C3    C2    no    N   27   bmse001140   BMET001140    
+     28   covalent   SING   C3    H33   no    N   28   bmse001140   BMET001140    
+     29   covalent   SING   C3    H34   no    N   29   bmse001140   BMET001140    
+     30   covalent   SING   C17   C5    no    N   30   bmse001140   BMET001140    
+     31   covalent   SING   C5    H27   no    N   31   bmse001140   BMET001140    
+     32   covalent   SING   C5    H28   no    N   32   bmse001140   BMET001140    
+     33   covalent   SING   C1    H31   no    N   33   bmse001140   BMET001140    
+     34   covalent   SING   C1    H32   no    N   34   bmse001140   BMET001140    
+     35   covalent   SING   C1    H23   no    N   35   bmse001140   BMET001140    
+     36   covalent   AROM   C13   C10   yes   N   36   bmse001140   BMET001140    
+     37   covalent   AROM   C13   C9    yes   N   37   bmse001140   BMET001140    
+     38   covalent   SING   C2    C10   no    N   38   bmse001140   BMET001140    
+     39   covalent   SING   C2    H24   no    N   39   bmse001140   BMET001140    
+     40   covalent   SING   C2    H22   no    N   40   bmse001140   BMET001140    
+     41   covalent   AROM   C10   C8    yes   N   41   bmse001140   BMET001140    
+     42   covalent   AROM   C9    C16   yes   N   42   bmse001140   BMET001140    
+     43   covalent   SING   C9    H25   no    N   43   bmse001140   BMET001140    
+     44   covalent   AROM   C8    C15   yes   N   44   bmse001140   BMET001140    
+     45   covalent   SING   C8    H26   no    N   45   bmse001140   BMET001140    
+     46   covalent   AROM   C16   C15   yes   N   46   bmse001140   BMET001140    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     yes   MMCD      cq_02997   .     bmse001140   BMET001140    
+     yes   PubChem   440623     cid   bmse001140   BMET001140    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citation_pubchem   bmse001140   BMET001140    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category   sample
+   _Sample.Sf_framecode  sample_1
+   _Sample.Entry_ID      bmse001140
+   _Sample.ID            1
+   _Sample.Type          solution
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_units
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   2,3-dihydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one   'natural abundance'   1   $assembly_1   1   $entity_1   solute      100     mM   Sigma-Aldrich   2-Hydroxyestrone   'H3006 Sigma'   bmse001140   1    
+     2   DMSO                                                                                        .                     .   .             .   .           solvent     100.0   %    .               .                  .               bmse001140   1    
+     3   TMS                                                                                         .                     .   .             .   .           reference   0.05    %    .               .                  .               bmse001140   1    
+
+   stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category   sample_conditions
+   _Sample_condition_list.Sf_framecode  sample_conditions_1
+   _Sample_condition_list.Entry_ID      bmse001140
+   _Sample_condition_list.ID            1
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+     pressure      1     .     atm   bmse001140   1    
+     temperature   298   0.1   K     bmse001140   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_topspin
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_topspin
+   _Software.Entry_ID      bmse001140
+   _Software.ID            1
+   _Software.Name          TopSpin
+   _Software.Version       2.1
+
+   loop_
+      _Vendor.Name
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Bruker Biospin'   http://www.bruker.com/products/mr/nmr/nmr-software/software/topspin/overview.html   bmse001140   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     collection        bmse001140   1    
+     'data analysis'   bmse001140   1    
+     'peak picking'    bmse001140   1    
+     processing        bmse001140   1    
+
+   stop_
+
+save_
+
+save_software_nmrbot
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_nmrbot
+   _Software.Entry_ID      bmse001140
+   _Software.ID            2
+   _Software.Name          NMRbot
+   _Software.Version       20140226
+
+   loop_
+      _Vendor.Name
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     NMRFAM   http://www.nmrfam.wisc.edu/software/nmrbot/   bmse001140   2    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     collection   bmse001140   2    
+
+   stop_
+
+   loop_
+      _Software_citation.Citation_ID
+      _Software_citation.Citation_label
+      _Software_citation.Entry_ID
+      _Software_citation.Software_ID
+
+     2   $citation_nmrbot   bmse001140   2    
+
+   stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_kerry
+   _NMR_spectrometer.Sf_category     NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode    kerry
+   _NMR_spectrometer.Entry_ID        bmse001140
+   _NMR_spectrometer.ID              1
+   _NMR_spectrometer.Details         'equipped with SampleJet automated sample changer'
+   _NMR_spectrometer.Manufacturer    Bruker
+   _NMR_spectrometer.Model           'Avance III'
+   _NMR_spectrometer.Field_strength  500
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category   experiment_list
+   _Experiment_list.Sf_framecode  experiment_list
+   _Experiment_list.Entry_ID      bmse001140
+   _Experiment_list.ID            1
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+     1    '1D 1H'                       yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $kerry   bmse001140   1    
+     2    '2D 1H-1H TOCSY'              yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $kerry   bmse001140   1    
+     3    '1D 13C'                      yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $kerry   bmse001140   1    
+     4    '1D DEPT90'                   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $kerry   bmse001140   1    
+     5    '1D DEPT135'                  yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $kerry   bmse001140   1    
+     6    '2D 1H-13C HSQC'              yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $kerry   bmse001140   1    
+     7    '2D 1H-13C HSQC SW small'     yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $kerry   bmse001140   1    
+     8    '2D 1H-13C HMBC'              yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $kerry   bmse001140   1    
+     9    '2D 1H-1H COSY'               yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $kerry   bmse001140   1    
+     10   '2D 1H-13C HSQC-TOCSY-ADIA'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $kerry   bmse001140   1    
+
+   stop_
+
+   loop_
+      _Experiment_file.Experiment_ID
+      _Experiment_file.Name
+      _Experiment_file.Type
+      _Experiment_file.Directory_path
+      _Experiment_file.Details
+      _Experiment_file.Entry_ID
+      _Experiment_file.Experiment_list_ID
+
+     1    1D_1H                             text/directory   nmr/set01                                     'NMR experiment directory'   bmse001140   1    
+     1    1D_1H.xml                         text/xml         nmr/set01/transitions/1D_1H                   'TopSpin peak list'          bmse001140   1    
+     1    1D_1H_0.png                       image/png        nmr/set01/spectra/1D_1H                       'Spectral image'             bmse001140   1    
+     2    2D_1H-1H_TOCSY                    text/directory   nmr/set01                                     'NMR experiment directory'   bmse001140   1    
+     2    2D_1H-1H_TOCSY_0.png              image/png        nmr/set01/spectra/2D_1H-1H_TOCSY              'Spectral image'             bmse001140   1    
+     3    1D_13C                            text/directory   nmr/set01                                     'NMR experiment directory'   bmse001140   1    
+     3    1D_13C.xml                        text/xml         nmr/set01/transitions/1D_13C                  'TopSpin peak list'          bmse001140   1    
+     3    1D_13C_0.png                      image/png        nmr/set01/spectra/1D_13C                      'Spectral image'             bmse001140   1    
+     4    1D_DEPT90                         text/directory   nmr/set01                                     'NMR experiment directory'   bmse001140   1    
+     4    1D_DEPT90.xml                     text/xml         nmr/set01/transitions/1D_DEPT90               'TopSpin peak list'          bmse001140   1    
+     4    1D_DEPT90_0.png                   image/png        nmr/set01/spectra/1D_DEPT90                   'Spectral image'             bmse001140   1    
+     5    1D_DEPT135                        text/directory   nmr/set01                                     'NMR experiment directory'   bmse001140   1    
+     5    1D_DEPT135.xml                    text/xml         nmr/set01/transitions/1D_DEPT135              'TopSpin peak list'          bmse001140   1    
+     5    1D_DEPT135_0.png                  image/png        nmr/set01/spectra/1D_DEPT135                  'Spectral image'             bmse001140   1    
+     6    2D_1H-13C_HSQC                    text/directory   nmr/set01                                     'NMR experiment directory'   bmse001140   1    
+     6    2D_1H-13C_HSQC.xml                text/xml         nmr/set01/transitions/2D_1H-13C_HSQC          'TopSpin peak list'          bmse001140   1    
+     6    2D_1H-13C_HSQC_0.png              image/png        nmr/set01/spectra/2D_1H-13C_HSQC              'Spectral image'             bmse001140   1    
+     7    2D_1H-13C_HSQC_SW_small           text/directory   nmr/set01                                     'NMR experiment directory'   bmse001140   1    
+     8    2D_1H-13C_HMBC                    text/directory   nmr/set01                                     'NMR experiment directory'   bmse001140   1    
+     8    2D_1H-13C_HMBC_0.png              image/png        nmr/set01/spectra/2D_1H-13C_HMBC              'Spectral image'             bmse001140   1    
+     9    2D_1H-1H_COSY                     text/directory   nmr/set01                                     'NMR experiment directory'   bmse001140   1    
+     9    2D_1H-1H_COSY_0.png               image/png        nmr/set01/spectra/2D_1H-1H_COSY               'Spectral image'             bmse001140   1    
+     10   2D_1H-13C_HSQC-TOCSY-ADIA         text/directory   nmr/set01                                     'NMR experiment directory'   bmse001140   1    
+     10   2D_1H-13C_HSQC-TOCSY-ADIA_0.png   image/png        nmr/set01/spectra/2D_1H-13C_HSQC-TOCSY-ADIA   'Spectral image'             bmse001140   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_ref_set01
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_ref_set01
+   _Chem_shift_reference.Entry_ID      bmse001140
+   _Chem_shift_reference.ID            1
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     C   13   TMS   'methyl carbons'   ppm   0.0   internal   direct   1.0   bmse001140   1    
+     H   1    TMS   'methyl protons'   ppm   0.0   internal   direct   1.0   bmse001140   1    
+
+   stop_
+
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_chem_shift_set01
+   _Assigned_chem_shift_list.Sf_category                  assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                 chem_shift_set01
+   _Assigned_chem_shift_list.Entry_ID                     bmse001140
+   _Assigned_chem_shift_list.ID                           1
+   _Assigned_chem_shift_list.Sample_condition_list_ID     1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID      1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chem_shift_ref_set01
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+     1    '1D 1H'                       1   $sample_1   bmse001140   1    
+     2    '2D 1H-1H TOCSY'              1   $sample_1   bmse001140   1    
+     3    '1D 13C'                      1   $sample_1   bmse001140   1    
+     4    '1D DEPT90'                   1   $sample_1   bmse001140   1    
+     5    '1D DEPT135'                  1   $sample_1   bmse001140   1    
+     6    '2D 1H-13C HSQC'              1   $sample_1   bmse001140   1    
+     8    '2D 1H-13C HMBC'              1   $sample_1   bmse001140   1    
+     9    '2D 1H-1H COSY'               1   $sample_1   bmse001140   1    
+     10   '2D 1H-13C HSQC-TOCSY-ADIA'   1   $sample_1   bmse001140   1    
+
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+     1   $software_topspin   bmse001140   1    
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+     1    4    1   1   1   BMET001140   C14   C   13   49.4727    1   bmse001140   1    
+     2    5    1   1   1   BMET001140   C18   C   13   47.3707    1   bmse001140   1    
+     3    6    1   1   1   BMET001140   C12   C   13   37.7206    1   bmse001140   1    
+     4    7    1   1   1   BMET001140   C11   C   13   43.4703    1   bmse001140   1    
+     5    8    1   1   1   BMET001140   C7    C   13   31.3391    1   bmse001140   1    
+     6    9    1   1   1   BMET001140   C4    C   13   21.1665    1   bmse001140   1    
+     7    10   1   1   1   BMET001140   C6    C   13   25.7157    1   bmse001140   1    
+     8    11   1   1   1   BMET001140   C3    C   13   26.4107    1   bmse001140   1    
+     9    12   1   1   1   BMET001140   C17   C   13   219.8335   1   bmse001140   1    
+     10   13   1   1   1   BMET001140   C5    C   13   35.3828    1   bmse001140   1    
+     11   14   1   1   1   BMET001140   C1    C   13   13.5845    1   bmse001140   1    
+     12   15   1   1   1   BMET001140   C13   C   13   126.3516   1   bmse001140   1    
+     13   16   1   1   1   BMET001140   C2    C   13   28.1799    1   bmse001140   1    
+     14   17   1   1   1   BMET001140   C10   C   13   129.9633   1   bmse001140   1    
+     15   18   1   1   1   BMET001140   C9    C   13   112.2413   1   bmse001140   1    
+     16   19   1   1   1   BMET001140   C8    C   13   115.4186   1   bmse001140   1    
+     17   20   1   1   1   BMET001140   C16   C   13   143.0603   1   bmse001140   1    
+     18   21   1   1   1   BMET001140   C15   C   13   143.0146   1   bmse001140   1    
+     19   22   1   1   1   BMET001140   H43   H   1    1.4508     1   bmse001140   1    
+     20   23   1   1   1   BMET001140   H42   H   1    1.4508     1   bmse001140   1    
+     21   24   1   1   1   BMET001140   H41   H   1    2.0989     1   bmse001140   1    
+     22   25   1   1   1   BMET001140   H40   H   1    1.35       2   bmse001140   1    
+     23   26   1   1   1   BMET001140   H39   H   1    1.7389     2   bmse001140   1    
+     24   27   1   1   1   BMET001140   H35   H   1    1.5444     2   bmse001140   1    
+     25   28   1   1   1   BMET001140   H36   H   1    1.9405     2   bmse001140   1    
+     26   29   1   1   1   BMET001140   H29   H   1    1.3536     2   bmse001140   1    
+     27   30   1   1   1   BMET001140   H30   H   1    2.1853     2   bmse001140   1    
+     28   31   1   1   1   BMET001140   H33   H   1    1.2888     2   bmse001140   1    
+     29   32   1   1   1   BMET001140   H34   H   1    1.8829     2   bmse001140   1    
+     30   33   1   1   1   BMET001140   H27   H   1    2.0485     2   bmse001140   1    
+     31   34   1   1   1   BMET001140   H28   H   1    2.4265     2   bmse001140   1    
+     32   35   1   1   1   BMET001140   H31   H   1    0.8244     1   bmse001140   1    
+     33   36   1   1   1   BMET001140   H32   H   1    0.8244     1   bmse001140   1    
+     34   37   1   1   1   BMET001140   H23   H   1    0.8244     1   bmse001140   1    
+     35   38   1   1   1   BMET001140   H24   H   1    2.6353     1   bmse001140   1    
+     36   39   1   1   1   BMET001140   H22   H   1    2.6353     1   bmse001140   1    
+     37   40   1   1   1   BMET001140   H25   H   1    6.6244     1   bmse001140   1    
+     38   41   1   1   1   BMET001140   H26   H   1    6.4166     1   bmse001140   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Spectral peak lists  #
+    #########################
+
+save_spectral_peaks_1D_1H_set01
+   _Spectral_peak_list.Sf_category                    spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                   spectral_peaks_1D_1H_set01
+   _Spectral_peak_list.Entry_ID                       bmse001140
+   _Spectral_peak_list.ID                             1
+   _Spectral_peak_list.Sample_ID                      1
+   _Spectral_peak_list.Sample_label                   $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID       1
+   _Spectral_peak_list.Sample_condition_list_label    $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                  1
+   _Spectral_peak_list.Experiment_name                '1D 1H'
+   _Spectral_peak_list.Number_of_spectral_dimensions  1
+   _Spectral_peak_list.Details                        'F1: 1H'
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Sweep_width_units
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+     1   H   1   'Full H'   16.03   ppm   bmse001140   1    
+
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+     1   $software_topspin   bmse001140   1    
+
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+     1     bmse001140   1    
+     2     bmse001140   1    
+     3     bmse001140   1    
+     4     bmse001140   1    
+     5     bmse001140   1    
+     6     bmse001140   1    
+     7     bmse001140   1    
+     8     bmse001140   1    
+     9     bmse001140   1    
+     10    bmse001140   1    
+     11    bmse001140   1    
+     12    bmse001140   1    
+     13    bmse001140   1    
+     14    bmse001140   1    
+     15    bmse001140   1    
+     16    bmse001140   1    
+     17    bmse001140   1    
+     18    bmse001140   1    
+     19    bmse001140   1    
+     20    bmse001140   1    
+     21    bmse001140   1    
+     22    bmse001140   1    
+     23    bmse001140   1    
+     24    bmse001140   1    
+     25    bmse001140   1    
+     26    bmse001140   1    
+     27    bmse001140   1    
+     28    bmse001140   1    
+     29    bmse001140   1    
+     30    bmse001140   1    
+     31    bmse001140   1    
+     32    bmse001140   1    
+     33    bmse001140   1    
+     34    bmse001140   1    
+     35    bmse001140   1    
+     36    bmse001140   1    
+     37    bmse001140   1    
+     38    bmse001140   1    
+     39    bmse001140   1    
+     40    bmse001140   1    
+     41    bmse001140   1    
+     42    bmse001140   1    
+     43    bmse001140   1    
+     44    bmse001140   1    
+     45    bmse001140   1    
+     46    bmse001140   1    
+     47    bmse001140   1    
+     48    bmse001140   1    
+     49    bmse001140   1    
+     50    bmse001140   1    
+     51    bmse001140   1    
+     52    bmse001140   1    
+     53    bmse001140   1    
+     54    bmse001140   1    
+     55    bmse001140   1    
+     56    bmse001140   1    
+     57    bmse001140   1    
+     58    bmse001140   1    
+     59    bmse001140   1    
+     60    bmse001140   1    
+     61    bmse001140   1    
+     62    bmse001140   1    
+     63    bmse001140   1    
+     64    bmse001140   1    
+     65    bmse001140   1    
+     66    bmse001140   1    
+     67    bmse001140   1    
+     68    bmse001140   1    
+     69    bmse001140   1    
+     70    bmse001140   1    
+     71    bmse001140   1    
+     72    bmse001140   1    
+     73    bmse001140   1    
+     74    bmse001140   1    
+     75    bmse001140   1    
+     76    bmse001140   1    
+     77    bmse001140   1    
+     78    bmse001140   1    
+     79    bmse001140   1    
+     80    bmse001140   1    
+     81    bmse001140   1    
+     82    bmse001140   1    
+     83    bmse001140   1    
+     84    bmse001140   1    
+     85    bmse001140   1    
+     86    bmse001140   1    
+     87    bmse001140   1    
+     88    bmse001140   1    
+     89    bmse001140   1    
+     90    bmse001140   1    
+     91    bmse001140   1    
+     92    bmse001140   1    
+     93    bmse001140   1    
+     94    bmse001140   1    
+     95    bmse001140   1    
+     96    bmse001140   1    
+     97    bmse001140   1    
+     98    bmse001140   1    
+     99    bmse001140   1    
+     100   bmse001140   1    
+     101   bmse001140   1    
+     102   bmse001140   1    
+     103   bmse001140   1    
+     104   bmse001140   1    
+     105   bmse001140   1    
+     106   bmse001140   1    
+     107   bmse001140   1    
+     108   bmse001140   1    
+     109   bmse001140   1    
+     110   bmse001140   1    
+     111   bmse001140   1    
+     112   bmse001140   1    
+     113   bmse001140   1    
+     114   bmse001140   1    
+
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+     1     92.96       'relative height'   bmse001140   1    
+     2     2202.44     'relative height'   bmse001140   1    
+     3     79.29       'relative height'   bmse001140   1    
+     4     94.78       'relative height'   bmse001140   1    
+     5     11325.58    'relative height'   bmse001140   1    
+     6     78.80       'relative height'   bmse001140   1    
+     7     2072.06     'relative height'   bmse001140   1    
+     8     12345.21    'relative height'   bmse001140   1    
+     9     55.16       'relative height'   bmse001140   1    
+     10    623.74      'relative height'   bmse001140   1    
+     11    568.70      'relative height'   bmse001140   1    
+     12    120.01      'relative height'   bmse001140   1    
+     13    158.69      'relative height'   bmse001140   1    
+     14    -101.68     'relative height'   bmse001140   1    
+     15    118.43      'relative height'   bmse001140   1    
+     16    -95.44      'relative height'   bmse001140   1    
+     17    61.50       'relative height'   bmse001140   1    
+     18    75.63       'relative height'   bmse001140   1    
+     19    -150.59     'relative height'   bmse001140   1    
+     20    114.04      'relative height'   bmse001140   1    
+     21    1063.59     'relative height'   bmse001140   1    
+     22    1148.34     'relative height'   bmse001140   1    
+     23    1828.05     'relative height'   bmse001140   1    
+     24    750085.10   'relative height'   bmse001140   1    
+     25    596.09      'relative height'   bmse001140   1    
+     26    903.25      'relative height'   bmse001140   1    
+     27    428.40      'relative height'   bmse001140   1    
+     28    -227.66     'relative height'   bmse001140   1    
+     29    416.83      'relative height'   bmse001140   1    
+     30    425.00      'relative height'   bmse001140   1    
+     31    190.73      'relative height'   bmse001140   1    
+     32    151.78      'relative height'   bmse001140   1    
+     33    179.73      'relative height'   bmse001140   1    
+     34    -75.87      'relative height'   bmse001140   1    
+     35    177.96      'relative height'   bmse001140   1    
+     36    -181.85     'relative height'   bmse001140   1    
+     37    100.33      'relative height'   bmse001140   1    
+     38    -87.49      'relative height'   bmse001140   1    
+     39    203.84      'relative height'   bmse001140   1    
+     40    800.72      'relative height'   bmse001140   1    
+     41    677.94      'relative height'   bmse001140   1    
+     42    2032.90     'relative height'   bmse001140   1    
+     43    1688.36     'relative height'   bmse001140   1    
+     44    4571.34     'relative height'   bmse001140   1    
+     45    3429.98     'relative height'   bmse001140   1    
+     46    1020.77     'relative height'   bmse001140   1    
+     47    864.07      'relative height'   bmse001140   1    
+     48    13831.57    'relative height'   bmse001140   1    
+     49    17177.72    'relative height'   bmse001140   1    
+     50    12068.13    'relative height'   bmse001140   1    
+     51    2347.41     'relative height'   bmse001140   1    
+     52    2436.81     'relative height'   bmse001140   1    
+     53    725.02      'relative height'   bmse001140   1    
+     54    3073.65     'relative height'   bmse001140   1    
+     55    2752.63     'relative height'   bmse001140   1    
+     56    161.25      'relative height'   bmse001140   1    
+     57    1579.64     'relative height'   bmse001140   1    
+     58    2327.34     'relative height'   bmse001140   1    
+     59    2152.13     'relative height'   bmse001140   1    
+     60    1868.83     'relative height'   bmse001140   1    
+     61    902.91      'relative height'   bmse001140   1    
+     62    3107.08     'relative height'   bmse001140   1    
+     63    4095.93     'relative height'   bmse001140   1    
+     64    4392.23     'relative height'   bmse001140   1    
+     65    3400.21     'relative height'   bmse001140   1    
+     66    3128.94     'relative height'   bmse001140   1    
+     67    1862.93     'relative height'   bmse001140   1    
+     68    1281.62     'relative height'   bmse001140   1    
+     69    1352.14     'relative height'   bmse001140   1    
+     70    2191.67     'relative height'   bmse001140   1    
+     71    1222.35     'relative height'   bmse001140   1    
+     72    1373.35     'relative height'   bmse001140   1    
+     73    1711.68     'relative height'   bmse001140   1    
+     74    1671.49     'relative height'   bmse001140   1    
+     75    1951.34     'relative height'   bmse001140   1    
+     76    1653.91     'relative height'   bmse001140   1    
+     77    323.86      'relative height'   bmse001140   1    
+     78    2240.25     'relative height'   bmse001140   1    
+     79    2376.60     'relative height'   bmse001140   1    
+     80    3057.02     'relative height'   bmse001140   1    
+     81    2969.00     'relative height'   bmse001140   1    
+     82    365.91      'relative height'   bmse001140   1    
+     83    263.60      'relative height'   bmse001140   1    
+     84    654.79      'relative height'   bmse001140   1    
+     85    1019.76     'relative height'   bmse001140   1    
+     86    1052.67     'relative height'   bmse001140   1    
+     87    1163.33     'relative height'   bmse001140   1    
+     88    1286.61     'relative height'   bmse001140   1    
+     89    1944.19     'relative height'   bmse001140   1    
+     90    1286.26     'relative height'   bmse001140   1    
+     91    1288.79     'relative height'   bmse001140   1    
+     92    632.77      'relative height'   bmse001140   1    
+     93    894.20      'relative height'   bmse001140   1    
+     94    3758.48     'relative height'   bmse001140   1    
+     95    4065.63     'relative height'   bmse001140   1    
+     96    3050.72     'relative height'   bmse001140   1    
+     97    544.43      'relative height'   bmse001140   1    
+     98    879.38      'relative height'   bmse001140   1    
+     99    5705.31     'relative height'   bmse001140   1    
+     100   6790.20     'relative height'   bmse001140   1    
+     101   1618.68     'relative height'   bmse001140   1    
+     102   1757.18     'relative height'   bmse001140   1    
+     103   974.24      'relative height'   bmse001140   1    
+     104   1768.31     'relative height'   bmse001140   1    
+     105   1770.10     'relative height'   bmse001140   1    
+     106   1505.08     'relative height'   bmse001140   1    
+     107   1474.42     'relative height'   bmse001140   1    
+     108   745.24      'relative height'   bmse001140   1    
+     109   778.83      'relative height'   bmse001140   1    
+     110   100.40      'relative height'   bmse001140   1    
+     111   118.06      'relative height'   bmse001140   1    
+     112   238.11      'relative height'   bmse001140   1    
+     113   42395.29    'relative height'   bmse001140   1    
+     114   216.84      'relative height'   bmse001140   1    
+
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+     1     1   7.3005   bmse001140   1    
+     2     1   6.9412   bmse001140   1    
+     3     1   6.7831   bmse001140   1    
+     4     1   6.6710   bmse001140   1    
+     5     1   6.6222   bmse001140   1    
+     6     1   6.5804   bmse001140   1    
+     7     1   6.4287   bmse001140   1    
+     8     1   6.4100   bmse001140   1    
+     9     1   6.2558   bmse001140   1    
+     10    1   5.9104   bmse001140   1    
+     11    1   5.8996   bmse001140   1    
+     12    1   3.5023   bmse001140   1    
+     13    1   3.4869   bmse001140   1    
+     14    1   3.4803   bmse001140   1    
+     15    1   3.4711   bmse001140   1    
+     16    1   3.4666   bmse001140   1    
+     17    1   3.4431   bmse001140   1    
+     18    1   3.4315   bmse001140   1    
+     19    1   3.4288   bmse001140   1    
+     20    1   3.4177   bmse001140   1    
+     21    1   3.4048   bmse001140   1    
+     22    1   3.3992   bmse001140   1    
+     23    1   3.3922   bmse001140   1    
+     24    1   3.3712   bmse001140   1    
+     25    1   3.3527   bmse001140   1    
+     26    1   3.3468   bmse001140   1    
+     27    1   3.3408   bmse001140   1    
+     28    1   3.3387   bmse001140   1    
+     29    1   3.3298   bmse001140   1    
+     30    1   3.3208   bmse001140   1    
+     31    1   3.3042   bmse001140   1    
+     32    1   3.2895   bmse001140   1    
+     33    1   3.2758   bmse001140   1    
+     34    1   3.2714   bmse001140   1    
+     35    1   3.2622   bmse001140   1    
+     36    1   3.2556   bmse001140   1    
+     37    1   3.2528   bmse001140   1    
+     38    1   3.2401   bmse001140   1    
+     39    1   2.7375   bmse001140   1    
+     40    1   2.7126   bmse001140   1    
+     41    1   2.7020   bmse001140   1    
+     42    1   2.6790   bmse001140   1    
+     43    1   2.6677   bmse001140   1    
+     44    1   2.6452   bmse001140   1    
+     45    1   2.6363   bmse001140   1    
+     46    1   2.6130   bmse001140   1    
+     47    1   2.6029   bmse001140   1    
+     48    1   2.5073   bmse001140   1    
+     49    1   2.5041   bmse001140   1    
+     50    1   2.5009   bmse001140   1    
+     51    1   2.4531   bmse001140   1    
+     52    1   2.4363   bmse001140   1    
+     53    1   2.4242   bmse001140   1    
+     54    1   2.4152   bmse001140   1    
+     55    1   2.3984   bmse001140   1    
+     56    1   2.3649   bmse001140   1    
+     57    1   2.2011   bmse001140   1    
+     58    1   2.1935   bmse001140   1    
+     59    1   2.1826   bmse001140   1    
+     60    1   2.1682   bmse001140   1    
+     61    1   2.1497   bmse001140   1    
+     62    1   2.0928   bmse001140   1    
+     63    1   2.0866   bmse001140   1    
+     64    1   2.0750   bmse001140   1    
+     65    1   2.0565   bmse001140   1    
+     66    1   2.0370   bmse001140   1    
+     67    1   2.0192   bmse001140   1    
+     68    1   1.9618   bmse001140   1    
+     69    1   1.9535   bmse001140   1    
+     70    1   1.9381   bmse001140   1    
+     71    1   1.9214   bmse001140   1    
+     72    1   1.9101   bmse001140   1    
+     73    1   1.9015   bmse001140   1    
+     74    1   1.8909   bmse001140   1    
+     75    1   1.8768   bmse001140   1    
+     76    1   1.8658   bmse001140   1    
+     77    1   1.7700   bmse001140   1    
+     78    1   1.7505   bmse001140   1    
+     79    1   1.7457   bmse001140   1    
+     80    1   1.7327   bmse001140   1    
+     81    1   1.7286   bmse001140   1    
+     82    1   1.7056   bmse001140   1    
+     83    1   1.6214   bmse001140   1    
+     84    1   1.6042   bmse001140   1    
+     85    1   1.5874   bmse001140   1    
+     86    1   1.5747   bmse001140   1    
+     87    1   1.5697   bmse001140   1    
+     88    1   1.5633   bmse001140   1    
+     89    1   1.5454   bmse001140   1    
+     90    1   1.5268   bmse001140   1    
+     91    1   1.5216   bmse001140   1    
+     92    1   1.5042   bmse001140   1    
+     93    1   1.4824   bmse001140   1    
+     94    1   1.4613   bmse001140   1    
+     95    1   1.4527   bmse001140   1    
+     96    1   1.4369   bmse001140   1    
+     97    1   1.4152   bmse001140   1    
+     98    1   1.3857   bmse001140   1    
+     99    1   1.3600   bmse001140   1    
+     100   1   1.3423   bmse001140   1    
+     101   1   1.3258   bmse001140   1    
+     102   1   1.3206   bmse001140   1    
+     103   1   1.3065   bmse001140   1    
+     104   1   1.2952   bmse001140   1    
+     105   1   1.2827   bmse001140   1    
+     106   1   1.2715   bmse001140   1    
+     107   1   1.2588   bmse001140   1    
+     108   1   1.2480   bmse001140   1    
+     109   1   1.2339   bmse001140   1    
+     110   1   1.0218   bmse001140   1    
+     111   1   0.9562   bmse001140   1    
+     112   1   0.9449   bmse001140   1    
+     113   1   0.8194   bmse001140   1    
+     114   1   0.6899   bmse001140   1    
+
+   stop_
+
+save_
+
+save_spectral_peaks_1D_13C_set01
+   _Spectral_peak_list.Sf_category                    spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                   spectral_peaks_1D_13C_set01
+   _Spectral_peak_list.Entry_ID                       bmse001140
+   _Spectral_peak_list.ID                             3
+   _Spectral_peak_list.Sample_ID                      1
+   _Spectral_peak_list.Sample_label                   $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID       1
+   _Spectral_peak_list.Sample_condition_list_label    $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                  3
+   _Spectral_peak_list.Experiment_name                '1D 13C'
+   _Spectral_peak_list.Number_of_spectral_dimensions  1
+   _Spectral_peak_list.Details                        'F1: 13C'
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Sweep_width_units
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+     1   C   13   'Full C'   248.61   ppm   bmse001140   3    
+
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+     1   $software_topspin   bmse001140   3    
+
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+     1    bmse001140   3    
+     2    bmse001140   3    
+     3    bmse001140   3    
+     4    bmse001140   3    
+     5    bmse001140   3    
+     6    bmse001140   3    
+     7    bmse001140   3    
+     8    bmse001140   3    
+     9    bmse001140   3    
+     10   bmse001140   3    
+     11   bmse001140   3    
+     12   bmse001140   3    
+     13   bmse001140   3    
+     14   bmse001140   3    
+     15   bmse001140   3    
+     16   bmse001140   3    
+     17   bmse001140   3    
+     18   bmse001140   3    
+
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+     1    0.27   'relative height'   bmse001140   3    
+     2    0.24   'relative height'   bmse001140   3    
+     3    0.30   'relative height'   bmse001140   3    
+     4    0.23   'relative height'   bmse001140   3    
+     5    0.28   'relative height'   bmse001140   3    
+     6    0.30   'relative height'   bmse001140   3    
+     7    0.29   'relative height'   bmse001140   3    
+     8    0.30   'relative height'   bmse001140   3    
+     9    0.35   'relative height'   bmse001140   3    
+     10   0.35   'relative height'   bmse001140   3    
+     11   0.29   'relative height'   bmse001140   3    
+     12   0.22   'relative height'   bmse001140   3    
+     13   0.22   'relative height'   bmse001140   3    
+     14   0.21   'relative height'   bmse001140   3    
+     15   0.20   'relative height'   bmse001140   3    
+     16   0.20   'relative height'   bmse001140   3    
+     17   0.23   'relative height'   bmse001140   3    
+     18   0.47   'relative height'   bmse001140   3    
+
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+     1    1   219.8335   bmse001140   3    
+     2    1   143.0603   bmse001140   3    
+     3    1   143.0146   bmse001140   3    
+     4    1   129.9633   bmse001140   3    
+     5    1   126.3516   bmse001140   3    
+     6    1   115.5773   bmse001140   3    
+     7    1   112.4886   bmse001140   3    
+     8    1   49.5945    bmse001140   3    
+     9    1   47.3707    bmse001140   3    
+     10   1   43.5386    bmse001140   3    
+     11   1   37.9452    bmse001140   3    
+     12   1   35.4134    bmse001140   3    
+     13   1   31.4119    bmse001140   3    
+     14   1   28.3006    bmse001140   3    
+     15   1   26.4141    bmse001140   3    
+     16   1   25.7176    bmse001140   3    
+     17   1   21.1555    bmse001140   3    
+     18   1   13.5441    bmse001140   3    
+
+   stop_
+
+   loop_
+      _Assigned_spectral_transition.Spectral_transition_ID
+      _Assigned_spectral_transition.Spectral_dim_ID
+      _Assigned_spectral_transition.Assembly_atom_ID
+      _Assigned_spectral_transition.Val
+      _Assigned_spectral_transition.Assigned_chem_shift_list_ID
+      _Assigned_spectral_transition.Atom_chem_shift_ID
+      _Assigned_spectral_transition.Entity_assembly_ID
+      _Assigned_spectral_transition.Entity_ID
+      _Assigned_spectral_transition.Comp_index_ID
+      _Assigned_spectral_transition.Comp_ID
+      _Assigned_spectral_transition.Atom_ID
+      _Assigned_spectral_transition.Entry_ID
+      _Assigned_spectral_transition.Spectral_peak_list_ID
+
+     1    1   12   219.8335   1   9    1   1   1   BMET001140   C17   bmse001140   3    
+     10   1   7    43.5386    1   4    1   1   1   BMET001140   C11   bmse001140   3    
+     11   1   6    37.9452    1   3    1   1   1   BMET001140   C12   bmse001140   3    
+     12   1   13   35.4134    1   10   1   1   1   BMET001140   C5    bmse001140   3    
+     13   1   8    31.4119    1   5    1   1   1   BMET001140   C7    bmse001140   3    
+     14   1   16   28.3006    1   13   1   1   1   BMET001140   C2    bmse001140   3    
+     15   1   11   26.4141    1   8    1   1   1   BMET001140   C3    bmse001140   3    
+     16   1   10   25.7176    1   7    1   1   1   BMET001140   C6    bmse001140   3    
+     17   1   9    21.1555    1   6    1   1   1   BMET001140   C4    bmse001140   3    
+     18   1   14   13.5441    1   11   1   1   1   BMET001140   C1    bmse001140   3    
+     2    1   20   143.0603   1   17   1   1   1   BMET001140   C16   bmse001140   3    
+     3    1   21   143.0146   1   18   1   1   1   BMET001140   C15   bmse001140   3    
+     4    1   17   129.9633   1   14   1   1   1   BMET001140   C10   bmse001140   3    
+     5    1   15   126.3516   1   12   1   1   1   BMET001140   C13   bmse001140   3    
+     6    1   19   115.5773   1   16   1   1   1   BMET001140   C8    bmse001140   3    
+     7    1   18   112.4886   1   15   1   1   1   BMET001140   C9    bmse001140   3    
+     8    1   4    49.5945    1   1    1   1   1   BMET001140   C14   bmse001140   3    
+     9    1   5    47.3707    1   2    1   1   1   BMET001140   C18   bmse001140   3    
+
+   stop_
+
+save_
+
+save_spectral_peaks_1D_DEPT90_set01
+   _Spectral_peak_list.Sf_category                    spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                   spectral_peaks_1D_DEPT90_set01
+   _Spectral_peak_list.Entry_ID                       bmse001140
+   _Spectral_peak_list.ID                             4
+   _Spectral_peak_list.Sample_ID                      1
+   _Spectral_peak_list.Sample_label                   $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID       1
+   _Spectral_peak_list.Sample_condition_list_label    $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                  4
+   _Spectral_peak_list.Experiment_name                '1D DEPT90'
+   _Spectral_peak_list.Number_of_spectral_dimensions  1
+   _Spectral_peak_list.Details                        'F1: 13C'
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Sweep_width_units
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+     1   C   13   'Full C'   236.77   ppm   bmse001140   4    
+
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+     1   $software_topspin   bmse001140   4    
+
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+     1   bmse001140   4    
+     2   bmse001140   4    
+     3   bmse001140   4    
+     4   bmse001140   4    
+     5   bmse001140   4    
+
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+     1   11.68   'relative height'   bmse001140   4    
+     2   15.00   'relative height'   bmse001140   4    
+     3   11.66   'relative height'   bmse001140   4    
+     4   10.82   'relative height'   bmse001140   4    
+     5   12.62   'relative height'   bmse001140   4    
+
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+     1   1   115.5385   bmse001140   4    
+     2   1   112.4503   bmse001140   4    
+     3   1   49.5571    bmse001140   4    
+     4   1   43.4992    bmse001140   4    
+     5   1   37.9021    bmse001140   4    
+
+   stop_
+
+save_
+
+save_spectral_peaks_1D_DEPT135_set01
+   _Spectral_peak_list.Sf_category                    spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                   spectral_peaks_1D_DEPT135_set01
+   _Spectral_peak_list.Entry_ID                       bmse001140
+   _Spectral_peak_list.ID                             5
+   _Spectral_peak_list.Sample_ID                      1
+   _Spectral_peak_list.Sample_label                   $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID       1
+   _Spectral_peak_list.Sample_condition_list_label    $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                  5
+   _Spectral_peak_list.Experiment_name                '1D DEPT135'
+   _Spectral_peak_list.Number_of_spectral_dimensions  1
+   _Spectral_peak_list.Details                        'F1: 13C'
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Sweep_width_units
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+     1   C   13   'Full C'   236.77   ppm   bmse001140   5    
+
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+     1   $software_topspin   bmse001140   5    
+
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+     1    bmse001140   5    
+     2    bmse001140   5    
+     3    bmse001140   5    
+     4    bmse001140   5    
+     5    bmse001140   5    
+     6    bmse001140   5    
+     7    bmse001140   5    
+     8    bmse001140   5    
+     9    bmse001140   5    
+     10   bmse001140   5    
+     11   bmse001140   5    
+     12   bmse001140   5    
+
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+     1    8.45    'relative height'   bmse001140   5    
+     2    8.74    'relative height'   bmse001140   5    
+     3    7.92    'relative height'   bmse001140   5    
+     4    7.27    'relative height'   bmse001140   5    
+     5    7.33    'relative height'   bmse001140   5    
+     6    -6.36   'relative height'   bmse001140   5    
+     7    -6.09   'relative height'   bmse001140   5    
+     8    -7.20   'relative height'   bmse001140   5    
+     9    -6.24   'relative height'   bmse001140   5    
+     10   -5.09   'relative height'   bmse001140   5    
+     11   -6.13   'relative height'   bmse001140   5    
+     12   15.00   'relative height'   bmse001140   5    
+
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+     1    1   115.5368   bmse001140   5    
+     2    1   112.4495   bmse001140   5    
+     3    1   49.5577    bmse001140   5    
+     4    1   43.5011    bmse001140   5    
+     5    1   37.9031    bmse001140   5    
+     6    1   35.3743    bmse001140   5    
+     7    1   31.3706    bmse001140   5    
+     8    1   28.2612    bmse001140   5    
+     9    1   26.3759    bmse001140   5    
+     10   1   25.6799    bmse001140   5    
+     11   1   21.1164    bmse001140   5    
+     12   1   13.5055    bmse001140   5    
+
+   stop_
+
+save_
+
+save_spectral_peaks_2D_1H_13C_HSQC_set01
+   _Spectral_peak_list.Sf_category                    spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                   spectral_peaks_2D_1H_13C_HSQC_set01
+   _Spectral_peak_list.Entry_ID                       bmse001140
+   _Spectral_peak_list.ID                             6
+   _Spectral_peak_list.Sample_ID                      1
+   _Spectral_peak_list.Sample_label                   $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID       1
+   _Spectral_peak_list.Sample_condition_list_label    $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                  6
+   _Spectral_peak_list.Experiment_name                '2D 1H-13C HSQC'
+   _Spectral_peak_list.Number_of_spectral_dimensions  2
+   _Spectral_peak_list.Details                        'F1: 13C, F2: 1H'
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Sweep_width_units
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+     1   C   13   'Full C'   165.64   ppm   bmse001140   6    
+     2   H   1    'Full H'   12.99    ppm   bmse001140   6    
+
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+     1   $software_topspin   bmse001140   6    
+
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+     1    bmse001140   6    
+     2    bmse001140   6    
+     3    bmse001140   6    
+     4    bmse001140   6    
+     5    bmse001140   6    
+     6    bmse001140   6    
+     7    bmse001140   6    
+     8    bmse001140   6    
+     9    bmse001140   6    
+     10   bmse001140   6    
+     11   bmse001140   6    
+     12   bmse001140   6    
+     13   bmse001140   6    
+     14   bmse001140   6    
+     15   bmse001140   6    
+     16   bmse001140   6    
+     17   bmse001140   6    
+
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+     1    35539.97   'absolute height'   bmse001140   6    
+     2    47595.19   'absolute height'   bmse001140   6    
+     3    16093.83   'absolute height'   bmse001140   6    
+     4    18000.67   'absolute height'   bmse001140   6    
+     5    16607.07   'absolute height'   bmse001140   6    
+     6    12365.52   'absolute height'   bmse001140   6    
+     7    14318.69   'absolute height'   bmse001140   6    
+     8    20193.08   'absolute height'   bmse001140   6    
+     9    23075.06   'absolute height'   bmse001140   6    
+     10   23628.77   'absolute height'   bmse001140   6    
+     11   10100.23   'absolute height'   bmse001140   6    
+     12   16087.54   'absolute height'   bmse001140   6    
+     13   11334.65   'absolute height'   bmse001140   6    
+     14   14496.34   'absolute height'   bmse001140   6    
+     15   9805.64    'absolute height'   bmse001140   6    
+     16   12269.46   'absolute height'   bmse001140   6    
+     17   58843.33   'absolute height'   bmse001140   6    
+
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+     1    1   112.2413   bmse001140   6    
+     1    2   6.6244     bmse001140   6    
+     2    1   115.4186   bmse001140   6    
+     2    2   6.4166     bmse001140   6    
+     3    1   49.4727    bmse001140   6    
+     3    2   1.4508     bmse001140   6    
+     4    1   43.4703    bmse001140   6    
+     4    2   2.0989     bmse001140   6    
+     5    1   37.7206    bmse001140   6    
+     5    2   1.4508     bmse001140   6    
+     6    1   35.3828    bmse001140   6    
+     6    2   2.0485     bmse001140   6    
+     7    1   35.3828    bmse001140   6    
+     7    2   2.4265     bmse001140   6    
+     8    1   31.3391    bmse001140   6    
+     8    2   1.3500     bmse001140   6    
+     9    1   31.2759    bmse001140   6    
+     9    2   1.7389     bmse001140   6    
+     10   1   28.1799    bmse001140   6    
+     10   2   2.6353     bmse001140   6    
+     11   1   26.3476    bmse001140   6    
+     11   2   1.2888     bmse001140   6    
+     12   1   26.4107    bmse001140   6    
+     12   2   1.8829     bmse001140   6    
+     13   1   25.7157    bmse001140   6    
+     13   2   1.3536     bmse001140   6    
+     14   1   25.7157    bmse001140   6    
+     14   2   2.1853     bmse001140   6    
+     15   1   21.1033    bmse001140   6    
+     15   2   1.5444     bmse001140   6    
+     16   1   21.1665    bmse001140   6    
+     16   2   1.9405     bmse001140   6    
+     17   1   13.5845    bmse001140   6    
+     17   2   0.8244     bmse001140   6    
+
+   stop_
+
+save_

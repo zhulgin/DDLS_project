@@ -1,0 +1,772 @@
+data_bmst000310
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmst000310
+   _Entry.Title                         ethacrynic_acid
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2007-01-05
+   _Entry.Accession_date                2007-01-05
+   _Entry.Last_release_date             2011-09-14
+   _Entry.Original_release_date         2007-01-05
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.7
+   _Entry.Original_NMR_STAR_version     'NMR STAR v3.1'
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   theoretical
+   _Entry.Details                       ?
+   _Entry.BMRB_internal_directory_name  ethacrynic_acid
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+     1   William   Westler   M.   ?   bmst000310    
+     2   John      Markley   L.   ?   bmst000310    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   metabolics   'Madison Metabolomics Consortium'   MMC   bmst000310    
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+     other_data_list   1   bmst000310    
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+     'theoretical chemical shifts'   1   bmst000310    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1   .   .   2007-01-05   2007-01-05   original   BMRB   'Original theoretical calculations from NMRFAM'                                                   bmst000310    
+     2   .   .   2008-11-18   2008-11-18   update     BMRB   'updated the file to match latest NMR STAR dictionary'                                            bmst000310    
+     3   .   .   2008-11-25   2008-11-25   update     BMRB   'fixed enumerations: N should be no'                                                              bmst000310    
+     4   .   .   2010-09-16   2010-09-16   update     BMRB   'Removed Shielding_tensor_list_ID and Shielding_tensor_list_label from theoretical_chem_shifts'   bmst000310    
+     5   .   .   2011-09-14   2011-09-14   update     BMRB   'Partially brought up to date with latest Dictionary'                                             bmst000310    
+     6   .   .   2017-10-12   2017-10-12   update     BMRB   'Remediated Experiment_file loop if present and standardized mol and png file tags.'              bmst000310    
+
+   stop_
+
+   loop_
+      _Auxiliary_files.ID
+      _Auxiliary_files.URI
+      _Auxiliary_files.DOI
+      _Auxiliary_files.Path
+      _Auxiliary_files.Format
+      _Auxiliary_files.Details
+      _Auxiliary_files.Entry_ID
+
+     1   .   .   ethacrynic_acid_9197_opt.pdb      x-chemical/x-pdb   'Name of the file containing the atomic coordinates'            bmst000310    
+     2   .   .   ethacrynic_acid_9197.g03.shifts   text/plain         'Name of the file containing theoretical chemical shift data'   bmst000310    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citations
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citations
+   _Citation.Entry_ID      bmst000310
+   _Citation.ID            1
+   _Citation.Class         'reference citation'
+   _Citation.PubMed_ID     18940862
+   _Citation.Title         'Database resources of the National Center for Biotechnology Information.'
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://pubchem.ncbi.nlm.nih.gov/
+   _Citation.Year          2006
+   _Citation.Details       ?
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    D.   Wheeler      D.   L.   ?   bmst000310   1    
+     2    T.   Barrett      T.   ?    ?   bmst000310   1    
+     3    D.   Benson       D.   A.   ?   bmst000310   1    
+     4    S.   Bryant       S.   H.   ?   bmst000310   1    
+     5    K.   Canese       K.   ?    ?   bmst000310   1    
+     6    V.   Chetvenin    V.   ?    ?   bmst000310   1    
+     7    D.   Church       D.   M.   ?   bmst000310   1    
+     8    M.   DiCuccio     M.   ?    ?   bmst000310   1    
+     9    R.   Edgar        R.   ?    ?   bmst000310   1    
+     10   S.   Federhen     S.   ?    ?   bmst000310   1    
+     11   L.   Geer         L.   Y.   ?   bmst000310   1    
+     12   W.   Helmberg     W.   ?    ?   bmst000310   1    
+     13   Y.   Kapustin     Y.   ?    ?   bmst000310   1    
+     14   D.   Kenton       D.   L.   ?   bmst000310   1    
+     15   O.   Khovayko     O.   ?    ?   bmst000310   1    
+     16   D.   Lipman       D.   J.   ?   bmst000310   1    
+     17   T.   Madden       T.   L.   ?   bmst000310   1    
+     18   D.   Maglott      D.   R.   ?   bmst000310   1    
+     19   J.   Ostell       J.   ?    ?   bmst000310   1    
+     20   K.   Pruitt       K.   D.   ?   bmst000310   1    
+     21   G.   Schuler      G.   D.   ?   bmst000310   1    
+     22   L.   Schriml      L.   M.   ?   bmst000310   1    
+     23   E.   Sequeira     E.   ?    ?   bmst000310   1    
+     24   S.   Sherry       S.   T.   ?   bmst000310   1    
+     25   K.   Sirotkin     K.   ?    ?   bmst000310   1    
+     26   A.   Souvorov     A.   ?    ?   bmst000310   1    
+     27   G.   Starchenko   G.   ?    ?   bmst000310   1    
+     28   T.   Suzek        T.   O.   ?   bmst000310   1    
+     29   R.   Tatusov      R.   ?    ?   bmst000310   1    
+     30   T.   Tatusova     T.   A.   ?   bmst000310   1    
+     31   L.   Bagner       L.   ?    ?   bmst000310   1    
+     32   E.   Yaschenko    E.   ?    ?   bmst000310   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmst000310
+   _Assembly.ID                    1
+   _Assembly.Name                  ASSEMBLY_NAME
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Metal_ions            ?
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   ENT_NAME   1   $ethacrynic_acid   yes   native   no   no   ?   ?   ?   bmst000310   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_ethacrynic_acid
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     ethacrynic_acid
+   _Entity.Entry_ID                         bmst000310
+   _Entity.ID                               1
+   _Entity.BMRB_code                        ?
+   _Entity.Name                             'ethacrynic acid'
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmst000310   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                      chem_comp
+   _Chem_comp.Sf_framecode                     chem_comp_1
+   _Chem_comp.Entry_ID                         bmst000310
+   _Chem_comp.ID                               1
+   _Chem_comp.Provenance                       PubChem
+   _Chem_comp.Name                             'ethacrynic acid'
+   _Chem_comp.Type                             non-polymer
+   _Chem_comp.BMRB_code                        ?
+   _Chem_comp.PDB_code                         ?
+   _Chem_comp.InChI_code                     
+;
+InChI=1/C13H12Cl2O4/c1-3-7(2)13(18)8-4-5-9(12(15)11(8)14)19-6-10(16)17/h4-5H,2-3,6H2,1H3,(H,16,17)/f/h16H
+;
+   _Chem_comp.Mon_nstd_flag                    ?
+   _Chem_comp.Std_deriv_one_letter_code        ?
+   _Chem_comp.Std_deriv_three_letter_code      ?
+   _Chem_comp.Std_deriv_BMRB_code              ?
+   _Chem_comp.Std_deriv_PDB_code               ?
+   _Chem_comp.Formal_charge                    ?
+   _Chem_comp.Paramagnetic                     no
+   _Chem_comp.Aromatic                         yes
+   _Chem_comp.Formula                          'C13 H12 O4 Cl2'
+   _Chem_comp.Formula_weight                   303.1379800000
+   _Chem_comp.Formula_mono_iso_wt_nat          302.011264294
+   _Chem_comp.Formula_mono_iso_wt_13C          315.054877185
+   _Chem_comp.Formula_mono_iso_wt_15N          302.011264294
+   _Chem_comp.Formula_mono_iso_wt_13C_15N      315.054877185
+   _Chem_comp.Image_file_name                  bmst000310.png
+   _Chem_comp.Image_file_format                png
+   _Chem_comp.Topo_file_name                   ?
+   _Chem_comp.Topo_file_format                 ?
+   _Chem_comp.Struct_file_name                 bmst000310.mol
+   _Chem_comp.Struct_file_format               mol
+   _Chem_comp.Stereochem_param_file_name       ?
+   _Chem_comp.Details                          ?
+   _Chem_comp.DB_query_date                    ?
+   _Chem_comp.DB_last_query_revised_last_date  ?
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     Mingit                                                                 synonym   bmst000310   1    
+     'Kyselina ethakrynova [Czech]'                                         synonym   bmst000310   1    
+     'Kyselina 4-(2-(1-butenyl)karbonyl)-2,3-dichlorfenoxyoctova [Czech]'   synonym   bmst000310   1    
+     'Etakrinic acid'                                                       synonym   bmst000310   1    
+     'Ethacrinique (acide)'                                                 synonym   bmst000310   1    
+     'Ethacrynic acid [USAN:BAN]'                                           synonym   bmst000310   1    
+     Edecrina                                                               synonym   bmst000310   1    
+     'Acide etacrynique [INN-French]'                                       synonym   bmst000310   1    
+     'Acetic acid, (2,3-dichloro-4-(2-methylenebutyryl)phenoxy)-'           synonym   bmst000310   1    
+     Endecril                                                               synonym   bmst000310   1    
+     Ethacrynate                                                            synonym   bmst000310   1    
+     Hidromedin                                                             synonym   bmst000310   1    
+     '(2,3-Dichloro-4-(2-methylene-1-oxobutyl)phenoxy)acetic acid'          synonym   bmst000310   1    
+     '(4-(2-Methylenebutyryl)-2,3-dichlorophenoxy)acetic acid'              synonym   bmst000310   1    
+     'Acidum etacrynicum [INN-Latin]'                                       synonym   bmst000310   1    
+     '2,3-Dichloro-4-(2-methylenebutyl)phenoxyacetic acid'                  synonym   bmst000310   1    
+     Edecril                                                                synonym   bmst000310   1    
+     'Etacrinic acid'                                                       synonym   bmst000310   1    
+     Hydromedin                                                             synonym   bmst000310   1    
+     MK-595                                                                 synonym   bmst000310   1    
+     Taladren                                                               synonym   bmst000310   1    
+     Edecrin                                                                synonym   bmst000310   1    
+     'Acetic acid, (2,3-dichloro-4-(2-methylene-1-oxobutyl)phenoxy)-'       synonym   bmst000310   1    
+     'Methylenebutyrylphenoxyacetic acid'                                   synonym   bmst000310   1    
+     'Acido etacrinico [INN-Spanish]'                                       synonym   bmst000310   1    
+     'ETHACRYNIC ACID'                                                      synonym   bmst000310   1    
+     Crinuryl                                                               synonym   bmst000310   1    
+     Reomax                                                                 synonym   bmst000310   1    
+     '2,3-Dichloro-4-(2-methylenebutyryl)phenoxy acetic acid'               synonym   bmst000310   1    
+     'Methylenebutyryl phenoxyacetic acid'                                  synonym   bmst000310   1    
+     'Etacrynic Acid'                                                       synonym   bmst000310   1    
+     'Etacrynic acid'                                                       synonym   bmst000310   1    
+     Uregit                                                                 synonym   bmst000310   1    
+     '(2,3-Dichloro-4-(2-methylenebutyryl)phenoxy)acetic acid'              synonym   bmst000310   1    
+     Otacril                                                                synonym   bmst000310   1    
+     'BRN 1915060'                                                          synonym   bmst000310   1    
+     'Ethacrynic acid'                                                      synonym   bmst000310   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     '2-[2,3-dichloro-4-(2-methylidenebutanoyl)phenoxy]acetic acid'     IUPAC               bmst000310   1    
+     '2-[2,3-dichloro-4-(2-ethylacryloyl)phenoxy]acetic acid'           IUPAC_TRADITIONAL   bmst000310   1    
+     '2-[2,3-dichloro-4-(2-methylene-1-oxo-butyl)phenoxy]acetic acid'   IUPAC_CAS           bmst000310   1    
+     '2-[2,3-dichloro-4-(2-methylenebutanoyl)phenoxy]acetic acid'       IUPAC_OPENEYE       bmst000310   1    
+     '2-[2,3-dichloro-4-(2-methylidenebutanoyl)phenoxy]ethanoic acid'   IUPAC_SYSTEMATIC    bmst000310   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     Isomeric    CCC(=C)C(=O)C1=C(C(=C(C=C1)OCC(=O)O)Cl)Cl   bmst000310   1    
+     Canonical   CCC(=C)C(=O)C1=C(C(=C(C=C1)OCC(=O)O)Cl)Cl   bmst000310   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     C1     C    ?   ?   ?   ?   5.4641   4.3100    -3.263   -1.337   2.331    1    bmst000310   1    
+     C2     C    ?   ?   ?   ?   5.4641   2.3100    -4.783   -2.017   -0.777   2    bmst000310   1    
+     C3     C    ?   ?   ?   ?   4.5981   0.8100    -0.704   -1.333   -1.067   3    bmst000310   1    
+     C4     C    ?   ?   ?   ?   4.5981   -0.1900   0.684    -1.255   -1.090   4    bmst000310   1    
+     C5     C    ?   ?   ?   ?   4.5981   3.8100    -3.119   -2.235   1.089    5    bmst000310   1    
+     C6     C    ?   ?   ?   ?   4.5981   -2.1900   3.385    -0.352   0.477    6    bmst000310   1    
+     C7     C    ?   ?   ?   ?   3.7321   1.3100    -1.487   -0.263   -0.618   7    bmst000310   1    
+     C8     C    ?   ?   ?   ?   3.7321   -0.6900   1.323    -0.101   -0.640   8    bmst000310   1    
+     C9     C    ?   ?   ?   ?   2.8660   0.8100    -0.843   0.905    -0.173   9    bmst000310   1    
+     C10    C    ?   ?   ?   ?   2.8660   -0.1900   0.558    0.984    -0.174   10   bmst000310   1    
+     C11    C    ?   ?   ?   ?   4.5981   2.8100    -3.670   -1.589   -0.165   11   bmst000310   1    
+     C12    C    ?   ?   ?   ?   4.5981   -3.1900   4.870    -0.404   0.165    12   bmst000310   1    
+     C13    C    ?   ?   ?   ?   3.7321   2.3100    -2.992   -0.376   -0.753   13   bmst000310   1    
+     O14    O    ?   ?   ?   ?   5.4641   -3.6900   5.557    -0.654   1.308    14   bmst000310   1    
+     O15    O    ?   ?   ?   ?   3.7321   -3.6900   5.384    -0.260   -0.914   15   bmst000310   1    
+     O16    O    ?   ?   ?   ?   2.8660   2.8100    -3.609   0.465    -1.382   16   bmst000310   1    
+     O17    O    ?   ?   ?   ?   3.7321   -1.6900   2.689    -0.022   -0.715   17   bmst000310   1    
+     Cl18   Cl   ?   ?   ?   ?   2.0000   1.3100    -1.780   2.249    0.428    18   bmst000310   1    
+     Cl19   Cl   ?   ?   ?   ?   2.0000   -0.6900   1.387    2.417    0.372    19   bmst000310   1    
+     H20    H    ?   ?   ?   ?   5.7741   3.7731    -2.861   -1.840   3.218    20   bmst000310   1    
+     H21    H    ?   ?   ?   ?   6.0010   4.6200    -4.315   -1.099   2.520    21   bmst000310   1    
+     H22    H    ?   ?   ?   ?   5.1541   4.8469    -2.724   -0.391   2.210    22   bmst000310   1    
+     H23    H    ?   ?   ?   ?   5.4641   1.6900    -5.167   -1.505   -1.653   23   bmst000310   1    
+     H24    H    ?   ?   ?   ?   6.0010   2.6200    -5.335   -2.881   -0.417   24   bmst000310   1    
+     H25    H    ?   ?   ?   ?   5.1350   1.1200    -1.199   -2.232   -1.424   25   bmst000310   1    
+     H26    H    ?   ?   ?   ?   5.1350   -0.5000   1.292    -2.071   -1.465   26   bmst000310   1    
+     H27    H    ?   ?   ?   ?   4.3860   4.3926    -2.060   -2.490   0.956    27   bmst000310   1    
+     H28    H    ?   ?   ?   ?   3.9875   3.7023    -3.648   -3.180   1.259    28   bmst000310   1    
+     H29    H    ?   ?   ?   ?   5.2087   -2.2977   3.072    -1.333   0.863    29   bmst000310   1    
+     H30    H    ?   ?   ?   ?   4.8101   -1.6074   3.212    0.390    1.267    30   bmst000310   1    
+     H31    H    ?   ?   ?   ?   5.4641   -4.3100   6.500    -0.685   1.059    31   bmst000310   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     C1     C1     ?   bmst000310   1    
+     C2     C2     ?   bmst000310   1    
+     C3     C3     ?   bmst000310   1    
+     C4     C4     ?   bmst000310   1    
+     C5     C5     ?   bmst000310   1    
+     C6     C6     ?   bmst000310   1    
+     C7     C7     ?   bmst000310   1    
+     C8     C8     ?   bmst000310   1    
+     C9     C9     ?   bmst000310   1    
+     C10    C10    ?   bmst000310   1    
+     C11    C11    ?   bmst000310   1    
+     C12    C12    ?   bmst000310   1    
+     C13    C13    ?   bmst000310   1    
+     O14    O14    ?   bmst000310   1    
+     O15    O15    ?   bmst000310   1    
+     O16    O16    ?   bmst000310   1    
+     O17    O17    ?   bmst000310   1    
+     Cl18   Cl18   ?   bmst000310   1    
+     Cl19   Cl19   ?   bmst000310   1    
+     H20    H20    ?   bmst000310   1    
+     H21    H21    ?   bmst000310   1    
+     H22    H22    ?   bmst000310   1    
+     H23    H23    ?   bmst000310   1    
+     H24    H24    ?   bmst000310   1    
+     H25    H25    ?   bmst000310   1    
+     H26    H26    ?   bmst000310   1    
+     H27    H27    ?   bmst000310   1    
+     H28    H28    ?   bmst000310   1    
+     H29    H29    ?   bmst000310   1    
+     H30    H30    ?   bmst000310   1    
+     H31    H31    ?   bmst000310   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1    covalent   SING   C1    C5     ?   bmst000310   1    
+     2    covalent   SING   C1    H20    ?   bmst000310   1    
+     3    covalent   SING   C1    H21    ?   bmst000310   1    
+     4    covalent   SING   C1    H22    ?   bmst000310   1    
+     5    covalent   DOUB   C2    C11    ?   bmst000310   1    
+     6    covalent   SING   C2    H23    ?   bmst000310   1    
+     7    covalent   SING   C2    H24    ?   bmst000310   1    
+     8    covalent   DOUB   C3    C4     ?   bmst000310   1    
+     9    covalent   SING   C3    C7     ?   bmst000310   1    
+     10   covalent   SING   C3    H25    ?   bmst000310   1    
+     11   covalent   SING   C4    C8     ?   bmst000310   1    
+     12   covalent   SING   C4    H26    ?   bmst000310   1    
+     13   covalent   SING   C5    C11    ?   bmst000310   1    
+     14   covalent   SING   C5    H27    ?   bmst000310   1    
+     15   covalent   SING   C5    H28    ?   bmst000310   1    
+     16   covalent   SING   C6    C12    ?   bmst000310   1    
+     17   covalent   SING   C6    O17    ?   bmst000310   1    
+     18   covalent   SING   C6    H29    ?   bmst000310   1    
+     19   covalent   SING   C6    H30    ?   bmst000310   1    
+     20   covalent   DOUB   C7    C9     ?   bmst000310   1    
+     21   covalent   SING   C7    C13    ?   bmst000310   1    
+     22   covalent   DOUB   C8    C10    ?   bmst000310   1    
+     23   covalent   SING   C8    O17    ?   bmst000310   1    
+     24   covalent   SING   C9    C10    ?   bmst000310   1    
+     25   covalent   SING   C9    Cl18   ?   bmst000310   1    
+     26   covalent   SING   C10   Cl19   ?   bmst000310   1    
+     27   covalent   SING   C11   C13    ?   bmst000310   1    
+     28   covalent   SING   C12   O14    ?   bmst000310   1    
+     29   covalent   DOUB   C12   O15    ?   bmst000310   1    
+     30   covalent   DOUB   C13   O16    ?   bmst000310   1    
+     31   covalent   SING   O14   H31    ?   bmst000310   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_code
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_experimental_method
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_details
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     no   PubChem          148872      sid                 ?   'ethacrynic acid'   ?   'matching entry'   ?   bmst000310   1    
+     no   PubChem          3278        cid                 ?   'ethacrynic acid'   ?   'matching entry'   ?   bmst000310   1    
+     no   PubChem          9197        sid                 ?   'ethacrynic acid'   ?   'matching entry'   ?   bmst000310   1    
+     no   KEGG             C06983      'compound ID'       ?   'ethacrynic acid'   ?   'matching entry'   ?   bmst000310   1    
+     no   'CAS Registry'   58-54-8     'registry number'   ?   'ethacrynic acid'   ?   'matching entry'   ?   bmst000310   1    
+     no   'CAS Registry'   6500-81-8   'registry number'   ?   'ethacrynic acid'   ?   'matching entry'   ?   bmst000310   1    
+     no   NSC              85791       ?                   ?   'ethacrynic acid'   ?   'matching entry'   ?   bmst000310   1    
+     no   EINECS           200-384-1   ?                   ?   'ethacrynic acid'   ?   'matching entry'   ?   bmst000310   1    
+     no   HSDB             2136        ?                   ?   'ethacrynic acid'   ?   'matching entry'   ?   bmst000310   1    
+     no   CCRIS            4638        ?                   ?   'ethacrynic acid'   ?   'matching entry'   ?   bmst000310   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citations   bmst000310   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmst000310
+   _Software.ID            1
+   _Software.Name          Gaussian
+   _Software.Version       ?
+   _Software.Details       ?
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Gaussian, Inc.'   ?   http://www.gaussian.com/home.htm   bmst000310   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     'geometry optimization'        bmst000310   1    
+     'chemical shift calculation'   bmst000310   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference
+   _Chem_shift_reference.Entry_ID      bmst000310
+   _Chem_shift_reference.ID            1
+   _Chem_shift_reference.Details       ?
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    TMS                  'methyl protons'   ppm   0.00   na   direct   ?   bmst000310   1    
+     C   13   TMS                  'methyl carbons'   ppm   0.00   na   direct   ?   bmst000310   1    
+     N   15   'ammonia pentamer'   nitrogen           ppm   0.00   na   direct   ?   bmst000310   1    
+     P   31   'phosphoric acid'    phosphorus         ppm   0.00   na   direct   ?   bmst000310   1    
+
+   stop_
+
+save_
+
+save_chem_shifts_calc_type
+   _Chem_shifts_calc_type.Sf_category                      chem_shifts_calc_type
+   _Chem_shifts_calc_type.Sf_framecode                     chem_shifts_calc_type
+   _Chem_shifts_calc_type.Entry_ID                         bmst000310
+   _Chem_shifts_calc_type.ID                               1
+   _Chem_shifts_calc_type.Calculation_level                'Density Functional Theory'
+   _Chem_shifts_calc_type.Quantum_mechanical_method        GIAO
+   _Chem_shifts_calc_type.Quantum_mechanical_theory_level  B3LYP
+   _Chem_shifts_calc_type.Quantum_mechanical_basis_set     3-21g**
+   _Chem_shifts_calc_type.Chem_shift_nucleus               ?
+   _Chem_shifts_calc_type.Chem_shift_reference_ID          1
+   _Chem_shifts_calc_type.Chem_shift_reference_label       $chem_shift_reference
+
+   loop_
+      _Chem_shifts_calc_software.Software_ID
+      _Chem_shifts_calc_software.Software_label
+      _Chem_shifts_calc_software.Entry_ID
+      _Chem_shifts_calc_software.Chem_shifts_calc_type_ID
+
+     1   $software_1   bmst000310   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Theoretical chemical shifts  #
+    #################################
+
+save_theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Sf_category                       theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Sf_framecode                      theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Entry_ID                          bmst000310
+   _Theoretical_chem_shift_list.ID                                1
+   _Theoretical_chem_shift_list.Chem_shifts_calc_type_ID          1
+   _Theoretical_chem_shift_list.Chem_shifts_calc_type_label       $chem_shifts_calc_type
+   _Theoretical_chem_shift_list.Model_atomic_coordinates_ID       1
+   _Theoretical_chem_shift_list.Model_atomic_coordinates_label    $conformer_family_coord_set_1
+   _Theoretical_chem_shift_list.Fermi_contact_spin_density_units  ?
+   _Theoretical_chem_shift_list.Chem_shift_1H_err                 ?
+   _Theoretical_chem_shift_list.Chem_shift_2H_err                 ?
+   _Theoretical_chem_shift_list.Chem_shift_13C_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_15N_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_19F_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_31P_err                ?
+   _Theoretical_chem_shift_list.Details                           ?
+   _Theoretical_chem_shift_list.Text_data_format                  ?
+   _Theoretical_chem_shift_list.Text_data                         ?
+
+   loop_
+      _Theoretical_chem_shift.ID
+      _Theoretical_chem_shift.Entity_assembly_ID
+      _Theoretical_chem_shift.Entity_ID
+      _Theoretical_chem_shift.Comp_index_ID
+      _Theoretical_chem_shift.Comp_ID
+      _Theoretical_chem_shift.Atom_ID
+      _Theoretical_chem_shift.Atom_type
+      _Theoretical_chem_shift.Fermi_contact_spin_density
+      _Theoretical_chem_shift.Val
+      _Theoretical_chem_shift.Val_err
+      _Theoretical_chem_shift.Auth_seq_ID
+      _Theoretical_chem_shift.Auth_comp_ID
+      _Theoretical_chem_shift.Auth_atom_ID
+      _Theoretical_chem_shift.Entry_ID
+      _Theoretical_chem_shift.Theoretical_chem_shift_list_ID
+
+     1    1   1   1   1   C1    C   ?   12.007    ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     2    1   1   1   1   C2    C   ?   133.257   ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     3    1   1   1   1   C3    C   ?   128.242   ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     4    1   1   1   1   C4    C   ?   123.608   ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     5    1   1   1   1   C5    C   ?   27.857    ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     6    1   1   1   1   C6    C   ?   69.964    ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     7    1   1   1   1   C7    C   ?   138.946   ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     8    1   1   1   1   C8    C   ?   160.817   ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     9    1   1   1   1   C9    C   ?   138.987   ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     10   1   1   1   1   C10   C   ?   136.966   ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     11   1   1   1   1   C11   C   ?   151.631   ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     12   1   1   1   1   C12   C   ?   171.209   ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     13   1   1   1   1   C13   C   ?   201.953   ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     14   1   1   1   1   H20   H   ?   1.857     ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     15   1   1   1   1   H21   H   ?   1.993     ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     16   1   1   1   1   H22   H   ?   2.006     ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     17   1   1   1   1   H23   H   ?   8.061     ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     18   1   1   1   1   H24   H   ?   7.233     ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     19   1   1   1   1   H25   H   ?   8.276     ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     20   1   1   1   1   H26   H   ?   8.327     ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     21   1   1   1   1   H27   H   ?   3.283     ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     22   1   1   1   1   H28   H   ?   3.274     ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     23   1   1   1   1   H29   H   ?   5.091     ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     24   1   1   1   1   H30   H   ?   6.229     ?   ethacrynic_acid   ?   ?   bmst000310   1    
+     25   1   1   1   1   H31   H   ?   6.501     ?   ethacrynic_acid   ?   ?   bmst000310   1    
+
+   stop_
+
+save_
+
+    #####################################
+    #  Conformer family coordinate set  #
+    #####################################
+
+save_conformer_family_coord_set_1
+   _Conformer_family_coord_set.Sf_category   conformer_family_coord_set
+   _Conformer_family_coord_set.Sf_framecode  conformer_family_coord_set_1
+   _Conformer_family_coord_set.Entry_ID      bmst000310
+   _Conformer_family_coord_set.ID            1
+   _Conformer_family_coord_set.Details       ?
+
+   loop_
+      _Conformer_family_software.Software_ID
+      _Conformer_family_software.Software_label
+      _Conformer_family_software.Entry_ID
+      _Conformer_family_software.Conformer_family_coord_set_ID
+
+     1   $software_1   bmst000310   1    
+
+   stop_
+
+   loop_
+      _Atom_site.Model_ID
+      _Atom_site.ID
+      _Atom_site.Label_entity_assembly_ID
+      _Atom_site.Label_entity_ID
+      _Atom_site.Label_comp_index_ID
+      _Atom_site.Label_comp_ID
+      _Atom_site.Label_atom_ID
+      _Atom_site.Auth_seq_ID
+      _Atom_site.Auth_comp_ID
+      _Atom_site.Auth_atom_ID
+      _Atom_site.Type_symbol
+      _Atom_site.Cartn_x
+      _Atom_site.Cartn_y
+      _Atom_site.Cartn_z
+      _Atom_site.Entry_ID
+      _Atom_site.Conformer_family_coord_set_ID
+
+     1   1    1   1   1   1   C1     1   1   C1     C    -3.263   -1.337   2.331    bmst000310   1    
+     1   2    1   1   1   1   C2     1   1   C2     C    -4.783   -2.017   -0.777   bmst000310   1    
+     1   3    1   1   1   1   C3     1   1   C3     C    -0.704   -1.333   -1.067   bmst000310   1    
+     1   4    1   1   1   1   C4     1   1   C4     C    0.684    -1.255   -1.090   bmst000310   1    
+     1   5    1   1   1   1   C5     1   1   C5     C    -3.119   -2.235   1.089    bmst000310   1    
+     1   6    1   1   1   1   C6     1   1   C6     C    3.385    -0.352   0.477    bmst000310   1    
+     1   7    1   1   1   1   C7     1   1   C7     C    -1.487   -0.263   -0.618   bmst000310   1    
+     1   8    1   1   1   1   C8     1   1   C8     C    1.323    -0.101   -0.640   bmst000310   1    
+     1   9    1   1   1   1   C9     1   1   C9     C    -0.843   0.905    -0.173   bmst000310   1    
+     1   10   1   1   1   1   C10    1   1   C10    C    0.558    0.984    -0.174   bmst000310   1    
+     1   11   1   1   1   1   C11    1   1   C11    C    -3.670   -1.589   -0.165   bmst000310   1    
+     1   12   1   1   1   1   C12    1   1   C12    C    4.870    -0.404   0.165    bmst000310   1    
+     1   13   1   1   1   1   C13    1   1   C13    C    -2.992   -0.376   -0.753   bmst000310   1    
+     1   14   1   1   1   1   O14    1   1   O14    O    5.557    -0.654   1.308    bmst000310   1    
+     1   15   1   1   1   1   O15    1   1   O15    O    5.384    -0.260   -0.914   bmst000310   1    
+     1   16   1   1   1   1   O16    1   1   O16    O    -3.609   0.465    -1.382   bmst000310   1    
+     1   17   1   1   1   1   O17    1   1   O17    O    2.689    -0.022   -0.715   bmst000310   1    
+     1   18   1   1   1   1   Cl18   1   1   Cl18   Cl   -1.780   2.249    0.428    bmst000310   1    
+     1   19   1   1   1   1   Cl19   1   1   Cl19   Cl   1.387    2.417    0.372    bmst000310   1    
+     1   20   1   1   1   1   H20    1   1   H20    H    -2.861   -1.840   3.218    bmst000310   1    
+     1   21   1   1   1   1   H21    1   1   H21    H    -4.315   -1.099   2.520    bmst000310   1    
+     1   22   1   1   1   1   H22    1   1   H22    H    -2.724   -0.391   2.210    bmst000310   1    
+     1   23   1   1   1   1   H23    1   1   H23    H    -5.167   -1.505   -1.653   bmst000310   1    
+     1   24   1   1   1   1   H24    1   1   H24    H    -5.335   -2.881   -0.417   bmst000310   1    
+     1   25   1   1   1   1   H25    1   1   H25    H    -1.199   -2.232   -1.424   bmst000310   1    
+     1   26   1   1   1   1   H26    1   1   H26    H    1.292    -2.071   -1.465   bmst000310   1    
+     1   27   1   1   1   1   H27    1   1   H27    H    -2.060   -2.490   0.956    bmst000310   1    
+     1   28   1   1   1   1   H28    1   1   H28    H    -3.648   -3.180   1.259    bmst000310   1    
+     1   29   1   1   1   1   H29    1   1   H29    H    3.072    -1.333   0.863    bmst000310   1    
+     1   30   1   1   1   1   H30    1   1   H30    H    3.212    0.390    1.267    bmst000310   1    
+     1   31   1   1   1   1   H31    1   1   H31    H    6.500    -0.685   1.059    bmst000310   1    
+
+   stop_
+
+save_

@@ -1,0 +1,1013 @@
+data_bmse000470
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmse000470
+   _Entry.Title                         biuret
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2008-02-08
+   _Entry.Accession_date                2008-02-08
+   _Entry.Last_release_date             2012-10-17
+   _Entry.Original_release_date         2008-02-08
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.21
+   _Entry.Original_NMR_STAR_version     3.1
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   solution
+   _Entry.DOI                           10.13018/BMSE000470
+   _Entry.BMRB_internal_directory_name  biuret
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.Middle_initials
+      _Entry_author.Entry_ID
+
+     1   Qiu         Cui        ?    bmse000470    
+     2   Ian         Lewis      ?    bmse000470    
+     3   Francisca   Jofre      ?    bmse000470    
+     4   Mark        Anderson   E.   bmse000470    
+     5   John        Markley    L.   bmse000470    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   metabolomics   'Madison Metabolomics Consortium'   MMC   bmse000470    
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+     assigned_chemical_shifts   1   bmse000470    
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+     '13C chemical shifts'   2   bmse000470    
+     '1H chemical shifts'    0   bmse000470    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1    .   .   2008-02-08   2008-02-08   original   BMRB     'Original spectra from MMC'                                                            bmse000470    
+     2    .   .   2008-02-28   2008-02-08   update     BMRB     'Fixed mismatch between software ids and framecodes'                                   bmse000470    
+     3    .   .   2008-06-02   2008-02-08   update     Author   'Assignments, 13C transition lists, 1H transition lists by Francisca Jofre'            bmse000470    
+     4    .   .   2008-07-09   2008-02-08   update     BMRB     'fixed misplaced 2D coordinates'                                                       bmse000470    
+     5    .   .   2008-10-21   2008-02-08   update     BMRB     'Fixed IUPAC erroneous IUPAC names'                                                    bmse000470    
+     6    .   .   2008-10-21   2008-02-08   update     BMRB     'Added assembly and entity information'                                                bmse000470    
+     7    .   .   2008-10-28   2008-02-08   update     BMRB     'added image and structure file paths'                                                 bmse000470    
+     8    .   .   2008-11-03   2008-02-08   update     BMRB     'Altered tag names due to dictionary update'                                           bmse000470    
+     9    .   .   2009-07-20   2008-02-08   update     BMRB     'Updated the InChI string to match PubChem'                                            bmse000470    
+     10   .   .   2010-07-22   2008-02-08   update     BMRB     'Removed bad 13C data and spectra'                                                     bmse000470    
+     11   .   .   2010-11-15   2008-02-08   update     BMRB     'Updated chem comp Paramagnetic and Aromatic'                                          bmse000470    
+     12   .   .   2011-01-31   2008-02-08   update     BMRB     'Reset Formula_mono_iso_wt_nat, Formula_mono_iso_wt_13C'                               bmse000470    
+     13   .   .   2011-04-04   2008-02-08   update     BMRB     'Added Provenance tag to chem_comp'                                                    bmse000470    
+     14   .   .   2011-09-09   2008-02-08   update     BMRB     'Brought up to date with latest Dictionary'                                            bmse000470    
+     15   .   .   2011-09-21   2008-02-08   update     BMRB     'Standardized Experiment_file data paths'                                              bmse000470    
+     16   .   .   2011-09-21   2008-02-08   update     BMRB     'Added base dir to data file path'                                                     bmse000470    
+     17   .   .   2011-12-14   2008-02-08   update     BMRB     'Set Assembly.Name to match Chem_comp.name'                                            bmse000470    
+     18   .   .   2012-03-29   2008-02-08   update     BMRB     'removed existing assignments, '                                                       bmse000470    
+     19   .   .   2012-03-29   2008-02-08   update     BMRB     'Updating or adding transitions and assignments - again'                               bmse000470    
+     20   .   .   2012-09-13   2008-02-08   update     BMRB     'Added PubChem SID 85165257 to database loop'                                          bmse000470    
+     21   .   .   2012-10-17   2008-02-08   update     BMRB     'Set all _Chem_comp_SMILES Types to lower case'                                        bmse000470    
+     22   .   .   2017-10-12   2017-10-12   update     BMRB     'Remediated Experiment_file loop if present and standardized mol and png file tags.'   bmse000470    
+     23   .   .   2017-12-19   2017-10-12   update     BMRB     'InChI numbering updated according to ALATIS'                                          bmse000470    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citation_1
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citation_1
+   _Citation.Entry_ID      bmse000470
+   _Citation.ID            1
+   _Citation.Class         'reference citation'
+   _Citation.PubMed_ID     17170002
+   _Citation.Title         'Database resources of the National Center for Biotechnology Information.'
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://pubchem.ncbi.nlm.nih.gov/
+   _Citation.Year          2006
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    D.   Wheeler      D.   L.   bmse000470   1    
+     2    T.   Barrett      T.   ?    bmse000470   1    
+     3    D.   Benson       D.   A.   bmse000470   1    
+     4    S.   Bryant       S.   H.   bmse000470   1    
+     5    K.   Canese       K.   ?    bmse000470   1    
+     6    V.   Chetvenin    V.   ?    bmse000470   1    
+     7    D.   Church       D.   M.   bmse000470   1    
+     8    M.   DiCuccio     M.   ?    bmse000470   1    
+     9    R.   Edgar        R.   ?    bmse000470   1    
+     10   S.   Federhen     S.   ?    bmse000470   1    
+     11   L.   Geer         L.   Y.   bmse000470   1    
+     12   W.   Helmberg     W.   ?    bmse000470   1    
+     13   Y.   Kapustin     Y.   ?    bmse000470   1    
+     14   D.   Kenton       D.   L.   bmse000470   1    
+     15   O.   Khovayko     O.   ?    bmse000470   1    
+     16   D.   Lipman       D.   J.   bmse000470   1    
+     17   T.   Madden       T.   L.   bmse000470   1    
+     18   D.   Maglott      D.   R.   bmse000470   1    
+     19   J.   Ostell       J.   ?    bmse000470   1    
+     20   K.   Pruitt       K.   D.   bmse000470   1    
+     21   G.   Schuler      G.   D.   bmse000470   1    
+     22   L.   Schriml      L.   M.   bmse000470   1    
+     23   E.   Sequeira     E.   ?    bmse000470   1    
+     24   S.   Sherry       S.   T.   bmse000470   1    
+     25   K.   Sirotkin     K.   ?    bmse000470   1    
+     26   A.   Souvorov     A.   ?    bmse000470   1    
+     27   G.   Starchenko   G.   ?    bmse000470   1    
+     28   T.   Suzek        T.   O.   bmse000470   1    
+     29   R.   Tatusov      R.   ?    bmse000470   1    
+     30   T.   Tatusova     T.   A.   bmse000470   1    
+     31   L.   Bagner       L.   ?    bmse000470   1    
+     32   E.   Yaschenko    E.   ?    bmse000470   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmse000470
+   _Assembly.ID                    1
+   _Assembly.Name                  biuret
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   biuret   1   $biuret   yes   native   no   no   bmse000470   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_biuret
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     biuret
+   _Entity.Entry_ID                         bmse000470
+   _Entity.ID                               1
+   _Entity.Name                             biuret
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmse000470   1    
+
+   stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category   natural_source
+   _Entity_natural_src_list.Sf_framecode  natural_source
+   _Entity_natural_src_list.Entry_ID      bmse000470
+   _Entity_natural_src_list.ID            1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+     1   1   $biuret   n/a   'multiple natural sources'   yes   'not applicable'   n/a   n/a   n/a   n/a   n/a   bmse000470   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category   experimental_source
+   _Entity_experimental_src_list.Sf_framecode  experimental_source
+   _Entity_experimental_src_list.Entry_ID      bmse000470
+   _Entity_experimental_src_list.ID            1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+     1   1   $biuret   'chemical synthesis'   bmse000470   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                  chem_comp
+   _Chem_comp.Sf_framecode                 chem_comp_1
+   _Chem_comp.Entry_ID                     bmse000470
+   _Chem_comp.ID                           1
+   _Chem_comp.Provenance                   PubChem
+   _Chem_comp.Name                         biuret
+   _Chem_comp.Type                         non-polymer
+   _Chem_comp.BMRB_code                    bmse000470
+   _Chem_comp.InChI_code                   InChI=1S/C2H5N3O2/c3-1(6)5-2(4)7/h(H5,3,4,5,6,7)
+   _Chem_comp.Paramagnetic                 no
+   _Chem_comp.Aromatic                     no
+   _Chem_comp.Formula                      'C2 H5 N3 O2'
+   _Chem_comp.Formula_weight               103.08
+   _Chem_comp.Formula_mono_iso_wt_nat      103.0381764203
+   _Chem_comp.Formula_mono_iso_wt_13C      105.0448860959
+   _Chem_comp.Formula_mono_iso_wt_15N      106.0292810999
+   _Chem_comp.Formula_mono_iso_wt_13C_15N  108.0359907755
+   _Chem_comp.Image_file_name              bmse000470.png
+   _Chem_comp.Image_file_format            png
+   _Chem_comp.Struct_file_name             bmse000470.mol
+   _Chem_comp.Struct_file_format           mol
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     Carbamoylurea                 synonym   bmse000470   1    
+     ureidoformamide               synonym   bmse000470   1    
+     '2-imidodicarbonic diamide'   synonym   bmse000470   1    
+     carbamoylurea                 synonym   bmse000470   1    
+     'Allophanic acid amide'       synonym   bmse000470   1    
+     Allophanamide                 synonym   bmse000470   1    
+     'imidodicarbonic diamide'     synonym   bmse000470   1    
+     allophanamide                 synonym   bmse000470   1    
+     Biuret                        synonym   bmse000470   1    
+     (aminocarbonyl)urea           synonym   bmse000470   1    
+     'Imidodicarbonic diamide'     synonym   bmse000470   1    
+     'dicarbonimidic diamide'      synonym   bmse000470   1    
+     Carbamylurea                  synonym   bmse000470   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+     InChI=1S/C2H5N3O2/c3-1(6)5-2(4)7/h(H5,3,4,5,6,7)   INCHI   na       na      bmse000470   1    
+     InChI=1S/C2H5N3O2/c3-1(6)5-2(4)7/h(H5,3,4,5,6,7)   INCHI   ALATIS   3.003   bmse000470   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     carbamoylurea       PUBCHEM_IUPAC_NAME               bmse000470   1    
+     carbamoylurea       PUBCHEM_IUPAC_TRADITIONAL_NAME   bmse000470   1    
+     carbamoylurea       PUBCHEM_IUPAC_OPENEYE_NAME       bmse000470   1    
+     carbamoylurea       PUBCHEM_IUPAC_CAS_NAME           bmse000470   1    
+     aminocarbonylurea   PUBCHEM_IUPAC_SYSTEMATIC_NAME    bmse000470   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     canonical   C(=O)(N)NC(=O)N   bmse000470   1    
+     isomeric    C(=O)(N)NC(=O)N   bmse000470   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     O6    O   5.1350   1.0600    1    bmse000470   1    
+     O7    O   3.4030   1.0600    2    bmse000470   1    
+     N5    N   4.2690   -0.4400   3    bmse000470   1    
+     N3    N   6.0010   -0.4400   4    bmse000470   1    
+     N4    N   2.5369   -0.4400   5    bmse000470   1    
+     C1    C   5.1350   0.0600    6    bmse000470   1    
+     C2    C   3.4030   0.0600    7    bmse000470   1    
+     H12   H   4.2690   -1.0600   8    bmse000470   1    
+     H8    H   6.5380   -0.1300   9    bmse000470   1    
+     H9    H   6.0010   -1.0600   10   bmse000470   1    
+     H10   H   2.0000   -0.1300   11   bmse000470   1    
+     H11   H   2.5369   -1.0600   12   bmse000470   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     O6    O1    BMRB     bmse000470   1    
+     O7    O2    BMRB     bmse000470   1    
+     N5    N3    BMRB     bmse000470   1    
+     N3    N4    BMRB     bmse000470   1    
+     N4    N5    BMRB     bmse000470   1    
+     C1    C6    BMRB     bmse000470   1    
+     C2    C7    BMRB     bmse000470   1    
+     H12   H8    BMRB     bmse000470   1    
+     H8    H9    BMRB     bmse000470   1    
+     H9    H10   BMRB     bmse000470   1    
+     H10   H11   BMRB     bmse000470   1    
+     H11   H12   BMRB     bmse000470   1    
+     O6    O6    ALATIS   bmse000470   1    
+     O7    O7    ALATIS   bmse000470   1    
+     N5    N5    ALATIS   bmse000470   1    
+     N3    N3    ALATIS   bmse000470   1    
+     N4    N4    ALATIS   bmse000470   1    
+     C1    C1    ALATIS   bmse000470   1    
+     C2    C2    ALATIS   bmse000470   1    
+     H12   H12   ALATIS   bmse000470   1    
+     H8    H8    ALATIS   bmse000470   1    
+     H9    H9    ALATIS   bmse000470   1    
+     H10   H10   ALATIS   bmse000470   1    
+     H11   H11   ALATIS   bmse000470   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1    covalent   DOUB   O6   C1    bmse000470   1    
+     2    covalent   DOUB   O7   C2    bmse000470   1    
+     3    covalent   SING   N5   C1    bmse000470   1    
+     4    covalent   SING   N5   C2    bmse000470   1    
+     5    covalent   SING   N5   H12   bmse000470   1    
+     6    covalent   SING   N3   C1    bmse000470   1    
+     7    covalent   SING   N3   H8    bmse000470   1    
+     8    covalent   SING   N3   H9    bmse000470   1    
+     9    covalent   SING   N4   C2    bmse000470   1    
+     10   covalent   SING   N4   H10   bmse000470   1    
+     11   covalent   SING   N4   H11   bmse000470   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     no   PubChem                    85165257          sid                 biuret   'matching entry'   bmse000470   1    
+     no   PubChem                    7913              cid                 biuret   'matching entry'   bmse000470   1    
+     no   PubChem                    12159246          sid                 biuret   'matching entry'   bmse000470   1    
+     no   PubChem                    10503597          sid                 biuret   'matching entry'   bmse000470   1    
+     no   PubChem                    8143875           sid                 biuret   'matching entry'   bmse000470   1    
+     no   PubChem                    14709403          sid                 biuret   'matching entry'   bmse000470   1    
+     no   PubChem                    24849251          sid                 biuret   'matching entry'   bmse000470   1    
+     no   PubChem                    4703669           sid                 biuret   'matching entry'   bmse000470   1    
+     no   PubChem                    39850065          sid                 biuret   'matching entry'   bmse000470   1    
+     no   PubChem                    8784              sid                 biuret   'matching entry'   bmse000470   1    
+     no   PubChem                    17389140          sid                 biuret   'matching entry'   bmse000470   1    
+     no   PubChem                    11076235          sid                 biuret   'matching entry'   bmse000470   1    
+     no   'CAS Registry'             108-19-0          'registry number'   biuret   'matching entry'   bmse000470   1    
+     no   Sigma-Aldrich              15270_FLUKA       ?                   biuret   'matching entry'   bmse000470   1    
+     no   ChEBI                      CHEBI:18138       ?                   biuret   'matching entry'   bmse000470   1    
+     no   ChemSpider                 11517614          ?                   biuret   'matching entry'   bmse000470   1    
+     no   'EPA DSSTox'               6783              ?                   biuret   'matching entry'   bmse000470   1    
+     no   ZINC                       ZINC03875757      ?                   biuret   'matching entry'   bmse000470   1    
+     no   UM-BBD                     c0164             ?                   biuret   'matching entry'   bmse000470   1    
+     no   KEGG                       C06555            'compound ID'       biuret   'matching entry'   bmse000470   1    
+     no   ChemDB                     4953743           ?                   biuret   'matching entry'   bmse000470   1    
+     no   NCGC                       NCGC00091696-01   ?                   biuret   'matching entry'   bmse000470   1    
+     no   'NIST Chemistry WebBook'   2596479062        ?                   biuret   'matching entry'   bmse000470   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citation_1   bmse000470   1    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category   sample
+   _Sample.Sf_framecode  sample_1
+   _Sample.Entry_ID      bmse000470
+   _Sample.ID            1
+   _Sample.Type          solution
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_units
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   biuret               'natural abundance'   1   $biuret   Solute      100   mM   Sigma   biuret   bmse000470   1    
+     2   D2O                  ?                     1   ?         Solvent     100   %    ?       ?        bmse000470   1    
+     3   'sodium phosphate'   ?                     1   ?         Buffer      50    mM   ?       ?        bmse000470   1    
+     4   'sodium azide'       ?                     1   ?         Cytocide    500   uM   ?       ?        bmse000470   1    
+     5   DSS                  ?                     1   ?         Reference   500   uM   ?       ?        bmse000470   1    
+
+   stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category   sample_conditions
+   _Sample_condition_list.Sf_framecode  sample_conditions_1
+   _Sample_condition_list.Entry_ID      bmse000470
+   _Sample_condition_list.ID            1
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+     pH            7.4   pH   bmse000470   1    
+     temperature   298   K    bmse000470   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmse000470
+   _Software.ID            1
+   _Software.Name          NMRPipe
+
+   loop_
+      _Vendor.Name
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'F Delaglio, S Grzesiek, GW Vuister, G Zhu, J Pfeifer and A Bax'   bmse000470   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     Processing   bmse000470   1    
+
+   stop_
+
+save_
+
+save_software_2
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_2
+   _Software.Entry_ID      bmse000470
+   _Software.ID            2
+   _Software.Name          XWIN-NMR
+   _Software.Version       3.5
+
+   loop_
+      _Vendor.Name
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Bruker Biospin'   bmse000470   2    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     Collection        bmse000470   2    
+     Processing        bmse000470   2    
+     'Data analysis'   bmse000470   2    
+     'Peak picking'    bmse000470   2    
+
+   stop_
+
+save_
+
+save_software_3
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_3
+   _Software.Entry_ID      bmse000470
+   _Software.ID            3
+   _Software.Name          NMRDraw
+   _Software.Version       2.3
+
+   loop_
+      _Vendor.Name
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'F Delaglio, S Grzesiek, GW Vuister, G Zhu, J Pfeifer and A Bax'   bmse000470   3    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     'Data analysis'   bmse000470   3    
+     'Peak picking'    bmse000470   3    
+
+   stop_
+
+save_
+
+save_software_4
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_4
+   _Software.Entry_ID      bmse000470
+   _Software.ID            4
+   _Software.Name          NUTS
+   _Software.Version       '1D Version - 20060331'
+
+   loop_
+      _Vendor.Name
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Acorn NMR Inc.'   bmse000470   4    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     'Data analysis'   bmse000470   4    
+     'Peak picking'    bmse000470   4    
+
+   stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_Bruker_DMX_500
+   _NMR_spectrometer.Sf_category     NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode    Bruker_DMX_500
+   _NMR_spectrometer.Entry_ID        bmse000470
+   _NMR_spectrometer.ID              1
+   _NMR_spectrometer.Manufacturer    Bruker
+   _NMR_spectrometer.Model           DMX
+   _NMR_spectrometer.Field_strength  500
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category   experiment_list
+   _Experiment_list.Sf_framecode  experiment_list
+   _Experiment_list.Entry_ID      bmse000470
+   _Experiment_list.ID            1
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+     1   '1D 1H'              yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000470   1    
+     2   '2D [1H,1H]-TOCSY'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000470   1    
+     3   '1D 13C'             yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000470   1    
+     4   '1D DEPT90'          yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000470   1    
+     5   '1D DEPT135'         yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000470   1    
+     6   '2D [1H,13C]-HSQC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000470   1    
+     7   '2D [1H,13C]-HMBC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000470   1    
+
+   stop_
+
+   loop_
+      _Experiment_file.Experiment_ID
+      _Experiment_file.Name
+      _Experiment_file.Type
+      _Experiment_file.Directory_path
+      _Experiment_file.Details
+      _Experiment_file.Entry_ID
+      _Experiment_file.Experiment_list_ID
+
+     1   1H            text/directory   nmr/set01/          'NMR experiment directory'   bmse000470   1    
+     1   1H.png        image/png        nmr/set01/spectra   'Spectral image'             bmse000470   1    
+     2   HH_TOCSY      text/directory   nmr/set01/          'NMR experiment directory'   bmse000470   1    
+     3   13C           text/directory   nmr/set01/          'NMR experiment directory'   bmse000470   1    
+     4   DEPT_90       text/directory   nmr/set01/          'NMR experiment directory'   bmse000470   1    
+     5   DEPT_135      text/directory   nmr/set01/          'NMR experiment directory'   bmse000470   1    
+     6   1H_13C_HSQC   text/directory   nmr/set01/          'NMR experiment directory'   bmse000470   1    
+     7   1H_13C_HMBC   text/directory   nmr/set01/          'NMR experiment directory'   bmse000470   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference
+   _Chem_shift_reference.Entry_ID      bmse000470
+   _Chem_shift_reference.ID            1
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    DSS   'methyl protons'   ppm   0.00   internal   direct     1.000000000   bmse000470   1    
+     C   13   DSS   'methyl protons'   ppm   0.00   ?          indirect   0.251449530   bmse000470   1    
+
+   stop_
+
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_category                  assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                 assigned_chemical_shifts
+   _Assigned_chem_shift_list.Entry_ID                     bmse000470
+   _Assigned_chem_shift_list.ID                           1
+   _Assigned_chem_shift_list.Sample_condition_list_ID     1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID      1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chem_shift_reference
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+     1   '1D 1H'              1   $sample_1   bmse000470   1    
+     2   '2D [1H,1H]-TOCSY'   1   $sample_1   bmse000470   1    
+     3   '1D 13C'             1   $sample_1   bmse000470   1    
+     4   '1D DEPT90'          1   $sample_1   bmse000470   1    
+     5   '1D DEPT135'         1   $sample_1   bmse000470   1    
+     6   '2D [1H,13C]-HSQC'   1   $sample_1   bmse000470   1    
+     7   '2D [1H,13C]-HMBC'   1   $sample_1   bmse000470   1    
+
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+     1   $software_2   bmse000470   1    
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+     1   1   1   1   C1   C   13   160.054   1   C6   bmse000470   1    
+     2   1   1   1   C2   C   13   160.054   1   C7   bmse000470   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Spectral peak lists  #
+    #########################
+
+save_spectral_peak_13C
+   _Spectral_peak_list.Sf_category                    spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                   spectral_peak_13C
+   _Spectral_peak_list.Entry_ID                       bmse000470
+   _Spectral_peak_list.ID                             2
+   _Spectral_peak_list.Sample_ID                      1
+   _Spectral_peak_list.Sample_label                   $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID       1
+   _Spectral_peak_list.Sample_condition_list_label    $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                  3
+   _Spectral_peak_list.Experiment_name                '1D 13C'
+   _Spectral_peak_list.Number_of_spectral_dimensions  1
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+     1   C   13   'Full C'   30303.0303030303   bmse000470   2    
+
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+     2   $software_2   bmse000470   2    
+     4   $software_4   bmse000470   2    
+
+   stop_
+
+   loop_
+      _Peak.ID
+      _Peak.Entry_ID
+      _Peak.Spectral_peak_list_ID
+
+     1   bmse000470   2    
+
+   stop_
+
+   loop_
+      _Peak_char.Peak_ID
+      _Peak_char.Spectral_dim_ID
+      _Peak_char.Chem_shift_val
+      _Peak_char.Coupling_pattern
+      _Peak_char.Entry_ID
+      _Peak_char.Spectral_peak_list_ID
+
+     1   1   160.054   s   bmse000470   2    
+
+   stop_
+
+   loop_
+      _Assigned_peak_chem_shift.Peak_ID
+      _Assigned_peak_chem_shift.Spectral_dim_ID
+      _Assigned_peak_chem_shift.Val
+      _Assigned_peak_chem_shift.Entity_assembly_ID
+      _Assigned_peak_chem_shift.Entity_ID
+      _Assigned_peak_chem_shift.Comp_index_ID
+      _Assigned_peak_chem_shift.Comp_ID
+      _Assigned_peak_chem_shift.Atom_ID
+      _Assigned_peak_chem_shift.Entry_ID
+      _Assigned_peak_chem_shift.Spectral_peak_list_ID
+
+     1   1   160.054   1   1   1   1   C1   bmse000470   2    
+     1   1   160.054   1   1   1   1   C2   bmse000470   2    
+
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+     1   bmse000470   2    
+
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+     1   170710288   Height   bmse000470   2    
+
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+     1   1   160.067   bmse000470   2    
+
+   stop_
+
+save_

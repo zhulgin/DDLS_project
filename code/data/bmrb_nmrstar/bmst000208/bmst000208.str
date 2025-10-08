@@ -1,0 +1,773 @@
+data_bmst000208
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmst000208
+   _Entry.Title                         1_amino_1_phenylmethyl_phosphonic_acid
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2006-02-23
+   _Entry.Accession_date                2006-02-23
+   _Entry.Last_release_date             2011-09-14
+   _Entry.Original_release_date         2006-02-23
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.7
+   _Entry.Original_NMR_STAR_version     'NMR STAR v3.1'
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   theoretical
+   _Entry.Details                       ?
+   _Entry.BMRB_internal_directory_name  1_amino_1_phenylmethyl_phosphonic_acid
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+     1   William   Westler   M.   ?   bmst000208    
+     2   John      Markley   L.   ?   bmst000208    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   metabolics   'Madison Metabolomics Consortium'   MMC   bmst000208    
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+     other_data_list   1   bmst000208    
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+     'theoretical chemical shifts'   1   bmst000208    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1   .   .   2006-02-23   2006-02-23   original   BMRB   'Original theoretical calculations from NMRFAM'                                                   bmst000208    
+     2   .   .   2008-11-18   2008-11-18   update     BMRB   'updated the file to match latest NMR STAR dictionary'                                            bmst000208    
+     3   .   .   2008-11-25   2008-11-25   update     BMRB   'fixed enumerations: N should be no'                                                              bmst000208    
+     4   .   .   2010-09-16   2010-09-16   update     BMRB   'Removed Shielding_tensor_list_ID and Shielding_tensor_list_label from theoretical_chem_shifts'   bmst000208    
+     5   .   .   2011-09-14   2011-09-14   update     BMRB   'Partially brought up to date with latest Dictionary'                                             bmst000208    
+     6   .   .   2017-10-12   2017-10-12   update     BMRB   'Remediated Experiment_file loop if present and standardized mol and png file tags.'              bmst000208    
+
+   stop_
+
+   loop_
+      _Auxiliary_files.ID
+      _Auxiliary_files.URI
+      _Auxiliary_files.DOI
+      _Auxiliary_files.Path
+      _Auxiliary_files.Format
+      _Auxiliary_files.Details
+      _Auxiliary_files.Entry_ID
+
+     1   .   .   1_amino_1_phenylmethyl_phosphonic_acid_675736_opt.pdb      x-chemical/x-pdb   'Name of the file containing the atomic coordinates'            bmst000208    
+     2   .   .   1_amino_1_phenylmethyl_phosphonic_acid_675736.g03.shifts   text/plain         'Name of the file containing theoretical chemical shift data'   bmst000208    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citations
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citations
+   _Citation.Entry_ID      bmst000208
+   _Citation.ID            1
+   _Citation.Class         'reference citation'
+   _Citation.PubMed_ID     18940862
+   _Citation.Title         'Database resources of the National Center for Biotechnology Information.'
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://pubchem.ncbi.nlm.nih.gov/
+   _Citation.Year          2006
+   _Citation.Details       ?
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    D.   Wheeler      D.   L.   ?   bmst000208   1    
+     2    T.   Barrett      T.   ?    ?   bmst000208   1    
+     3    D.   Benson       D.   A.   ?   bmst000208   1    
+     4    S.   Bryant       S.   H.   ?   bmst000208   1    
+     5    K.   Canese       K.   ?    ?   bmst000208   1    
+     6    V.   Chetvenin    V.   ?    ?   bmst000208   1    
+     7    D.   Church       D.   M.   ?   bmst000208   1    
+     8    M.   DiCuccio     M.   ?    ?   bmst000208   1    
+     9    R.   Edgar        R.   ?    ?   bmst000208   1    
+     10   S.   Federhen     S.   ?    ?   bmst000208   1    
+     11   L.   Geer         L.   Y.   ?   bmst000208   1    
+     12   W.   Helmberg     W.   ?    ?   bmst000208   1    
+     13   Y.   Kapustin     Y.   ?    ?   bmst000208   1    
+     14   D.   Kenton       D.   L.   ?   bmst000208   1    
+     15   O.   Khovayko     O.   ?    ?   bmst000208   1    
+     16   D.   Lipman       D.   J.   ?   bmst000208   1    
+     17   T.   Madden       T.   L.   ?   bmst000208   1    
+     18   D.   Maglott      D.   R.   ?   bmst000208   1    
+     19   J.   Ostell       J.   ?    ?   bmst000208   1    
+     20   K.   Pruitt       K.   D.   ?   bmst000208   1    
+     21   G.   Schuler      G.   D.   ?   bmst000208   1    
+     22   L.   Schriml      L.   M.   ?   bmst000208   1    
+     23   E.   Sequeira     E.   ?    ?   bmst000208   1    
+     24   S.   Sherry       S.   T.   ?   bmst000208   1    
+     25   K.   Sirotkin     K.   ?    ?   bmst000208   1    
+     26   A.   Souvorov     A.   ?    ?   bmst000208   1    
+     27   G.   Starchenko   G.   ?    ?   bmst000208   1    
+     28   T.   Suzek        T.   O.   ?   bmst000208   1    
+     29   R.   Tatusov      R.   ?    ?   bmst000208   1    
+     30   T.   Tatusova     T.   A.   ?   bmst000208   1    
+     31   L.   Bagner       L.   ?    ?   bmst000208   1    
+     32   E.   Yaschenko    E.   ?    ?   bmst000208   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmst000208
+   _Assembly.ID                    1
+   _Assembly.Name                  ASSEMBLY_NAME
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Metal_ions            ?
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   ENT_NAME   1   $1_amino_1_phenylmethyl_phosphonic_acid   yes   native   no   no   ?   ?   ?   bmst000208   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_1_amino_1_phenylmethyl_phosphonic_acid
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     1_amino_1_phenylmethyl_phosphonic_acid
+   _Entity.Entry_ID                         bmst000208
+   _Entity.ID                               1
+   _Entity.BMRB_code                        ?
+   _Entity.Name                             '(1-amino-1-phenylmethyl)phosphonic acid'
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmst000208   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                      chem_comp
+   _Chem_comp.Sf_framecode                     chem_comp_1
+   _Chem_comp.Entry_ID                         bmst000208
+   _Chem_comp.ID                               1
+   _Chem_comp.Provenance                       PubChem
+   _Chem_comp.Name                             '(1-amino-1-phenylmethyl)phosphonic acid'
+   _Chem_comp.Type                             non-polymer
+   _Chem_comp.BMRB_code                        ?
+   _Chem_comp.PDB_code                         ?
+   _Chem_comp.InChI_code                     
+;
+InChI=1/C7H10NO3P/c8-7(12(9,10)11)6-4-2-1-3-5-6/h1-5,7H,8H2,(H2,9,10,11)/f/h9-10H
+;
+   _Chem_comp.Mon_nstd_flag                    ?
+   _Chem_comp.Std_deriv_one_letter_code        ?
+   _Chem_comp.Std_deriv_three_letter_code      ?
+   _Chem_comp.Std_deriv_BMRB_code              ?
+   _Chem_comp.Std_deriv_PDB_code               ?
+   _Chem_comp.Formal_charge                    ?
+   _Chem_comp.Paramagnetic                     no
+   _Chem_comp.Aromatic                         yes
+   _Chem_comp.Formula                          'C7 H10 N O3 P'
+   _Chem_comp.Formula_weight                   187.1329610000
+   _Chem_comp.Formula_mono_iso_wt_nat          187.039829703
+   _Chem_comp.Formula_mono_iso_wt_13C          194.063313567
+   _Chem_comp.Formula_mono_iso_wt_15N          188.036864596
+   _Chem_comp.Formula_mono_iso_wt_13C_15N      194.063313567
+   _Chem_comp.Image_file_name                  bmst000208.png
+   _Chem_comp.Image_file_format                png
+   _Chem_comp.Topo_file_name                   ?
+   _Chem_comp.Topo_file_format                 ?
+   _Chem_comp.Struct_file_name                 bmst000208.mol
+   _Chem_comp.Struct_file_format               mol
+   _Chem_comp.Stereochem_param_file_name       ?
+   _Chem_comp.Details                          ?
+   _Chem_comp.DB_query_date                    ?
+   _Chem_comp.DB_last_query_revised_last_date  ?
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     '(Aminophenylmethyl)phosphonic acid'                synonym   bmst000208   1    
+     'Phosphonic acid, (alpha-aminobenzyl)- (6CI,8CI)'   synonym   bmst000208   1    
+     '(alpha-Aminobenzyl)phosphonic acid'                synonym   bmst000208   1    
+     'BRN 2049498'                                       synonym   bmst000208   1    
+     'Phosphonic acid, (aminophenylmethyl)-'             synonym   bmst000208   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     '(amino-phenyl-methyl)phosphonic acid'   IUPAC               bmst000208   1    
+     '(amino-phenyl-methyl)phosphonic acid'   IUPAC_TRADITIONAL   bmst000208   1    
+     '(amino-phenyl-methyl)phosphonic acid'   IUPAC_CAS           bmst000208   1    
+     '(amino-phenyl-methyl)phosphonic acid'   IUPAC_OPENEYE       bmst000208   1    
+     '(amino-phenyl-methyl)phosphonic acid'   IUPAC_SYSTEMATIC    bmst000208   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     Isomeric    C1=CC=C(C=C1)C(N)P(=O)(O)O   bmst000208   1    
+     Canonical   C1=CC=C(C=C1)C(N)P(=O)(O)O   bmst000208   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     H1    H   ?   ?   ?   ?   3.4030   -3.0715   -2.440   -3.825   -0.943   1    bmst000208   1    
+     H2    H   ?   ?   ?   ?   4.8059   -2.2615   -0.075   -3.815   -0.173   2    bmst000208   1    
+     H3    H   ?   ?   ?   ?   2.0000   -2.2615   -3.531   -1.684   -1.592   3    bmst000208   1    
+     H4    H   ?   ?   ?   ?   4.8059   -0.6415   1.182    -1.695   -0.042   4    bmst000208   1    
+     H5    H   ?   ?   ?   ?   2.0000   -0.6415   -2.264   0.436    -1.482   5    bmst000208   1    
+     H6    H   ?   ?   ?   ?   2.7101   0.1485    -0.323   1.615    -1.167   6    bmst000208   1    
+     H7    H   ?   ?   ?   ?   2.0000   0.7385    1.539    0.178    -2.238   7    bmst000208   1    
+     H8    H   ?   ?   ?   ?   2.5369   1.6685    1.974    1.641    -1.631   8    bmst000208   1    
+     H9    H   ?   ?   ?   ?   5.1350   2.1685    2.439    0.340    0.457    9    bmst000208   1    
+     H10   H   ?   ?   ?   ?   4.0790   2.4515    -0.730   1.611    2.544    10   bmst000208   1    
+     C11   C   ?   ?   ?   ?   3.4030   -2.4515   -1.886   -2.892   -0.893   11   bmst000208   1    
+     C12   C   ?   ?   ?   ?   4.2690   -1.9515   -0.557   -2.886   -0.463   12   bmst000208   1    
+     C13   C   ?   ?   ?   ?   2.5369   -1.9515   -2.498   -1.692   -1.255   13   bmst000208   1    
+     C14   C   ?   ?   ?   ?   4.2690   -0.9515   0.156    -1.690   -0.395   14   bmst000208   1    
+     C15   C   ?   ?   ?   ?   2.5369   -0.9515   -1.783   -0.496   -1.192   15   bmst000208   1    
+     C16   C   ?   ?   ?   ?   3.4030   -0.4515   -0.450   -0.479   -0.763   16   bmst000208   1    
+     C17   C   ?   ?   ?   ?   3.4030   0.5485    0.304    0.834    -0.716   17   bmst000208   1    
+     N18   N   ?   ?   ?   ?   2.5369   1.0485    1.631    0.715    -1.377   18   bmst000208   1    
+     O19   O   ?   ?   ?   ?   4.7690   0.1825    0.912    2.916    1.060    19   bmst000208   1    
+     O20   O   ?   ?   ?   ?   5.1350   1.5485    2.005    0.507    1.329    20   bmst000208   1    
+     O21   O   ?   ?   ?   ?   3.7690   1.9145    -0.401   0.874    2.001    21   bmst000208   1    
+     P22   P   ?   ?   ?   ?   4.2690   1.0485    0.732    1.441    0.990    22   bmst000208   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     H1    H1    ?   bmst000208   1    
+     H2    H2    ?   bmst000208   1    
+     H3    H3    ?   bmst000208   1    
+     H4    H4    ?   bmst000208   1    
+     H5    H5    ?   bmst000208   1    
+     H6    H6    ?   bmst000208   1    
+     H7    H7    ?   bmst000208   1    
+     H8    H8    ?   bmst000208   1    
+     H9    H9    ?   bmst000208   1    
+     H10   H10   ?   bmst000208   1    
+     C11   C11   ?   bmst000208   1    
+     C12   C12   ?   bmst000208   1    
+     C13   C13   ?   bmst000208   1    
+     C14   C14   ?   bmst000208   1    
+     C15   C15   ?   bmst000208   1    
+     C16   C16   ?   bmst000208   1    
+     C17   C17   ?   bmst000208   1    
+     N18   N18   ?   bmst000208   1    
+     O19   O19   ?   bmst000208   1    
+     O20   O20   ?   bmst000208   1    
+     O21   O21   ?   bmst000208   1    
+     P22   P22   ?   bmst000208   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1    covalent   SING   H1    C11   ?   bmst000208   1    
+     2    covalent   SING   H2    C12   ?   bmst000208   1    
+     3    covalent   SING   H3    C13   ?   bmst000208   1    
+     4    covalent   SING   H4    C14   ?   bmst000208   1    
+     5    covalent   SING   H5    C15   ?   bmst000208   1    
+     6    covalent   SING   H6    C17   ?   bmst000208   1    
+     7    covalent   SING   H7    N18   ?   bmst000208   1    
+     8    covalent   SING   H8    N18   ?   bmst000208   1    
+     9    covalent   SING   H9    O20   ?   bmst000208   1    
+     10   covalent   SING   H10   O21   ?   bmst000208   1    
+     11   covalent   DOUB   C11   C12   ?   bmst000208   1    
+     12   covalent   SING   C11   C13   ?   bmst000208   1    
+     13   covalent   SING   C12   C14   ?   bmst000208   1    
+     14   covalent   DOUB   C13   C15   ?   bmst000208   1    
+     15   covalent   DOUB   C14   C16   ?   bmst000208   1    
+     16   covalent   SING   C15   C16   ?   bmst000208   1    
+     17   covalent   SING   C16   C17   ?   bmst000208   1    
+     18   covalent   SING   C17   N18   ?   bmst000208   1    
+     19   covalent   SING   C17   P22   ?   bmst000208   1    
+     20   covalent   DOUB   O19   P22   ?   bmst000208   1    
+     21   covalent   SING   O20   P22   ?   bmst000208   1    
+     22   covalent   SING   O21   P22   ?   bmst000208   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_code
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_experimental_method
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_details
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     no   PubChem                          675736          sid                 ?   '(1-amino-1-phenylmethyl)phosphonic acid'   ?   'matching entry'   ?   bmst000208   1    
+     no   PubChem                          98449           cid                 ?   '(1-amino-1-phenylmethyl)phosphonic acid'   ?   'matching entry'   ?   bmst000208   1    
+     no   'CAS Registry'                   18108-22-0      'registry number'   ?   '(1-amino-1-phenylmethyl)phosphonic acid'   ?   'matching entry'   ?   bmst000208   1    
+     no   'Beilstein Handbook Reference'   4-07-00-00555   ?                   ?   '(1-amino-1-phenylmethyl)phosphonic acid'   ?   'matching entry'   ?   bmst000208   1    
+     no   NSC                              133874          ?                   ?   '(1-amino-1-phenylmethyl)phosphonic acid'   ?   'matching entry'   ?   bmst000208   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citations   bmst000208   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmst000208
+   _Software.ID            1
+   _Software.Name          Gaussian
+   _Software.Version       ?
+   _Software.Details       ?
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Gaussian, Inc.'   ?   http://www.gaussian.com/home.htm   bmst000208   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     'geometry optimization'        bmst000208   1    
+     'chemical shift calculation'   bmst000208   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference
+   _Chem_shift_reference.Entry_ID      bmst000208
+   _Chem_shift_reference.ID            1
+   _Chem_shift_reference.Details       ?
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    TMS                  'methyl protons'   ppm   0.00   na   direct   ?   bmst000208   1    
+     C   13   TMS                  'methyl carbons'   ppm   0.00   na   direct   ?   bmst000208   1    
+     N   15   'ammonia pentamer'   nitrogen           ppm   0.00   na   direct   ?   bmst000208   1    
+     P   31   'phosphoric acid'    phosphorus         ppm   0.00   na   direct   ?   bmst000208   1    
+
+   stop_
+
+save_
+
+save_chem_shifts_calc_type
+   _Chem_shifts_calc_type.Sf_category                      chem_shifts_calc_type
+   _Chem_shifts_calc_type.Sf_framecode                     chem_shifts_calc_type
+   _Chem_shifts_calc_type.Entry_ID                         bmst000208
+   _Chem_shifts_calc_type.ID                               1
+   _Chem_shifts_calc_type.Calculation_level                'Density Functional Theory'
+   _Chem_shifts_calc_type.Quantum_mechanical_method        GIAO
+   _Chem_shifts_calc_type.Quantum_mechanical_theory_level  B3LYP
+   _Chem_shifts_calc_type.Quantum_mechanical_basis_set     3-21g**
+   _Chem_shifts_calc_type.Chem_shift_nucleus               ?
+   _Chem_shifts_calc_type.Chem_shift_reference_ID          1
+   _Chem_shifts_calc_type.Chem_shift_reference_label       $chem_shift_reference
+   _Chem_shifts_calc_type.Details                        
+;
+Theoretical Chemical shift referencing and correction:
+
+1H chemical shifts
+	Tetramethylsilane (TMS) was geometry optimized at the B3LYP/6-311+g* 
+level of theory.
+	The chemical shielding of TMS was calculated at the pbe1pbe/3-21g* 
+level of theory using the GIAO method.
+	The chemical shielding of TMS was used as the reference (0 ppm) to 
+obtain all other chemical shifts.
+	A series of small organic molecules were optimized and the chemical 
+shieldings were calculated in the same manner as that for TMS.
+	To correct for biases arising from the applied level of theory, especially 
+the bias from the small basis set size, a linear regression analysis was used. 
+The slope and intercept from this regression was used to correct the calculated 
+chemical shifts. 
+
+The chemical shift was calculated by subtracting the chemical shielding value 
+of the compound of interest from that of TMS and applying the slope and intercept 
+corrections obtained from the regression analysis.
+ 
+corrected_shift=((TMS_shielding - uncorrected_shielding)+1.006)/0.963
+
+13C chemical shifts:
+	Tetramethylsilane (TMS) was geometry optimized at the B3LYP/6-311+g* 
+level of theory.
+	The chemical shielding of TMS was calculated at the pbe1pbe/3-21g* 
+level of theory using the GIAO method.
+	The chemical shielding of TMS was used as the reference (0 ppm) to 
+obtain all other chemical shifts.
+	A series of small organic molecules were optimized and the chemical 
+shieldings were calculated in the same manner as that for TMS.
+	To correct for biases arising from the applied level of theory, especially the 
+    bias from the small basis set size, a linear regression analysis of theoretical 
+    versus experimental chemical shifts was used. The slope and intercept from this 
+    regression was used to correct the calculated chemical shifts. 
+
+The chemical shift was calculated by subtracting the chemical shielding value 
+of the compound of interest from that of TMS and applying the slope and intercept 
+corrections obtained from the regression analysis.
+
+Corrected_shift=((TMS_shielding - uncorrected shielding) -4.53)/0.85
+
+
+15N chemical shifts:
+	A cyclic pentamer of ammonia (NH3_5) was geometry optimized at the B3LYP/6-311+g* 
+level of theory.
+	The chemical shielding of NH3_5 was calculated at the pbe1pbe/3-21g* 
+level of theory using the GIAO method.
+	The chemical shielding of NH3_5 was used as the reference (0 ppm) to 
+obtain all other chemical shifts.
+	A series of small organic molecules were optimized and the chemical 
+shieldings were calculated in the same manner as that for NH3_5.
+	To correct for biases arising from the applied level of theory, especially 
+the bias from the small basis set size, a linear regression analysis was used. 
+The slope and intercept from this regression was used to correct the calculated 
+chemical shifts. 
+
+The chemical shift was calculated by subtracting the chemical shielding value 
+of the compound of interest from that of NH3_5 and applying the slope and intercept 
+corrections obtained from the regression analysis.
+
+Corrected_shift=((NH_3_5_shielding - uncorrected_shielding)+10.2)/0.9088
+
+31P chemical shifts:
+	Phosphoric acid (H3PO4) was geometry optimized at the B3LYP/6-311+g* 
+level of theory.
+	The chemical shielding of H3PO4 was calculated at the pbe1pbe/3-21g* 
+level of theory using the GIAO method.
+	The chemical shielding of H3PO4 was used as the reference (0 ppm) to 
+obtain all other chemical shifts.
+	No correction for linear bias or offset was applied to calculated 
+31P chemical shifts. 
+
+The chemical shift was calculated by subtracting the chemical shielding value 
+of the compound of interest from that of H3PO4.
+
+Shift=(H3PO4_shielding - shielding)
+;
+
+   loop_
+      _Chem_shifts_calc_software.Software_ID
+      _Chem_shifts_calc_software.Software_label
+      _Chem_shifts_calc_software.Entry_ID
+      _Chem_shifts_calc_software.Chem_shifts_calc_type_ID
+
+     1   $software_1   bmst000208   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Theoretical chemical shifts  #
+    #################################
+
+save_theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Sf_category                       theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Sf_framecode                      theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Entry_ID                          bmst000208
+   _Theoretical_chem_shift_list.ID                                1
+   _Theoretical_chem_shift_list.Chem_shifts_calc_type_ID          1
+   _Theoretical_chem_shift_list.Chem_shifts_calc_type_label       $chem_shifts_calc_type
+   _Theoretical_chem_shift_list.Model_atomic_coordinates_ID       1
+   _Theoretical_chem_shift_list.Model_atomic_coordinates_label    $conformer_family_coord_set_1
+   _Theoretical_chem_shift_list.Fermi_contact_spin_density_units  ?
+   _Theoretical_chem_shift_list.Chem_shift_1H_err                 ?
+   _Theoretical_chem_shift_list.Chem_shift_2H_err                 ?
+   _Theoretical_chem_shift_list.Chem_shift_13C_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_15N_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_19F_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_31P_err                ?
+   _Theoretical_chem_shift_list.Details                           ?
+   _Theoretical_chem_shift_list.Text_data_format                  ?
+   _Theoretical_chem_shift_list.Text_data                         ?
+
+   loop_
+      _Theoretical_chem_shift.ID
+      _Theoretical_chem_shift.Entity_assembly_ID
+      _Theoretical_chem_shift.Entity_ID
+      _Theoretical_chem_shift.Comp_index_ID
+      _Theoretical_chem_shift.Comp_ID
+      _Theoretical_chem_shift.Atom_ID
+      _Theoretical_chem_shift.Atom_type
+      _Theoretical_chem_shift.Fermi_contact_spin_density
+      _Theoretical_chem_shift.Val
+      _Theoretical_chem_shift.Val_err
+      _Theoretical_chem_shift.Auth_seq_ID
+      _Theoretical_chem_shift.Auth_comp_ID
+      _Theoretical_chem_shift.Auth_atom_ID
+      _Theoretical_chem_shift.Entry_ID
+      _Theoretical_chem_shift.Theoretical_chem_shift_list_ID
+
+     1    1   1   1   1   H1    H   ?   8.539     ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     2    1   1   1   1   H2    H   ?   8.637     ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     3    1   1   1   1   H3    H   ?   8.505     ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     4    1   1   1   1   H4    H   ?   9.033     ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     5    1   1   1   1   H5    H   ?   8.292     ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     6    1   1   1   1   H6    H   ?   4.436     ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     7    1   1   1   1   H7    H   ?   1.642     ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     8    1   1   1   1   H8    H   ?   1.957     ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     9    1   1   1   1   H9    H   ?   8.618     ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     10   1   1   1   1   H10   H   ?   3.514     ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     11   1   1   1   1   C11   C   ?   135.485   ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     12   1   1   1   1   C12   C   ?   136.178   ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     13   1   1   1   1   C13   C   ?   134.917   ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     14   1   1   1   1   C14   C   ?   134.314   ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     15   1   1   1   1   C15   C   ?   136.601   ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     16   1   1   1   1   C16   C   ?   143.517   ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     17   1   1   1   1   C17   C   ?   60.436    ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     18   1   1   1   1   N18   N   ?   43.957    ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+     19   1   1   1   1   P22   P   ?   27.668    ?   1_amino_1_phenylmethyl_phosphonic_acid   ?   ?   bmst000208   1    
+
+   stop_
+
+save_
+
+    #####################################
+    #  Conformer family coordinate set  #
+    #####################################
+
+save_conformer_family_coord_set_1
+   _Conformer_family_coord_set.Sf_category   conformer_family_coord_set
+   _Conformer_family_coord_set.Sf_framecode  conformer_family_coord_set_1
+   _Conformer_family_coord_set.Entry_ID      bmst000208
+   _Conformer_family_coord_set.ID            1
+   _Conformer_family_coord_set.Details       ?
+
+   loop_
+      _Conformer_family_software.Software_ID
+      _Conformer_family_software.Software_label
+      _Conformer_family_software.Entry_ID
+      _Conformer_family_software.Conformer_family_coord_set_ID
+
+     1   $software_1   bmst000208   1    
+
+   stop_
+
+   loop_
+      _Atom_site.Model_ID
+      _Atom_site.ID
+      _Atom_site.Label_entity_assembly_ID
+      _Atom_site.Label_entity_ID
+      _Atom_site.Label_comp_index_ID
+      _Atom_site.Label_comp_ID
+      _Atom_site.Label_atom_ID
+      _Atom_site.Auth_seq_ID
+      _Atom_site.Auth_comp_ID
+      _Atom_site.Auth_atom_ID
+      _Atom_site.Type_symbol
+      _Atom_site.Cartn_x
+      _Atom_site.Cartn_y
+      _Atom_site.Cartn_z
+      _Atom_site.Entry_ID
+      _Atom_site.Conformer_family_coord_set_ID
+
+     1   1    1   1   1   1   H1    1   1   H1    H   -2.440   -3.825   -0.943   bmst000208   1    
+     1   2    1   1   1   1   H2    1   1   H2    H   -0.075   -3.815   -0.173   bmst000208   1    
+     1   3    1   1   1   1   H3    1   1   H3    H   -3.531   -1.684   -1.592   bmst000208   1    
+     1   4    1   1   1   1   H4    1   1   H4    H   1.182    -1.695   -0.042   bmst000208   1    
+     1   5    1   1   1   1   H5    1   1   H5    H   -2.264   0.436    -1.482   bmst000208   1    
+     1   6    1   1   1   1   H6    1   1   H6    H   -0.323   1.615    -1.167   bmst000208   1    
+     1   7    1   1   1   1   H7    1   1   H7    H   1.539    0.178    -2.238   bmst000208   1    
+     1   8    1   1   1   1   H8    1   1   H8    H   1.974    1.641    -1.631   bmst000208   1    
+     1   9    1   1   1   1   H9    1   1   H9    H   2.439    0.340    0.457    bmst000208   1    
+     1   10   1   1   1   1   H10   1   1   H10   H   -0.730   1.611    2.544    bmst000208   1    
+     1   11   1   1   1   1   C11   1   1   C11   C   -1.886   -2.892   -0.893   bmst000208   1    
+     1   12   1   1   1   1   C12   1   1   C12   C   -0.557   -2.886   -0.463   bmst000208   1    
+     1   13   1   1   1   1   C13   1   1   C13   C   -2.498   -1.692   -1.255   bmst000208   1    
+     1   14   1   1   1   1   C14   1   1   C14   C   0.156    -1.690   -0.395   bmst000208   1    
+     1   15   1   1   1   1   C15   1   1   C15   C   -1.783   -0.496   -1.192   bmst000208   1    
+     1   16   1   1   1   1   C16   1   1   C16   C   -0.450   -0.479   -0.763   bmst000208   1    
+     1   17   1   1   1   1   C17   1   1   C17   C   0.304    0.834    -0.716   bmst000208   1    
+     1   18   1   1   1   1   N18   1   1   N18   N   1.631    0.715    -1.377   bmst000208   1    
+     1   19   1   1   1   1   O19   1   1   O19   O   0.912    2.916    1.060    bmst000208   1    
+     1   20   1   1   1   1   O20   1   1   O20   O   2.005    0.507    1.329    bmst000208   1    
+     1   21   1   1   1   1   O21   1   1   O21   O   -0.401   0.874    2.001    bmst000208   1    
+     1   22   1   1   1   1   P22   1   1   P22   P   0.732    1.441    0.990    bmst000208   1    
+
+   stop_
+
+save_

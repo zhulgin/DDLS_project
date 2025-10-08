@@ -1,0 +1,788 @@
+data_bmst000177
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmst000177
+   _Entry.Title                         D_galacturonic_acid
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2006-02-23
+   _Entry.Accession_date                2006-02-23
+   _Entry.Last_release_date             2011-09-14
+   _Entry.Original_release_date         2006-02-23
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.7
+   _Entry.Original_NMR_STAR_version     'NMR STAR v3.1'
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   theoretical
+   _Entry.Details                       ?
+   _Entry.BMRB_internal_directory_name  D_galacturonic_acid
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+     1   William   Westler   M.   ?   bmst000177    
+     2   John      Markley   L.   ?   bmst000177    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   metabolics   'Madison Metabolomics Consortium'   MMC   bmst000177    
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+     other_data_list   1   bmst000177    
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+     'theoretical chemical shifts'   1   bmst000177    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1   .   .   2006-02-23   2006-02-23   original   BMRB   'Original theoretical calculations from NMRFAM'                                                   bmst000177    
+     2   .   .   2008-11-18   2008-11-18   update     BMRB   'updated the file to match latest NMR STAR dictionary'                                            bmst000177    
+     3   .   .   2008-11-25   2008-11-25   update     BMRB   'fixed enumerations: N should be no'                                                              bmst000177    
+     4   .   .   2010-09-16   2010-09-16   update     BMRB   'Removed Shielding_tensor_list_ID and Shielding_tensor_list_label from theoretical_chem_shifts'   bmst000177    
+     5   .   .   2011-09-14   2011-09-14   update     BMRB   'Partially brought up to date with latest Dictionary'                                             bmst000177    
+     6   .   .   2017-10-12   2017-10-12   update     BMRB   'Remediated Experiment_file loop if present and standardized mol and png file tags.'              bmst000177    
+
+   stop_
+
+   loop_
+      _Auxiliary_files.ID
+      _Auxiliary_files.URI
+      _Auxiliary_files.DOI
+      _Auxiliary_files.Path
+      _Auxiliary_files.Format
+      _Auxiliary_files.Details
+      _Auxiliary_files.Entry_ID
+
+     1   .   .   D_galacturonic_acid_3627_opt.pdb      x-chemical/x-pdb   'Name of the file containing the atomic coordinates'            bmst000177    
+     2   .   .   D_galacturonic_acid_3627.g03.shifts   text/plain         'Name of the file containing theoretical chemical shift data'   bmst000177    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citations
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citations
+   _Citation.Entry_ID      bmst000177
+   _Citation.ID            1
+   _Citation.Class         'reference citation'
+   _Citation.PubMed_ID     18940862
+   _Citation.Title         'Database resources of the National Center for Biotechnology Information.'
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://pubchem.ncbi.nlm.nih.gov/
+   _Citation.Year          2006
+   _Citation.Details       ?
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    D.   Wheeler      D.   L.   ?   bmst000177   1    
+     2    T.   Barrett      T.   ?    ?   bmst000177   1    
+     3    D.   Benson       D.   A.   ?   bmst000177   1    
+     4    S.   Bryant       S.   H.   ?   bmst000177   1    
+     5    K.   Canese       K.   ?    ?   bmst000177   1    
+     6    V.   Chetvenin    V.   ?    ?   bmst000177   1    
+     7    D.   Church       D.   M.   ?   bmst000177   1    
+     8    M.   DiCuccio     M.   ?    ?   bmst000177   1    
+     9    R.   Edgar        R.   ?    ?   bmst000177   1    
+     10   S.   Federhen     S.   ?    ?   bmst000177   1    
+     11   L.   Geer         L.   Y.   ?   bmst000177   1    
+     12   W.   Helmberg     W.   ?    ?   bmst000177   1    
+     13   Y.   Kapustin     Y.   ?    ?   bmst000177   1    
+     14   D.   Kenton       D.   L.   ?   bmst000177   1    
+     15   O.   Khovayko     O.   ?    ?   bmst000177   1    
+     16   D.   Lipman       D.   J.   ?   bmst000177   1    
+     17   T.   Madden       T.   L.   ?   bmst000177   1    
+     18   D.   Maglott      D.   R.   ?   bmst000177   1    
+     19   J.   Ostell       J.   ?    ?   bmst000177   1    
+     20   K.   Pruitt       K.   D.   ?   bmst000177   1    
+     21   G.   Schuler      G.   D.   ?   bmst000177   1    
+     22   L.   Schriml      L.   M.   ?   bmst000177   1    
+     23   E.   Sequeira     E.   ?    ?   bmst000177   1    
+     24   S.   Sherry       S.   T.   ?   bmst000177   1    
+     25   K.   Sirotkin     K.   ?    ?   bmst000177   1    
+     26   A.   Souvorov     A.   ?    ?   bmst000177   1    
+     27   G.   Starchenko   G.   ?    ?   bmst000177   1    
+     28   T.   Suzek        T.   O.   ?   bmst000177   1    
+     29   R.   Tatusov      R.   ?    ?   bmst000177   1    
+     30   T.   Tatusova     T.   A.   ?   bmst000177   1    
+     31   L.   Bagner       L.   ?    ?   bmst000177   1    
+     32   E.   Yaschenko    E.   ?    ?   bmst000177   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmst000177
+   _Assembly.ID                    1
+   _Assembly.Name                  ASSEMBLY_NAME
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Metal_ions            ?
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   ENT_NAME   1   $D_galacturonic_acid   yes   native   no   no   ?   ?   ?   bmst000177   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_D_galacturonic_acid
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     D_galacturonic_acid
+   _Entity.Entry_ID                         bmst000177
+   _Entity.ID                               1
+   _Entity.BMRB_code                        ?
+   _Entity.Name                             'D-Galacturonic Acid'
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmst000177   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                      chem_comp
+   _Chem_comp.Sf_framecode                     chem_comp_1
+   _Chem_comp.Entry_ID                         bmst000177
+   _Chem_comp.ID                               1
+   _Chem_comp.Provenance                       PubChem
+   _Chem_comp.Name                             'D-Galacturonic Acid'
+   _Chem_comp.Type                             non-polymer
+   _Chem_comp.BMRB_code                        ?
+   _Chem_comp.PDB_code                         ?
+   _Chem_comp.InChI_code                     
+;
+InChI=1/C6H10O7/c7-1-2(8)4(5(10)11)13-6(12)3(1)9/h1-4,6-9,12H,(H,10,11)/t1-,2+,3+,4-,6-/m0/s1/f/h10H
+;
+   _Chem_comp.Mon_nstd_flag                    ?
+   _Chem_comp.Std_deriv_one_letter_code        ?
+   _Chem_comp.Std_deriv_three_letter_code      ?
+   _Chem_comp.Std_deriv_BMRB_code              ?
+   _Chem_comp.Std_deriv_PDB_code               ?
+   _Chem_comp.Formal_charge                    ?
+   _Chem_comp.Paramagnetic                     no
+   _Chem_comp.Aromatic                         no
+   _Chem_comp.Formula                          'C6 H10 O7'
+   _Chem_comp.Formula_weight                   194.1394000000
+   _Chem_comp.Formula_mono_iso_wt_nat          194.042652676
+   _Chem_comp.Formula_mono_iso_wt_13C          200.062781702
+   _Chem_comp.Formula_mono_iso_wt_15N          194.042652676
+   _Chem_comp.Formula_mono_iso_wt_13C_15N      200.062781702
+   _Chem_comp.Image_file_name                  bmst000177.png
+   _Chem_comp.Image_file_format                png
+   _Chem_comp.Topo_file_name                   ?
+   _Chem_comp.Topo_file_format                 ?
+   _Chem_comp.Struct_file_name                 bmst000177.mol
+   _Chem_comp.Struct_file_format               mol
+   _Chem_comp.Stereochem_param_file_name       ?
+   _Chem_comp.Details                          ?
+   _Chem_comp.DB_query_date                    ?
+   _Chem_comp.DB_last_query_revised_last_date  ?
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     D-Galacturonate                    synonym   bmst000177   1    
+     685-73-4                           synonym   bmst000177   1    
+     'Calcium pectate'                  synonym   bmst000177   1    
+     'Calcium polygalacturonate'        synonym   bmst000177   1    
+     D-Galacturonan                     synonym   bmst000177   1    
+     'Pectic acid'                      synonym   bmst000177   1    
+     37331-21-8                         synonym   bmst000177   1    
+     'Sulfated polygalacturonic acid'   synonym   bmst000177   1    
+     'Sodium pectate'                   synonym   bmst000177   1    
+     'D-Galacturonic acid'              synonym   bmst000177   1    
+     9046-38-2                          synonym   bmst000177   1    
+     C00333                             synonym   bmst000177   1    
+     25990-10-7                         synonym   bmst000177   1    
+     Pectate                            synonym   bmst000177   1    
+     Galacturonan                       synonym   bmst000177   1    
+     'Polygalacturonic acid'            synonym   bmst000177   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     '(2S,3R,4S,5R,6S)-3,4,5,6-tetrahydroxyoxane-2-carboxylic acid'             IUPAC               bmst000177   1    
+     '(2S,3R,4S,5R,6S)-3,4,5,6-tetrahydroxytetrahydropyran-2-carboxylic acid'   IUPAC_TRADITIONAL   bmst000177   1    
+     '(2S,3R,4S,5R,6S)-3,4,5,6-tetrahydroxytetrahydropyran-2-carboxylic acid'   IUPAC_CAS           bmst000177   1    
+     '(2S,3R,4S,5R,6S)-3,4,5,6-tetrahydroxytetrahydropyran-2-carboxylic acid'   IUPAC_OPENEYE       bmst000177   1    
+     '(2S,3R,4S,5R)-3,4,5,6-tetrahydroxyoxane-2-carboxylic acid'                IUPAC_SYSTEMATIC    bmst000177   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     Isomeric    [C@@H]1([C@H]([C@H](O[C@@H]([C@@H]1O)O)C(=O)O)O)O   bmst000177   1    
+     Canonical   C1(C(C(OC(C1O)O)C(=O)O)O)O                          bmst000177   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     C1    C   ?   ?   ?   ?   5.1350   0.5000    -0.723   -0.893   0.199    1    bmst000177   1    
+     C2    C   ?   ?   ?   ?   5.1350   -0.5000   0.815    -0.909   0.256    2    bmst000177   1    
+     O3    O   ?   ?   ?   ?   4.2690   1.0000    -1.233   0.423    0.123    3    bmst000177   1    
+     C4    C   ?   ?   ?   ?   6.0010   1.0000    -1.287   -1.634   1.405    4    bmst000177   1    
+     C5    C   ?   ?   ?   ?   4.2690   -1.0000   1.417    -0.098   -0.913   5    bmst000177   1    
+     O6    O   ?   ?   ?   ?   6.0010   -1.0000   1.221    -0.344   1.485    6    bmst000177   1    
+     C7    C   ?   ?   ?   ?   3.4030   0.5000    -0.782   1.090    -1.045   7    bmst000177   1    
+     O8    O   ?   ?   ?   ?   6.0010   2.0000    -2.055   -0.877   2.205    8    bmst000177   1    
+     O9    O   ?   ?   ?   ?   6.8671   0.5000    -1.054   -2.807   1.601    9    bmst000177   1    
+     C10   C   ?   ?   ?   ?   3.4030   -0.5000   0.740    1.262    -1.049   10   bmst000177   1    
+     O11   O   ?   ?   ?   ?   4.2690   -2.0000   2.805    0.125    -0.645   11   bmst000177   1    
+     O12   O   ?   ?   ?   ?   2.5369   1.0000    -1.333   2.371    -1.071   12   bmst000177   1    
+     O13   O   ?   ?   ?   ?   2.5369   -1.0000   1.163    1.855    -2.265   13   bmst000177   1    
+     H14   H   ?   ?   ?   ?   5.1350   1.1200    -1.031   -1.477   -0.687   14   bmst000177   1    
+     H15   H   ?   ?   ?   ?   5.1350   -1.1200   1.140    -1.960   0.179    15   bmst000177   1    
+     H16   H   ?   ?   ?   ?   4.8059   -1.3100   1.287    -0.641   -1.859   16   bmst000177   1    
+     H17   H   ?   ?   ?   ?   6.0010   -1.6200   2.145    -0.066   1.344    17   bmst000177   1    
+     H18   H   ?   ?   ?   ?   2.8660   0.1900    -1.087   0.504    -1.934   18   bmst000177   1    
+     H19   H   ?   ?   ?   ?   6.5380   2.3100    -2.327   -1.462   2.938    19   bmst000177   1    
+     H20   H   ?   ?   ?   ?   3.4030   -1.1200   1.002    1.879    -0.178   20   bmst000177   1    
+     H21   H   ?   ?   ?   ?   3.7321   -2.3100   3.304    -0.642   -0.966   21   bmst000177   1    
+     H22   H   ?   ?   ?   ?   2.5369   1.6200    -2.300   2.283    -1.086   22   bmst000177   1    
+     H23   H   ?   ?   ?   ?   2.0000   -0.6900   0.687    2.699    -2.333   23   bmst000177   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     C1    C1    ?   bmst000177   1    
+     C2    C2    ?   bmst000177   1    
+     O3    O3    ?   bmst000177   1    
+     C4    C4    ?   bmst000177   1    
+     C5    C5    ?   bmst000177   1    
+     O6    O6    ?   bmst000177   1    
+     C7    C7    ?   bmst000177   1    
+     O8    O8    ?   bmst000177   1    
+     O9    O9    ?   bmst000177   1    
+     C10   C10   ?   bmst000177   1    
+     O11   O11   ?   bmst000177   1    
+     O12   O12   ?   bmst000177   1    
+     O13   O13   ?   bmst000177   1    
+     H14   H14   ?   bmst000177   1    
+     H15   H15   ?   bmst000177   1    
+     H16   H16   ?   bmst000177   1    
+     H17   H17   ?   bmst000177   1    
+     H18   H18   ?   bmst000177   1    
+     H19   H19   ?   bmst000177   1    
+     H20   H20   ?   bmst000177   1    
+     H21   H21   ?   bmst000177   1    
+     H22   H22   ?   bmst000177   1    
+     H23   H23   ?   bmst000177   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1    covalent   SING   C1    C2    ?   bmst000177   1    
+     2    covalent   SING   C1    O3    ?   bmst000177   1    
+     3    covalent   SING   C1    C4    ?   bmst000177   1    
+     4    covalent   SING   C1    H14   ?   bmst000177   1    
+     5    covalent   SING   C2    C5    ?   bmst000177   1    
+     6    covalent   SING   C2    O6    ?   bmst000177   1    
+     7    covalent   SING   C2    H15   ?   bmst000177   1    
+     8    covalent   SING   O3    C7    ?   bmst000177   1    
+     9    covalent   SING   C4    O8    ?   bmst000177   1    
+     10   covalent   DOUB   C4    O9    ?   bmst000177   1    
+     11   covalent   SING   C5    C10   ?   bmst000177   1    
+     12   covalent   SING   C5    O11   ?   bmst000177   1    
+     13   covalent   SING   C5    H16   ?   bmst000177   1    
+     14   covalent   SING   O6    H17   ?   bmst000177   1    
+     15   covalent   SING   C7    C10   ?   bmst000177   1    
+     16   covalent   SING   C7    O12   ?   bmst000177   1    
+     17   covalent   SING   C7    H18   ?   bmst000177   1    
+     18   covalent   SING   O8    H19   ?   bmst000177   1    
+     19   covalent   SING   C10   O13   ?   bmst000177   1    
+     20   covalent   SING   C10   H20   ?   bmst000177   1    
+     21   covalent   SING   O11   H21   ?   bmst000177   1    
+     22   covalent   SING   O12   H22   ?   bmst000177   1    
+     23   covalent   SING   O13   H23   ?   bmst000177   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_code
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_experimental_method
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_details
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     no   PubChem          3885810      sid                 ?   'D-Galacturonic Acid'   ?   'matching entry'   ?   bmst000177   1    
+     no   PubChem          445929       cid                 ?   'D-Galacturonic Acid'   ?   'matching entry'   ?   bmst000177   1    
+     no   PubChem          3627         sid                 ?   'D-Galacturonic Acid'   ?   'matching entry'   ?   bmst000177   1    
+     no   KEGG             C00333       'compound ID'       ?   'D-Galacturonic Acid'   ?   'matching entry'   ?   bmst000177   1    
+     no   'CAS Registry'   25990-10-7   'registry number'   ?   'D-Galacturonic Acid'   ?   'matching entry'   ?   bmst000177   1    
+     no   'CAS Registry'   37331-21-8   'registry number'   ?   'D-Galacturonic Acid'   ?   'matching entry'   ?   bmst000177   1    
+     no   'CAS Registry'   9046-38-2    'registry number'   ?   'D-Galacturonic Acid'   ?   'matching entry'   ?   bmst000177   1    
+     no   CHEBI            18024        ?                   ?   'D-Galacturonic Acid'   ?   'matching entry'   ?   bmst000177   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citations   bmst000177   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmst000177
+   _Software.ID            1
+   _Software.Name          Gaussian
+   _Software.Version       ?
+   _Software.Details       ?
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Gaussian, Inc.'   ?   http://www.gaussian.com/home.htm   bmst000177   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     'geometry optimization'        bmst000177   1    
+     'chemical shift calculation'   bmst000177   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference
+   _Chem_shift_reference.Entry_ID      bmst000177
+   _Chem_shift_reference.ID            1
+   _Chem_shift_reference.Details       ?
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    TMS                  'methyl protons'   ppm   0.00   na   direct   ?   bmst000177   1    
+     C   13   TMS                  'methyl carbons'   ppm   0.00   na   direct   ?   bmst000177   1    
+     N   15   'ammonia pentamer'   nitrogen           ppm   0.00   na   direct   ?   bmst000177   1    
+     P   31   'phosphoric acid'    phosphorus         ppm   0.00   na   direct   ?   bmst000177   1    
+
+   stop_
+
+save_
+
+save_chem_shifts_calc_type
+   _Chem_shifts_calc_type.Sf_category                      chem_shifts_calc_type
+   _Chem_shifts_calc_type.Sf_framecode                     chem_shifts_calc_type
+   _Chem_shifts_calc_type.Entry_ID                         bmst000177
+   _Chem_shifts_calc_type.ID                               1
+   _Chem_shifts_calc_type.Calculation_level                'Density Functional Theory'
+   _Chem_shifts_calc_type.Quantum_mechanical_method        GIAO
+   _Chem_shifts_calc_type.Quantum_mechanical_theory_level  B3LYP
+   _Chem_shifts_calc_type.Quantum_mechanical_basis_set     3-21g**
+   _Chem_shifts_calc_type.Chem_shift_nucleus               ?
+   _Chem_shifts_calc_type.Chem_shift_reference_ID          1
+   _Chem_shifts_calc_type.Chem_shift_reference_label       $chem_shift_reference
+   _Chem_shifts_calc_type.Details                        
+;
+Theoretical Chemical shift referencing and correction:
+
+1H chemical shifts
+	Tetramethylsilane (TMS) was geometry optimized at the B3LYP/6-311+g* 
+level of theory.
+	The chemical shielding of TMS was calculated at the pbe1pbe/3-21g* 
+level of theory using the GIAO method.
+	The chemical shielding of TMS was used as the reference (0 ppm) to 
+obtain all other chemical shifts.
+	A series of small organic molecules were optimized and the chemical 
+shieldings were calculated in the same manner as that for TMS.
+	To correct for biases arising from the applied level of theory, especially 
+the bias from the small basis set size, a linear regression analysis was used. 
+The slope and intercept from this regression was used to correct the calculated 
+chemical shifts. 
+
+The chemical shift was calculated by subtracting the chemical shielding value 
+of the compound of interest from that of TMS and applying the slope and intercept 
+corrections obtained from the regression analysis.
+ 
+corrected_shift=((TMS_shielding - uncorrected_shielding)+1.006)/0.963
+
+13C chemical shifts:
+	Tetramethylsilane (TMS) was geometry optimized at the B3LYP/6-311+g* 
+level of theory.
+	The chemical shielding of TMS was calculated at the pbe1pbe/3-21g* 
+level of theory using the GIAO method.
+	The chemical shielding of TMS was used as the reference (0 ppm) to 
+obtain all other chemical shifts.
+	A series of small organic molecules were optimized and the chemical 
+shieldings were calculated in the same manner as that for TMS.
+	To correct for biases arising from the applied level of theory, especially the 
+    bias from the small basis set size, a linear regression analysis of theoretical 
+    versus experimental chemical shifts was used. The slope and intercept from this 
+    regression was used to correct the calculated chemical shifts. 
+
+The chemical shift was calculated by subtracting the chemical shielding value 
+of the compound of interest from that of TMS and applying the slope and intercept 
+corrections obtained from the regression analysis.
+
+Corrected_shift=((TMS_shielding - uncorrected shielding) -4.53)/0.85
+
+
+15N chemical shifts:
+	A cyclic pentamer of ammonia (NH3_5) was geometry optimized at the B3LYP/6-311+g* 
+level of theory.
+	The chemical shielding of NH3_5 was calculated at the pbe1pbe/3-21g* 
+level of theory using the GIAO method.
+	The chemical shielding of NH3_5 was used as the reference (0 ppm) to 
+obtain all other chemical shifts.
+	A series of small organic molecules were optimized and the chemical 
+shieldings were calculated in the same manner as that for NH3_5.
+	To correct for biases arising from the applied level of theory, especially 
+the bias from the small basis set size, a linear regression analysis was used. 
+The slope and intercept from this regression was used to correct the calculated 
+chemical shifts. 
+
+The chemical shift was calculated by subtracting the chemical shielding value 
+of the compound of interest from that of NH3_5 and applying the slope and intercept 
+corrections obtained from the regression analysis.
+
+Corrected_shift=((NH_3_5_shielding - uncorrected_shielding)+10.2)/0.9088
+
+31P chemical shifts:
+	Phosphoric acid (H3PO4) was geometry optimized at the B3LYP/6-311+g* 
+level of theory.
+	The chemical shielding of H3PO4 was calculated at the pbe1pbe/3-21g* 
+level of theory using the GIAO method.
+	The chemical shielding of H3PO4 was used as the reference (0 ppm) to 
+obtain all other chemical shifts.
+	No correction for linear bias or offset was applied to calculated 
+31P chemical shifts. 
+
+The chemical shift was calculated by subtracting the chemical shielding value 
+of the compound of interest from that of H3PO4.
+
+Shift=(H3PO4_shielding - shielding)
+;
+
+   loop_
+      _Chem_shifts_calc_software.Software_ID
+      _Chem_shifts_calc_software.Software_label
+      _Chem_shifts_calc_software.Entry_ID
+      _Chem_shifts_calc_software.Chem_shifts_calc_type_ID
+
+     1   $software_1   bmst000177   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Theoretical chemical shifts  #
+    #################################
+
+save_theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Sf_category                       theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Sf_framecode                      theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Entry_ID                          bmst000177
+   _Theoretical_chem_shift_list.ID                                1
+   _Theoretical_chem_shift_list.Chem_shifts_calc_type_ID          1
+   _Theoretical_chem_shift_list.Chem_shifts_calc_type_label       $chem_shifts_calc_type
+   _Theoretical_chem_shift_list.Model_atomic_coordinates_ID       1
+   _Theoretical_chem_shift_list.Model_atomic_coordinates_label    $conformer_family_coord_set_1
+   _Theoretical_chem_shift_list.Fermi_contact_spin_density_units  ?
+   _Theoretical_chem_shift_list.Chem_shift_1H_err                 ?
+   _Theoretical_chem_shift_list.Chem_shift_2H_err                 ?
+   _Theoretical_chem_shift_list.Chem_shift_13C_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_15N_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_19F_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_31P_err                ?
+   _Theoretical_chem_shift_list.Details                           ?
+   _Theoretical_chem_shift_list.Text_data_format                  ?
+   _Theoretical_chem_shift_list.Text_data                         ?
+
+   loop_
+      _Theoretical_chem_shift.ID
+      _Theoretical_chem_shift.Entity_assembly_ID
+      _Theoretical_chem_shift.Entity_ID
+      _Theoretical_chem_shift.Comp_index_ID
+      _Theoretical_chem_shift.Comp_ID
+      _Theoretical_chem_shift.Atom_ID
+      _Theoretical_chem_shift.Atom_type
+      _Theoretical_chem_shift.Fermi_contact_spin_density
+      _Theoretical_chem_shift.Val
+      _Theoretical_chem_shift.Val_err
+      _Theoretical_chem_shift.Auth_seq_ID
+      _Theoretical_chem_shift.Auth_comp_ID
+      _Theoretical_chem_shift.Auth_atom_ID
+      _Theoretical_chem_shift.Entry_ID
+      _Theoretical_chem_shift.Theoretical_chem_shift_list_ID
+
+     1    1   1   1   1   C1    C   ?   81.430    ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     2    1   1   1   1   C2    C   ?   74.870    ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     3    1   1   1   1   C4    C   ?   183.683   ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     4    1   1   1   1   C5    C   ?   78.758    ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     5    1   1   1   1   C7    C   ?   107.076   ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     6    1   1   1   1   C10   C   ?   75.032    ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     7    1   1   1   1   H14   H   ?   4.593     ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     8    1   1   1   1   H15   H   ?   4.611     ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     9    1   1   1   1   H16   H   ?   4.348     ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     10   1   1   1   1   H17   H   ?   2.930     ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     11   1   1   1   1   H18   H   ?   5.118     ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     12   1   1   1   1   H19   H   ?   6.833     ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     13   1   1   1   1   H20   H   ?   4.989     ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     14   1   1   1   1   H21   H   ?   0.877     ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     15   1   1   1   1   H22   H   ?   2.301     ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+     16   1   1   1   1   H23   H   ?   1.582     ?   D_galacturonic_acid   ?   ?   bmst000177   1    
+
+   stop_
+
+save_
+
+    #####################################
+    #  Conformer family coordinate set  #
+    #####################################
+
+save_conformer_family_coord_set_1
+   _Conformer_family_coord_set.Sf_category   conformer_family_coord_set
+   _Conformer_family_coord_set.Sf_framecode  conformer_family_coord_set_1
+   _Conformer_family_coord_set.Entry_ID      bmst000177
+   _Conformer_family_coord_set.ID            1
+   _Conformer_family_coord_set.Details       ?
+
+   loop_
+      _Conformer_family_software.Software_ID
+      _Conformer_family_software.Software_label
+      _Conformer_family_software.Entry_ID
+      _Conformer_family_software.Conformer_family_coord_set_ID
+
+     1   $software_1   bmst000177   1    
+
+   stop_
+
+   loop_
+      _Atom_site.Model_ID
+      _Atom_site.ID
+      _Atom_site.Label_entity_assembly_ID
+      _Atom_site.Label_entity_ID
+      _Atom_site.Label_comp_index_ID
+      _Atom_site.Label_comp_ID
+      _Atom_site.Label_atom_ID
+      _Atom_site.Auth_seq_ID
+      _Atom_site.Auth_comp_ID
+      _Atom_site.Auth_atom_ID
+      _Atom_site.Type_symbol
+      _Atom_site.Cartn_x
+      _Atom_site.Cartn_y
+      _Atom_site.Cartn_z
+      _Atom_site.Entry_ID
+      _Atom_site.Conformer_family_coord_set_ID
+
+     1   1    1   1   1   1   C1    1   1   C1    C   -0.723   -0.893   0.199    bmst000177   1    
+     1   2    1   1   1   1   C2    1   1   C2    C   0.815    -0.909   0.256    bmst000177   1    
+     1   3    1   1   1   1   O3    1   1   O3    O   -1.233   0.423    0.123    bmst000177   1    
+     1   4    1   1   1   1   C4    1   1   C4    C   -1.287   -1.634   1.405    bmst000177   1    
+     1   5    1   1   1   1   C5    1   1   C5    C   1.417    -0.098   -0.913   bmst000177   1    
+     1   6    1   1   1   1   O6    1   1   O6    O   1.221    -0.344   1.485    bmst000177   1    
+     1   7    1   1   1   1   C7    1   1   C7    C   -0.782   1.090    -1.045   bmst000177   1    
+     1   8    1   1   1   1   O8    1   1   O8    O   -2.055   -0.877   2.205    bmst000177   1    
+     1   9    1   1   1   1   O9    1   1   O9    O   -1.054   -2.807   1.601    bmst000177   1    
+     1   10   1   1   1   1   C10   1   1   C10   C   0.740    1.262    -1.049   bmst000177   1    
+     1   11   1   1   1   1   O11   1   1   O11   O   2.805    0.125    -0.645   bmst000177   1    
+     1   12   1   1   1   1   O12   1   1   O12   O   -1.333   2.371    -1.071   bmst000177   1    
+     1   13   1   1   1   1   O13   1   1   O13   O   1.163    1.855    -2.265   bmst000177   1    
+     1   14   1   1   1   1   H14   1   1   H14   H   -1.031   -1.477   -0.687   bmst000177   1    
+     1   15   1   1   1   1   H15   1   1   H15   H   1.140    -1.960   0.179    bmst000177   1    
+     1   16   1   1   1   1   H16   1   1   H16   H   1.287    -0.641   -1.859   bmst000177   1    
+     1   17   1   1   1   1   H17   1   1   H17   H   2.145    -0.066   1.344    bmst000177   1    
+     1   18   1   1   1   1   H18   1   1   H18   H   -1.087   0.504    -1.934   bmst000177   1    
+     1   19   1   1   1   1   H19   1   1   H19   H   -2.327   -1.462   2.938    bmst000177   1    
+     1   20   1   1   1   1   H20   1   1   H20   H   1.002    1.879    -0.178   bmst000177   1    
+     1   21   1   1   1   1   H21   1   1   H21   H   3.304    -0.642   -0.966   bmst000177   1    
+     1   22   1   1   1   1   H22   1   1   H22   H   -2.300   2.283    -1.086   bmst000177   1    
+     1   23   1   1   1   1   H23   1   1   H23   H   0.687    2.699    -2.333   bmst000177   1    
+
+   stop_
+
+save_

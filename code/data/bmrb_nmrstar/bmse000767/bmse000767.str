@@ -1,0 +1,603 @@
+data_bmse000767
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmse000767
+   _Entry.Title                         propiolic_acid
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2010-07-19
+   _Entry.Accession_date                2010-07-19
+   _Entry.Last_release_date             2010-11-16
+   _Entry.Original_release_date         2010-07-19
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.0.29
+   _Entry.Original_NMR_STAR_version     3.1
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   solution
+   _Entry.DOI                           10.13018/BMSE000767
+   _Entry.BMRB_internal_directory_name  propiolic_acid
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.Middle_initials
+      _Entry_author.Entry_ID
+
+     1   Francisca   Jofre      ?    bmse000767    
+     2   Mark        Anderson   E.   bmse000767    
+     3   John        Markley    L.   bmse000767    
+     4   Ravi        Rapolu     ?    bmse000767    
+
+   stop_
+
+   loop_
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     metabolomics   'Madison Metabolomics Consortium'   MMC   bmse000767    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1   2010-07-19   2010-07-19   original   BMRB     'Original spectra from MMC'                                                            bmse000767    
+     2   2010-08-06   2010-07-28   update     Author   '1H_13C_HSQC data updated'                                                             bmse000767    
+     3   2010-10-08   2010-10-08   update     BMRB     'Removed empty loops for database compliance'                                          bmse000767    
+     4   2010-10-12   2010-10-12   update     BMRB     'Corrected C Atom_group in chem shift reference'                                       bmse000767    
+     5   2010-11-16   2010-11-16   update     BMRB     'Updated chem comp Paramagnetic and Aromatic'                                          bmse000767    
+     6   2017-10-12   2017-10-12   update     BMRB     'Remediated Experiment_file loop if present and standardized mol and png file tags.'   bmse000767    
+     7   2017-12-19   2017-10-12   update     BMRB     'InChI numbering updated according to ALATIS'                                          bmse000767    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citation_1
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citation_1
+   _Citation.Entry_ID      bmse000767
+   _Citation.ID            1
+   _Citation.Class         'reference citation'
+   _Citation.PubMed_ID     17170002
+   _Citation.Title       
+;
+Database resources of the National Center for Biotechnology Information.
+;
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://pubchem.ncbi.nlm.nih.gov/
+   _Citation.Year          2006
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    D.   Wheeler      D.   L.   bmse000767   1    
+     2    T.   Barrett      T.   ?    bmse000767   1    
+     3    D.   Benson       D.   A.   bmse000767   1    
+     4    S.   Bryant       S.   H.   bmse000767   1    
+     5    K.   Canese       K.   ?    bmse000767   1    
+     6    V.   Chetvenin    V.   ?    bmse000767   1    
+     7    D.   Church       D.   M.   bmse000767   1    
+     8    M.   DiCuccio     M.   ?    bmse000767   1    
+     9    R.   Edgar        R.   ?    bmse000767   1    
+     10   S.   Federhen     S.   ?    bmse000767   1    
+     11   L.   Geer         L.   Y.   bmse000767   1    
+     12   W.   Helmberg     W.   ?    bmse000767   1    
+     13   Y.   Kapustin     Y.   ?    bmse000767   1    
+     14   D.   Kenton       D.   L.   bmse000767   1    
+     15   O.   Khovayko     O.   ?    bmse000767   1    
+     16   D.   Lipman       D.   J.   bmse000767   1    
+     17   T.   Madden       T.   L.   bmse000767   1    
+     18   D.   Maglott      D.   R.   bmse000767   1    
+     19   J.   Ostell       J.   ?    bmse000767   1    
+     20   K.   Pruitt       K.   D.   bmse000767   1    
+     21   G.   Schuler      G.   D.   bmse000767   1    
+     22   L.   Schriml      L.   M.   bmse000767   1    
+     23   E.   Sequeira     E.   ?    bmse000767   1    
+     24   S.   Sherry       S.   T.   bmse000767   1    
+     25   K.   Sirotkin     K.   ?    bmse000767   1    
+     26   A.   Souvorov     A.   ?    bmse000767   1    
+     27   G.   Starchenko   G.   ?    bmse000767   1    
+     28   T.   Suzek        T.   O.   bmse000767   1    
+     29   R.   Tatusov      R.   ?    bmse000767   1    
+     30   T.   Tatusova     T.   A.   bmse000767   1    
+     31   L.   Bagner       L.   ?    bmse000767   1    
+     32   E.   Yaschenko    E.   ?    bmse000767   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmse000767
+   _Assembly.ID                    1
+   _Assembly.Name                  Propiolic
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   'Propiolic acid'   1   $Propiolic-acid   yes   native   no   no   bmse000767   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_Propiolic-acid
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     Propiolic-acid
+   _Entity.Entry_ID                         bmse000767
+   _Entity.ID                               1
+   _Entity.Name                             'Propiolic acid'
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmse000767   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                      chem_comp
+   _Chem_comp.Sf_framecode                     chem_comp_1
+   _Chem_comp.Entry_ID                         bmse000767
+   _Chem_comp.ID                               1
+   _Chem_comp.Name                             'Propiolic acid'
+   _Chem_comp.Type                             non-polymer
+   _Chem_comp.BMRB_code                        bmse000767
+   _Chem_comp.InChI_code                       InChI=1S/C3H2O2/c1-2-3(4)5/h1H,(H,4,5)
+   _Chem_comp.Paramagnetic                     no
+   _Chem_comp.Aromatic                         no
+   _Chem_comp.Formula                          'C3 H2 O2'
+   _Chem_comp.Formula_weight                   70.04678
+   _Chem_comp.Formula_mono_iso_wt_nat          70.0054793084
+   _Chem_comp.Formula_mono_iso_wt_13C          73.0155438218
+   _Chem_comp.Formula_mono_iso_wt_15N          70.0054793084
+   _Chem_comp.Formula_mono_iso_wt_13C_15N      73.0155438218
+   _Chem_comp.Image_file_name                  bmse000767.png
+   _Chem_comp.Image_file_format                png
+   _Chem_comp.Struct_file_name                 bmse000767.mol
+   _Chem_comp.Struct_file_format               mol
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     'Propargylic acid'           synonym   bmse000767   1    
+     Acetylenemonocarboxylate     synonym   bmse000767   1    
+     'Propiolic acid'             synonym   bmse000767   1    
+     '2-Propynoic acid'           synonym   bmse000767   1    
+     Propynoate                   synonym   bmse000767   1    
+     Carboxyacetylene             synonym   bmse000767   1    
+     'Propynoic acid'             synonym   bmse000767   1    
+     'Acetylenecarboxylic acid'   synonym   bmse000767   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+     InChI=1S/C3H2O2/c1-2-3(4)5/h1H,(H,4,5)   INCHI   na       na      bmse000767   1    
+     InChI=1S/C3H2O2/c1-2-3(4)5/h1H,(H,4,5)   INCHI   ALATIS   3.003   bmse000767   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     'prop-2-ynoic acid'   PUBCHEM_IUPAC_NAME               bmse000767   1    
+     'propiolic acid'      PUBCHEM_IUPAC_TRADITIONAL_NAME   bmse000767   1    
+     'prop-2-ynoic acid'   PUBCHEM_IUPAC_OPENEYE_NAME       bmse000767   1    
+     '2-propynoic acid'    PUBCHEM_IUPAC_CAS_NAME           bmse000767   1    
+     'prop-2-ynoic acid'   PUBCHEM_IUPAC_SYSTEMATIC_NAME    bmse000767   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     Canonical   C#CC(=O)O   bmse000767   1    
+     Isomeric    C#CC(=O)O   bmse000767   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     O4   O   2.5369   0.3450    1   bmse000767   1    
+     O5   O   3.4030   -1.1550   2   bmse000767   1    
+     C3   C   3.4030   -0.1550   3   bmse000767   1    
+     C2   C   4.2690   0.3450    4   bmse000767   1    
+     C1   C   5.1350   0.8450    5   bmse000767   1    
+     H7   H   2.0000   0.0350    6   bmse000767   1    
+     H6   H   5.6720   1.1550    7   bmse000767   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     O4   O1   BMRB     bmse000767   1    
+     O5   O2   BMRB     bmse000767   1    
+     C3   C3   BMRB     bmse000767   1    
+     C2   C4   BMRB     bmse000767   1    
+     C1   C5   BMRB     bmse000767   1    
+     H7   H6   BMRB     bmse000767   1    
+     H6   H7   BMRB     bmse000767   1    
+     O4   O4   ALATIS   bmse000767   1    
+     O5   O5   ALATIS   bmse000767   1    
+     C3   C3   ALATIS   bmse000767   1    
+     C2   C2   ALATIS   bmse000767   1    
+     C1   C1   ALATIS   bmse000767   1    
+     H7   H7   ALATIS   bmse000767   1    
+     H6   H6   ALATIS   bmse000767   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1   covalent   SING   O4   C3   bmse000767   1    
+     2   covalent   SING   O4   H7   bmse000767   1    
+     3   covalent   DOUB   O5   C3   bmse000767   1    
+     4   covalent   SING   C3   C2   bmse000767   1    
+     5   covalent   TRIP   C2   C1   bmse000767   1    
+     6   covalent   SING   C1   H6   bmse000767   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     yes   PubChem                    10110            cid                 'Propiolic acid'   'matching entry'   bmse000767   1    
+     yes   CAS                        cq_00545         ?                   'Propiolic acid'   'matching entry'   bmse000767   1    
+     yes   PubChem                    153346           sid                 'Propiolic acid'   'matching entry'   bmse000767   1    
+     yes   MMCD                       cq_00545         ?                   'Propiolic acid'   'matching entry'   bmse000767   1    
+     yes   kegg                       C00804           ?                   'Propiolic acid'   'matching entry'   bmse000767   1    
+     no    PubChem                    24898598         sid                 'Propiolic acid'   'matching entry'   bmse000767   1    
+     no    PubChem                    10523614         sid                 'Propiolic acid'   'matching entry'   bmse000767   1    
+     no    PubChem                    10339043         sid                 'Propiolic acid'   'matching entry'   bmse000767   1    
+     no    PubChem                    4062             sid                 'Propiolic acid'   'matching entry'   bmse000767   1    
+     no    'CAS Registry'             471-25-0         'registry number'   'Propiolic acid'   'matching entry'   bmse000767   1    
+     no    Sigma-Aldrich              P51400_ALDRICH   ?                   'Propiolic acid'   'matching entry'   bmse000767   1    
+     no    ChemIDplus                 000471250        ?                   'Propiolic acid'   'matching entry'   bmse000767   1    
+     no    EINECS                     207-437-8        ?                   'Propiolic acid'   'matching entry'   bmse000767   1    
+     no    KEGG                       C00804           'compound ID'       'Propiolic acid'   'matching entry'   bmse000767   1    
+     no    'NIST Chemistry WebBook'   2908099439       ?                   'Propiolic acid'   'matching entry'   bmse000767   1    
+     no    NIST                       2908099439       ?                   'Propiolic acid'   'matching entry'   bmse000767   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citation_1   bmse000767   1    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category   sample
+   _Sample.Sf_framecode  sample_1
+   _Sample.Entry_ID      bmse000767
+   _Sample.ID            1
+   _Sample.Type          solution
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_units
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   'Propiolic acid'     'natural abundance'   1   $Propiolic-acid   Solute      100   mM   sigma/aldrich   'Propiolic acid'   bmse000767   1    
+     2   D2O                  ?                     ?   ?                 Solvent     100   %    ?               ?                  bmse000767   1    
+     3   'sodium phosphate'   ?                     ?   ?                 Buffer      50    mM   ?               ?                  bmse000767   1    
+     4   'sodium azide'       ?                     ?   ?                 Cytocide    500   uM   ?               ?                  bmse000767   1    
+     5   DSS                  ?                     ?   ?                 Reference   500   uM   ?               ?                  bmse000767   1    
+
+   stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category   sample_conditions
+   _Sample_condition_list.Sf_framecode  sample_conditions_1
+   _Sample_condition_list.Entry_ID      bmse000767
+   _Sample_condition_list.ID            1
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+     pH            7.4   pH   bmse000767   1    
+     temperature   298   K    bmse000767   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmse000767
+   _Software.ID            1
+   _Software.Name          TopSpin
+   _Software.Version       2.1
+
+   loop_
+      _Vendor.Name
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Bruker Biospin'   bmse000767   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     Collection        bmse000767   1    
+     Processing        bmse000767   1    
+     'Data analysis'   bmse000767   1    
+     'Peak picking'    bmse000767   1    
+
+   stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_Bruker_DMX_500
+   _NMR_spectrometer.Sf_category     NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode    Bruker_DMX_500
+   _NMR_spectrometer.Entry_ID        bmse000767
+   _NMR_spectrometer.ID              1
+   _NMR_spectrometer.Manufacturer    Bruker
+   _NMR_spectrometer.Model           DMX
+   _NMR_spectrometer.Field_strength  500
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category   experiment_list
+   _Experiment_list.Sf_framecode  experiment_list
+   _Experiment_list.Entry_ID      bmse000767
+   _Experiment_list.ID            1
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+     1   '1D 1H'              yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000767   1    
+     2   '2D [1H,1H]-TOCSY'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000767   1    
+     3   '1D 13C'             yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000767   1    
+     4   '1D DEPT90'          yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000767   1    
+     5   '1D DEPT135'         yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000767   1    
+     6   '2D [1H,13C]-HSQC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000767   1    
+     7   '2D [1H,13C]-HMBC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000767   1    
+     8   '2D [1H,1H]-COSY'    yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000767   1    
+
+   stop_
+
+   loop_
+      _Experiment_file.Experiment_ID
+      _Experiment_file.Name
+      _Experiment_file.Type
+      _Experiment_file.Directory_path
+      _Experiment_file.Details
+      _Experiment_file.Entry_ID
+      _Experiment_file.Experiment_list_ID
+
+     1   1H                text/directory   nmr/set01/          'NMR experiment directory'   bmse000767   1    
+     1   1H.png            image/png        nmr/set01/spectra   'Spectral image'             bmse000767   1    
+     2   HH_TOCSY          text/directory   nmr/set01/          'NMR experiment directory'   bmse000767   1    
+     2   HH_TOCSY.png      image/png        nmr/set01/spectra   'Spectral image'             bmse000767   1    
+     3   13C               text/directory   nmr/set01/          'NMR experiment directory'   bmse000767   1    
+     3   13C.png           image/png        nmr/set01/spectra   'Spectral image'             bmse000767   1    
+     4   DEPT_90           text/directory   nmr/set01/          'NMR experiment directory'   bmse000767   1    
+     4   DEPT_90.png       image/png        nmr/set01/spectra   'Spectral image'             bmse000767   1    
+     5   DEPT_135          text/directory   nmr/set01/          'NMR experiment directory'   bmse000767   1    
+     5   DEPT_135.png      image/png        nmr/set01/spectra   'Spectral image'             bmse000767   1    
+     6   1H_13C_HSQC       text/directory   nmr/set01/          'NMR experiment directory'   bmse000767   1    
+     6   1H_13C_HSQC.png   image/png        nmr/set01/spectra   'Spectral image'             bmse000767   1    
+     7   1H_13C_HMBC       text/directory   nmr/set01/          'NMR experiment directory'   bmse000767   1    
+     7   1H_13C_HMBC.png   image/png        nmr/set01/spectra   'Spectral image'             bmse000767   1    
+     8   HH_COSY           text/directory   nmr/set01/          'NMR experiment directory'   bmse000767   1    
+     8   HH_COSY.png       image/png        nmr/set01/spectra   'Spectral image'             bmse000767   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference
+   _Chem_shift_reference.Entry_ID      bmse000767
+   _Chem_shift_reference.ID            1
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    DSS   'methyl protons'   ppm   0.00   internal   direct   1.000000000   bmse000767   1    
+     C   13   DSS   'methyl carbon'    ppm   0.00   internal   direct   1.000000000   bmse000767   1    
+
+   stop_
+
+save_

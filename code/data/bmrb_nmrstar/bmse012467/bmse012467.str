@@ -1,0 +1,693 @@
+data_bmse012467
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information_1
+   _Entry.Sf_category                       entry_information
+   _Entry.Sf_framecode                      entry_information_1
+   _Entry.ID                                bmse012467
+   _Entry.Title                             azepane-1-carboxamide
+   _Entry.Type                              'metabolite/natural product'
+   _Entry.Version_type                      original
+   _Entry.Submission_date                   2023-04-05
+   _Entry.Accession_date                    2023-04-05
+   _Entry.Last_release_date                 2023-08-11
+   _Entry.Original_release_date             2023-08-11
+   _Entry.Origination                       author
+   _Entry.NMR_STAR_version                  3.2.10.4
+   _Entry.Experimental_method               NMR
+   _Entry.Experimental_method_subtype       solution
+   _Entry.DOI                               10.12018/bmse012467
+
+   loop_
+      _Entry_experimental_methods.ID
+      _Entry_experimental_methods.Method
+      _Entry_experimental_methods.Subtype
+      _Entry_experimental_methods.Entry_ID
+
+     1   NMR   solution   bmse012467    
+
+   stop_
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Entry_ID
+
+     1   Sridhar     Sreeramulu   S.   bmse012467    
+     2   Christian   Richter      C.   bmse012467    
+     3   Harald      Schwalbe     H.   bmse012467    
+     4   Hannes      Berg         .    bmse012467    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Entry_ID
+
+     1   EUOS   bmse012467    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Type
+      _Release.Author
+      _Release.Entry_ID
+
+     1   NMR-STAR   3.2.1.18   2023-11-09   original   author   bmse012467    
+
+   stop_
+
+   loop_
+      _Auxiliary_files.ID
+      _Auxiliary_files.Name
+      _Auxiliary_files.Format
+      _Auxiliary_files.URI
+      _Auxiliary_files.Details
+      _Auxiliary_files.Entry_ID
+
+     1   bmse012467.mol   sdf   na   'Structure Definition File'   bmse012467    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citations_1
+   _Citation.Sf_category                 citations
+   _Citation.Sf_framecode                citations_1
+   _Citation.Entry_ID                    bmse012467
+   _Citation.ID                          1
+   _Citation.PubMed_ID                   32533387
+   _Citation.DOI                         10.1007/s10858-020-00327-9
+   _Citation.Title                       'NMR quality control of fragment libraries for screening.'
+   _Citation.Status                      published
+   _Citation.Type                        journal
+   _Citation.Journal_abbrev              'J Biomol NMR'
+   _Citation.Journal_name_full           'Journal of biomolecular NMR'
+   _Citation.Journal_volume              74
+   _Citation.Journal_issue               10-11
+   _Citation.Journal_ISSN                1573-5001
+   _Citation.Page_first                  555
+   _Citation.Page_last                   563
+   _Citation.Year                        2020
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    Sridhar               Sreeramulu    S.   bmse012467   1    
+     2    Christian             Richter       C.   bmse012467   1    
+     3    Till                  Kuehn         T.   bmse012467   1    
+     4    Kamal                 Azzaoui       K.   bmse012467   1    
+     5    'Marcel Jules Jose'   Blommers      .    bmse012467   1    
+     6    Rebecca               'Del Conte'   R.   bmse012467   1    
+     7    Marco                 Fragai        M.   bmse012467   1    
+     8    Nils                  Trieloff      N.   bmse012467   1    
+     9    Peter                 Schmieder     P.   bmse012467   1    
+     10   Marc                  Nazare        M.   bmse012467   1    
+     11   Edgar                 Specker       E.   bmse012467   1    
+     12   Vladimir              Ivanov        V.   bmse012467   1    
+     13   Hartmut               Oschkinat     H.   bmse012467   1    
+     14   Lucia                 Banci         L.   bmse012467   1    
+     15   Harald                Schwalbe      H.   bmse012467   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly_1
+   _Assembly.Sf_category                      assembly
+   _Assembly.Sf_framecode                     assembly_1
+   _Assembly.Entry_ID                         bmse012467
+   _Assembly.ID                               1
+   _Assembly.Name                             azepane-1-carboxamide
+   _Assembly.Number_of_components             1
+   _Assembly.Thiol_state                      'not present'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   chem_comp_1   1   yes   native   no   no   bmse012467   1    
+
+   stop_
+
+   loop_
+      _Atom.Assembly_atom_ID
+      _Atom.Entity_assembly_ID
+      _Atom.Entity_ID
+      _Atom.Comp_index_ID
+      _Atom.Seq_ID
+      _Atom.Atom_ID
+      _Atom.Type_symbol
+      _Atom.Entry_ID
+      _Atom.Assembly_ID
+
+     1    1   1   1   1   C1    C   bmse012467   1    
+     2    1   1   1   1   C2    C   bmse012467   1    
+     3    1   1   1   1   C3    C   bmse012467   1    
+     4    1   1   1   1   C4    C   bmse012467   1    
+     5    1   1   1   1   C5    C   bmse012467   1    
+     6    1   1   1   1   C6    C   bmse012467   1    
+     7    1   1   1   1   C7    C   bmse012467   1    
+     8    1   1   1   1   N8    N   bmse012467   1    
+     9    1   1   1   1   N9    N   bmse012467   1    
+     10   1   1   1   1   O10   O   bmse012467   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_entity_1
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     entity_1
+   _Entity.Entry_ID                         bmse012467
+   _Entity.ID                               1
+   _Entity.Name                             azepane-1-carboxamide
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_linkage                     no
+   _Entity.Nonpolymer_comp_label            chem_comp_1
+   _Entity.Number_of_monomers               1
+   _Entity.Number_of_nonpolymer_components  1
+   _Entity.Thiol_state                      'not present'
+   _Entity.Formula_weight                   142.19885999999997
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   chem_comp_1   bmse012467   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                      chem_comp
+   _Chem_comp.Sf_framecode                     chem_comp_1
+   _Chem_comp.Entry_ID                         bmse012467
+   _Chem_comp.Name                             azepane-1-carboxamide
+   _Chem_comp.Number_atoms_all                 10
+   _Chem_comp.InChI_code                       InChI=1S/C7H14N2O/c8-7(10)9-5-3-1-2-4-6-9/h1-6H2,(H2,8,10)
+   _Chem_comp.Formal_charge                    0
+   _Chem_comp.Aromatic                         no
+   _Chem_comp.Formula                          C7H14N2O
+   _Chem_comp.Formula_weight                   142.19885999999997
+   _Chem_comp.Formula_mono_iso_wt_nat          142.110613078
+   _Chem_comp.Formula_mono_iso_wt_13C          149.13409694400002
+   _Chem_comp.Formula_mono_iso_wt_15N          144.104682864
+   _Chem_comp.Formula_mono_iso_wt_13C_15N      151.12816673000003
+   _Chem_comp.Image_file_name                  bmse012467.png
+   _Chem_comp.Image_file_format                png
+   _Chem_comp.Struct_file_name                 bmse012467.sdf
+   _Chem_comp.Struct_file_format               sdf
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+
+     NC(=O)N1CCCCCC1                                              SMILES_CANONICAL   RDKit       2022.03.5   bmse012467    
+     NC(=O)N1CCCCCC1                                              SMILES_ISOMERIC    RDKit       2022.03.5   bmse012467    
+     NC(=O)N1CCCCCC1                                              SMILES             RDKit       2022.03.5   bmse012467    
+     NC(=O)N1CCCCCC1                                              SMILES_CANONICAL   OpenBabel   3.1.0       bmse012467    
+     NC(=O)N1CCCCCC1                                              SMILES             OpenBabel   3.1.0       bmse012467    
+     InChI=1S/C7H14N2O/c8-7(10)9-5-3-1-2-4-6-9/h1-6H2,(H2,8,10)   InChI              OpenBabel   3.1.0       bmse012467    
+     YQRJTOFQAJAHEN-UHFFFAOYSA-N                                  InChI_KEY          OpenBabel   3.1.0       bmse012467    
+     InChI=1S/C7H14N2O/c8-7(10)9-5-3-1-2-4-6-9/h1-6H2,(H2,8,10)   InChI              ALATIS      na          bmse012467    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+
+     C1    C   N   0   no   1    bmse012467    
+     C2    C   N   0   no   2    bmse012467    
+     C3    C   N   0   no   3    bmse012467    
+     C4    C   N   0   no   4    bmse012467    
+     C5    C   N   0   no   5    bmse012467    
+     C6    C   N   0   no   6    bmse012467    
+     C7    C   N   0   no   7    bmse012467    
+     N8    N   N   0   no   8    bmse012467    
+     N9    N   N   0   no   9    bmse012467    
+     O10   O   N   0   no   10   bmse012467    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+
+     C9    C1    ALATIS   bmse012467    
+     C10   C2    ALATIS   bmse012467    
+     C8    C3    ALATIS   bmse012467    
+     C7    C4    ALATIS   bmse012467    
+     C5    C5    ALATIS   bmse012467    
+     C6    C6    ALATIS   bmse012467    
+     C1    C7    ALATIS   bmse012467    
+     N4    N8    ALATIS   bmse012467    
+     N2    N9    ALATIS   bmse012467    
+     O3    O10   ALATIS   bmse012467    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Entry_ID
+
+     1    covalent   SING   C1   C2    no   N   1    bmse012467    
+     2    covalent   SING   C3   C1    no   N   2    bmse012467    
+     3    covalent   SING   C4   C2    no   N   3    bmse012467    
+     4    covalent   SING   C5   C3    no   N   4    bmse012467    
+     5    covalent   SING   C6   C4    no   N   5    bmse012467    
+     6    amide      SING   C7   N8    no   N   6    bmse012467    
+     7    amide      SING   C7   N9    no   N   7    bmse012467    
+     8    carbonyl   DOUB   C7   O10   no   N   8    bmse012467    
+     9    covalent   SING   N9   C5    no   N   9    bmse012467    
+     10   covalent   SING   N9   C6    no   N   10   bmse012467    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_ID
+
+     EU-OPENSCREEN   EOS103231   'compound ID'   bmse012467    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                     sample
+   _Sample.Sf_framecode                    sample_1
+   _Sample.Entry_ID                        bmse012467
+   _Sample.ID                              1
+   _Sample.Name                            'sample 1'
+   _Sample.Type                            solution
+   _Sample.Aggregate_sample_number         1
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_units
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   azepane-1-carboxamide   'natural abundance'   1   $assembly_1   1   $entity_1   solute      2     mM   bmse012467   1    
+     2   'Sodium phosphate'      'natural abundance'   .   .             .   .           buffer      25    mM   bmse012467   1    
+     3   'Sodium chloride'       'natural abundance'   .   .             .   .           salt        150   mM   bmse012467   1    
+     4   DSS                     'natural abundance'   .   .             .   .           reference   10    uM   bmse012467   1    
+     5   H2O                     'natural abundance'   .   .             .   .           solvent     95    %    bmse012467   1    
+     6   DMSO                    '[2H U-100%]'         .   .             .   .           solvent     5     %    bmse012467   1    
+
+   stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category   sample_conditions
+   _Sample_condition_list.Sf_framecode  sample_conditions_1
+   _Sample_condition_list.Entry_ID      bmse012467
+   _Sample_condition_list.ID            1
+   _Sample_condition_list.Name          'sample conditions 1'
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+     pH            7.5   .     pH    bmse012467   1    
+     pressure      1     .     atm   bmse012467   1    
+     temperature   298   0.1   K     bmse012467   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmse012467
+   _Software.ID            1
+   _Software.Name          TopSpin
+   _Software.Version       4.0.3
+
+   loop_
+      _Vendor.Name
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Bruker Biospin'   http://www.bruker.com/products/mr/nmr/nmr-software/software/topspin/   bmse012467   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     'data analysis'   bmse012467   1    
+     'peak picking'    bmse012467   1    
+     processing        bmse012467   1    
+
+   stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_NMR_spectrometer_1
+   _NMR_spectrometer.Sf_category     NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode    NMR_spectrometer_1
+   _NMR_spectrometer.Entry_ID        bmse012467
+   _NMR_spectrometer.ID              1
+   _NMR_spectrometer.Name            'spectrometer Bruker'
+   _NMR_spectrometer.Manufacturer    Bruker
+   _NMR_spectrometer.Model           Avance
+   _NMR_spectrometer.Field_strength  600
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list_1
+   _Experiment_list.Sf_category   experiment_list
+   _Experiment_list.Sf_framecode  experiment_list_1
+   _Experiment_list.Entry_ID      bmse012467
+   _Experiment_list.ID            1
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+     1   '1D 1H'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $NMR_spectrometer_1   bmse012467   1    
+
+   stop_
+
+   loop_
+      _Experiment_file.Experiment_ID
+      _Experiment_file.Name
+      _Experiment_file.Type
+      _Experiment_file.Content
+      _Experiment_file.Directory_path
+      _Experiment_file.Entry_ID
+      _Experiment_file.Experiment_list_ID
+
+     1   1                       text/directory   'NMR experiment directory'   nmr/set01/             bmse012467   1    
+     1   cmcproject.xml          text/xml         'spectrum analysis'          nmr/set01/1/pdata/1/   bmse012467   1    
+     1   multiplet.txt           text             'Peak list'                  nmr/set01/1/pdata/1/   bmse012467   1    
+     1   spectrum_overview.pdf   pdf              'Spectrum image'             nmr/set01/1/pdata/1/   bmse012467   1    
+     1   spectrum_overview.png   image/png        'Spectral image'             nmr/set01/1/pdata/1/   bmse012467   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference_1
+   _Chem_shift_reference.Sf_category           chem_shift_reference
+   _Chem_shift_reference.Sf_framecode          chem_shift_reference_1
+   _Chem_shift_reference.Entry_ID              bmse012467
+   _Chem_shift_reference.ID                    1
+   _Chem_shift_reference.Name                  'chem shift ref set'
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1   DSS   'methyl protons'   ppm   0.0   internal   direct   1.0   bmse012467   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Spectral peak lists  #
+    #########################
+
+save_spectral_peak_list_1
+   _Spectral_peak_list.Sf_category                     spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                    spectral_peak_list_1
+   _Spectral_peak_list.Entry_ID                        bmse012467
+   _Spectral_peak_list.ID                              1
+   _Spectral_peak_list.Name                            'spectral peaks 1D 1H'
+   _Spectral_peak_list.Sample_ID                       1
+   _Spectral_peak_list.Sample_label                    $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID        1
+   _Spectral_peak_list.Sample_condition_list_label     $sample_conditions_1
+   _Spectral_peak_list.Chem_shift_reference_ID         1
+   _Spectral_peak_list.Experiment_ID                   1
+   _Spectral_peak_list.Experiment_name                 '1D 1H'
+   _Spectral_peak_list.Number_of_spectral_dimensions   1
+   _Spectral_peak_list.Assigned_chem_shift_list_ID     1
+   _Spectral_peak_list.Details                         'F1: 1H'
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Spectrometer_frequency
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Sweep_width_units
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+     1   600.1728185   H   1   'Full H'   12.0157698570257   ppm   bmse012467   1    
+
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+     1   $software_1   bmse012467   1    
+
+   stop_
+
+   loop_
+      _Peak.ID
+      _Peak.Entry_ID
+      _Peak.Spectral_peak_list_ID
+
+     1   bmse012467   1    
+     2   bmse012467   1    
+     3   bmse012467   1    
+     4   bmse012467   1    
+     5   bmse012467   1    
+     6   bmse012467   1    
+     7   bmse012467   1    
+
+   stop_
+
+   loop_
+      _Peak_char.Peak_ID
+      _Peak_char.Spectral_dim_ID
+      _Peak_char.Chem_shift_val
+      _Peak_char.Details
+      _Peak_char.Entry_ID
+      _Peak_char.Spectral_peak_list_ID
+
+     1   1   0.0350   TMS        bmse012467   1    
+     2   1   2.5700   DMSO       bmse012467   1    
+     3   1   5.5559   4_s        bmse012467   1    
+     4   1   1.5852   7,8_m      bmse012467   1    
+     5   1   3.2688   5,6_m_Q1   bmse012467   1    
+     6   1   4.6542   SUP        bmse012467   1    
+     7   1   1.3725   9,10_m     bmse012467   1    
+
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+     1    bmse012467   1    
+     2    bmse012467   1    
+     3    bmse012467   1    
+     4    bmse012467   1    
+     5    bmse012467   1    
+     6    bmse012467   1    
+     7    bmse012467   1    
+     8    bmse012467   1    
+     9    bmse012467   1    
+     10   bmse012467   1    
+     11   bmse012467   1    
+     12   bmse012467   1    
+     13   bmse012467   1    
+     14   bmse012467   1    
+
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+     1    1   0.0350   bmse012467   1    
+     2    1   2.5636   bmse012467   1    
+     3    1   2.5673   bmse012467   1    
+     4    1   2.5700   bmse012467   1    
+     5    1   2.5727   bmse012467   1    
+     6    1   2.5764   bmse012467   1    
+     7    1   5.5559   bmse012467   1    
+     8    1   1.6942   bmse012467   1    
+     9    1   1.4763   bmse012467   1    
+     10   1   3.3809   bmse012467   1    
+     11   1   3.1568   bmse012467   1    
+     12   1   4.6542   bmse012467   1    
+     13   1   1.4720   bmse012467   1    
+     14   1   1.2730   bmse012467   1    
+
+   stop_
+
+   loop_
+      _Peak_coupling.ID
+      _Peak_coupling.Peak_ID
+      _Peak_coupling.Spectral_dim_ID
+      _Peak_coupling.Coupling_val
+      _Peak_coupling.Entry_ID
+      _Peak_coupling.Spectral_peak_list_ID
+
+     1   1   1   0.0000     bmse012467   1    
+     2   2   1   1.9073     bmse012467   1    
+     3   3   1   0.0000     bmse012467   1    
+     4   4   1   130.7003   bmse012467   1    
+     5   5   1   134.4209   bmse012467   1    
+     6   6   1   0.0000     bmse012467   1    
+     7   7   1   119.3891   bmse012467   1    
+
+   stop_
+
+save_
