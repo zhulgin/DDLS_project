@@ -5,3 +5,5 @@ code/original_data/hmdb_metabolites/hmdb_metabolites.xml
 /code/venv
 *.pdf
 project_plan/project-plan-alfred-larsson_v2_deep-research.pdf
+/bmrb_data_extraction/venv
+/bmrb_data_extraction/venv

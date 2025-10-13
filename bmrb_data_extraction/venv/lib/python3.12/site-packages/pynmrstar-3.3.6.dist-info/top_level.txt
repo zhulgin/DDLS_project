@@ -1,2 +1,0 @@
-cnmrstar
-pynmrstar
