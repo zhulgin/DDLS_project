@@ -1,0 +1,1625 @@
+data_bmse010467
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmse010467
+   _Entry.Title                         lignin_cw_compound_2024
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2009-05-26
+   _Entry.Accession_date                2013-01-09
+   _Entry.Last_release_date             2013-04-05
+   _Entry.Original_release_date         2013-01-17
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.31
+   _Entry.Original_NMR_STAR_version     3.1.0.46
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   solution
+   _Entry.Details                       ?
+   _Entry.BMRB_internal_directory_name  lignin_cw_compound_2024
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+     1   John       Ralph     ?   ?   bmse010467    
+     2   Sally      Ralph     ?   ?   bmse010467    
+     3   Stephane   Quideau   ?   ?   bmse010467    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   'NMR Database of Lignin and Cell Wall Model Compounds'   'United States Department of Agriculture'   USDA   bmse010467    
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+     assigned_chemical_shifts   3   bmse010467    
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+     '13C chemical shifts'   145   bmse010467    
+     '1H chemical shifts'    8     bmse010467    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1   .   .   2013-01-17   2009-05-26   original   BMRB   'Original spectra from MMC'                                                            bmse010467    
+     2   .   .   2013-04-05   2009-05-26   update     BMRB   'Adding molecule category to chem_comp Details'                                        bmse010467    
+     3   .   .   2017-10-12   2017-10-12   update     BMRB   'Remediated Experiment_file loop if present and standardized mol and png file tags.'   bmse010467    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citation_1
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citation_1
+   _Citation.Entry_ID      bmse010467
+   _Citation.ID            1
+   _Citation.Class         'entry citation'
+   _Citation.PubMed_ID     ?
+   _Citation.Title         'NMR Database of Lignin and Cell Wall Model Compounds.'
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://ars.usda.gov/Services/docs.htm?docid=10491
+   _Citation.Year          2004
+   _Citation.Details       ?
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1   Sally   Ralph      ?   A.   ?   bmse010467   1    
+     2   John    Ralph      ?   ?    ?   bmse010467   1    
+     3   Larry   Landucci   ?   L.   ?   bmse010467   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmse010467
+   _Assembly.ID                    1
+   _Assembly.Name                  lignin_cw_compound_2024
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Metal_ions            ?
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   lignin_cw_compound_2024   1   $lignin_cw_compound_2024   yes   native   no   no   ?   ?   ?   bmse010467   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_lignin_cw_compound_2024
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     lignin_cw_compound_2024
+   _Entity.Entry_ID                         bmse010467
+   _Entity.ID                               1
+   _Entity.BMRB_code                        ?
+   _Entity.Name                             lignin_cw_compound_2024
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmse010467   1    
+
+   stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category   natural_source
+   _Entity_natural_src_list.Sf_framecode  natural_source
+   _Entity_natural_src_list.Entry_ID      bmse010467
+   _Entity_natural_src_list.ID            1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+     1   1   $lignin_cw_compound_2024   .   n/a   'multiple natural sources'   yes   'not applicable'   n/a   .   .   Eukaryota   Viridiplantae   n/a   n/a   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse010467   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category   experimental_source
+   _Entity_experimental_src_list.Sf_framecode  experimental_source
+   _Entity_experimental_src_list.Entry_ID      bmse010467
+   _Entity_experimental_src_list.ID            1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+     1   1   $lignin_cw_compound_2024   .   'chemical synthesis'   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse010467   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                      chem_comp
+   _Chem_comp.Sf_framecode                     chem_comp_1
+   _Chem_comp.Entry_ID                         bmse010467
+   _Chem_comp.ID                               1
+   _Chem_comp.Provenance                       BMRB
+   _Chem_comp.Name                             lignin_cw_compound_2024
+   _Chem_comp.Type                             non-polymer
+   _Chem_comp.BMRB_code                        bmse010467
+   _Chem_comp.PDB_code                         ?
+   _Chem_comp.InChI_code                     
+;
+InChI=1/C49H54O16/c1-29(50)59-20-10-12-33-14-17-40(42(23-33)55-6)63-46(28-62-32(4)53)48(36-15-18-39(54-5)43(26-36)56-7)64-41-19-16-35(25-44(41)57-8)47-38(27-61-31(3)52)37-22-34(13-11-21-60-30(2)51)24-45(58-9)49(37)65-47/h10-19,22-26,38,46-48H,20-21,27-28H2,1-9H3/b12-10+,13-11+/t38-,46+,47+,48+/m0/s1
+;
+   _Chem_comp.Mon_nstd_flag                    ?
+   _Chem_comp.Std_deriv_one_letter_code        ?
+   _Chem_comp.Std_deriv_three_letter_code      ?
+   _Chem_comp.Std_deriv_BMRB_code              ?
+   _Chem_comp.Std_deriv_PDB_code               ?
+   _Chem_comp.Formal_charge                    ?
+   _Chem_comp.Paramagnetic                     no
+   _Chem_comp.Aromatic                         yes
+   _Chem_comp.Formula                          'C48 H52 O16'
+   _Chem_comp.Formula_weight                   884.91688
+   _Chem_comp.Formula_mono_iso_wt_nat          884.3255356228
+   _Chem_comp.Formula_mono_iso_wt_13C          932.4865678372
+   _Chem_comp.Formula_mono_iso_wt_15N          884.3255356228
+   _Chem_comp.Formula_mono_iso_wt_13C_15N      932.4865678372
+   _Chem_comp.Image_file_name                  bmse010467.png
+   _Chem_comp.Image_file_format                png
+   _Chem_comp.Topo_file_name                   ?
+   _Chem_comp.Topo_file_format                 ?
+   _Chem_comp.Struct_file_name                 bmse010467.mol
+   _Chem_comp.Struct_file_format               mol
+   _Chem_comp.Stereochem_param_file_name       ?
+   _Chem_comp.Details                          Tetramers
+   _Chem_comp.DB_query_date                    ?
+   _Chem_comp.DB_last_query_revised_last_date  ?
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     'Veratrylglycerol-?-dehydrodiconiferyl-?-coniferyl-bis-ether peracetate, diastereomeric mixture'   synonym   bmse010467   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     'Veratrylglycerol-?-dehydrodiconiferyl-?-coniferyl-bis-ether peracetate, diastereomeric mixture'   Beilstein   bmse010467   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     Canonical   
+;
+CC(=O)OCC=CC1=CC(=C(C=C1)O[C@H](COC(C)=O)[C@@H](C2=CC(=C(C=C2)OC)OC)OC3=C(C=C(C=C3)[C@@H]5[C@@H](COC(C)=O)C4=C(C(=CC(=C4)C=CCOC(C)=O)OC)O5)OC)OC
+;
+bmse010467   1    
+     Isomeric    
+;
+CC(=O)OCC=CC1=CC(=C(C=C1)O[C@H](COC(C)=O)[C@@H](C2=CC(=C(C=C2)OC)OC)OC3=C(C=C(C=C3)[C@@H]5[C@@H](COC(C)=O)C4=C(C(=CC(=C4)C=CCOC(C)=O)OC)O5)OC)OC
+;
+bmse010467   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     C1     ?   C   ?   ?   ?   ?   339.2880   371.8656   ?   ?   ?   1     bmse010467   1    
+     C2     ?   C   ?   ?   ?   ?   42.7120    108.8812   ?   ?   ?   2     bmse010467   1    
+     C3     ?   C   ?   ?   ?   ?   218.9440   198.3244   ?   ?   ?   3     bmse010467   1    
+     C4     ?   C   ?   ?   ?   ?   283.2880   177.8760   ?   ?   ?   4     bmse010467   1    
+     C5     ?   C   ?   ?   ?   ?   507.2880   80.8812    ?   ?   ?   5     bmse010467   1    
+     C6     ?   C   ?   ?   ?   ?   423.2880   226.3720   ?   ?   ?   6     bmse010467   1    
+     C7     ?   C   ?   ?   ?   ?   493.2880   153.6280   ?   ?   ?   7     bmse010467   1    
+     C8     ?   C   ?   ?   ?   ?   325.2880   8.1344     ?   ?   ?   8     bmse010467   1    
+     C9     ?   C   ?   ?   ?   ?   163.9548   10.8812    ?   ?   ?   9     bmse010467   1    
+     C10    ?   C   ?   ?   ?   ?   339.2880   274.8708   ?   ?   ?   10    bmse010467   1    
+     C11    ?   C   ?   ?   ?   ?   325.2880   250.6228   ?   ?   ?   11    bmse010467   1    
+     C12    ?   C   ?   ?   ?   ?   325.2880   202.1240   ?   ?   ?   12    bmse010467   1    
+     C13    ?   C   ?   ?   ?   ?   423.2880   80.8812    ?   ?   ?   13    bmse010467   1    
+     C14    ?   C   ?   ?   ?   ?   297.2880   105.1292   ?   ?   ?   14    bmse010467   1    
+     C15    ?   C   ?   ?   ?   ?   339.2880   177.8760   ?   ?   ?   15    bmse010467   1    
+     C16    ?   C   ?   ?   ?   ?   451.2880   80.8812    ?   ?   ?   16    bmse010467   1    
+     C17    ?   C   ?   ?   ?   ?   325.2880   105.1292   ?   ?   ?   17    bmse010467   1    
+     C18    ?   C   ?   ?   ?   ?   139.7068   108.8812   ?   ?   ?   18    bmse010467   1    
+     C19    ?   C   ?   ?   ?   ?   325.2880   299.1188   ?   ?   ?   19    bmse010467   1    
+     C20    ?   C   ?   ?   ?   ?   115.4588   94.8812    ?   ?   ?   20    bmse010467   1    
+     C21    ?   C   ?   ?   ?   ?   188.2056   108.8812   ?   ?   ?   21    bmse010467   1    
+     C22    ?   C   ?   ?   ?   ?   367.2880   226.3720   ?   ?   ?   22    bmse010467   1    
+     C23    ?   C   ?   ?   ?   ?   163.9548   66.8812    ?   ?   ?   23    bmse010467   1    
+     C24    ?   C   ?   ?   ?   ?   297.2880   56.6332    ?   ?   ?   24    bmse010467   1    
+     C25    ?   C   ?   ?   ?   ?   423.2880   129.3772   ?   ?   ?   25    bmse010467   1    
+     C26    ?   C   ?   ?   ?   ?   247.6468   130.0268   ?   ?   ?   26    bmse010467   1    
+     C27    ?   C   ?   ?   ?   ?   339.2880   129.3772   ?   ?   ?   27    bmse010467   1    
+     C28    ?   C   ?   ?   ?   ?   325.2880   347.6176   ?   ?   ?   28    bmse010467   1    
+     C29    ?   C   ?   ?   ?   ?   66.9600    94.8812    ?   ?   ?   29    bmse010467   1    
+     C30    ?   C   ?   ?   ?   ?   237.6452   177.4840   ?   ?   ?   30    bmse010467   1    
+     C31    ?   C   ?   ?   ?   ?   297.2880   153.6280   ?   ?   ?   31    bmse010467   1    
+     C32    ?   C   ?   ?   ?   ?   339.2880   226.3720   ?   ?   ?   32    bmse010467   1    
+     C33    ?   C   ?   ?   ?   ?   163.9548   94.8812    ?   ?   ?   33    bmse010467   1    
+     C34    ?   C   ?   ?   ?   ?   283.2880   80.8812    ?   ?   ?   34    bmse010467   1    
+     C35    ?   C   ?   ?   ?   ?   409.2880   105.1292   ?   ?   ?   35    bmse010467   1    
+     C36    ?   C   ?   ?   ?   ?   212.4536   94.8812    ?   ?   ?   36    bmse010467   1    
+     C37    ?   C   ?   ?   ?   ?   238.9472   103.4128   ?   ?   ?   37    bmse010467   1    
+     C38    ?   C   ?   ?   ?   ?   465.2880   105.1292   ?   ?   ?   38    bmse010467   1    
+     C39    ?   C   ?   ?   ?   ?   367.2880   177.8760   ?   ?   ?   39    bmse010467   1    
+     C40    ?   C   ?   ?   ?   ?   339.2880   80.8812    ?   ?   ?   40    bmse010467   1    
+     C41    ?   C   ?   ?   ?   ?   381.2880   202.1240   ?   ?   ?   41    bmse010467   1    
+     C42    ?   C   ?   ?   ?   ?   451.2880   129.3772   ?   ?   ?   42    bmse010467   1    
+     C43    ?   C   ?   ?   ?   ?   325.2880   56.6332    ?   ?   ?   43    bmse010467   1    
+     C44    ?   C   ?   ?   ?   ?   188.2056   52.8812    ?   ?   ?   44    bmse010467   1    
+     C45    ?   C   ?   ?   ?   ?   367.2880   129.3772   ?   ?   ?   45    bmse010467   1    
+     C46    ?   C   ?   ?   ?   ?   255.2880   80.8812    ?   ?   ?   46    bmse010467   1    
+     C47    ?   C   ?   ?   ?   ?   381.2880   105.1292   ?   ?   ?   47    bmse010467   1    
+     C48    ?   C   ?   ?   ?   ?   212.4536   66.8812    ?   ?   ?   48    bmse010467   1    
+     O49    ?   O   ?   ?   ?   ?   297.2880   347.6176   ?   ?   ?   49    bmse010467   1    
+     O50    ?   O   ?   ?   ?   ?   66.9600    66.8812    ?   ?   ?   50    bmse010467   1    
+     O51    ?   O   ?   ?   ?   ?   265.0432   183.2576   ?   ?   ?   51    bmse010467   1    
+     O52    ?   O   ?   ?   ?   ?   283.2880   129.3772   ?   ?   ?   52    bmse010467   1    
+     O53    ?   O   ?   ?   ?   ?   493.2880   105.1292   ?   ?   ?   53    bmse010467   1    
+     O54    ?   O   ?   ?   ?   ?   409.2880   202.1240   ?   ?   ?   54    bmse010467   1    
+     O55    ?   O   ?   ?   ?   ?   465.2880   153.6280   ?   ?   ?   55    bmse010467   1    
+     O56    ?   O   ?   ?   ?   ?   339.2880   32.3824    ?   ?   ?   56    bmse010467   1    
+     O57    ?   O   ?   ?   ?   ?   188.2056   24.8812    ?   ?   ?   57    bmse010467   1    
+     O58    ?   O   ?   ?   ?   ?   339.2880   323.3668   ?   ?   ?   58    bmse010467   1    
+     O59    ?   O   ?   ?   ?   ?   91.2108    108.8812   ?   ?   ?   59    bmse010467   1    
+     O60    ?   O   ?   ?   ?   ?   228.9456   150.8672   ?   ?   ?   60    bmse010467   1    
+     O61    ?   O   ?   ?   ?   ?   325.2880   153.6280   ?   ?   ?   61    bmse010467   1    
+     O62    ?   O   ?   ?   ?   ?   381.2880   153.6280   ?   ?   ?   62    bmse010467   1    
+     O63    ?   O   ?   ?   ?   ?   367.2880   80.8812    ?   ?   ?   63    bmse010467   1    
+     O64    ?   O   ?   ?   ?   ?   238.9472   58.3496    ?   ?   ?   64    bmse010467   1    
+     H65    ?   H   ?   ?   ?   ?   354.3221   363.1854   ?   ?   ?   65    bmse010467   1    
+     H66    ?   H   ?   ?   ?   ?   347.9682   386.8997   ?   ?   ?   66    bmse010467   1    
+     H67    ?   H   ?   ?   ?   ?   324.2539   380.5458   ?   ?   ?   67    bmse010467   1    
+     H68    ?   H   ?   ?   ?   ?   51.3922    123.9153   ?   ?   ?   68    bmse010467   1    
+     H69    ?   H   ?   ?   ?   ?   27.6779    117.5614   ?   ?   ?   69    bmse010467   1    
+     H70    ?   H   ?   ?   ?   ?   34.0318    93.8471    ?   ?   ?   70    bmse010467   1    
+     H71    ?   H   ?   ?   ?   ?   231.8646   209.9187   ?   ?   ?   71    bmse010467   1    
+     H72    ?   H   ?   ?   ?   ?   207.3497   211.2450   ?   ?   ?   72    bmse010467   1    
+     H73    ?   H   ?   ?   ?   ?   206.0234   186.7301   ?   ?   ?   73    bmse010467   1    
+     H74    ?   H   ?   ?   ?   ?   298.3221   186.5562   ?   ?   ?   74    bmse010467   1    
+     H75    ?   H   ?   ?   ?   ?   274.6078   192.9101   ?   ?   ?   75    bmse010467   1    
+     H76    ?   H   ?   ?   ?   ?   268.2539   169.1958   ?   ?   ?   76    bmse010467   1    
+     H77    ?   H   ?   ?   ?   ?   492.2539   72.2010    ?   ?   ?   77    bmse010467   1    
+     H78    ?   H   ?   ?   ?   ?   515.9682   65.8471    ?   ?   ?   78    bmse010467   1    
+     H79    ?   H   ?   ?   ?   ?   522.3221   89.5614    ?   ?   ?   79    bmse010467   1    
+     H80    ?   H   ?   ?   ?   ?   438.3221   217.6918   ?   ?   ?   80    bmse010467   1    
+     H81    ?   H   ?   ?   ?   ?   431.9682   241.4061   ?   ?   ?   81    bmse010467   1    
+     H82    ?   H   ?   ?   ?   ?   408.2539   235.0522   ?   ?   ?   82    bmse010467   1    
+     H83    ?   H   ?   ?   ?   ?   493.2880   136.2680   ?   ?   ?   83    bmse010467   1    
+     H84    ?   H   ?   ?   ?   ?   510.6480   153.6280   ?   ?   ?   84    bmse010467   1    
+     H85    ?   H   ?   ?   ?   ?   493.2880   170.9880   ?   ?   ?   85    bmse010467   1    
+     H86    ?   H   ?   ?   ?   ?   310.2539   16.8146    ?   ?   ?   86    bmse010467   1    
+     H87    ?   H   ?   ?   ?   ?   316.6078   -6.8997    ?   ?   ?   87    bmse010467   1    
+     H88    ?   H   ?   ?   ?   ?   340.3221   -0.5458    ?   ?   ?   88    bmse010467   1    
+     H89    ?   H   ?   ?   ?   ?   155.2754   25.9157    ?   ?   ?   89    bmse010467   1    
+     H90    ?   H   ?   ?   ?   ?   148.9203   2.2018     ?   ?   ?   90    bmse010467   1    
+     H91    ?   H   ?   ?   ?   ?   172.6342   -4.1533    ?   ?   ?   91    bmse010467   1    
+     H92    ?   H   ?   ?   ?   ?   356.6480   274.8708   ?   ?   ?   92    bmse010467   1    
+     H93    ?   H   ?   ?   ?   ?   307.9280   250.6232   ?   ?   ?   93    bmse010467   1    
+     H94    ?   H   ?   ?   ?   ?   307.9280   202.1240   ?   ?   ?   94    bmse010467   1    
+     H95    ?   H   ?   ?   ?   ?   414.6081   65.8469    ?   ?   ?   95    bmse010467   1    
+     H96    ?   H   ?   ?   ?   ?   288.6081   120.1635   ?   ?   ?   96    bmse010467   1    
+     H97    ?   H   ?   ?   ?   ?   330.6081   162.8418   ?   ?   ?   97    bmse010467   1    
+     H98    ?   H   ?   ?   ?   ?   459.9679   65.8469    ?   ?   ?   98    bmse010467   1    
+     H99    ?   H   ?   ?   ?   ?   333.9679   120.1635   ?   ?   ?   99    bmse010467   1    
+     H100   ?   H   ?   ?   ?   ?   139.7068   126.2412   ?   ?   ?   100   bmse010467   1    
+     H101   ?   H   ?   ?   ?   ?   311.9895   310.2776   ?   ?   ?   101   bmse010467   1    
+     H102   ?   H   ?   ?   ?   ?   311.9895   287.9600   ?   ?   ?   102   bmse010467   1    
+     H103   ?   H   ?   ?   ?   ?   115.4588   77.5212    ?   ?   ?   103   bmse010467   1    
+     H104   ?   H   ?   ?   ?   ?   188.2060   126.2412   ?   ?   ?   104   bmse010467   1    
+     H105   ?   H   ?   ?   ?   ?   375.9679   241.4062   ?   ?   ?   105   bmse010467   1    
+     H106   ?   H   ?   ?   ?   ?   148.9208   58.2009    ?   ?   ?   106   bmse010467   1    
+     H107   ?   H   ?   ?   ?   ?   288.6081   41.5989    ?   ?   ?   107   bmse010467   1    
+     H108   ?   H   ?   ?   ?   ?   414.6081   144.4115   ?   ?   ?   108   bmse010467   1    
+     H109   ?   H   ?   ?   ?   ?   262.9605   121.8500   ?   ?   ?   109   bmse010467   1    
+     H110   ?   H   ?   ?   ?   ?   258.3582   143.6883   ?   ?   ?   110   bmse010467   1    
+     H111   ?   H   ?   ?   ?   ?   322.9748   123.4401   ?   ?   ?   111   bmse010467   1    
+     H112   ?   H   ?   ?   ?   ?   342.3023   112.2809   ?   ?   ?   112   bmse010467   1    
+     H113   ?   H   ?   ?   ?   ?   226.6988   115.7151   ?   ?   ?   113   bmse010467   1    
+     H114   ?   H   ?   ?   ?   ?   384.6480   129.3776   ?   ?   ?   114   bmse010467   1    
+     H115   ?   H   ?   ?   ?   ?   263.1759   65.4167    ?   ?   ?   115   bmse010467   1    
+     H116   ?   H   ?   ?   ?   ?   389.9679   90.0949    ?   ?   ?   116   bmse010467   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     C1     C1     ?   bmse010467   1    
+     C2     C2     ?   bmse010467   1    
+     C3     C3     ?   bmse010467   1    
+     C4     C4     ?   bmse010467   1    
+     C5     C5     ?   bmse010467   1    
+     C6     C6     ?   bmse010467   1    
+     C7     C7     ?   bmse010467   1    
+     C8     C8     ?   bmse010467   1    
+     C9     C9     ?   bmse010467   1    
+     C10    C10    ?   bmse010467   1    
+     C11    C11    ?   bmse010467   1    
+     C12    C12    ?   bmse010467   1    
+     C13    C13    ?   bmse010467   1    
+     C14    C14    ?   bmse010467   1    
+     C15    C15    ?   bmse010467   1    
+     C16    C16    ?   bmse010467   1    
+     C17    C17    ?   bmse010467   1    
+     C18    C18    ?   bmse010467   1    
+     C19    C19    ?   bmse010467   1    
+     C20    C20    ?   bmse010467   1    
+     C21    C21    ?   bmse010467   1    
+     C22    C22    ?   bmse010467   1    
+     C23    C23    ?   bmse010467   1    
+     C24    C24    ?   bmse010467   1    
+     C25    C25    ?   bmse010467   1    
+     C26    C26    ?   bmse010467   1    
+     C27    C27    ?   bmse010467   1    
+     C28    C28    ?   bmse010467   1    
+     C29    C29    ?   bmse010467   1    
+     C30    C30    ?   bmse010467   1    
+     C31    C31    ?   bmse010467   1    
+     C32    C32    ?   bmse010467   1    
+     C33    C33    ?   bmse010467   1    
+     C34    C34    ?   bmse010467   1    
+     C35    C35    ?   bmse010467   1    
+     C36    C36    ?   bmse010467   1    
+     C37    C37    ?   bmse010467   1    
+     C38    C38    ?   bmse010467   1    
+     C39    C39    ?   bmse010467   1    
+     C40    C40    ?   bmse010467   1    
+     C41    C41    ?   bmse010467   1    
+     C42    C42    ?   bmse010467   1    
+     C43    C43    ?   bmse010467   1    
+     C44    C44    ?   bmse010467   1    
+     C45    C45    ?   bmse010467   1    
+     C46    C46    ?   bmse010467   1    
+     C47    C47    ?   bmse010467   1    
+     C48    C48    ?   bmse010467   1    
+     O49    O49    ?   bmse010467   1    
+     O50    O50    ?   bmse010467   1    
+     O51    O51    ?   bmse010467   1    
+     O52    O52    ?   bmse010467   1    
+     O53    O53    ?   bmse010467   1    
+     O54    O54    ?   bmse010467   1    
+     O55    O55    ?   bmse010467   1    
+     O56    O56    ?   bmse010467   1    
+     O57    O57    ?   bmse010467   1    
+     O58    O58    ?   bmse010467   1    
+     O59    O59    ?   bmse010467   1    
+     O60    O60    ?   bmse010467   1    
+     O61    O61    ?   bmse010467   1    
+     O62    O62    ?   bmse010467   1    
+     O63    O63    ?   bmse010467   1    
+     O64    O64    ?   bmse010467   1    
+     H65    H65    ?   bmse010467   1    
+     H66    H66    ?   bmse010467   1    
+     H67    H67    ?   bmse010467   1    
+     H68    H68    ?   bmse010467   1    
+     H69    H69    ?   bmse010467   1    
+     H70    H70    ?   bmse010467   1    
+     H71    H71    ?   bmse010467   1    
+     H72    H72    ?   bmse010467   1    
+     H73    H73    ?   bmse010467   1    
+     H74    H74    ?   bmse010467   1    
+     H75    H75    ?   bmse010467   1    
+     H76    H76    ?   bmse010467   1    
+     H77    H77    ?   bmse010467   1    
+     H78    H78    ?   bmse010467   1    
+     H79    H79    ?   bmse010467   1    
+     H80    H80    ?   bmse010467   1    
+     H81    H81    ?   bmse010467   1    
+     H82    H82    ?   bmse010467   1    
+     H83    H83    ?   bmse010467   1    
+     H84    H84    ?   bmse010467   1    
+     H85    H85    ?   bmse010467   1    
+     H86    H86    ?   bmse010467   1    
+     H87    H87    ?   bmse010467   1    
+     H88    H88    ?   bmse010467   1    
+     H89    H89    ?   bmse010467   1    
+     H90    H90    ?   bmse010467   1    
+     H91    H91    ?   bmse010467   1    
+     H92    H92    ?   bmse010467   1    
+     H93    H93    ?   bmse010467   1    
+     H94    H94    ?   bmse010467   1    
+     H95    H95    ?   bmse010467   1    
+     H96    H96    ?   bmse010467   1    
+     H97    H97    ?   bmse010467   1    
+     H98    H98    ?   bmse010467   1    
+     H99    H99    ?   bmse010467   1    
+     H100   H100   ?   bmse010467   1    
+     H101   H101   ?   bmse010467   1    
+     H102   H102   ?   bmse010467   1    
+     H103   H103   ?   bmse010467   1    
+     H104   H104   ?   bmse010467   1    
+     H105   H105   ?   bmse010467   1    
+     H106   H106   ?   bmse010467   1    
+     H107   H107   ?   bmse010467   1    
+     H108   H108   ?   bmse010467   1    
+     H109   H109   ?   bmse010467   1    
+     H110   H110   ?   bmse010467   1    
+     H111   H111   ?   bmse010467   1    
+     H112   H112   ?   bmse010467   1    
+     H113   H113   ?   bmse010467   1    
+     H114   H114   ?   bmse010467   1    
+     H115   H115   ?   bmse010467   1    
+     H116   H116   ?   bmse010467   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1     covalent   SING   C1    C28    ?   bmse010467   1    
+     2     covalent   SING   C2    C29    ?   bmse010467   1    
+     3     covalent   SING   C3    C30    ?   bmse010467   1    
+     4     covalent   SING   C4    C31    ?   bmse010467   1    
+     5     covalent   SING   C5    O53    ?   bmse010467   1    
+     6     covalent   SING   C6    O54    ?   bmse010467   1    
+     7     covalent   SING   C7    O55    ?   bmse010467   1    
+     8     covalent   SING   C8    O56    ?   bmse010467   1    
+     9     covalent   SING   C9    O57    ?   bmse010467   1    
+     10    covalent   DOUB   C10   C11    ?   bmse010467   1    
+     11    covalent   SING   C10   C19    ?   bmse010467   1    
+     12    covalent   SING   C11   C32    ?   bmse010467   1    
+     13    covalent   DOUB   C12   C15    ?   bmse010467   1    
+     14    covalent   SING   C12   C32    ?   bmse010467   1    
+     15    covalent   DOUB   C13   C16    ?   bmse010467   1    
+     16    covalent   SING   C13   C35    ?   bmse010467   1    
+     17    covalent   DOUB   C14   C17    ?   bmse010467   1    
+     18    covalent   SING   C14   C34    ?   bmse010467   1    
+     19    covalent   SING   C15   C39    ?   bmse010467   1    
+     20    covalent   SING   C16   C38    ?   bmse010467   1    
+     21    covalent   SING   C17   C40    ?   bmse010467   1    
+     22    covalent   DOUB   C18   C20    ?   bmse010467   1    
+     23    covalent   SING   C18   C33    ?   bmse010467   1    
+     24    covalent   SING   C19   O58    ?   bmse010467   1    
+     25    covalent   SING   C20   O59    ?   bmse010467   1    
+     26    covalent   DOUB   C21   C33    ?   bmse010467   1    
+     27    covalent   SING   C21   C36    ?   bmse010467   1    
+     28    covalent   DOUB   C22   C32    ?   bmse010467   1    
+     29    covalent   SING   C22   C41    ?   bmse010467   1    
+     30    covalent   SING   C23   C33    ?   bmse010467   1    
+     31    covalent   DOUB   C23   C44    ?   bmse010467   1    
+     32    covalent   DOUB   C24   C34    ?   bmse010467   1    
+     33    covalent   SING   C24   C43    ?   bmse010467   1    
+     34    covalent   DOUB   C25   C35    ?   bmse010467   1    
+     35    covalent   SING   C25   C42    ?   bmse010467   1    
+     36    covalent   SING   C37   C26    ?   bmse010467   1    
+     37    covalent   SING   C26   O60    ?   bmse010467   1    
+     38    covalent   SING   C27   C45    ?   bmse010467   1    
+     39    covalent   SING   C27   O61    ?   bmse010467   1    
+     40    covalent   DOUB   C28   O49    ?   bmse010467   1    
+     41    covalent   SING   C28   O58    ?   bmse010467   1    
+     42    covalent   DOUB   C29   O50    ?   bmse010467   1    
+     43    covalent   SING   C29   O59    ?   bmse010467   1    
+     44    covalent   DOUB   C30   O51    ?   bmse010467   1    
+     45    covalent   SING   C30   O60    ?   bmse010467   1    
+     46    covalent   DOUB   C31   O52    ?   bmse010467   1    
+     47    covalent   SING   C31   O61    ?   bmse010467   1    
+     48    covalent   SING   C46   C34    ?   bmse010467   1    
+     49    covalent   SING   C35   C47    ?   bmse010467   1    
+     50    covalent   SING   C36   C37    ?   bmse010467   1    
+     51    covalent   DOUB   C36   C48    ?   bmse010467   1    
+     52    covalent   SING   C37   C46    ?   bmse010467   1    
+     53    covalent   DOUB   C38   C42    ?   bmse010467   1    
+     54    covalent   SING   C38   O53    ?   bmse010467   1    
+     55    covalent   DOUB   C39   C41    ?   bmse010467   1    
+     56    covalent   SING   C39   O62    ?   bmse010467   1    
+     57    covalent   DOUB   C40   C43    ?   bmse010467   1    
+     58    covalent   SING   C40   O63    ?   bmse010467   1    
+     59    covalent   SING   C41   O54    ?   bmse010467   1    
+     60    covalent   SING   C42   O55    ?   bmse010467   1    
+     61    covalent   SING   C43   O56    ?   bmse010467   1    
+     62    covalent   SING   C44   C48    ?   bmse010467   1    
+     63    covalent   SING   C44   O57    ?   bmse010467   1    
+     64    covalent   SING   C45   C47    ?   bmse010467   1    
+     65    covalent   SING   C45   O62    ?   bmse010467   1    
+     66    covalent   SING   C46   O64    ?   bmse010467   1    
+     67    covalent   SING   C47   O63    ?   bmse010467   1    
+     68    covalent   SING   C48   O64    ?   bmse010467   1    
+     69    covalent   SING   C1    H65    ?   bmse010467   1    
+     70    covalent   SING   C1    H66    ?   bmse010467   1    
+     71    covalent   SING   C1    H67    ?   bmse010467   1    
+     72    covalent   SING   C2    H68    ?   bmse010467   1    
+     73    covalent   SING   C2    H69    ?   bmse010467   1    
+     74    covalent   SING   C2    H70    ?   bmse010467   1    
+     75    covalent   SING   C3    H71    ?   bmse010467   1    
+     76    covalent   SING   C3    H72    ?   bmse010467   1    
+     77    covalent   SING   C3    H73    ?   bmse010467   1    
+     78    covalent   SING   C4    H74    ?   bmse010467   1    
+     79    covalent   SING   C4    H75    ?   bmse010467   1    
+     80    covalent   SING   C4    H76    ?   bmse010467   1    
+     81    covalent   SING   C5    H77    ?   bmse010467   1    
+     82    covalent   SING   C5    H78    ?   bmse010467   1    
+     83    covalent   SING   C5    H79    ?   bmse010467   1    
+     84    covalent   SING   C6    H80    ?   bmse010467   1    
+     85    covalent   SING   C6    H81    ?   bmse010467   1    
+     86    covalent   SING   C6    H82    ?   bmse010467   1    
+     87    covalent   SING   C7    H83    ?   bmse010467   1    
+     88    covalent   SING   C7    H84    ?   bmse010467   1    
+     89    covalent   SING   C7    H85    ?   bmse010467   1    
+     90    covalent   SING   C8    H86    ?   bmse010467   1    
+     91    covalent   SING   C8    H87    ?   bmse010467   1    
+     92    covalent   SING   C8    H88    ?   bmse010467   1    
+     93    covalent   SING   C9    H89    ?   bmse010467   1    
+     94    covalent   SING   C9    H90    ?   bmse010467   1    
+     95    covalent   SING   C9    H91    ?   bmse010467   1    
+     96    covalent   SING   C10   H92    ?   bmse010467   1    
+     97    covalent   SING   C11   H93    ?   bmse010467   1    
+     98    covalent   SING   C12   H94    ?   bmse010467   1    
+     99    covalent   SING   C13   H95    ?   bmse010467   1    
+     100   covalent   SING   C14   H96    ?   bmse010467   1    
+     101   covalent   SING   C15   H97    ?   bmse010467   1    
+     102   covalent   SING   C16   H98    ?   bmse010467   1    
+     103   covalent   SING   C17   H99    ?   bmse010467   1    
+     104   covalent   SING   C18   H100   ?   bmse010467   1    
+     105   covalent   SING   C19   H101   ?   bmse010467   1    
+     106   covalent   SING   C19   H102   ?   bmse010467   1    
+     107   covalent   SING   C20   H103   ?   bmse010467   1    
+     108   covalent   SING   C21   H104   ?   bmse010467   1    
+     109   covalent   SING   C22   H105   ?   bmse010467   1    
+     110   covalent   SING   C23   H106   ?   bmse010467   1    
+     111   covalent   SING   C24   H107   ?   bmse010467   1    
+     112   covalent   SING   C25   H108   ?   bmse010467   1    
+     113   covalent   SING   C26   H109   ?   bmse010467   1    
+     114   covalent   SING   C26   H110   ?   bmse010467   1    
+     115   covalent   SING   C27   H111   ?   bmse010467   1    
+     116   covalent   SING   C27   H112   ?   bmse010467   1    
+     117   covalent   SING   C37   H113   ?   bmse010467   1    
+     118   covalent   SING   C45   H114   ?   bmse010467   1    
+     119   covalent   SING   C46   H115   ?   bmse010467   1    
+     120   covalent   SING   C47   H116   ?   bmse010467   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_code
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_experimental_method
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_details
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     yes   USDA_NMR_database   2024   'Compound Number'   ?   lignin_cw_compound_2024   ?   'matching entry'   ?   bmse010467   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citation_1   bmse010467   1    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category   sample
+   _Sample.Sf_framecode  sample_1
+   _Sample.Entry_ID      bmse010467
+   _Sample.ID            1
+   _Sample.Type          solution
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   'Veratrylglycerol-?-dehydrodiconiferyl-?-coniferyl-bis-ether peracetate, diastereomeric mixture'   'natural abundance'   1   $lignin_cw_compound_2024   ?   Solute    Saturated   ?   ?   1   ?   'John Ralph Lab'   'Veratrylglycerol-?-dehydrodiconiferyl-?-coniferyl-bis-ether peracetate, diastereomeric mixture'   n/a   bmse010467   1    
+     2   CDCl3                                                                                              ?                     1   ?                          ?   Solvent   100         ?   ?   %   ?   ?                  ?                                                                                                  ?     bmse010467   1    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_2
+   _Sample.Sf_category   sample
+   _Sample.Sf_framecode  sample_2
+   _Sample.Entry_ID      bmse010467
+   _Sample.ID            2
+   _Sample.Type          solution
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   'Veratrylglycerol-?-dehydrodiconiferyl-?-coniferyl-bis-ether peracetate, diastereomeric mixture'   'natural abundance'   1   $lignin_cw_compound_2024   ?   Solute    Saturated   ?   ?   1   ?   'John Ralph Lab'   'Veratrylglycerol-?-dehydrodiconiferyl-?-coniferyl-bis-ether peracetate, diastereomeric mixture'   n/a   bmse010467   2    
+     2   Acetone                                                                                            ?                     1   ?                          ?   Solvent   100         ?   ?   %   ?   ?                  ?                                                                                                  ?     bmse010467   2    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_3
+   _Sample.Sf_category   sample
+   _Sample.Sf_framecode  sample_3
+   _Sample.Entry_ID      bmse010467
+   _Sample.ID            3
+   _Sample.Type          solution
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   'Veratrylglycerol-?-dehydrodiconiferyl-?-coniferyl-bis-ether peracetate, diastereomeric mixture'   'natural abundance'   1   $lignin_cw_compound_2024   ?   Solute    Saturated   ?   ?   1   ?   'John Ralph Lab'   'Veratrylglycerol-?-dehydrodiconiferyl-?-coniferyl-bis-ether peracetate, diastereomeric mixture'   n/a   bmse010467   3    
+     2   DMSO                                                                                               ?                     1   ?                          ?   Solvent   100         ?   ?   %   ?   ?                  ?                                                                                                  ?     bmse010467   3    
+
+   stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category   sample_conditions
+   _Sample_condition_list.Sf_framecode  sample_conditions_1
+   _Sample_condition_list.Entry_ID      bmse010467
+   _Sample_condition_list.ID            1
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+     1   297   ?   K   bmse010467   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmse010467
+   _Software.ID            1
+   _Software.Name          X-WINNMR
+   _Software.Version       ?
+   _Software.Details       ?
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     Bruker   ?   ?   bmse010467   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     Processing   bmse010467   1    
+
+   stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_Bruker_360
+   _NMR_spectrometer.Sf_category     NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode    Bruker_360
+   _NMR_spectrometer.Entry_ID        bmse010467
+   _NMR_spectrometer.ID              1
+   _NMR_spectrometer.Manufacturer    Bruker
+   _NMR_spectrometer.Model           DRX
+   _NMR_spectrometer.Field_strength  360
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category   experiment_list
+   _Experiment_list.Sf_framecode  experiment_list
+   _Experiment_list.Entry_ID      bmse010467
+   _Experiment_list.ID            1
+   _Experiment_list.Details       ?
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+     1   '1D 13C'   yes   ?   ?   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_360   ?   ?   bmse010467   1    
+     2   '1D 1H'    yes   ?   ?   2   $sample_2   isotropic   1   $sample_conditions_1   1   $Bruker_360   ?   ?   bmse010467   1    
+     3   '1D 13C'   yes   ?   ?   2   $sample_2   isotropic   1   $sample_conditions_1   1   $Bruker_360   ?   ?   bmse010467   1    
+     4   '1D 13C'   yes   ?   ?   3   $sample_3   isotropic   1   $sample_conditions_1   1   $Bruker_360   ?   ?   bmse010467   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference_1
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference_1
+   _Chem_shift_reference.Entry_ID      bmse010467
+   _Chem_shift_reference.ID            1
+   _Chem_shift_reference.Details       ?
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    CDCl3   'residual solvent proton'   ppm   7.24    internal   direct   1.000000000   ?   ?   ?   bmse010467   1    
+     C   13   CDCl3   'solvent carbon'            ppm   77.00   internal   direct   ?             ?   ?   ?   bmse010467   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference_2
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference_2
+   _Chem_shift_reference.Entry_ID      bmse010467
+   _Chem_shift_reference.ID            2
+   _Chem_shift_reference.Details       ?
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    Acetone-d6   'residual solvent methyl proton'   ppm   2.04    internal   direct   1.000000000   ?   ?   ?   bmse010467   2    
+     C   13   Acetone-d6   'solvent methyl carbon'            ppm   29.83   internal   direct   ?             ?   ?   ?   bmse010467   2    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference_3
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference_3
+   _Chem_shift_reference.Entry_ID      bmse010467
+   _Chem_shift_reference.ID            3
+   _Chem_shift_reference.Details       ?
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    DMSO-d6   'residual solvent methyl proton'   ppm   2.49    internal   direct   1.000000000   ?   ?   ?   bmse010467   3    
+     C   13   DMSO-d6   'solvent methyl carbon'            ppm   39.50   internal   direct   ?             ?   ?   ?   bmse010467   3    
+
+   stop_
+
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Sf_category                  assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                 assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Entry_ID                     bmse010467
+   _Assigned_chem_shift_list.ID                           1
+   _Assigned_chem_shift_list.Sample_condition_list_ID     1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID      1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chem_shift_reference_1
+   _Assigned_chem_shift_list.Error_derivation_method      ?
+   _Assigned_chem_shift_list.Details                      ?
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+     1   '1D 13C'   1   $sample_1   bmse010467   1    
+
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+     1   $software_1   ?   ?   bmse010467   1    
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+     1    1   1   1   C4    C   13   20.75    ?   ?   1   ?   ?   ?   AGAcMe    ?   bmse010467   1    
+     2    1   1   1   C3    C   13   20.75    ?   ?   1   ?   ?   ?   CGAcMe    ?   bmse010467   1    
+     3    1   1   1   C1    C   13   20.98    ?   ?   1   ?   ?   ?   BGAcMe    ?   bmse010467   1    
+     4    1   1   1   C2    C   13   20.98    ?   ?   1   ?   ?   ?   DGAcMe    ?   bmse010467   1    
+     5    1   1   1   C5    C   13   55.75    ?   ?   1   ?   ?   ?   A4OMe     ?   bmse010467   1    
+     6    1   1   1   C7    C   13   55.82    ?   ?   1   ?   ?   ?   A3OMe     ?   bmse010467   1    
+     7    1   1   1   C6    C   13   55.86    ?   ?   1   ?   ?   ?   B3OMe     ?   bmse010467   1    
+     8    1   1   1   C8    C   13   56.06    ?   ?   1   ?   ?   ?   C3OMe     ?   bmse010467   1    
+     9    1   1   1   C9    C   13   55.97    ?   ?   1   ?   ?   ?   D3OMe     ?   bmse010467   1    
+     10   1   1   1   C38   C   13   50.18    ?   ?   1   ?   ?   ?   CB        ?   bmse010467   1    
+     11   1   1   1   C28   C   13   63.67    ?   ?   1   ?   ?   ?   G         ?   bmse010467   1    
+     12   1   1   1   C20   C   13   65.09    ?   ?   1   ?   ?   ?   BG        ?   bmse010467   1    
+     13   1   1   1   C21   C   13   65.17    ?   ?   1   ?   ?   ?   DG        ?   bmse010467   1    
+     14   1   1   1   C27   C   13   65.28    ?   ?   1   ?   ?   ?   CG        ?   bmse010467   1    
+     15   1   1   1   C48   C   13   80.14    ?   ?   1   ?   ?   ?   A         ?   bmse010467   1    
+     16   1   1   1   C46   C   13   81.80    ?   ?   1   ?   ?   ?   B         ?   bmse010467   1    
+     17   1   1   1   C47   C   13   88.43    ?   ?   1   ?   ?   ?   CA        ?   bmse010467   1    
+     18   1   1   1   C23   C   13   110.02   ?   ?   1   ?   ?   ?   B2        ?   bmse010467   1    
+     19   1   1   1   C25   C   13   110.33   ?   ?   1   ?   ?   ?   C2        ?   bmse010467   1    
+     20   1   1   1   C24   C   13   110.17   ?   ?   1   ?   ?   ?   D2        ?   bmse010467   1    
+     21   1   1   1   C18   C   13   110.56   ?   ?   1   ?   ?   ?   A5        ?   bmse010467   1    
+     22   1   1   1   C26   C   13   110.79   ?   ?   1   ?   ?   ?   A2        ?   bmse010467   1    
+     23   1   1   1   C22   C   13   115.29   ?   ?   1   ?   ?   ?   D6        ?   bmse010467   1    
+     24   1   1   1   C19   C   13   116.53   ?   ?   1   ?   ?   ?   C5        ?   bmse010467   1    
+     25   1   1   1   C17   C   13   118.47   ?   ?   1   ?   ?   ?   B5        ?   bmse010467   1    
+     26   1   1   1   C16   C   13   118.59   ?   ?   1   ?   ?   ?   C6        ?   bmse010467   1    
+     27   1   1   1   C14   C   13   119.73   ?   ?   1   ?   ?   ?   B6        ?   bmse010467   1    
+     28   1   1   1   C15   C   13   119.95   ?   ?   1   ?   ?   ?   A6        ?   bmse010467   1    
+     29   1   1   1   C11   C   13   121.16   ?   ?   1   ?   ?   ?   DB        ?   bmse010467   1    
+     30   1   1   1   C10   C   13   121.91   ?   ?   1   ?   ?   ?   BB        ?   bmse010467   1    
+     31   1   1   1   C37   C   13   127.57   ?   ?   1   ?   ?   ?   D5        ?   bmse010467   1    
+     32   1   1   1   C36   C   13   130.18   ?   ?   1   ?   ?   ?   A1        ?   bmse010467   1    
+     33   1   1   1   C34   C   13   130.49   ?   ?   1   ?   ?   ?   D1        ?   bmse010467   1    
+     34   1   1   1   C33   C   13   131.24   ?   ?   1   ?   ?   ?   B1        ?   bmse010467   1    
+     35   1   1   1   C12   C   13   133.94   ?   ?   1   ?   ?   ?   BA        ?   bmse010467   1    
+     36   1   1   1   C35   C   13   134.12   ?   ?   1   ?   ?   ?   C1        ?   bmse010467   1    
+     37   1   1   1   C13   C   13   134.32   ?   ?   1   ?   ?   ?   DA        ?   bmse010467   1    
+     38   1   1   1   C45   C   13   144.37   ?   ?   1   ?   ?   ?   D3        ?   bmse010467   1    
+     39   1   1   1   C41   C   13   147.38   ?   ?   1   ?   ?   ?   C4        ?   bmse010467   1    
+     40   1   1   1   C40   C   13   147.71   ?   ?   1   ?   ?   ?   B4        ?   bmse010467   1    
+     41   1   1   1   C49   C   13   148.21   ?   ?   1   ?   ?   ?   D4        ?   bmse010467   1    
+     42   1   1   1   C43   C   13   148.83   ?   ?   1   ?   ?   ?   A3        ?   bmse010467   1    
+     43   1   1   1   C39   C   13   148.93   ?   ?   1   ?   ?   ?   A4        ?   bmse010467   1    
+     44   1   1   1   C44   C   13   150.39   ?   ?   1   ?   ?   ?   C3        ?   bmse010467   1    
+     45   1   1   1   C42   C   13   150.78   ?   ?   1   ?   ?   ?   B3        ?   bmse010467   1    
+     46   1   1   1   C30   C   13   170.70   ?   ?   1   ?   ?   ?   DGAcC=O   ?   bmse010467   1    
+     47   1   1   1   C29   C   13   170.77   ?   ?   1   ?   ?   ?   BGAcC=O   ?   bmse010467   1    
+     48   1   1   1   C32   C   13   170.82   ?   ?   1   ?   ?   ?   AGAcC=O   ?   bmse010467   1    
+     49   1   1   1   C31   C   13   170.85   ?   ?   1   ?   ?   ?   CGAcC=O   ?   bmse010467   1    
+
+   stop_
+
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_assigned_chemical_shifts_2
+   _Assigned_chem_shift_list.Sf_category                  assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                 assigned_chemical_shifts_2
+   _Assigned_chem_shift_list.Entry_ID                     bmse010467
+   _Assigned_chem_shift_list.ID                           2
+   _Assigned_chem_shift_list.Sample_condition_list_ID     1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID      2
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chem_shift_reference_2
+   _Assigned_chem_shift_list.Error_derivation_method      ?
+   _Assigned_chem_shift_list.Details                      ?
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+     2   '1D 1H'    2   $sample_2   bmse010467   2    
+     3   '1D 13C'   2   $sample_2   bmse010467   2    
+
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+     1   $software_1   ?   ?   bmse010467   2    
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+     1    1   1   1   C4     C   13   20.64    ?   ?   1   ?   ?   ?   AGAcMe    ?   bmse010467   2    
+     2    1   1   1   C3     C   13   20.64    ?   ?   1   ?   ?   ?   CGAcMe    ?   bmse010467   2    
+     3    1   1   1   C1     C   13   20.79    ?   ?   1   ?   ?   ?   BGAcMe    ?   bmse010467   2    
+     4    1   1   1   C2     C   13   20.79    ?   ?   1   ?   ?   ?   DGAcMe    ?   bmse010467   2    
+     5    1   1   1   C5     C   13   55.97    ?   ?   1   ?   ?   ?   A4OMe     ?   bmse010467   2    
+     6    1   1   1   C7     C   13   56.06    ?   ?   1   ?   ?   ?   A3OMe     ?   bmse010467   2    
+     7    1   1   1   C6     C   13   56.22    ?   ?   1   ?   ?   ?   B3OMe     ?   bmse010467   2    
+     8    1   1   1   C8     C   13   56.38    ?   ?   1   ?   ?   ?   C3OMe     ?   bmse010467   2    
+     9    1   1   1   C38    C   13   51.08    ?   ?   1   ?   ?   ?   CB        ?   bmse010467   2    
+     10   1   1   1   C28    C   13   63.86    ?   ?   1   ?   ?   ?   G         ?   bmse010467   2    
+     11   1   1   1   C20    C   13   65.38    ?   ?   1   ?   ?   ?   BG        ?   bmse010467   2    
+     12   1   1   1   C21    C   13   65.49    ?   ?   1   ?   ?   ?   DG        ?   bmse010467   2    
+     13   1   1   1   C27    C   13   65.90    ?   ?   1   ?   ?   ?   CG        ?   bmse010467   2    
+     14   1   1   1   C48    C   13   80.89    ?   ?   1   ?   ?   ?   A         ?   bmse010467   2    
+     15   1   1   1   C46    C   13   81.73    ?   ?   1   ?   ?   ?   B         ?   bmse010467   2    
+     16   1   1   1   C47    C   13   88.65    ?   ?   1   ?   ?   ?   CA        ?   bmse010467   2    
+     17   1   1   1   C23    C   13   111.28   ?   ?   1   ?   ?   ?   B2        ?   bmse010467   2    
+     18   1   1   1   C25    C   13   111.45   ?   ?   1   ?   ?   ?   C2        ?   bmse010467   2    
+     19   1   1   1   C24    C   13   112.16   ?   ?   1   ?   ?   ?   D2        ?   bmse010467   2    
+     20   1   1   1   C18    C   13   112.22   ?   ?   1   ?   ?   ?   A5        ?   bmse010467   2    
+     21   1   1   1   C26    C   13   112.31   ?   ?   1   ?   ?   ?   A2        ?   bmse010467   2    
+     22   1   1   1   C22    C   13   116.31   ?   ?   1   ?   ?   ?   D6        ?   bmse010467   2    
+     23   1   1   1   C19    C   13   117.46   ?   ?   1   ?   ?   ?   C5        ?   bmse010467   2    
+     24   1   1   1   C17    C   13   118.91   ?   ?   1   ?   ?   ?   B5        ?   bmse010467   2    
+     25   1   1   1   C16    C   13   119.11   ?   ?   1   ?   ?   ?   C6        ?   bmse010467   2    
+     26   1   1   1   C14    C   13   120.48   ?   ?   1   ?   ?   ?   B6        ?   bmse010467   2    
+     27   1   1   1   C15    C   13   120.98   ?   ?   1   ?   ?   ?   A6        ?   bmse010467   2    
+     28   1   1   1   C11    C   13   122.19   ?   ?   1   ?   ?   ?   DB        ?   bmse010467   2    
+     29   1   1   1   C10    C   13   123.04   ?   ?   1   ?   ?   ?   BB        ?   bmse010467   2    
+     30   1   1   1   C37    C   13   129.06   ?   ?   1   ?   ?   ?   D5        ?   bmse010467   2    
+     31   1   1   1   C36    C   13   130.90   ?   ?   1   ?   ?   ?   A1        ?   bmse010467   2    
+     32   1   1   1   C34    C   13   131.46   ?   ?   1   ?   ?   ?   D1        ?   bmse010467   2    
+     33   1   1   1   C33    C   13   132.08   ?   ?   1   ?   ?   ?   B1        ?   bmse010467   2    
+     34   1   1   1   C12    C   13   134.26   ?   ?   1   ?   ?   ?   BA        ?   bmse010467   2    
+     35   1   1   1   C35    C   13   135.74   ?   ?   1   ?   ?   ?   C1        ?   bmse010467   2    
+     36   1   1   1   C13    C   13   134.71   ?   ?   1   ?   ?   ?   DA        ?   bmse010467   2    
+     37   1   1   1   C45    C   13   145.37   ?   ?   1   ?   ?   ?   D3        ?   bmse010467   2    
+     38   1   1   1   C41    C   13   148.11   ?   ?   1   ?   ?   ?   C4        ?   bmse010467   2    
+     39   1   1   1   C40    C   13   148.83   ?   ?   1   ?   ?   ?   B4        ?   bmse010467   2    
+     40   1   1   1   C49    C   13   149.29   ?   ?   1   ?   ?   ?   D4        ?   bmse010467   2    
+     41   1   1   1   C43    C   13   150.20   ?   ?   1   ?   ?   ?   A3        ?   bmse010467   2    
+     42   1   1   1   C39    C   13   150.23   ?   ?   1   ?   ?   ?   A4        ?   bmse010467   2    
+     43   1   1   1   C44    C   13   151.42   ?   ?   1   ?   ?   ?   C3        ?   bmse010467   2    
+     44   1   1   1   C42    C   13   151.81   ?   ?   1   ?   ?   ?   B3        ?   bmse010467   2    
+     45   1   1   1   C30    C   13   170.76   ?   ?   1   ?   ?   ?   DGAcC=O   ?   bmse010467   2    
+     46   1   1   1   C29    C   13   170.76   ?   ?   1   ?   ?   ?   BGAcC=O   ?   bmse010467   2    
+     47   1   1   1   C32    C   13   170.79   ?   ?   1   ?   ?   ?   AGAcC=O   ?   bmse010467   2    
+     48   1   1   1   C31    C   13   170.90   ?   ?   1   ?   ?   ?   CGAcC=O   ?   bmse010467   2    
+     49   1   1   1   H119   H   1    5.54     ?   ?   1   ?   ?   ?   AA        ?   bmse010467   2    
+     50   1   1   1   H117   H   1    4.87     ?   ?   1   ?   ?   ?   AB        ?   bmse010467   2    
+     51   1   1   1   H114   H   1    4.44     ?   ?   2   ?   ?   ?   AG1       ?   bmse010467   2    
+     52   1   1   1   H115   H   1    4.52     ?   ?   2   ?   ?   ?   AG2       ?   bmse010467   2    
+     53   1   1   1   H118   H   1    5.48     ?   ?   1   ?   ?   ?   CA        ?   bmse010467   2    
+     54   1   1   1   H116   H   1    3.70     ?   ?   1   ?   ?   ?   CB        ?   bmse010467   2    
+     55   1   1   1   H112   H   1    4.28     ?   ?   2   ?   ?   ?   CG1       ?   bmse010467   2    
+     56   1   1   1   H113   H   1    4.39     ?   ?   2   ?   ?   ?   CG2       ?   bmse010467   2    
+
+   stop_
+
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_assigned_chemical_shifts_3
+   _Assigned_chem_shift_list.Sf_category                  assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                 assigned_chemical_shifts_3
+   _Assigned_chem_shift_list.Entry_ID                     bmse010467
+   _Assigned_chem_shift_list.ID                           3
+   _Assigned_chem_shift_list.Sample_condition_list_ID     1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID      3
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chem_shift_reference_3
+   _Assigned_chem_shift_list.Error_derivation_method      ?
+   _Assigned_chem_shift_list.Details                      ?
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+     4   '1D 13C'   3   $sample_3   bmse010467   3    
+
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+     1   $software_1   ?   ?   bmse010467   3    
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+     1    1   1   1   C4    C   13   20.45    ?   ?   1   ?   ?   ?   AGAcMe    ?   bmse010467   3    
+     2    1   1   1   C3    C   13   20.45    ?   ?   1   ?   ?   ?   CGAcMe    ?   bmse010467   3    
+     3    1   1   1   C1    C   13   20.70    ?   ?   1   ?   ?   ?   BGAcMe    ?   bmse010467   3    
+     4    1   1   1   C2    C   13   20.70    ?   ?   1   ?   ?   ?   DGAcMe    ?   bmse010467   3    
+     5    1   1   1   C5    C   13   55.33    ?   ?   1   ?   ?   ?   A4OMe     ?   bmse010467   3    
+     6    1   1   1   C7    C   13   55.59    ?   ?   1   ?   ?   ?   A3OMe     ?   bmse010467   3    
+     7    1   1   1   C6    C   13   55.70    ?   ?   1   ?   ?   ?   B3OMe     ?   bmse010467   3    
+     8    1   1   1   C8    C   13   55.79    ?   ?   1   ?   ?   ?   C3OMe     ?   bmse010467   3    
+     9    1   1   1   C38   C   13   49.16    ?   ?   1   ?   ?   ?   CB        ?   bmse010467   3    
+     10   1   1   1   C28   C   13   62.64    ?   ?   1   ?   ?   ?   G         ?   bmse010467   3    
+     11   1   1   1   C20   C   13   64.41    ?   ?   1   ?   ?   ?   BG        ?   bmse010467   3    
+     12   1   1   1   C21   C   13   64.50    ?   ?   1   ?   ?   ?   DG        ?   bmse010467   3    
+     13   1   1   1   C27   C   13   64.71    ?   ?   1   ?   ?   ?   CG        ?   bmse010467   3    
+     14   1   1   1   C48   C   13   78.77    ?   ?   1   ?   ?   ?   A         ?   bmse010467   3    
+     15   1   1   1   C46   C   13   79.57    ?   ?   1   ?   ?   ?   B         ?   bmse010467   3    
+     16   1   1   1   C47   C   13   87.28    ?   ?   1   ?   ?   ?   CA        ?   bmse010467   3    
+     17   1   1   1   C23   C   13   110.17   ?   ?   1   ?   ?   ?   B2        ?   bmse010467   3    
+     18   1   1   1   C25   C   13   110.63   ?   ?   1   ?   ?   ?   C2        ?   bmse010467   3    
+     19   1   1   1   C24   C   13   110.93   ?   ?   1   ?   ?   ?   D2        ?   bmse010467   3    
+     20   1   1   1   C18   C   13   111.25   ?   ?   1   ?   ?   ?   A5        ?   bmse010467   3    
+     21   1   1   1   C26   C   13   111.12   ?   ?   1   ?   ?   ?   A2        ?   bmse010467   3    
+     22   1   1   1   C22   C   13   115.24   ?   ?   1   ?   ?   ?   D6        ?   bmse010467   3    
+     23   1   1   1   C19   C   13   115.95   ?   ?   1   ?   ?   ?   C5        ?   bmse010467   3    
+     24   1   1   1   C17   C   13   116.79   ?   ?   1   ?   ?   ?   B5        ?   bmse010467   3    
+     25   1   1   1   C16   C   13   118.27   ?   ?   1   ?   ?   ?   C6        ?   bmse010467   3    
+     26   1   1   1   C14   C   13   119.49   ?   ?   1   ?   ?   ?   B6        ?   bmse010467   3    
+     27   1   1   1   C15   C   13   119.81   ?   ?   1   ?   ?   ?   A6        ?   bmse010467   3    
+     28   1   1   1   C11   C   13   121.32   ?   ?   1   ?   ?   ?   DB        ?   bmse010467   3    
+     29   1   1   1   C10   C   13   122.09   ?   ?   1   ?   ?   ?   BB        ?   bmse010467   3    
+     30   1   1   1   C37   C   13   127.93   ?   ?   1   ?   ?   ?   D5        ?   bmse010467   3    
+     31   1   1   1   C36   C   13   129.46   ?   ?   1   ?   ?   ?   A1        ?   bmse010467   3    
+     32   1   1   1   C34   C   13   129.99   ?   ?   1   ?   ?   ?   D1        ?   bmse010467   3    
+     33   1   1   1   C33   C   13   130.30   ?   ?   1   ?   ?   ?   B1        ?   bmse010467   3    
+     34   1   1   1   C12   C   13   133.03   ?   ?   1   ?   ?   ?   BA        ?   bmse010467   3    
+     35   1   1   1   C35   C   13   133.92   ?   ?   1   ?   ?   ?   C1        ?   bmse010467   3    
+     36   1   1   1   C13   C   13   133.51   ?   ?   1   ?   ?   ?   DA        ?   bmse010467   3    
+     37   1   1   1   C45   C   13   143.83   ?   ?   1   ?   ?   ?   D3        ?   bmse010467   3    
+     38   1   1   1   C41   C   13   146.38   ?   ?   1   ?   ?   ?   C4        ?   bmse010467   3    
+     39   1   1   1   C40   C   13   147.12   ?   ?   1   ?   ?   ?   B4        ?   bmse010467   3    
+     40   1   1   1   C49   C   13   147.51   ?   ?   1   ?   ?   ?   D4        ?   bmse010467   3    
+     41   1   1   1   C43   C   13   148.37   ?   ?   1   ?   ?   ?   A3        ?   bmse010467   3    
+     42   1   1   1   C39   C   13   148.48   ?   ?   1   ?   ?   ?   A4        ?   bmse010467   3    
+     43   1   1   1   C44   C   13   149.69   ?   ?   1   ?   ?   ?   C3        ?   bmse010467   3    
+     44   1   1   1   C42   C   13   150.02   ?   ?   1   ?   ?   ?   B3        ?   bmse010467   3    
+     45   1   1   1   C30   C   13   170.05   ?   ?   1   ?   ?   ?   DGAcC=O   ?   bmse010467   3    
+     46   1   1   1   C29   C   13   170.10   ?   ?   1   ?   ?   ?   BGAcC=O   ?   bmse010467   3    
+     47   1   1   1   C32   C   13   170.13   ?   ?   1   ?   ?   ?   AGAcC=O   ?   bmse010467   3    
+     48   1   1   1   C31   C   13   170.23   ?   ?   1   ?   ?   ?   CGAcC=O   ?   bmse010467   3    
+
+   stop_
+
+save_

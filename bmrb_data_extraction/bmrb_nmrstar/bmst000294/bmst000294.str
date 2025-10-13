@@ -1,0 +1,785 @@
+data_bmst000294
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmst000294
+   _Entry.Title                         agmatine
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2007-01-05
+   _Entry.Accession_date                2007-01-05
+   _Entry.Last_release_date             2011-09-14
+   _Entry.Original_release_date         2007-01-05
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.7
+   _Entry.Original_NMR_STAR_version     'NMR STAR v3.1'
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   theoretical
+   _Entry.Details                       ?
+   _Entry.BMRB_internal_directory_name  agmatine
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+     1   William   Westler   M.   ?   bmst000294    
+     2   John      Markley   L.   ?   bmst000294    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   metabolics   'Madison Metabolomics Consortium'   MMC   bmst000294    
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+     other_data_list   1   bmst000294    
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+     'theoretical chemical shifts'   1   bmst000294    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1   .   .   2007-01-05   2007-01-05   original   BMRB   'Original theoretical calculations from NMRFAM'                                                   bmst000294    
+     2   .   .   2008-11-18   2008-11-18   update     BMRB   'updated the file to match latest NMR STAR dictionary'                                            bmst000294    
+     3   .   .   2008-11-25   2008-11-25   update     BMRB   'fixed enumerations: N should be no'                                                              bmst000294    
+     4   .   .   2010-09-16   2010-09-16   update     BMRB   'Removed Shielding_tensor_list_ID and Shielding_tensor_list_label from theoretical_chem_shifts'   bmst000294    
+     5   .   .   2011-09-14   2011-09-14   update     BMRB   'Partially brought up to date with latest Dictionary'                                             bmst000294    
+     6   .   .   2017-10-12   2017-10-12   update     BMRB   'Remediated Experiment_file loop if present and standardized mol and png file tags.'              bmst000294    
+
+   stop_
+
+   loop_
+      _Auxiliary_files.ID
+      _Auxiliary_files.URI
+      _Auxiliary_files.DOI
+      _Auxiliary_files.Path
+      _Auxiliary_files.Format
+      _Auxiliary_files.Details
+      _Auxiliary_files.Entry_ID
+
+     1   .   .   agmatine_3479_opt.pdb      x-chemical/x-pdb   'Name of the file containing the atomic coordinates'            bmst000294    
+     2   .   .   agmatine_3479.g03.shifts   text/plain         'Name of the file containing theoretical chemical shift data'   bmst000294    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citations
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citations
+   _Citation.Entry_ID      bmst000294
+   _Citation.ID            1
+   _Citation.Class         'reference citation'
+   _Citation.PubMed_ID     18940862
+   _Citation.Title         'Database resources of the National Center for Biotechnology Information.'
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://pubchem.ncbi.nlm.nih.gov/
+   _Citation.Year          2006
+   _Citation.Details       ?
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    D.   Wheeler      D.   L.   ?   bmst000294   1    
+     2    T.   Barrett      T.   ?    ?   bmst000294   1    
+     3    D.   Benson       D.   A.   ?   bmst000294   1    
+     4    S.   Bryant       S.   H.   ?   bmst000294   1    
+     5    K.   Canese       K.   ?    ?   bmst000294   1    
+     6    V.   Chetvenin    V.   ?    ?   bmst000294   1    
+     7    D.   Church       D.   M.   ?   bmst000294   1    
+     8    M.   DiCuccio     M.   ?    ?   bmst000294   1    
+     9    R.   Edgar        R.   ?    ?   bmst000294   1    
+     10   S.   Federhen     S.   ?    ?   bmst000294   1    
+     11   L.   Geer         L.   Y.   ?   bmst000294   1    
+     12   W.   Helmberg     W.   ?    ?   bmst000294   1    
+     13   Y.   Kapustin     Y.   ?    ?   bmst000294   1    
+     14   D.   Kenton       D.   L.   ?   bmst000294   1    
+     15   O.   Khovayko     O.   ?    ?   bmst000294   1    
+     16   D.   Lipman       D.   J.   ?   bmst000294   1    
+     17   T.   Madden       T.   L.   ?   bmst000294   1    
+     18   D.   Maglott      D.   R.   ?   bmst000294   1    
+     19   J.   Ostell       J.   ?    ?   bmst000294   1    
+     20   K.   Pruitt       K.   D.   ?   bmst000294   1    
+     21   G.   Schuler      G.   D.   ?   bmst000294   1    
+     22   L.   Schriml      L.   M.   ?   bmst000294   1    
+     23   E.   Sequeira     E.   ?    ?   bmst000294   1    
+     24   S.   Sherry       S.   T.   ?   bmst000294   1    
+     25   K.   Sirotkin     K.   ?    ?   bmst000294   1    
+     26   A.   Souvorov     A.   ?    ?   bmst000294   1    
+     27   G.   Starchenko   G.   ?    ?   bmst000294   1    
+     28   T.   Suzek        T.   O.   ?   bmst000294   1    
+     29   R.   Tatusov      R.   ?    ?   bmst000294   1    
+     30   T.   Tatusova     T.   A.   ?   bmst000294   1    
+     31   L.   Bagner       L.   ?    ?   bmst000294   1    
+     32   E.   Yaschenko    E.   ?    ?   bmst000294   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmst000294
+   _Assembly.ID                    1
+   _Assembly.Name                  ASSEMBLY_NAME
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Metal_ions            ?
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   ENT_NAME   1   $agmatine   yes   native   no   no   ?   ?   ?   bmst000294   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_agmatine
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     agmatine
+   _Entity.Entry_ID                         bmst000294
+   _Entity.ID                               1
+   _Entity.BMRB_code                        ?
+   _Entity.Name                             agmatine
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmst000294   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                      chem_comp
+   _Chem_comp.Sf_framecode                     chem_comp_1
+   _Chem_comp.Entry_ID                         bmst000294
+   _Chem_comp.ID                               1
+   _Chem_comp.Provenance                       PubChem
+   _Chem_comp.Name                             agmatine
+   _Chem_comp.Type                             non-polymer
+   _Chem_comp.BMRB_code                        ?
+   _Chem_comp.PDB_code                         ?
+   _Chem_comp.InChI_code                       InChI=1/C5H14N4/c6-3-1-2-4-9-5(7)8/h1-4,6H2,(H4,7,8,9)/f/h7-8H2
+   _Chem_comp.Mon_nstd_flag                    ?
+   _Chem_comp.Std_deriv_one_letter_code        ?
+   _Chem_comp.Std_deriv_three_letter_code      ?
+   _Chem_comp.Std_deriv_BMRB_code              ?
+   _Chem_comp.Std_deriv_PDB_code               ?
+   _Chem_comp.Formal_charge                    ?
+   _Chem_comp.Paramagnetic                     no
+   _Chem_comp.Aromatic                         no
+   _Chem_comp.Formula                          'C5 H14 N4'
+   _Chem_comp.Formula_weight                   130.1914600000
+   _Chem_comp.Formula_mono_iso_wt_nat          130.12184647
+   _Chem_comp.Formula_mono_iso_wt_13C          135.138620659
+   _Chem_comp.Formula_mono_iso_wt_15N          134.109986043
+   _Chem_comp.Formula_mono_iso_wt_13C_15N      135.138620659
+   _Chem_comp.Image_file_name                  bmst000294.png
+   _Chem_comp.Image_file_format                png
+   _Chem_comp.Topo_file_name                   ?
+   _Chem_comp.Topo_file_format                 ?
+   _Chem_comp.Struct_file_name                 bmst000294.mol
+   _Chem_comp.Struct_file_format               mol
+   _Chem_comp.Stereochem_param_file_name       ?
+   _Chem_comp.Details                          ?
+   _Chem_comp.DB_query_date                    ?
+   _Chem_comp.DB_last_query_revised_last_date  ?
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     1-Amino-4-guanidobutane                      synonym   bmst000294   1    
+     AGMATINE                                     synonym   bmst000294   1    
+     Agmatine                                     synonym   bmst000294   1    
+     'Guanidine, (4-aminobutyl)- (8CI)(9CI)'      synonym   bmst000294   1    
+     '1,4-Butanediamine, N-(aminoiminomethyl)-'   synonym   bmst000294   1    
+     (4-Aminobutyl)guanidine                      synonym   bmst000294   1    
+     1-(4-Aminobutyl)guanidine                    synonym   bmst000294   1    
+     Argmatine                                    synonym   bmst000294   1    
+     N-4-Aminobutylguanidine                      synonym   bmst000294   1    
+     '(4-Aminobutyl) guanidine'                   synonym   bmst000294   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     2-(4-aminobutyl)guanidine   IUPAC               bmst000294   1    
+     2-(4-aminobutyl)guanidine   IUPAC_TRADITIONAL   bmst000294   1    
+     2-(4-aminobutyl)guanidine   IUPAC_CAS           bmst000294   1    
+     2-(4-aminobutyl)guanidine   IUPAC_OPENEYE       bmst000294   1    
+     2-(4-aminobutyl)guanidine   IUPAC_SYSTEMATIC    bmst000294   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     Isomeric    C(CCN=C(N)N)CN   bmst000294   1    
+     Canonical   C(CCN=C(N)N)CN   bmst000294   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     N1    N   ?   ?   ?   ?   2.5369   -2.5000   3.592    -2.897   -0.162   1    bmst000294   1    
+     C2    C   ?   ?   ?   ?   3.4030   -2.0000   3.107    -1.513   -0.071   2    bmst000294   1    
+     C3    C   ?   ?   ?   ?   3.4030   -1.0000   1.580    -1.480   0.015    3    bmst000294   1    
+     C4    C   ?   ?   ?   ?   4.2690   -0.5000   1.008    -0.060   0.064    4    bmst000294   1    
+     C5    C   ?   ?   ?   ?   4.2690   0.5000    -0.521   -0.028   0.153    5    bmst000294   1    
+     N6    N   ?   ?   ?   ?   5.1350   1.0000    -0.997   1.343    0.220    6    bmst000294   1    
+     C7    C   ?   ?   ?   ?   5.1350   2.0000    -2.235   1.586    0.007    7    bmst000294   1    
+     N8    N   ?   ?   ?   ?   6.0010   2.5000    -2.685   2.910    -0.082   8    bmst000294   1    
+     N9    N   ?   ?   ?   ?   4.2690   2.5000    -3.272   0.664    -0.157   9    bmst000294   1    
+     H10   H   ?   ?   ?   ?   2.5369   -3.1200   4.608    -2.900   -0.238   10   bmst000294   1    
+     H11   H   ?   ?   ?   ?   2.0000   -2.1900   3.379    -3.384   0.709    11   bmst000294   1    
+     H12   H   ?   ?   ?   ?   3.6150   -2.5826   3.427    -0.990   -0.982   12   bmst000294   1    
+     H13   H   ?   ?   ?   ?   4.0135   -1.8923   3.529    -0.945   0.779    13   bmst000294   1    
+     H14   H   ?   ?   ?   ?   3.1909   -0.4174   1.175    -2.029   -0.845   14   bmst000294   1    
+     H15   H   ?   ?   ?   ?   2.7924   -1.1077   1.261    -2.035   0.912    15   bmst000294   1    
+     H16   H   ?   ?   ?   ?   4.4810   -1.0826   1.414    0.487    0.925    16   bmst000294   1    
+     H17   H   ?   ?   ?   ?   4.8796   -0.3923   1.315    0.501    -0.829   17   bmst000294   1    
+     H18   H   ?   ?   ?   ?   4.0569   1.0826    -0.836   -0.595   1.047    18   bmst000294   1    
+     H19   H   ?   ?   ?   ?   3.6584   0.3923    -0.934   -0.575   -0.718   19   bmst000294   1    
+     H20   H   ?   ?   ?   ?   6.5380   2.1900    -1.943   3.547    0.186    20   bmst000294   1    
+     H21   H   ?   ?   ?   ?   6.0010   3.1200    -3.532   3.085    0.451    21   bmst000294   1    
+     H22   H   ?   ?   ?   ?   3.7321   2.1900    -3.984   0.953    -0.819   22   bmst000294   1    
+     H23   H   ?   ?   ?   ?   4.2690   3.1200    -2.970   -0.288   -0.317   23   bmst000294   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     N1    N1    ?   bmst000294   1    
+     C2    C2    ?   bmst000294   1    
+     C3    C3    ?   bmst000294   1    
+     C4    C4    ?   bmst000294   1    
+     C5    C5    ?   bmst000294   1    
+     N6    N6    ?   bmst000294   1    
+     C7    C7    ?   bmst000294   1    
+     N8    N8    ?   bmst000294   1    
+     N9    N9    ?   bmst000294   1    
+     H10   H10   ?   bmst000294   1    
+     H11   H11   ?   bmst000294   1    
+     H12   H12   ?   bmst000294   1    
+     H13   H13   ?   bmst000294   1    
+     H14   H14   ?   bmst000294   1    
+     H15   H15   ?   bmst000294   1    
+     H16   H16   ?   bmst000294   1    
+     H17   H17   ?   bmst000294   1    
+     H18   H18   ?   bmst000294   1    
+     H19   H19   ?   bmst000294   1    
+     H20   H20   ?   bmst000294   1    
+     H21   H21   ?   bmst000294   1    
+     H22   H22   ?   bmst000294   1    
+     H23   H23   ?   bmst000294   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1    covalent   SING   N1   C2    ?   bmst000294   1    
+     2    covalent   SING   N1   H10   ?   bmst000294   1    
+     3    covalent   SING   N1   H11   ?   bmst000294   1    
+     4    covalent   SING   C2   C3    ?   bmst000294   1    
+     5    covalent   SING   C2   H12   ?   bmst000294   1    
+     6    covalent   SING   C2   H13   ?   bmst000294   1    
+     7    covalent   SING   C3   C4    ?   bmst000294   1    
+     8    covalent   SING   C3   H14   ?   bmst000294   1    
+     9    covalent   SING   C3   H15   ?   bmst000294   1    
+     10   covalent   SING   C4   C5    ?   bmst000294   1    
+     11   covalent   SING   C4   H16   ?   bmst000294   1    
+     12   covalent   SING   C4   H17   ?   bmst000294   1    
+     13   covalent   SING   C5   N6    ?   bmst000294   1    
+     14   covalent   SING   C5   H18   ?   bmst000294   1    
+     15   covalent   SING   C5   H19   ?   bmst000294   1    
+     16   covalent   DOUB   N6   C7    ?   bmst000294   1    
+     17   covalent   SING   C7   N8    ?   bmst000294   1    
+     18   covalent   SING   C7   N9    ?   bmst000294   1    
+     19   covalent   SING   N8   H20   ?   bmst000294   1    
+     20   covalent   SING   N8   H21   ?   bmst000294   1    
+     21   covalent   SING   N9   H22   ?   bmst000294   1    
+     22   covalent   SING   N9   H23   ?   bmst000294   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_code
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_experimental_method
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_details
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     no   PubChem          152592      sid                 ?   agmatine   ?   'matching entry'   ?   bmst000294   1    
+     no   PubChem          199         cid                 ?   agmatine   ?   'matching entry'   ?   bmst000294   1    
+     no   PubChem          3479        sid                 ?   agmatine   ?   'matching entry'   ?   bmst000294   1    
+     no   KEGG             C00179      'compound ID'       ?   agmatine   ?   'matching entry'   ?   bmst000294   1    
+     no   'CAS Registry'   306-60-5    'registry number'   ?   agmatine   ?   'matching entry'   ?   bmst000294   1    
+     no   CHEBI            17431       ?                   ?   agmatine   ?   'matching entry'   ?   bmst000294   1    
+     no   EINECS           206-187-7   ?                   ?   agmatine   ?   'matching entry'   ?   bmst000294   1    
+     no   NSC              56332       ?                   ?   agmatine   ?   'matching entry'   ?   bmst000294   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citations   bmst000294   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmst000294
+   _Software.ID            1
+   _Software.Name          Gaussian
+   _Software.Version       ?
+   _Software.Details       ?
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Gaussian, Inc.'   ?   http://www.gaussian.com/home.htm   bmst000294   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     'geometry optimization'        bmst000294   1    
+     'chemical shift calculation'   bmst000294   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference
+   _Chem_shift_reference.Entry_ID      bmst000294
+   _Chem_shift_reference.ID            1
+   _Chem_shift_reference.Details       ?
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    TMS                  'methyl protons'   ppm   0.00   na   direct   ?   bmst000294   1    
+     C   13   TMS                  'methyl carbons'   ppm   0.00   na   direct   ?   bmst000294   1    
+     N   15   'ammonia pentamer'   nitrogen           ppm   0.00   na   direct   ?   bmst000294   1    
+     P   31   'phosphoric acid'    phosphorus         ppm   0.00   na   direct   ?   bmst000294   1    
+
+   stop_
+
+save_
+
+save_chem_shifts_calc_type
+   _Chem_shifts_calc_type.Sf_category                      chem_shifts_calc_type
+   _Chem_shifts_calc_type.Sf_framecode                     chem_shifts_calc_type
+   _Chem_shifts_calc_type.Entry_ID                         bmst000294
+   _Chem_shifts_calc_type.ID                               1
+   _Chem_shifts_calc_type.Calculation_level                'Density Functional Theory'
+   _Chem_shifts_calc_type.Quantum_mechanical_method        GIAO
+   _Chem_shifts_calc_type.Quantum_mechanical_theory_level  B3LYP
+   _Chem_shifts_calc_type.Quantum_mechanical_basis_set     3-21g**
+   _Chem_shifts_calc_type.Chem_shift_nucleus               ?
+   _Chem_shifts_calc_type.Chem_shift_reference_ID          1
+   _Chem_shifts_calc_type.Chem_shift_reference_label       $chem_shift_reference
+   _Chem_shifts_calc_type.Details                        
+;
+Theoretical Chemical shift referencing and correction:
+
+1H chemical shifts
+	Tetramethylsilane (TMS) was geometry optimized at the B3LYP/6-311+g* 
+level of theory.
+	The chemical shielding of TMS was calculated at the pbe1pbe/3-21g* 
+level of theory using the GIAO method.
+	The chemical shielding of TMS was used as the reference (0 ppm) to 
+obtain all other chemical shifts.
+	A series of small organic molecules were optimized and the chemical 
+shieldings were calculated in the same manner as that for TMS.
+	To correct for biases arising from the applied level of theory, especially 
+the bias from the small basis set size, a linear regression analysis was used. 
+The slope and intercept from this regression was used to correct the calculated 
+chemical shifts. 
+
+The chemical shift was calculated by subtracting the chemical shielding value 
+of the compound of interest from that of TMS and applying the slope and intercept 
+corrections obtained from the regression analysis.
+ 
+corrected_shift=((TMS_shielding - uncorrected_shielding)+1.006)/0.963
+
+13C chemical shifts:
+	Tetramethylsilane (TMS) was geometry optimized at the B3LYP/6-311+g* 
+level of theory.
+	The chemical shielding of TMS was calculated at the pbe1pbe/3-21g* 
+level of theory using the GIAO method.
+	The chemical shielding of TMS was used as the reference (0 ppm) to 
+obtain all other chemical shifts.
+	A series of small organic molecules were optimized and the chemical 
+shieldings were calculated in the same manner as that for TMS.
+	To correct for biases arising from the applied level of theory, especially the 
+    bias from the small basis set size, a linear regression analysis of theoretical 
+    versus experimental chemical shifts was used. The slope and intercept from this 
+    regression was used to correct the calculated chemical shifts. 
+
+The chemical shift was calculated by subtracting the chemical shielding value 
+of the compound of interest from that of TMS and applying the slope and intercept 
+corrections obtained from the regression analysis.
+
+Corrected_shift=((TMS_shielding - uncorrected shielding) -4.53)/0.85
+
+
+15N chemical shifts:
+	A cyclic pentamer of ammonia (NH3_5) was geometry optimized at the B3LYP/6-311+g* 
+level of theory.
+	The chemical shielding of NH3_5 was calculated at the pbe1pbe/3-21g* 
+level of theory using the GIAO method.
+	The chemical shielding of NH3_5 was used as the reference (0 ppm) to 
+obtain all other chemical shifts.
+	A series of small organic molecules were optimized and the chemical 
+shieldings were calculated in the same manner as that for NH3_5.
+	To correct for biases arising from the applied level of theory, especially 
+the bias from the small basis set size, a linear regression analysis was used. 
+The slope and intercept from this regression was used to correct the calculated 
+chemical shifts. 
+
+The chemical shift was calculated by subtracting the chemical shielding value 
+of the compound of interest from that of NH3_5 and applying the slope and intercept 
+corrections obtained from the regression analysis.
+
+Corrected_shift=((NH_3_5_shielding - uncorrected_shielding)+10.2)/0.9088
+
+31P chemical shifts:
+	Phosphoric acid (H3PO4) was geometry optimized at the B3LYP/6-311+g* 
+level of theory.
+	The chemical shielding of H3PO4 was calculated at the pbe1pbe/3-21g* 
+level of theory using the GIAO method.
+	The chemical shielding of H3PO4 was used as the reference (0 ppm) to 
+obtain all other chemical shifts.
+	No correction for linear bias or offset was applied to calculated 
+31P chemical shifts. 
+
+The chemical shift was calculated by subtracting the chemical shielding value 
+of the compound of interest from that of H3PO4.
+
+Shift=(H3PO4_shielding - shielding)
+;
+
+   loop_
+      _Chem_shifts_calc_software.Software_ID
+      _Chem_shifts_calc_software.Software_label
+      _Chem_shifts_calc_software.Entry_ID
+      _Chem_shifts_calc_software.Chem_shifts_calc_type_ID
+
+     1   $software_1   bmst000294   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Theoretical chemical shifts  #
+    #################################
+
+save_theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Sf_category                       theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Sf_framecode                      theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Entry_ID                          bmst000294
+   _Theoretical_chem_shift_list.ID                                1
+   _Theoretical_chem_shift_list.Chem_shifts_calc_type_ID          1
+   _Theoretical_chem_shift_list.Chem_shifts_calc_type_label       $chem_shifts_calc_type
+   _Theoretical_chem_shift_list.Model_atomic_coordinates_ID       1
+   _Theoretical_chem_shift_list.Model_atomic_coordinates_label    $conformer_family_coord_set_1
+   _Theoretical_chem_shift_list.Fermi_contact_spin_density_units  ?
+   _Theoretical_chem_shift_list.Chem_shift_1H_err                 ?
+   _Theoretical_chem_shift_list.Chem_shift_2H_err                 ?
+   _Theoretical_chem_shift_list.Chem_shift_13C_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_15N_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_19F_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_31P_err                ?
+   _Theoretical_chem_shift_list.Details                           ?
+   _Theoretical_chem_shift_list.Text_data_format                  ?
+   _Theoretical_chem_shift_list.Text_data                         ?
+
+   loop_
+      _Theoretical_chem_shift.ID
+      _Theoretical_chem_shift.Entity_assembly_ID
+      _Theoretical_chem_shift.Entity_ID
+      _Theoretical_chem_shift.Comp_index_ID
+      _Theoretical_chem_shift.Comp_ID
+      _Theoretical_chem_shift.Atom_ID
+      _Theoretical_chem_shift.Atom_type
+      _Theoretical_chem_shift.Fermi_contact_spin_density
+      _Theoretical_chem_shift.Val
+      _Theoretical_chem_shift.Val_err
+      _Theoretical_chem_shift.Auth_seq_ID
+      _Theoretical_chem_shift.Auth_comp_ID
+      _Theoretical_chem_shift.Auth_atom_ID
+      _Theoretical_chem_shift.Entry_ID
+      _Theoretical_chem_shift.Theoretical_chem_shift_list_ID
+
+     1    1   1   1   1   N1    N   ?   38.092    ?   agmatine   ?   ?   bmst000294   1    
+     2    1   1   1   1   C2    C   ?   43.940    ?   agmatine   ?   ?   bmst000294   1    
+     3    1   1   1   1   C3    C   ?   28.468    ?   agmatine   ?   ?   bmst000294   1    
+     4    1   1   1   1   C4    C   ?   28.647    ?   agmatine   ?   ?   bmst000294   1    
+     5    1   1   1   1   C5    C   ?   46.797    ?   agmatine   ?   ?   bmst000294   1    
+     6    1   1   1   1   N6    N   ?   204.081   ?   agmatine   ?   ?   bmst000294   1    
+     7    1   1   1   1   C7    C   ?   146.847   ?   agmatine   ?   ?   bmst000294   1    
+     8    1   1   1   1   N8    N   ?   74.243    ?   agmatine   ?   ?   bmst000294   1    
+     9    1   1   1   1   N9    N   ?   68.636    ?   agmatine   ?   ?   bmst000294   1    
+     10   1   1   1   1   H10   H   ?   0.836     ?   agmatine   ?   ?   bmst000294   1    
+     11   1   1   1   1   H11   H   ?   0.281     ?   agmatine   ?   ?   bmst000294   1    
+     12   1   1   1   1   H12   H   ?   3.620     ?   agmatine   ?   ?   bmst000294   1    
+     13   1   1   1   1   H13   H   ?   3.697     ?   agmatine   ?   ?   bmst000294   1    
+     14   1   1   1   1   H14   H   ?   2.615     ?   agmatine   ?   ?   bmst000294   1    
+     15   1   1   1   1   H15   H   ?   2.082     ?   agmatine   ?   ?   bmst000294   1    
+     16   1   1   1   1   H16   H   ?   2.816     ?   agmatine   ?   ?   bmst000294   1    
+     17   1   1   1   1   H17   H   ?   2.499     ?   agmatine   ?   ?   bmst000294   1    
+     18   1   1   1   1   H18   H   ?   3.932     ?   agmatine   ?   ?   bmst000294   1    
+     19   1   1   1   1   H19   H   ?   3.749     ?   agmatine   ?   ?   bmst000294   1    
+     20   1   1   1   1   H20   H   ?   3.313     ?   agmatine   ?   ?   bmst000294   1    
+     21   1   1   1   1   H21   H   ?   3.143     ?   agmatine   ?   ?   bmst000294   1    
+     22   1   1   1   1   H22   H   ?   3.446     ?   agmatine   ?   ?   bmst000294   1    
+     23   1   1   1   1   H23   H   ?   3.867     ?   agmatine   ?   ?   bmst000294   1    
+
+   stop_
+
+save_
+
+    #####################################
+    #  Conformer family coordinate set  #
+    #####################################
+
+save_conformer_family_coord_set_1
+   _Conformer_family_coord_set.Sf_category   conformer_family_coord_set
+   _Conformer_family_coord_set.Sf_framecode  conformer_family_coord_set_1
+   _Conformer_family_coord_set.Entry_ID      bmst000294
+   _Conformer_family_coord_set.ID            1
+   _Conformer_family_coord_set.Details       ?
+
+   loop_
+      _Conformer_family_software.Software_ID
+      _Conformer_family_software.Software_label
+      _Conformer_family_software.Entry_ID
+      _Conformer_family_software.Conformer_family_coord_set_ID
+
+     1   $software_1   bmst000294   1    
+
+   stop_
+
+   loop_
+      _Atom_site.Model_ID
+      _Atom_site.ID
+      _Atom_site.Label_entity_assembly_ID
+      _Atom_site.Label_entity_ID
+      _Atom_site.Label_comp_index_ID
+      _Atom_site.Label_comp_ID
+      _Atom_site.Label_atom_ID
+      _Atom_site.Auth_seq_ID
+      _Atom_site.Auth_comp_ID
+      _Atom_site.Auth_atom_ID
+      _Atom_site.Type_symbol
+      _Atom_site.Cartn_x
+      _Atom_site.Cartn_y
+      _Atom_site.Cartn_z
+      _Atom_site.Entry_ID
+      _Atom_site.Conformer_family_coord_set_ID
+
+     1   1    1   1   1   1   N1    1   1   N1    N   3.592    -2.897   -0.162   bmst000294   1    
+     1   2    1   1   1   1   C2    1   1   C2    C   3.107    -1.513   -0.071   bmst000294   1    
+     1   3    1   1   1   1   C3    1   1   C3    C   1.580    -1.480   0.015    bmst000294   1    
+     1   4    1   1   1   1   C4    1   1   C4    C   1.008    -0.060   0.064    bmst000294   1    
+     1   5    1   1   1   1   C5    1   1   C5    C   -0.521   -0.028   0.153    bmst000294   1    
+     1   6    1   1   1   1   N6    1   1   N6    N   -0.997   1.343    0.220    bmst000294   1    
+     1   7    1   1   1   1   C7    1   1   C7    C   -2.235   1.586    0.007    bmst000294   1    
+     1   8    1   1   1   1   N8    1   1   N8    N   -2.685   2.910    -0.082   bmst000294   1    
+     1   9    1   1   1   1   N9    1   1   N9    N   -3.272   0.664    -0.157   bmst000294   1    
+     1   10   1   1   1   1   H10   1   1   H10   H   4.608    -2.900   -0.238   bmst000294   1    
+     1   11   1   1   1   1   H11   1   1   H11   H   3.379    -3.384   0.709    bmst000294   1    
+     1   12   1   1   1   1   H12   1   1   H12   H   3.427    -0.990   -0.982   bmst000294   1    
+     1   13   1   1   1   1   H13   1   1   H13   H   3.529    -0.945   0.779    bmst000294   1    
+     1   14   1   1   1   1   H14   1   1   H14   H   1.175    -2.029   -0.845   bmst000294   1    
+     1   15   1   1   1   1   H15   1   1   H15   H   1.261    -2.035   0.912    bmst000294   1    
+     1   16   1   1   1   1   H16   1   1   H16   H   1.414    0.487    0.925    bmst000294   1    
+     1   17   1   1   1   1   H17   1   1   H17   H   1.315    0.501    -0.829   bmst000294   1    
+     1   18   1   1   1   1   H18   1   1   H18   H   -0.836   -0.595   1.047    bmst000294   1    
+     1   19   1   1   1   1   H19   1   1   H19   H   -0.934   -0.575   -0.718   bmst000294   1    
+     1   20   1   1   1   1   H20   1   1   H20   H   -1.943   3.547    0.186    bmst000294   1    
+     1   21   1   1   1   1   H21   1   1   H21   H   -3.532   3.085    0.451    bmst000294   1    
+     1   22   1   1   1   1   H22   1   1   H22   H   -3.984   0.953    -0.819   bmst000294   1    
+     1   23   1   1   1   1   H23   1   1   H23   H   -2.970   -0.288   -0.317   bmst000294   1    
+
+   stop_
+
+save_

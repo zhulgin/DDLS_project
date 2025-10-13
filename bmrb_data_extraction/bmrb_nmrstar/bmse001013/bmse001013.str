@@ -1,0 +1,747 @@
+data_bmse001013
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmse001013
+   _Entry.Title                         L_glutamic_acid
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2011-12-23
+   _Entry.Accession_date                2011-12-23
+   _Entry.Last_release_date             2013-03-06
+   _Entry.Original_release_date         2011-12-23
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.31
+   _Entry.Original_NMR_STAR_version     3.1
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   solution
+   _Entry.DOI                           10.13018/BMSE001013
+   _Entry.BMRB_internal_directory_name  L_glutamic_acid
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Entry_ID
+
+     1   Dan   Bearden   D.   bmse001013    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   'National Institute of Standards and Technology, Hollings Marine Laboratory'   NIST   bmse001013    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1   .   .   2012-12-21   2011-12-23   original   BMRB   'Original spectra from Birmingham'                                                     bmse001013    
+     2   .   .   2013-03-06   2011-12-23   update     BMRB   'Added PubChem SID 160963332 to database loop'                                         bmse001013    
+     3   .   .   2017-10-12   2017-10-12   update     BMRB   'Remediated Experiment_file loop if present and standardized mol and png file tags.'   bmse001013    
+     4   .   .   2017-12-19   2017-10-12   update     BMRB   'InChI numbering updated according to ALATIS'                                          bmse001013    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citation_1
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citation_1
+   _Citation.Entry_ID      bmse001013
+   _Citation.ID            1
+   _Citation.Class         'reference citation'
+   _Citation.PubMed_ID     17170002
+   _Citation.Title         'Database resources of the National Center for Biotechnology Information.'
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://pubchem.ncbi.nlm.nih.gov/
+   _Citation.Year          2006
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    D.   Wheeler      D.   L.   bmse001013   1    
+     2    T.   Barrett      T.   ?    bmse001013   1    
+     3    D.   Benson       D.   A.   bmse001013   1    
+     4    S.   Bryant       S.   H.   bmse001013   1    
+     5    K.   Canese       K.   ?    bmse001013   1    
+     6    V.   Chetvenin    V.   ?    bmse001013   1    
+     7    D.   Church       D.   M.   bmse001013   1    
+     8    M.   DiCuccio     M.   ?    bmse001013   1    
+     9    R.   Edgar        R.   ?    bmse001013   1    
+     10   S.   Federhen     S.   ?    bmse001013   1    
+     11   L.   Geer         L.   Y.   bmse001013   1    
+     12   W.   Helmberg     W.   ?    bmse001013   1    
+     13   Y.   Kapustin     Y.   ?    bmse001013   1    
+     14   D.   Kenton       D.   L.   bmse001013   1    
+     15   O.   Khovayko     O.   ?    bmse001013   1    
+     16   D.   Lipman       D.   J.   bmse001013   1    
+     17   T.   Madden       T.   L.   bmse001013   1    
+     18   D.   Maglott      D.   R.   bmse001013   1    
+     19   J.   Ostell       J.   ?    bmse001013   1    
+     20   K.   Pruitt       K.   D.   bmse001013   1    
+     21   G.   Schuler      G.   D.   bmse001013   1    
+     22   L.   Schriml      L.   M.   bmse001013   1    
+     23   E.   Sequeira     E.   ?    bmse001013   1    
+     24   S.   Sherry       S.   T.   bmse001013   1    
+     25   K.   Sirotkin     K.   ?    bmse001013   1    
+     26   A.   Souvorov     A.   ?    bmse001013   1    
+     27   G.   Starchenko   G.   ?    bmse001013   1    
+     28   T.   Suzek        T.   O.   bmse001013   1    
+     29   R.   Tatusov      R.   ?    bmse001013   1    
+     30   T.   Tatusova     T.   A.   bmse001013   1    
+     31   L.   Bagner       L.   ?    bmse001013   1    
+     32   E.   Yaschenko    E.   ?    bmse001013   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmse001013
+   _Assembly.ID                    1
+   _Assembly.Name                  'L-Glutamic acid'
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   L_glutamic_acid   1   $L_glutamic_acid   yes   native   no   no   bmse001013   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_L_glutamic_acid
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     L_glutamic_acid
+   _Entity.Entry_ID                         bmse001013
+   _Entity.ID                               1
+   _Entity.Name                             'L-glutamic acid'
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmse001013   1    
+
+   stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category   natural_source
+   _Entity_natural_src_list.Sf_framecode  natural_source
+   _Entity_natural_src_list.Entry_ID      bmse001013
+   _Entity_natural_src_list.ID            1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+     1   1   $L_glutamic_acid   n/a   'multiple natural sources'   yes   'not applicable'   n/a   n/a   n/a   n/a   n/a   bmse001013   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category   experimental_source
+   _Entity_experimental_src_list.Sf_framecode  experimental_source
+   _Entity_experimental_src_list.Entry_ID      bmse001013
+   _Entity_experimental_src_list.ID            1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+     1   1   $L_glutamic_acid   'chemical synthesis'   bmse001013   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                  chem_comp
+   _Chem_comp.Sf_framecode                 chem_comp_1
+   _Chem_comp.Entry_ID                     bmse001013
+   _Chem_comp.ID                           1
+   _Chem_comp.Provenance                   PubChem
+   _Chem_comp.Name                         'L-Glutamic acid'
+   _Chem_comp.Type                         non-polymer
+   _Chem_comp.InChI_code                   InChI=1S/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)/t3-/m0/s1
+   _Chem_comp.Paramagnetic                 no
+   _Chem_comp.Aromatic                     no
+   _Chem_comp.Formula                      'C5 H9 N O4'
+   _Chem_comp.Formula_weight               147.1292600000
+   _Chem_comp.Formula_mono_iso_wt_nat      147.053157782
+   _Chem_comp.Formula_mono_iso_wt_13C      152.069931972
+   _Chem_comp.Formula_mono_iso_wt_15N      148.050192676
+   _Chem_comp.Formula_mono_iso_wt_13C_15N  153.0669668647
+   _Chem_comp.Image_file_name              bmse001013.png
+   _Chem_comp.Image_file_format            png
+   _Chem_comp.Struct_file_name             bmse001013.mol
+   _Chem_comp.Struct_file_format           mol
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     'Glutamic acid (H-3)'                    synonym   bmse001013   1    
+     'GLUTAMIC ACID'                          synonym   bmse001013   1    
+     'Glutamic acid (VAN)'                    synonym   bmse001013   1    
+     'Acide glutamique [INN-French]'          synonym   bmse001013   1    
+     '2-Aminopentanedioic acid'               synonym   bmse001013   1    
+     'alpha-Aminoglutaric acid (VAN)'         synonym   bmse001013   1    
+     'Pentanedioic acid, 2-amino-, (S)-'      synonym   bmse001013   1    
+     Glutamicol                               synonym   bmse001013   1    
+     'Acidum glutamicum [INN-Latin]'          synonym   bmse001013   1    
+     Glusate                                  synonym   bmse001013   1    
+     D-Glutamiensuur                          synonym   bmse001013   1    
+     Aciglut                                  synonym   bmse001013   1    
+     'Glutamate, L-'                          synonym   bmse001013   1    
+     Glutamidex                               synonym   bmse001013   1    
+     '2-Aminopentanedioic acid, (S)-'         synonym   bmse001013   1    
+     'Glutamic Acid [USAN:INN]'               synonym   bmse001013   1    
+     'Acido glutamico [INN-Spanish]'          synonym   bmse001013   1    
+     Glutaminol                               synonym   bmse001013   1    
+     'Glutaminic acid (VAN)'                  synonym   bmse001013   1    
+     Glutacid                                 synonym   bmse001013   1    
+     'alpha-Aminoglutaric acid'               synonym   bmse001013   1    
+     'L-Glutamic acid'                        synonym   bmse001013   1    
+     'Glutamic acid, (S)-'                    synonym   bmse001013   1    
+     'L-2-Aminoglutaric acid'                 synonym   bmse001013   1    
+     'L-Glutaminic acid'                      synonym   bmse001013   1    
+     '2-Aminoglutaric acid'                   synonym   bmse001013   1    
+     'Acidum glutaminicum'                    synonym   bmse001013   1    
+     'Glutaminic acid'                        synonym   bmse001013   1    
+     '1-Aminopropane-1,3-dicarboxylic acid'   synonym   bmse001013   1    
+     Glutamate                                synonym   bmse001013   1    
+     Glutaton                                 synonym   bmse001013   1    
+     'Glutamic acid, L-'                      synonym   bmse001013   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+     InChI=1S/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)             INCHI   na       na      bmse001013   1    
+     InChI=1S/C5H9NO4/c6-3(5(9)10)1-2-4(7)8/h3H,1-2,6H2,(H,7,8)(H,9,10)/t3-/m0/s1   INCHI   ALATIS   3.003   bmse001013   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     '2-aminopentanedioic acid'   IUPAC               bmse001013   1    
+     '2-aminoglutaric acid'       IUPAC_TRADITIONAL   bmse001013   1    
+     '2-aminopentanedioic acid'   IUPAC_CAS           bmse001013   1    
+     '2-aminopentanedioic acid'   IUPAC_OPENEYE       bmse001013   1    
+     '2-aminopentanedioic acid'   IUPAC_SYSTEMATIC    bmse001013   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     isomeric    C(CC(=O)O)C(C(=O)O)N   bmse001013   1    
+     canonical   C(CC(=O)O)C(C(=O)O)N   bmse001013   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     C5    C   4.5981   1.5600    1    bmse001013   1    
+     C4    C   2.8660   -1.4400   2    bmse001013   1    
+     O9    O   4.5981   2.5600    3    bmse001013   1    
+     C3    C   3.7321   1.0600    4    bmse001013   1    
+     O7    O   3.7321   -1.9400   5    bmse001013   1    
+     C1    C   3.7321   0.0600    6    bmse001013   1    
+     C2    C   2.8660   -0.4400   7    bmse001013   1    
+     O10   O   5.4641   1.0600    8    bmse001013   1    
+     N6    N   2.8660   1.5600    9    bmse001013   1    
+     O8    O   2.0000   -1.9400   10   bmse001013   1    
+     H15   H   3.7321   1.8600    11   bmse001013   1    
+     H11   H   3.9441   -0.5226   12   bmse001013   1    
+     H12   H   4.3426   0.1677    13   bmse001013   1    
+     H13   H   2.6540   0.1426    14   bmse001013   1    
+     H14   H   2.2554   -0.5477   15   bmse001013   1    
+     H19   H   6.0010   1.3700    16   bmse001013   1    
+     H16   H   2.3291   1.2500    17   bmse001013   1    
+     H17   H   2.8660   2.1800    18   bmse001013   1    
+     H18   H   2.0000   -2.5600   19   bmse001013   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     C5    C1    BMRB     bmse001013   1    
+     C4    C2    BMRB     bmse001013   1    
+     O9    O3    BMRB     bmse001013   1    
+     C3    C4    BMRB     bmse001013   1    
+     O7    O5    BMRB     bmse001013   1    
+     C1    C6    BMRB     bmse001013   1    
+     C2    C7    BMRB     bmse001013   1    
+     O10   O8    BMRB     bmse001013   1    
+     N6    N9    BMRB     bmse001013   1    
+     O8    O10   BMRB     bmse001013   1    
+     H15   H11   BMRB     bmse001013   1    
+     H11   H12   BMRB     bmse001013   1    
+     H12   H13   BMRB     bmse001013   1    
+     H13   H14   BMRB     bmse001013   1    
+     H14   H15   BMRB     bmse001013   1    
+     H19   H16   BMRB     bmse001013   1    
+     H16   H17   BMRB     bmse001013   1    
+     H17   H18   BMRB     bmse001013   1    
+     H18   H19   BMRB     bmse001013   1    
+     C5    C5    ALATIS   bmse001013   1    
+     C4    C4    ALATIS   bmse001013   1    
+     O9    O9    ALATIS   bmse001013   1    
+     C3    C3    ALATIS   bmse001013   1    
+     O7    O7    ALATIS   bmse001013   1    
+     C1    C1    ALATIS   bmse001013   1    
+     C2    C2    ALATIS   bmse001013   1    
+     O10   O10   ALATIS   bmse001013   1    
+     N6    N6    ALATIS   bmse001013   1    
+     O8    O8    ALATIS   bmse001013   1    
+     H15   H15   ALATIS   bmse001013   1    
+     H11   H11   ALATIS   bmse001013   1    
+     H12   H12   ALATIS   bmse001013   1    
+     H13   H13   ALATIS   bmse001013   1    
+     H14   H14   ALATIS   bmse001013   1    
+     H19   H19   ALATIS   bmse001013   1    
+     H16   H16   ALATIS   bmse001013   1    
+     H17   H17   ALATIS   bmse001013   1    
+     H18   H18   ALATIS   bmse001013   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1    covalent   DOUB   C5    O9    bmse001013   1    
+     2    covalent   SING   C5    C3    bmse001013   1    
+     3    covalent   SING   C5    O10   bmse001013   1    
+     4    covalent   DOUB   C4    O7    bmse001013   1    
+     5    covalent   SING   C4    C2    bmse001013   1    
+     6    covalent   SING   C4    O8    bmse001013   1    
+     7    covalent   SING   C3    C1    bmse001013   1    
+     8    covalent   SING   C3    N6    bmse001013   1    
+     9    covalent   SING   C3    H15   bmse001013   1    
+     10   covalent   SING   C1    C2    bmse001013   1    
+     11   covalent   SING   C1    H11   bmse001013   1    
+     12   covalent   SING   C1    H12   bmse001013   1    
+     13   covalent   SING   C2    H13   bmse001013   1    
+     14   covalent   SING   C2    H14   bmse001013   1    
+     15   covalent   SING   O10   H19   bmse001013   1    
+     16   covalent   SING   N6    H16   bmse001013   1    
+     17   covalent   SING   N6    H17   bmse001013   1    
+     18   covalent   SING   O8    H18   bmse001013   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     no   PubChem          160963332       sid                    'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   PubChem          85164885        sid                    'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   PubChem          148794          sid                    'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   PubChem          3596            sid                    'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   PubChem          611             cid                    'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   PubChem          33032           cid                    'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   KEGG             C00302          'compound ID'          'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   'CAS Registry'   10549-13-0      'registry number'      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   'CAS Registry'   138-15-8        'registry number'      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   'CAS Registry'   138-16-9        'registry number'      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   'CAS Registry'   16690-92-9      'registry number'      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   'CAS Registry'   19238-49-4      'registry number'      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   'CAS Registry'   19473-49-5      'registry number'      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   'CAS Registry'   24595-14-0      'registry number'      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   'CAS Registry'   55695-80-2      'registry number'      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   'CAS Registry'   56-86-0         'registry number'      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   'CAS Registry'   6899-05-4       'registry number'      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   'CAS Registry'   7558-63-6       'registry number'      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   CHEBI            18237           ?                      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   CCRIS            7314            ?                      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   'FEMA No.'       3285            ?                      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   NSC              143503          ?                      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   EINECS           200-293-7       ?                      'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   PDB              DGL             'Chemical Component'   'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   PDB              GGL             'Chemical Component'   'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   PDB              GLU             'Chemical Component'   'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   PDB              GLU_LFOH        'Chemical Component'   'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   PDB              GLU_LFOH_DHE2   'Chemical Component'   'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   PDB              GLU_LFZW        'Chemical Component'   'L-Glutamic acid'   'matching entry'   bmse001013   1    
+     no   PDB              GLU_LFZW_DHE2   'Chemical Component'   'L-Glutamic acid'   'matching entry'   bmse001013   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citation_1   bmse001013   1    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category   sample
+   _Sample.Sf_framecode  sample_1
+   _Sample.Entry_ID      bmse001013
+   _Sample.ID            1
+   _Sample.Type          solution
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_units
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   'L-glutamic acid'    'natural abundance'   1   $L_glutamic_acid   Solute      20    mM   sigma/aldrich   'L-glutamic acid'   bmse001013   1    
+     2   D2O                  ?                     ?   ?                  Solvent     100   %    ?               ?                   bmse001013   1    
+     3   'sodium phosphate'   ?                     ?   ?                  Buffer      200   mM   ?               ?                   bmse001013   1    
+     4   'sodium azide'       ?                     ?   ?                  Cytocide    500   uM   ?               ?                   bmse001013   1    
+     5   DSS                  ?                     ?   ?                  Reference   0.1   %    ?               ?                   bmse001013   1    
+
+   stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category   sample_conditions
+   _Sample_condition_list.Sf_framecode  sample_conditions_1
+   _Sample_condition_list.Entry_ID      bmse001013
+   _Sample_condition_list.ID            1
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+     pH            7.4   pH   bmse001013   1    
+     temperature   298   K    bmse001013   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmse001013
+   _Software.ID            1
+   _Software.Name          TopSpin
+   _Software.Version       2.1
+
+   loop_
+      _Vendor.Name
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Bruker Biospin'   bmse001013   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     Collection        bmse001013   1    
+     Processing        bmse001013   1    
+     'Data analysis'   bmse001013   1    
+     'Peak picking'    bmse001013   1    
+
+   stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_Bruker_700
+   _NMR_spectrometer.Sf_category     NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode    Bruker_700
+   _NMR_spectrometer.Entry_ID        bmse001013
+   _NMR_spectrometer.ID              1
+   _NMR_spectrometer.Manufacturer    Bruker
+   _NMR_spectrometer.Model           'Avance II'
+   _NMR_spectrometer.Field_strength  700
+
+save_
+
+save_TCI_cryoprobe
+   _NMR_spectrometer_probe.Sf_category   NMR_spectrometer_probe
+   _NMR_spectrometer_probe.Sf_framecode  TCI_cryoprobe
+   _NMR_spectrometer_probe.Entry_ID      bmse001013
+   _NMR_spectrometer_probe.ID            1
+   _NMR_spectrometer_probe.Details       'single z-axis gradient'
+   _NMR_spectrometer_probe.Manufacturer  Bruker
+   _NMR_spectrometer_probe.Model         'TCI CryoProbe'
+   _NMR_spectrometer_probe.Diameter      5
+
+   loop_
+      _NMR_probe.Type
+      _NMR_probe.Entry_ID
+      _NMR_probe.NMR_spectrometer_probe_ID
+
+     Cryoprobe   bmse001013   1    
+
+   stop_
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category   experiment_list
+   _Experiment_list.Sf_framecode  experiment_list
+   _Experiment_list.Entry_ID      bmse001013
+   _Experiment_list.ID            1
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+     1   '2D J-resolved 1H'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_700   bmse001013   1    
+     2   '2D [1H,13C]-HSQC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_700   bmse001013   1    
+     3   '1D 1H, NOESY'       yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_700   bmse001013   1    
+
+   stop_
+
+   loop_
+      _Experiment_file.Experiment_ID
+      _Experiment_file.Name
+      _Experiment_file.Type
+      _Experiment_file.Directory_path
+      _Experiment_file.Details
+      _Experiment_file.Entry_ID
+      _Experiment_file.Experiment_list_ID
+
+     1   1H_1H_JRES    text/directory   nmr/set01/                      'NMR experiment directory'   bmse001013   1    
+     1   00.png        image/png        nmr/set01/spectra/1H_1H_JRES    'Spectral image'             bmse001013   1    
+     1   01.png        image/png        nmr/set01/spectra/1H_1H_JRES    'Spectral image'             bmse001013   1    
+     2   1H_13C_HSQC   text/directory   nmr/set01/                      'NMR experiment directory'   bmse001013   1    
+     2   00.png        image/png        nmr/set01/spectra/1H_13C_HSQC   'Spectral image'             bmse001013   1    
+     2   01.png        image/png        nmr/set01/spectra/1H_13C_HSQC   'Spectral image'             bmse001013   1    
+     3   1H_NOESY      text/directory   nmr/set01/                      'NMR experiment directory'   bmse001013   1    
+     3   00.png        image/png        nmr/set01/spectra/1H_NOESY      'Spectral image'             bmse001013   1    
+     3   01.png        image/png        nmr/set01/spectra/1H_NOESY      'Spectral image'             bmse001013   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference
+   _Chem_shift_reference.Entry_ID      bmse001013
+   _Chem_shift_reference.ID            1
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    DSS   'methyl protons'   ppm   0.00   internal   direct   1.000000000   bmse001013   1    
+     C   13   DSS   'methyl carbons'   ppm   0.00   internal   direct   1.000000000   bmse001013   1    
+
+   stop_
+
+save_

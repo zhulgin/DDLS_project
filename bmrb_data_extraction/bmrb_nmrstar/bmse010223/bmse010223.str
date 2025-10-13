@@ -1,0 +1,1482 @@
+data_bmse010223
+
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             bmse010223
+   _Entry.Title
+;
+DIR_NAME
+;
+   _Entry.Type                           .
+   _Entry.Version_type                   update
+   _Entry.Submission_date                2009-05-26
+   _Entry.Accession_date                 2009-09-01
+   _Entry.Last_release_date              2013-04-05
+   _Entry.Original_release_date          2010-01-08
+   _Entry.Origination                    author
+   _Entry.Format_name                    .
+   _Entry.NMR_STAR_version               3.2.0.16
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    solution
+   _Entry.Source_data_format             .
+   _Entry.Source_data_format_version     .
+   _Entry.Generated_software_name        .
+   _Entry.Generated_software_version     .
+   _Entry.Generated_software_ID          .
+   _Entry.Generated_software_label       .
+   _Entry.Generated_date                 .
+   _Entry.DOI                            10.13018/BMSE010223
+   _Entry.UUID                           .
+   _Entry.Related_coordinate_file_name   .
+   _Entry.Details                        .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.ORCID
+      _Entry_author.Entry_ID
+
+      1   John    Ralph   .   .   .   .   bmse010223
+      2   Sally   Ralph   .   .   .   .   bmse010223
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+      1   'NMR Database of Lignin and Cell Wall Model Compounds'   'United States Department of Agriculture'   USDA   bmse010223
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts   3   bmse010223
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '13C chemical shifts'   39   bmse010223
+      '1H chemical shifts'    16   bmse010223
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      13   .   .   2018-07-10   2017-10-12   update     BMRB     'InChI numbering updated according to ALATIS'            bmse010223
+      12   .   .   2017-10-12   2017-10-12   update     BMRB     
+;
+Remediated Experiment_file loop if present and standardized mol and png file tags.
+;
+                                                                                                                          bmse010223
+      11   .   .   2013-04-05   2009-05-26   update     BMRB     'Adding molecule category to chem_comp Details'          bmse010223
+      10   .   .   2012-09-13   2009-05-26   update     BMRB     'Added PubChem SID 111678059 to database loop'           bmse010223
+      9    .   .   2012-02-24   2009-05-26   update     BMRB     'Set Raw_data_flag to no, since there are no raw data'   bmse010223
+      8    .   .   2011-12-16   2009-05-26   update     BMRB     'Standardized solvent'                                   bmse010223
+      7    .   .   2011-12-14   2009-05-26   update     BMRB     'Set Assembly.Name to match Chem_comp.name'              bmse010223
+      6    .   .   2011-09-09   2009-05-26   update     BMRB     'Brought up to date with latest Dictionary'              bmse010223
+      5    .   .   2011-09-07   2009-05-26   update     BMRB     'Ensured correct reference IDs'                          bmse010223
+      4    .   .   2011-04-04   2009-05-26   update     BMRB     'Added Provenance tag to chem_comp'                      bmse010223
+      3    .   .   2010-12-01   2009-05-26   update     BMRB     'Set correct NMR STAR version'                           bmse010223
+      2    .   .   2010-10-08   2009-05-26   update     BMRB     'Removed empty loops for database compliance'            bmse010223
+      1    .   .   2010-01-08   2009-05-26   original   Author   'Original spectra from USDA'                             bmse010223
+   stop_
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_citation_1
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citation_1
+   _Citation.Entry_ID                     bmse010223
+   _Citation.ID                           1
+   _Citation.Class                        'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    .
+   _Citation.Full_citation                .
+   _Citation.Title
+;
+NMR Database of Lignin and Cell Wall Model Compounds.
+;
+   _Citation.Status                       published
+   _Citation.Type                         internet
+   _Citation.Journal_abbrev               .
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               .
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      http://ars.usda.gov/Services/docs.htm?docid=10491
+   _Citation.Page_first                   .
+   _Citation.Page_last                    .
+   _Citation.Year                         2004
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.ORCID
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1   Sally   Ralph      .   A.   .   .   bmse010223   1
+      2   John    Ralph      .   .    .   .   bmse010223   1
+      3   Larry   Landucci   .   L.   .   .   bmse010223   1
+   stop_
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          bmse010223
+   _Assembly.ID                                1
+   _Assembly.Name                              'methyl (3,4,5-trimethoxy)cinnamate'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   0
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                no
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       'not reported'
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1   methyl-(3,4,5-trimethoxy)cinnamate   1   $entity_1   .   .   yes   native   no   no   .   .   .   bmse010223   1
+   stop_
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_entity_1
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      entity_1
+   _Entity.Entry_ID                          bmse010223
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              'methyl (3,4,5-trimethoxy)cinnamate'
+   _Entity.Type                              non-polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      .
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code       .
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                .
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                       'not reported'
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+      1   .   1   $chem_comp_1   bmse010223   1
+   stop_
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       bmse010223
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Details
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1   1   $entity_1   .   n/a   'multiple natural sources'   yes   'not applicable'   n/a   .   .   Eukaryota   Viridiplantae   n/a   n/a   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse010223   1
+   stop_
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       bmse010223
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1   1   $entity_1   .   'chemical synthesis'   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse010223   1
+   stop_
+save_
+
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                       chem_comp
+   _Chem_comp.Sf_framecode                      chem_comp_1
+   _Chem_comp.Entry_ID                          bmse010223
+   _Chem_comp.ID                                1
+   _Chem_comp.Provenance                        BMRB
+   _Chem_comp.Name                              'methyl (3,4,5-trimethoxy)cinnamate'
+   _Chem_comp.Type                              non-polymer
+   _Chem_comp.BMRB_code                         .
+   _Chem_comp.PDB_code                          .
+   _Chem_comp.Ambiguous_flag                    .
+   _Chem_comp.Initial_date                      .
+   _Chem_comp.Modified_date                     .
+   _Chem_comp.Release_status                    .
+   _Chem_comp.Replaced_by                       .
+   _Chem_comp.Replaces                          .
+   _Chem_comp.One_letter_code                   .
+   _Chem_comp.Three_letter_code                 .
+   _Chem_comp.Number_atoms_all                  .
+   _Chem_comp.Number_atoms_nh                   .
+   _Chem_comp.Atom_nomenclature_source          .
+   _Chem_comp.PubChem_code                      .
+   _Chem_comp.Subcomponent_list                 .
+   _Chem_comp.InChI_code
+
+;
+InChI=1S/C13H16O5/c1-15-10-7-9(5-6-12(14)17-3)8-11(16-2)13(10)18-4/h5-8H,1-4H3/b6-5+
+;
+
+   _Chem_comp.Mon_nstd_flag                     .
+   _Chem_comp.Mon_nstd_class                    .
+   _Chem_comp.Mon_nstd_details                  .
+   _Chem_comp.Mon_nstd_parent                   .
+   _Chem_comp.Mon_nstd_parent_comp_ID           .
+   _Chem_comp.Std_deriv_one_letter_code         .
+   _Chem_comp.Std_deriv_three_letter_code       .
+   _Chem_comp.Std_deriv_BMRB_code               .
+   _Chem_comp.Std_deriv_PDB_code                .
+   _Chem_comp.Std_deriv_chem_comp_name          .
+   _Chem_comp.Synonyms                          .
+   _Chem_comp.Formal_charge                     .
+   _Chem_comp.Paramagnetic                      no
+   _Chem_comp.Aromatic                          yes
+   _Chem_comp.Formula                           'C13 H16 O5'
+   _Chem_comp.Formula_weight                    252.26314
+   _Chem_comp.Formula_mono_iso_wt_nat           252.0997736241
+   _Chem_comp.Formula_mono_iso_wt_13C           265.1433865155
+   _Chem_comp.Formula_mono_iso_wt_15N           252.0997736241
+   _Chem_comp.Formula_mono_iso_wt_13C_15N       265.1433865155
+   _Chem_comp.Image_file_name                   bmse010223.png
+   _Chem_comp.Image_file_format                 png
+   _Chem_comp.Topo_file_name                    .
+   _Chem_comp.Topo_file_format                  .
+   _Chem_comp.Struct_file_name                  bmse010223.mol
+   _Chem_comp.Struct_file_format                mol
+   _Chem_comp.Stereochem_param_file_name        .
+   _Chem_comp.Stereochem_param_file_format      .
+   _Chem_comp.Model_details                     .
+   _Chem_comp.Model_erf                         .
+   _Chem_comp.Model_source                      .
+   _Chem_comp.Model_coordinates_details         .
+   _Chem_comp.Model_coordinates_missing_flag    .
+   _Chem_comp.Ideal_coordinates_details         .
+   _Chem_comp.Ideal_coordinates_missing_flag    .
+   _Chem_comp.Model_coordinates_db_code         .
+   _Chem_comp.Processing_site                   .
+   _Chem_comp.Vendor                            .
+   _Chem_comp.Vendor_product_code               .
+   _Chem_comp.Details                           Monomers
+   _Chem_comp.DB_query_date                     .
+   _Chem_comp.DB_last_query_revised_last_date   .
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+      'methyl (3,4,5-trimethoxy)cinnamate'   synonym   bmse010223   1
+   stop_
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+
+;
+InChI=1/C13H16O5/c1-15-10-7-9(5-6-12(14)17-3)8-11(16-2)13(10)18-4/h5-8H,1-4H3/b6-5+
+;
+          INCHI   na       na      bmse010223   1
+
+;
+InChI=1S/C13H16O5/c1-15-10-7-9(5-6-12(14)17-3)8-11(16-2)13(10)18-4/h5-8H,1-4H3/b6-5+
+;
+          INCHI   ALATIS   3.003   bmse010223   1
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+      'methyl (3,4,5-trimethoxy)cinnamate'   Beilstein   bmse010223   1
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+      Canonical   COC1=C(C(=CC(=C1)C=CC(=O)OC)OC)OC   bmse010223   1
+      Isomeric    COC1=C(C(=CC(=C1)C=CC(=O)OC)OC)OC   bmse010223   1
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.BMRB_code
+      _Chem_comp_atom.PDB_atom_ID
+      _Chem_comp_atom.Alt_atom_ID
+      _Chem_comp_atom.Auth_atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Isotope_number
+      _Chem_comp_atom.Chirality
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Partial_charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Align
+      _Chem_comp_atom.Aromatic_flag
+      _Chem_comp_atom.Leaving_atom_flag
+      _Chem_comp_atom.Substruct_code
+      _Chem_comp_atom.Ionizable
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_x_esd
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_y_esd
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.Model_Cartn_z_esd
+      _Chem_comp_atom.Model_Cartn_x_ideal
+      _Chem_comp_atom.Model_Cartn_y_ideal
+      _Chem_comp_atom.Model_Cartn_z_ideal
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Details
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+      C1    .   .   .   3OMe   C   .   .   .   .   .   .   .   .   .   .   .   .   191.8608   246.0000   .   .   .   .   .   .   .   .   .   1    .   bmse010223   1
+      C2    .   .   .   5OMe   C   .   .   .   .   .   .   .   .   .   .   .   .   358.1392   246.0000   .   .   .   .   .   .   .   .   .   2    .   bmse010223   1
+      C3    .   .   .   GOMe   C   .   .   .   .   .   .   .   .   .   .   .   .   219.5728   70.0000    .   .   .   .   .   .   .   .   .   3    .   bmse010223   1
+      C4    .   .   .   4OMe   C   .   .   .   .   .   .   .   .   .   .   .   .   302.7120   310.0000   .   .   .   .   .   .   .   .   .   4    .   bmse010223   1
+      C5    .   .   .   A      C   .   .   .   .   .   .   .   .   .   .   .   .   275.0000   166.0000   .   .   .   .   .   .   .   .   .   5    .   bmse010223   1
+      C6    .   .   .   B      C   .   .   .   .   .   .   .   .   .   .   .   .   247.2880   150.0000   .   .   .   .   .   .   .   .   .   6    .   bmse010223   1
+      C7    .   .   .   2      C   .   .   .   .   .   .   .   .   .   .   .   .   247.2880   214.0000   .   .   .   .   .   .   .   .   .   7    .   bmse010223   1
+      C8    .   .   .   6      C   .   .   .   .   .   .   .   .   .   .   .   .   302.7120   214.0000   .   .   .   .   .   .   .   .   .   8    .   bmse010223   1
+      C9    .   .   .   1      C   .   .   .   .   .   .   .   .   .   .   .   .   275.0000   198.0000   .   .   .   .   .   .   .   .   .   9    .   bmse010223   1
+      C10   .   .   .   3      C   .   .   .   .   .   .   .   .   .   .   .   .   247.2880   246.0000   .   .   .   .   .   .   .   .   .   10   .   bmse010223   1
+      C11   .   .   .   5      C   .   .   .   .   .   .   .   .   .   .   .   .   302.7120   246.0000   .   .   .   .   .   .   .   .   .   11   .   bmse010223   1
+      C12   .   .   .   G      C   .   .   .   .   .   .   .   .   .   .   .   .   247.2880   118.0000   .   .   .   .   .   .   .   .   .   12   .   bmse010223   1
+      C13   .   .   .   4      C   .   .   .   .   .   .   .   .   .   .   .   .   275.0000   262.0000   .   .   .   .   .   .   .   .   .   13   .   bmse010223   1
+      O14   .   .   .   .      O   .   .   .   .   .   .   .   .   .   .   .   .   275.0000   102.0000   .   .   .   .   .   .   .   .   .   14   .   bmse010223   1
+      O15   .   .   .   .      O   .   .   .   .   .   .   .   .   .   .   .   .   219.5728   262.0000   .   .   .   .   .   .   .   .   .   15   .   bmse010223   1
+      O16   .   .   .   .      O   .   .   .   .   .   .   .   .   .   .   .   .   330.4240   262.0000   .   .   .   .   .   .   .   .   .   16   .   bmse010223   1
+      O17   .   .   .   .      O   .   .   .   .   .   .   .   .   .   .   .   .   219.5728   102.0000   .   .   .   .   .   .   .   .   .   17   .   bmse010223   1
+      O18   .   .   .   .      O   .   .   .   .   .   .   .   .   .   .   .   .   275.0000   294.0000   .   .   .   .   .   .   .   .   .   18   .   bmse010223   1
+      H19   .   .   .   3OMe   H   .   .   .   .   .   .   .   .   .   .   .   .   181.9406   263.1818   .   .   .   .   .   .   .   .   .   19   .   bmse010223   1
+      H21   .   .   .   3OMe   H   .   .   .   .   .   .   .   .   .   .   .   .   174.6790   236.0798   .   .   .   .   .   .   .   .   .   20   .   bmse010223   1
+      H20   .   .   .   3OMe   H   .   .   .   .   .   .   .   .   .   .   .   .   201.7810   228.8182   .   .   .   .   .   .   .   .   .   21   .   bmse010223   1
+      H22   .   .   .   5OMe   H   .   .   .   .   .   .   .   .   .   .   .   .   348.2198   228.8177   .   .   .   .   .   .   .   .   .   22   .   bmse010223   1
+      H24   .   .   .   5OMe   H   .   .   .   .   .   .   .   .   .   .   .   .   375.3215   236.0806   .   .   .   .   .   .   .   .   .   23   .   bmse010223   1
+      H23   .   .   .   5OMe   H   .   .   .   .   .   .   .   .   .   .   .   .   368.0586   263.1823   .   .   .   .   .   .   .   .   .   24   .   bmse010223   1
+      H25   .   .   .   GOMe   H   .   .   .   .   .   .   .   .   .   .   .   .   199.7328   70.0000    .   .   .   .   .   .   .   .   .   25   .   bmse010223   1
+      H27   .   .   .   GOMe   H   .   .   .   .   .   .   .   .   .   .   .   .   219.5728   50.1600    .   .   .   .   .   .   .   .   .   26   .   bmse010223   1
+      H26   .   .   .   GOMe   H   .   .   .   .   .   .   .   .   .   .   .   .   239.4128   70.0000    .   .   .   .   .   .   .   .   .   27   .   bmse010223   1
+      H28   .   .   .   4OMe   H   .   .   .   .   .   .   .   .   .   .   .   .   312.6322   292.8182   .   .   .   .   .   .   .   .   .   28   .   bmse010223   1
+      H29   .   .   .   4OMe   H   .   .   .   .   .   .   .   .   .   .   .   .   319.8938   319.9202   .   .   .   .   .   .   .   .   .   29   .   bmse010223   1
+      H30   .   .   .   4OMe   H   .   .   .   .   .   .   .   .   .   .   .   .   292.7918   327.1818   .   .   .   .   .   .   .   .   .   30   .   bmse010223   1
+      H31   .   .   .   A      H   .   .   .   .   .   .   .   .   .   .   .   .   292.1820   156.0801   .   .   .   .   .   .   .   .   .   31   .   bmse010223   1
+      H32   .   .   .   B      H   .   .   .   .   .   .   .   .   .   .   .   .   230.1060   159.9199   .   .   .   .   .   .   .   .   .   32   .   bmse010223   1
+      H33   .   .   .   2      H   .   .   .   .   .   .   .   .   .   .   .   .   230.1060   204.0801   .   .   .   .   .   .   .   .   .   33   .   bmse010223   1
+      H34   .   .   .   6      H   .   .   .   .   .   .   .   .   .   .   .   .   319.8940   204.0801   .   .   .   .   .   .   .   .   .   34   .   bmse010223   1
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+      C1    C1    BMRB     bmse010223   1
+      C1    C1    ALATIS   bmse010223   1
+      C10   C10   BMRB     bmse010223   1
+      C10   C10   ALATIS   bmse010223   1
+      C11   C11   BMRB     bmse010223   1
+      C11   C11   ALATIS   bmse010223   1
+      C12   C12   BMRB     bmse010223   1
+      C12   C12   ALATIS   bmse010223   1
+      C13   C13   BMRB     bmse010223   1
+      C13   C13   ALATIS   bmse010223   1
+      C2    C2    BMRB     bmse010223   1
+      C2    C2    ALATIS   bmse010223   1
+      C3    C3    BMRB     bmse010223   1
+      C3    C3    ALATIS   bmse010223   1
+      C4    C4    BMRB     bmse010223   1
+      C4    C4    ALATIS   bmse010223   1
+      C5    C5    BMRB     bmse010223   1
+      C5    C5    ALATIS   bmse010223   1
+      C6    C6    BMRB     bmse010223   1
+      C6    C6    ALATIS   bmse010223   1
+      C7    C7    BMRB     bmse010223   1
+      C7    C7    ALATIS   bmse010223   1
+      C8    C8    BMRB     bmse010223   1
+      C8    C8    ALATIS   bmse010223   1
+      C9    C9    BMRB     bmse010223   1
+      C9    C9    ALATIS   bmse010223   1
+      H19   H19   BMRB     bmse010223   1
+      H19   H19   ALATIS   bmse010223   1
+      H20   H21   BMRB     bmse010223   1
+      H20   H20   ALATIS   bmse010223   1
+      H21   H20   BMRB     bmse010223   1
+      H21   H21   ALATIS   bmse010223   1
+      H22   H22   BMRB     bmse010223   1
+      H22   H22   ALATIS   bmse010223   1
+      H23   H24   BMRB     bmse010223   1
+      H23   H23   ALATIS   bmse010223   1
+      H24   H23   BMRB     bmse010223   1
+      H24   H24   ALATIS   bmse010223   1
+      H25   H25   BMRB     bmse010223   1
+      H25   H25   ALATIS   bmse010223   1
+      H26   H27   BMRB     bmse010223   1
+      H26   H26   ALATIS   bmse010223   1
+      H27   H26   BMRB     bmse010223   1
+      H27   H27   ALATIS   bmse010223   1
+      H28   H28   BMRB     bmse010223   1
+      H28   H28   ALATIS   bmse010223   1
+      H29   H29   BMRB     bmse010223   1
+      H29   H29   ALATIS   bmse010223   1
+      H30   H30   BMRB     bmse010223   1
+      H30   H30   ALATIS   bmse010223   1
+      H31   H31   BMRB     bmse010223   1
+      H31   H31   ALATIS   bmse010223   1
+      H32   H32   BMRB     bmse010223   1
+      H32   H32   ALATIS   bmse010223   1
+      H33   H33   BMRB     bmse010223   1
+      H33   H33   ALATIS   bmse010223   1
+      H34   H34   BMRB     bmse010223   1
+      H34   H34   ALATIS   bmse010223   1
+      O14   O14   BMRB     bmse010223   1
+      O14   O14   ALATIS   bmse010223   1
+      O15   O15   BMRB     bmse010223   1
+      O15   O15   ALATIS   bmse010223   1
+      O16   O16   BMRB     bmse010223   1
+      O16   O16   ALATIS   bmse010223   1
+      O17   O17   BMRB     bmse010223   1
+      O17   O17   ALATIS   bmse010223   1
+      O18   O18   BMRB     bmse010223   1
+      O18   O18   ALATIS   bmse010223   1
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Aromatic_flag
+      _Chem_comp_bond.Stereo_config
+      _Chem_comp_bond.Ordinal
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+      1    covalent   SING   C1    O15   .   .   .   .   bmse010223   1
+      2    covalent   SING   C2    O16   .   .   .   .   bmse010223   1
+      3    covalent   SING   C3    O17   .   .   .   .   bmse010223   1
+      4    covalent   SING   C4    O18   .   .   .   .   bmse010223   1
+      5    covalent   DOUB   C5    C6    .   .   .   .   bmse010223   1
+      6    covalent   SING   C5    C9    .   .   .   .   bmse010223   1
+      7    covalent   SING   C6    C12   .   .   .   .   bmse010223   1
+      8    covalent   DOUB   C7    C9    .   .   .   .   bmse010223   1
+      9    covalent   SING   C7    C10   .   .   .   .   bmse010223   1
+      10   covalent   SING   C8    C9    .   .   .   .   bmse010223   1
+      11   covalent   DOUB   C8    C11   .   .   .   .   bmse010223   1
+      12   covalent   DOUB   C10   C13   .   .   .   .   bmse010223   1
+      13   covalent   SING   C10   O15   .   .   .   .   bmse010223   1
+      14   covalent   SING   C11   C13   .   .   .   .   bmse010223   1
+      15   covalent   SING   C11   O16   .   .   .   .   bmse010223   1
+      16   covalent   DOUB   C12   O14   .   .   .   .   bmse010223   1
+      17   covalent   SING   C12   O17   .   .   .   .   bmse010223   1
+      18   covalent   SING   C13   O18   .   .   .   .   bmse010223   1
+      19   covalent   SING   C1    H19   .   .   .   .   bmse010223   1
+      20   covalent   SING   C1    H21   .   .   .   .   bmse010223   1
+      21   covalent   SING   C1    H20   .   .   .   .   bmse010223   1
+      22   covalent   SING   C2    H22   .   .   .   .   bmse010223   1
+      23   covalent   SING   C2    H24   .   .   .   .   bmse010223   1
+      24   covalent   SING   C2    H23   .   .   .   .   bmse010223   1
+      25   covalent   SING   C3    H25   .   .   .   .   bmse010223   1
+      26   covalent   SING   C3    H27   .   .   .   .   bmse010223   1
+      27   covalent   SING   C3    H26   .   .   .   .   bmse010223   1
+      28   covalent   SING   C4    H28   .   .   .   .   bmse010223   1
+      29   covalent   SING   C4    H29   .   .   .   .   bmse010223   1
+      30   covalent   SING   C4    H30   .   .   .   .   bmse010223   1
+      31   covalent   SING   C5    H31   .   .   .   .   bmse010223   1
+      32   covalent   SING   C6    H32   .   .   .   .   bmse010223   1
+      33   covalent   SING   C7    H33   .   .   .   .   bmse010223   1
+      34   covalent   SING   C8    H34   .   .   .   .   bmse010223   1
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_code
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_experimental_method
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_details
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+      no    PubChem             111678059   sid                 .   'methyl (3,4,5-trimethoxy)cinnamate'   .   'matching entry'   .   bmse010223   1
+      yes   USDA_NMR_database   62          'Compound Number'   .   'methyl (3,4,5-trimethoxy)cinnamate'   .   'matching entry'   .   bmse010223   1
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+      1   $citation_1   bmse010223   1
+   stop_
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_1
+   _Sample.Entry_ID                         bmse010223
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'methyl (3,4,5-trimethoxy)cinnamate'   'natural abundance'   .   .   1   $entity_1   .   Solute    Saturated   .   .   1   .   'John Ralph Lab'   'methyl (3,4,5-trimethoxy)cinnamate'   n/a   bmse010223   1
+      2   CDCl3                                  .                     .   .   1   .           .   Solvent   100         .   .   %   .   .                  .                                      .     bmse010223   1
+   stop_
+save_
+
+save_sample_2
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_2
+   _Sample.Entry_ID                         bmse010223
+   _Sample.ID                               2
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'methyl (3,4,5-trimethoxy)cinnamate'   'natural abundance'   .   .   1   $entity_1   .   Solute    Saturated   .   .   1   .   'John Ralph Lab'   'methyl (3,4,5-trimethoxy)cinnamate'   n/a   bmse010223   2
+      2   acetone                                '100% deuterated'     .   .   1   .           .   Solvent   100         .   .   %   .   .                  .                                      .     bmse010223   2
+   stop_
+save_
+
+save_sample_3
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_3
+   _Sample.Entry_ID                         bmse010223
+   _Sample.ID                               3
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1   'methyl (3,4,5-trimethoxy)cinnamate'   'natural abundance'   .   .   1   $entity_1   .   Solute    Saturated   .   .   1   .   'John Ralph Lab'   'methyl (3,4,5-trimethoxy)cinnamate'   n/a   bmse010223   3
+      2   DMSO                                   '100% deuterated'     .   .   1   .           .   Solvent   100         .   .   %   .   .                  .                                      .     bmse010223   3
+   stop_
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       bmse010223
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            n/a   .   pH   bmse010223   1
+      temperature   297   .   K    bmse010223   1
+   stop_
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category    software
+   _Software.Sf_framecode   software_1
+   _Software.Entry_ID       bmse010223
+   _Software.ID             1
+   _Software.Type           .
+   _Software.Name           X-WINNMR
+   _Software.Version        .
+   _Software.DOI            .
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      Bruker   .   .   bmse010223   1
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      Processing   bmse010223   1
+   stop_
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_Bruker_250
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     Bruker_250
+   _NMR_spectrometer.Entry_ID         bmse010223
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     Bruker
+   _NMR_spectrometer.Model            WM
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   250
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       bmse010223
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.MS_expt_ID
+      _Experiment.MS_expt_label
+      _Experiment.SAXS_expt_ID
+      _Experiment.SAXS_expt_label
+      _Experiment.FRET_expt_ID
+      _Experiment.FRET_expt_label
+      _Experiment.EMR_expt_ID
+      _Experiment.EMR_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Mass_spectrometer_ID
+      _Experiment.Mass_spectrometer_label
+      _Experiment.Xray_instrument_ID
+      _Experiment.Xray_instrument_label
+      _Experiment.Fluorescence_instrument_ID
+      _Experiment.Fluorescence_instrument_label
+      _Experiment.EMR_instrument_ID
+      _Experiment.EMR_instrument_label
+      _Experiment.Chromatographic_system_ID
+      _Experiment.Chromatographic_system_label
+      _Experiment.Chromatographic_column_ID
+      _Experiment.Chromatographic_column_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1   '1D 1H'    no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $Bruker_250   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse010223   1
+      2   '1D 13C'   no   .   .   .   .   .   .   .   .   .   .   1   $sample_1   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $Bruker_250   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse010223   1
+      3   '1D 13C'   no   .   .   .   .   .   .   .   .   .   .   2   $sample_2   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $Bruker_250   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse010223   1
+      4   '1D 13C'   no   .   .   .   .   .   .   .   .   .   .   3   $sample_3   isotropic   .   .   1   $sample_conditions_1   .   .   .   1   $Bruker_250   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   bmse010223   1
+   stop_
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_reference_1
+   _Chem_shift_reference.Entry_ID       bmse010223
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   CDCl3   'solvent carbon'            .   .   .   .   ppm   77.00   internal   direct   .             .   .   .   .   .   bmse010223   1
+      H   1    CDCl3   'residual solvent proton'   .   .   .   .   ppm   7.24    internal   direct   1.000000000   .   .   .   .   .   bmse010223   1
+   stop_
+save_
+
+save_chem_shift_reference_2
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_reference_2
+   _Chem_shift_reference.Entry_ID       bmse010223
+   _Chem_shift_reference.ID             2
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   Acetone-d6   'solvent methyl carbon'            .   .   .   .   ppm   29.83   internal   direct   .             .   .   .   .   .   bmse010223   2
+      H   1    Acetone-d6   'residual solvent methyl proton'   .   .   .   .   ppm   2.04    internal   direct   1.000000000   .   .   .   .   .   bmse010223   2
+   stop_
+save_
+
+save_chem_shift_reference_3
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_reference_3
+   _Chem_shift_reference.Entry_ID       bmse010223
+   _Chem_shift_reference.ID             3
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      C   13   DMSO-d6   'solvent methyl carbon'            .   .   .   .   ppm   39.50   internal   direct   .             .   .   .   .   .   bmse010223   3
+      H   1    DMSO-d6   'residual solvent methyl proton'   .   .   .   .   ppm   2.49    internal   direct   1.000000000   .   .   .   .   .   bmse010223   3
+   stop_
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_1
+   _Assigned_chem_shift_list.Entry_ID                      bmse010223
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chem_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1   '1D 1H'    1   $sample_1   .   bmse010223   1
+      2   '1D 13C'   1   $sample_1   .   bmse010223   1
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      1   $software_1   .   .   bmse010223   1
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1    .   .   1   1   .   1   C3    C   13   51.61    .   .   1   .   .   .   .   .   .   .   GOMe   .   bmse010223   1
+      2    .   .   1   1   .   1   C1    C   13   56.15    .   .   1   .   .   .   .   .   .   .   3OMe   .   bmse010223   1
+      3    .   .   1   1   .   1   C2    C   13   56.15    .   .   1   .   .   .   .   .   .   .   5OMe   .   bmse010223   1
+      4    .   .   1   1   .   1   C4    C   13   60.89    .   .   1   .   .   .   .   .   .   .   4OMe   .   bmse010223   1
+      5    .   .   1   1   .   1   C7    C   13   105.36   .   .   1   .   .   .   .   .   .   .   2      .   bmse010223   1
+      6    .   .   1   1   .   1   C8    C   13   105.36   .   .   1   .   .   .   .   .   .   .   6      .   bmse010223   1
+      7    .   .   1   1   .   1   C6    C   13   117.04   .   .   1   .   .   .   .   .   .   .   B      .   bmse010223   1
+      8    .   .   1   1   .   1   C9    C   13   129.90   .   .   1   .   .   .   .   .   .   .   1      .   bmse010223   1
+      9    .   .   1   1   .   1   C13   C   13   140.24   .   .   1   .   .   .   .   .   .   .   4      .   bmse010223   1
+      10   .   .   1   1   .   1   C5    C   13   144.81   .   .   1   .   .   .   .   .   .   .   A      .   bmse010223   1
+      11   .   .   1   1   .   1   C10   C   13   153.46   .   .   1   .   .   .   .   .   .   .   3      .   bmse010223   1
+      12   .   .   1   1   .   1   C11   C   13   153.46   .   .   1   .   .   .   .   .   .   .   5      .   bmse010223   1
+      13   .   .   1   1   .   1   C12   C   13   167.29   .   .   1   .   .   .   .   .   .   .   G      .   bmse010223   1
+      14   .   .   1   1   .   1   H25   H   1    3.74     .   .   1   .   .   .   .   .   .   .   GOMe   .   bmse010223   1
+      15   .   .   1   1   .   1   H27   H   1    3.74     .   .   1   .   .   .   .   .   .   .   GOMe   .   bmse010223   1
+      16   .   .   1   1   .   1   H26   H   1    3.74     .   .   1   .   .   .   .   .   .   .   GOMe   .   bmse010223   1
+      17   .   .   1   1   .   1   H19   H   1    3.82     .   .   1   .   .   .   .   .   .   .   3OMe   .   bmse010223   1
+      18   .   .   1   1   .   1   H21   H   1    3.82     .   .   1   .   .   .   .   .   .   .   3OMe   .   bmse010223   1
+      19   .   .   1   1   .   1   H20   H   1    3.82     .   .   1   .   .   .   .   .   .   .   3OMe   .   bmse010223   1
+      20   .   .   1   1   .   1   H22   H   1    3.82     .   .   1   .   .   .   .   .   .   .   5OMe   .   bmse010223   1
+      21   .   .   1   1   .   1   H24   H   1    3.82     .   .   1   .   .   .   .   .   .   .   5OMe   .   bmse010223   1
+      22   .   .   1   1   .   1   H23   H   1    3.82     .   .   1   .   .   .   .   .   .   .   5OMe   .   bmse010223   1
+      23   .   .   1   1   .   1   H28   H   1    3.82     .   .   1   .   .   .   .   .   .   .   4OMe   .   bmse010223   1
+      24   .   .   1   1   .   1   H29   H   1    3.82     .   .   1   .   .   .   .   .   .   .   4OMe   .   bmse010223   1
+      25   .   .   1   1   .   1   H30   H   1    3.82     .   .   1   .   .   .   .   .   .   .   4OMe   .   bmse010223   1
+      26   .   .   1   1   .   1   H33   H   1    6.70     .   .   1   .   .   .   .   .   .   .   2      .   bmse010223   1
+      27   .   .   1   1   .   1   H34   H   1    6.70     .   .   1   .   .   .   .   .   .   .   6      .   bmse010223   1
+      28   .   .   1   1   .   1   H31   H   1    7.54     .   .   1   .   .   .   .   .   .   .   A      .   bmse010223   1
+      29   .   .   1   1   .   1   H32   H   1    6.29     .   .   1   .   .   .   .   .   .   .   B      .   bmse010223   1
+   stop_
+save_
+
+save_assigned_chemical_shifts_2
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_2
+   _Assigned_chem_shift_list.Entry_ID                      bmse010223
+   _Assigned_chem_shift_list.ID                            2
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       2
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chem_shift_reference_2
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      3   '1D 13C'   2   $sample_2   .   bmse010223   2
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      1   $software_1   .   .   bmse010223   2
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1    .   .   1   1   .   1   C3    C   13   51.57    .   .   1   .   .   .   .   .   .   .   GOMe   .   bmse010223   2
+      2    .   .   1   1   .   1   C1    C   13   56.45    .   .   1   .   .   .   .   .   .   .   3OMe   .   bmse010223   2
+      3    .   .   1   1   .   1   C2    C   13   56.45    .   .   1   .   .   .   .   .   .   .   5OMe   .   bmse010223   2
+      4    .   .   1   1   .   1   C4    C   13   60.58    .   .   1   .   .   .   .   .   .   .   4OMe   .   bmse010223   2
+      5    .   .   1   1   .   1   C7    C   13   106.58   .   .   1   .   .   .   .   .   .   .   2      .   bmse010223   2
+      6    .   .   1   1   .   1   C8    C   13   106.58   .   .   1   .   .   .   .   .   .   .   6      .   bmse010223   2
+      7    .   .   1   1   .   1   C6    C   13   117.70   .   .   1   .   .   .   .   .   .   .   B      .   bmse010223   2
+      8    .   .   1   1   .   1   C9    C   13   130.70   .   .   1   .   .   .   .   .   .   .   1      .   bmse010223   2
+      9    .   .   1   1   .   1   C13   C   13   141.27   .   .   1   .   .   .   .   .   .   .   4      .   bmse010223   2
+      10   .   .   1   1   .   1   C5    C   13   145.45   .   .   1   .   .   .   .   .   .   .   A      .   bmse010223   2
+      11   .   .   1   1   .   1   C10   C   13   154.51   .   .   1   .   .   .   .   .   .   .   3      .   bmse010223   2
+      12   .   .   1   1   .   1   C11   C   13   154.51   .   .   1   .   .   .   .   .   .   .   5      .   bmse010223   2
+      13   .   .   1   1   .   1   C12   C   13   167.51   .   .   1   .   .   .   .   .   .   .   G      .   bmse010223   2
+   stop_
+save_
+
+save_assigned_chemical_shifts_3
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chemical_shifts_3
+   _Assigned_chem_shift_list.Entry_ID                      bmse010223
+   _Assigned_chem_shift_list.ID                            3
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label   $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       3
+   _Assigned_chem_shift_list.Chem_shift_reference_label    $chem_shift_reference_3
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      4   '1D 13C'   3   $sample_3   .   bmse010223   3
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Method_ID
+      _Chem_shift_software.Method_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+      1   $software_1   .   .   bmse010223   3
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Ambiguity_set_ID
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_asym_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+      1    .   .   1   1   .   1   C3    C   13   51.31    .   .   1   .   .   .   .   .   .   .   GOMe   .   bmse010223   3
+      2    .   .   1   1   .   1   C1    C   13   56.02    .   .   1   .   .   .   .   .   .   .   3OMe   .   bmse010223   3
+      3    .   .   1   1   .   1   C2    C   13   56.02    .   .   1   .   .   .   .   .   .   .   5OMe   .   bmse010223   3
+      4    .   .   1   1   .   1   C4    C   13   60.06    .   .   1   .   .   .   .   .   .   .   4OMe   .   bmse010223   3
+      5    .   .   1   1   .   1   C7    C   13   105.99   .   .   1   .   .   .   .   .   .   .   2      .   bmse010223   3
+      6    .   .   1   1   .   1   C8    C   13   105.99   .   .   1   .   .   .   .   .   .   .   6      .   bmse010223   3
+      7    .   .   1   1   .   1   C6    C   13   117.06   .   .   1   .   .   .   .   .   .   .   B      .   bmse010223   3
+      8    .   .   1   1   .   1   C9    C   13   129.61   .   .   1   .   .   .   .   .   .   .   1      .   bmse010223   3
+      9    .   .   1   1   .   1   C13   C   13   139.61   .   .   1   .   .   .   .   .   .   .   4      .   bmse010223   3
+      10   .   .   1   1   .   1   C5    C   13   144.75   .   .   1   .   .   .   .   .   .   .   A      .   bmse010223   3
+      11   .   .   1   1   .   1   C10   C   13   153.11   .   .   1   .   .   .   .   .   .   .   3      .   bmse010223   3
+      12   .   .   1   1   .   1   C11   C   13   153.11   .   .   1   .   .   .   .   .   .   .   5      .   bmse010223   3
+      13   .   .   1   1   .   1   C12   C   13   166.78   .   .   1   .   .   .   .   .   .   .   G      .   bmse010223   3
+   stop_
+save_
+

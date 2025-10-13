@@ -1,0 +1,1184 @@
+data_bmse000840
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmse000840
+   _Entry.Title                         rhodanine
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2011-10-28
+   _Entry.Accession_date                2011-10-28
+   _Entry.Last_release_date             2012-10-17
+   _Entry.Original_release_date         2011-10-28
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.21
+   _Entry.Original_NMR_STAR_version     3.1.1.7
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   solution
+   _Entry.DOI                           10.13018/BMSE000840
+   _Entry.BMRB_internal_directory_name  rhodanine
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.Middle_initials
+      _Entry_author.Entry_ID
+
+     1   Francisca   Jofre      ?    bmse000840    
+     2   Mark        Anderson   E.   bmse000840    
+     3   John        Markley    L.   bmse000840    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   metabolomics   'National Magnetic Facility at Madison'   NMRFAM   bmse000840    
+     2   metabolomics   'Biological Magnetic Resonance Bank'      BMRB     bmse000840    
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+     assigned_chemical_shifts   1   bmse000840    
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+     '13C chemical shifts'   3   bmse000840    
+     '1H chemical shifts'    2   bmse000840    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1    .   .   2011-10-28   2011-10-28   original   BMRB   'Original spectra from MMC'                                                            bmse000840    
+     2    .   .   2011-12-14   2011-10-28   update     BMRB   'Set Assembly.Name to match Chem_comp.name'                                            bmse000840    
+     3    .   .   2011-12-16   2011-10-28   update     BMRB   'Standardized solvent'                                                                 bmse000840    
+     4    .   .   2012-01-19   2011-10-28   update     BMRB   'removed existing spectral peaks'                                                      bmse000840    
+     5    .   .   2012-01-19   2011-10-28   update     BMRB   'Updating or adding transitions and assignments - again'                               bmse000840    
+     6    .   .   2012-07-24   2011-10-28   update     BMRB   'Fixed potential erros in assigned chemical shifts'                                    bmse000840    
+     7    .   .   2012-09-13   2011-10-28   update     BMRB   'Added PubChem SID 126596880 to database loop'                                         bmse000840    
+     8    .   .   2012-10-17   2011-10-28   update     BMRB   'Set all _Chem_comp_SMILES Types to lower case'                                        bmse000840    
+     9    .   .   2017-10-12   2017-10-12   update     BMRB   'Remediated Experiment_file loop if present and standardized mol and png file tags.'   bmse000840    
+     10   .   .   2017-12-19   2017-10-12   update     BMRB   'InChI numbering updated according to ALATIS'                                          bmse000840    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citation_1
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citation_1
+   _Citation.Entry_ID      bmse000840
+   _Citation.ID            1
+   _Citation.Class         'reference citation'
+   _Citation.PubMed_ID     17170002
+   _Citation.Title         'Database resources of the National Center for Biotechnology Information.'
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://pubchem.ncbi.nlm.nih.gov/
+   _Citation.Year          2006
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    D.   Wheeler      D.   L.   bmse000840   1    
+     2    T.   Barrett      T.   ?    bmse000840   1    
+     3    D.   Benson       D.   A.   bmse000840   1    
+     4    S.   Bryant       S.   H.   bmse000840   1    
+     5    K.   Canese       K.   ?    bmse000840   1    
+     6    V.   Chetvenin    V.   ?    bmse000840   1    
+     7    D.   Church       D.   M.   bmse000840   1    
+     8    M.   DiCuccio     M.   ?    bmse000840   1    
+     9    R.   Edgar        R.   ?    bmse000840   1    
+     10   S.   Federhen     S.   ?    bmse000840   1    
+     11   L.   Geer         L.   Y.   bmse000840   1    
+     12   W.   Helmberg     W.   ?    bmse000840   1    
+     13   Y.   Kapustin     Y.   ?    bmse000840   1    
+     14   D.   Kenton       D.   L.   bmse000840   1    
+     15   O.   Khovayko     O.   ?    bmse000840   1    
+     16   D.   Lipman       D.   J.   bmse000840   1    
+     17   T.   Madden       T.   L.   bmse000840   1    
+     18   D.   Maglott      D.   R.   bmse000840   1    
+     19   J.   Ostell       J.   ?    bmse000840   1    
+     20   K.   Pruitt       K.   D.   bmse000840   1    
+     21   G.   Schuler      G.   D.   bmse000840   1    
+     22   L.   Schriml      L.   M.   bmse000840   1    
+     23   E.   Sequeira     E.   ?    bmse000840   1    
+     24   S.   Sherry       S.   T.   bmse000840   1    
+     25   K.   Sirotkin     K.   ?    bmse000840   1    
+     26   A.   Souvorov     A.   ?    bmse000840   1    
+     27   G.   Starchenko   G.   ?    bmse000840   1    
+     28   T.   Suzek        T.   O.   bmse000840   1    
+     29   R.   Tatusov      R.   ?    bmse000840   1    
+     30   T.   Tatusova     T.   A.   bmse000840   1    
+     31   L.   Bagner       L.   ?    bmse000840   1    
+     32   E.   Yaschenko    E.   ?    bmse000840   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmse000840
+   _Assembly.ID                    1
+   _Assembly.Name                  rhodanine
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   rhodanine   1   $rhodanine   yes   native   no   no   bmse000840   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_rhodanine
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     rhodanine
+   _Entity.Entry_ID                         bmse000840
+   _Entity.ID                               1
+   _Entity.Name                             rhodanine
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmse000840   1    
+
+   stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category   natural_source
+   _Entity_natural_src_list.Sf_framecode  natural_source
+   _Entity_natural_src_list.Entry_ID      bmse000840
+   _Entity_natural_src_list.ID            1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+     1   1   $rhodanine   'not applicable'   bmse000840   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category   experimental_source
+   _Entity_experimental_src_list.Sf_framecode  experimental_source
+   _Entity_experimental_src_list.Entry_ID      bmse000840
+   _Entity_experimental_src_list.ID            1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+     1   1   $rhodanine   'chemical synthesis'   bmse000840   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                  chem_comp
+   _Chem_comp.Sf_framecode                 chem_comp_1
+   _Chem_comp.Entry_ID                     bmse000840
+   _Chem_comp.ID                           1
+   _Chem_comp.Name                         rhodanine
+   _Chem_comp.Type                         non-polymer
+   _Chem_comp.BMRB_code                    bmse000840
+   _Chem_comp.InChI_code                   InChI=1S/C3H3NOS2/c5-2-1-7-3(6)4-2/h1H2,(H,4,5,6)
+   _Chem_comp.Paramagnetic                 no
+   _Chem_comp.Aromatic                     yes
+   _Chem_comp.Formula                      'C3 H3 N O S2'
+   _Chem_comp.Formula_weight               133.19202
+   _Chem_comp.Formula_mono_iso_wt_nat      132.9656051036
+   _Chem_comp.Formula_mono_iso_wt_13C      135.975669617
+   _Chem_comp.Formula_mono_iso_wt_15N      133.9626399968
+   _Chem_comp.Formula_mono_iso_wt_13C_15N  136.9727045102
+   _Chem_comp.Image_file_name              bmse000840.png
+   _Chem_comp.Image_file_format            png
+   _Chem_comp.Struct_file_name             bmse000840.mol
+   _Chem_comp.Struct_file_format           mol
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     Rhodanine                        synonym   bmse000840   1    
+     '4-Thiazolidinone, 2-thioxo-'    synonym   bmse000840   1    
+     2-thioxo-1,3-thiazolidin-4-one   synonym   bmse000840   1    
+     2-Thioxo-4-thiazolidinone        synonym   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+     InChI=1S/C3H3NOS2/c5-2-1-7-3(6)4-2/h1H2,(H,4,5,6)   INCHI   na       na      bmse000840   1    
+     InChI=1S/C3H3NOS2/c5-2-1-7-3(6)4-2/h1H2,(H,4,5,6)   INCHI   ALATIS   3.003   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     2-sulfanylidene-1,3-thiazolidin-4-one   PUBCHEM_IUPAC_NAME               bmse000840   1    
+     rhodanine                               PUBCHEM_IUPAC_TRADITIONAL_NAME   bmse000840   1    
+     2-thioxothiazolidin-4-one               PUBCHEM_IUPAC_OPENEYE_NAME       bmse000840   1    
+     2-sulfanylidene-4-thiazolidinone        PUBCHEM_IUPAC_CAS_NAME           bmse000840   1    
+     2-sulfanylidene-1,3-thiazolidin-4-one   PUBCHEM_IUPAC_SYSTEMATIC_NAME    bmse000840   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     canonical   C1C(=O)NC(=S)S1   bmse000840   1    
+     isomeric    C1C(=O)NC(=S)S1   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     S7    S   4.2601   1.0794    1    bmse000840   1    
+     S6    S   5.5202   -0.1807   2    bmse000840   1    
+     O5    O   2.0000   -0.1807   3    bmse000840   1    
+     N4    N   3.7601   -0.4594   4    bmse000840   1    
+     C1    C   3.2601   1.0794    5    bmse000840   1    
+     C2    C   2.9511   0.1284    6    bmse000840   1    
+     C3    C   4.5691   0.1284    7    bmse000840   1    
+     H8    H   3.3249   1.6960    8    bmse000840   1    
+     H9    H   2.6536   1.2083    9    bmse000840   1    
+     H10   H   3.7601   -1.0794   10   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     S7    S1    BMRB     bmse000840   1    
+     S6    S2    BMRB     bmse000840   1    
+     O5    O3    BMRB     bmse000840   1    
+     N4    N4    BMRB     bmse000840   1    
+     C1    C5    BMRB     bmse000840   1    
+     C2    C6    BMRB     bmse000840   1    
+     C3    C7    BMRB     bmse000840   1    
+     H8    H8    BMRB     bmse000840   1    
+     H9    H9    BMRB     bmse000840   1    
+     H10   H10   BMRB     bmse000840   1    
+     S7    S7    ALATIS   bmse000840   1    
+     S6    S6    ALATIS   bmse000840   1    
+     O5    O5    ALATIS   bmse000840   1    
+     N4    N4    ALATIS   bmse000840   1    
+     C1    C1    ALATIS   bmse000840   1    
+     C2    C2    ALATIS   bmse000840   1    
+     C3    C3    ALATIS   bmse000840   1    
+     H8    H8    ALATIS   bmse000840   1    
+     H9    H9    ALATIS   bmse000840   1    
+     H10   H10   ALATIS   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1    covalent   SING   S7   C1    bmse000840   1    
+     2    covalent   SING   S7   C3    bmse000840   1    
+     3    covalent   DOUB   S6   C3    bmse000840   1    
+     4    covalent   DOUB   O5   C2    bmse000840   1    
+     5    covalent   SING   N4   C2    bmse000840   1    
+     6    covalent   SING   N4   C3    bmse000840   1    
+     7    covalent   SING   N4   H10   bmse000840   1    
+     8    covalent   SING   C1   C2    bmse000840   1    
+     9    covalent   SING   C1   H8    bmse000840   1    
+     10   covalent   SING   C1   H9    bmse000840   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     no    PubChem                                                           126596880        sid                 rhodanine   'matching entry'   bmse000840   1    
+     yes   PubChem                                                           1201546          cid                 rhodanine   'matching entry'   bmse000840   1    
+     yes   CAS                                                               141-84-4         ?                   rhodanine   'matching entry'   bmse000840   1    
+     yes   PubChem                                                           24847363         sid                 rhodanine   'matching entry'   bmse000840   1    
+     yes   MMCD                                                              cq_04297         ?                   rhodanine   'matching entry'   bmse000840   1    
+     yes   'EC Number'                                                       205-505-1        ?                   rhodanine   'matching entry'   bmse000840   1    
+     yes   'MDL number'                                                      MFCD00005488     ?                   rhodanine   'matching entry'   bmse000840   1    
+     no    PubChem                                                           48424046         sid                 rhodanine   'matching entry'   bmse000840   1    
+     no    PubChem                                                           103513674        sid                 rhodanine   'matching entry'   bmse000840   1    
+     no    PubChem                                                           9489             sid                 rhodanine   'matching entry'   bmse000840   1    
+     no    PubChem                                                           588568           sid                 rhodanine   'matching entry'   bmse000840   1    
+     no    PubChem                                                           124799857        sid                 rhodanine   'matching entry'   bmse000840   1    
+     no    PubChem                                                           10507834         sid                 rhodanine   'matching entry'   bmse000840   1    
+     no    PubChem                                                           12159264         sid                 rhodanine   'matching entry'   bmse000840   1    
+     no    PubChem                                                           29242637         sid                 rhodanine   'matching entry'   bmse000840   1    
+     no    'CAS Registry'                                                    141-84-4         'registry number'   rhodanine   'matching entry'   bmse000840   1    
+     no    Sigma-Aldrich                                                     118192_ALDRICH   ?                   rhodanine   'matching entry'   bmse000840   1    
+     no    'EPA DSSTox'                                                      32011            ?                   rhodanine   'matching entry'   bmse000840   1    
+     no    ZINC                                                              ZINC03875936     ?                   rhodanine   'matching entry'   bmse000840   1    
+     no    ChEMBL                                                            CHEMBL224633     ?                   rhodanine   'matching entry'   bmse000840   1    
+     no    ChemSpider                                                        1013337          ?                   rhodanine   'matching entry'   bmse000840   1    
+     no    'ICCB-Longwood/NSRB Screening Facility, Harvard Medical School'   HMS2231K03       ?                   rhodanine   'matching entry'   bmse000840   1    
+     no    KEGG                                                              C07280           'compound ID'       rhodanine   'matching entry'   bmse000840   1    
+     no    NMRShiftDB                                                        10009296         ?                   rhodanine   'matching entry'   bmse000840   1    
+     no    'NIST Chemistry WebBook'                                          969227693        ?                   rhodanine   'matching entry'   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citation_1   bmse000840   1    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category   sample
+   _Sample.Sf_framecode  sample_1
+   _Sample.Entry_ID      bmse000840
+   _Sample.ID            1
+   _Sample.Type          solution
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_units
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   rhodanine   'natural abundance'   1   $rhodanine   Solute      100    mM   aldrich   rhodanine   bmse000840   1    
+     2   methanol    '100% deuterated'     ?   ?            Solvent     100    %    ?         ?           bmse000840   1    
+     3   TMS         ?                     ?   ?            Reference   0.05   mM   ?         ?           bmse000840   1    
+
+   stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category   sample_conditions
+   _Sample_condition_list.Sf_framecode  sample_conditions_1
+   _Sample_condition_list.Entry_ID      bmse000840
+   _Sample_condition_list.ID            1
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+     pH            n/a   pH   bmse000840   1    
+     temperature   298   K    bmse000840   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmse000840
+   _Software.ID            1
+   _Software.Name          TopSpin
+   _Software.Version       2.1
+
+   loop_
+      _Vendor.Name
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Bruker Biospin'   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     Collection        bmse000840   1    
+     Processing        bmse000840   1    
+     'Data analysis'   bmse000840   1    
+     'Peak picking'    bmse000840   1    
+
+   stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_Bruker_DMX_500
+   _NMR_spectrometer.Sf_category     NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode    Bruker_DMX_500
+   _NMR_spectrometer.Entry_ID        bmse000840
+   _NMR_spectrometer.ID              1
+   _NMR_spectrometer.Manufacturer    Bruker
+   _NMR_spectrometer.Model           DMX
+   _NMR_spectrometer.Field_strength  500
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category   experiment_list
+   _Experiment_list.Sf_framecode  experiment_list
+   _Experiment_list.Entry_ID      bmse000840
+   _Experiment_list.ID            1
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+     1   '1D 1H'              yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000840   1    
+     2   '2D [1H,1H]-TOCSY'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000840   1    
+     3   '1D 13C'             yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000840   1    
+     4   '1D DEPT90'          yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000840   1    
+     5   '1D DEPT135'         yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000840   1    
+     6   '2D [1H,13C]-HSQC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000840   1    
+     7   '2D [1H,13C]-HMBC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000840   1    
+     8   '2D [1H,1H]-COSY'    yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Experiment_file.Experiment_ID
+      _Experiment_file.Name
+      _Experiment_file.Type
+      _Experiment_file.Directory_path
+      _Experiment_file.Details
+      _Experiment_file.Entry_ID
+      _Experiment_file.Experiment_list_ID
+
+     1   1H            text/directory   nmr/set01/                      'NMR experiment directory'   bmse000840   1    
+     1   00.png        image/png        nmr/set01/spectra/1H            'Spectral image'             bmse000840   1    
+     2   HH_TOCSY      text/directory   nmr/set01/                      'NMR experiment directory'   bmse000840   1    
+     2   00.png        image/png        nmr/set01/spectra/HH_TOCSY      'Spectral image'             bmse000840   1    
+     3   13C           text/directory   nmr/set01/                      'NMR experiment directory'   bmse000840   1    
+     3   00.png        image/png        nmr/set01/spectra/13C           'Spectral image'             bmse000840   1    
+     3   01.png        image/png        nmr/set01/spectra/13C           'Spectral image'             bmse000840   1    
+     4   DEPT_90       text/directory   nmr/set01/                      'NMR experiment directory'   bmse000840   1    
+     5   DEPT_135      text/directory   nmr/set01/                      'NMR experiment directory'   bmse000840   1    
+     5   00.png        image/png        nmr/set01/spectra/DEPT_135      'Spectral image'             bmse000840   1    
+     6   1H_13C_HSQC   text/directory   nmr/set01/                      'NMR experiment directory'   bmse000840   1    
+     6   00.png        image/png        nmr/set01/spectra/1H_13C_HSQC   'Spectral image'             bmse000840   1    
+     7   1H_13C_HMBC   text/directory   nmr/set01/                      'NMR experiment directory'   bmse000840   1    
+     7   00.png        image/png        nmr/set01/spectra/1H_13C_HMBC   'Spectral image'             bmse000840   1    
+     8   HH_COSY       text/directory   nmr/set01/                      'NMR experiment directory'   bmse000840   1    
+     8   00.png        image/png        nmr/set01/spectra/HH_COSY       'Spectral image'             bmse000840   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference
+   _Chem_shift_reference.Entry_ID      bmse000840
+   _Chem_shift_reference.ID            1
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    TMS   'methyl protons'   ppm   0.00   internal   direct   1.000000000   bmse000840   1    
+     C   13   TMS   'methyl carbons'   ppm   0.00   internal   direct   1.000000000   bmse000840   1    
+
+   stop_
+
+save_
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+
+save_assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_category                  assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                 assigned_chemical_shifts
+   _Assigned_chem_shift_list.Entry_ID                     bmse000840
+   _Assigned_chem_shift_list.ID                           1
+   _Assigned_chem_shift_list.Sample_condition_list_ID     1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID      1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chem_shift_reference
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+     1   '1D 1H'              1   $sample_1   bmse000840   1    
+     2   '2D [1H,1H]-TOCSY'   1   $sample_1   bmse000840   1    
+     3   '1D 13C'             1   $sample_1   bmse000840   1    
+     4   '1D DEPT90'          1   $sample_1   bmse000840   1    
+     5   '1D DEPT135'         1   $sample_1   bmse000840   1    
+     6   '2D [1H,13C]-HSQC'   1   $sample_1   bmse000840   1    
+     7   '2D [1H,13C]-HMBC'   1   $sample_1   bmse000840   1    
+     8   '2D [1H,1H]-COSY'    1   $sample_1   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Chem_shift_software.Software_ID
+      _Chem_shift_software.Software_label
+      _Chem_shift_software.Entry_ID
+      _Chem_shift_software.Assigned_chem_shift_list_ID
+
+     1   $software_1   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+     1   1   1   1   C1   C   13   39.946    1   C5   bmse000840   1    
+     2   1   1   1   C2   C   13   205.880   1   C6   bmse000840   1    
+     3   1   1   1   C3   C   13   177.994   1   C7   bmse000840   1    
+     4   1   1   1   H8   H   1    4.892     1   H8   bmse000840   1    
+     5   1   1   1   H9   H   1    4.892     1   H9   bmse000840   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Spectral peak lists  #
+    #########################
+
+save_spectral_peak_1H
+   _Spectral_peak_list.Sf_category                    spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                   spectral_peak_1H
+   _Spectral_peak_list.Entry_ID                       bmse000840
+   _Spectral_peak_list.ID                             1
+   _Spectral_peak_list.Sample_ID                      1
+   _Spectral_peak_list.Sample_label                   $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID       1
+   _Spectral_peak_list.Sample_condition_list_label    $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                  1
+   _Spectral_peak_list.Experiment_name                '1D 1H'
+   _Spectral_peak_list.Number_of_spectral_dimensions  1
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+     1   H   1   'Full H'   6493.50649350649   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+     1   $software_1   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Peak.ID
+      _Peak.Entry_ID
+      _Peak.Spectral_peak_list_ID
+
+     1   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Peak_general_char.Peak_ID
+      _Peak_general_char.Intensity_val
+      _Peak_general_char.Intensity_val_err
+      _Peak_general_char.Measurement_method
+      _Peak_general_char.Entry_ID
+      _Peak_general_char.Spectral_peak_list_ID
+
+     1   1   0.5   integration   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Peak_char.Peak_ID
+      _Peak_char.Spectral_dim_ID
+      _Peak_char.Chem_shift_val
+      _Peak_char.Coupling_pattern
+      _Peak_char.Entry_ID
+      _Peak_char.Spectral_peak_list_ID
+
+     1   1   4.892   s   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Assigned_peak_chem_shift.Peak_ID
+      _Assigned_peak_chem_shift.Spectral_dim_ID
+      _Assigned_peak_chem_shift.Val
+      _Assigned_peak_chem_shift.Entity_assembly_ID
+      _Assigned_peak_chem_shift.Entity_ID
+      _Assigned_peak_chem_shift.Comp_index_ID
+      _Assigned_peak_chem_shift.Comp_ID
+      _Assigned_peak_chem_shift.Atom_ID
+      _Assigned_peak_chem_shift.Entry_ID
+      _Assigned_peak_chem_shift.Spectral_peak_list_ID
+
+     1   1   4.892   1   1   1   1   H8   bmse000840   1    
+     1   1   4.892   1   1   1   1   H9   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+     1   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+     1   375109120   Height   bmse000840   1    
+
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+     1   1   4.169   bmse000840   1    
+
+   stop_
+
+save_
+
+save_spectral_peak_13C
+   _Spectral_peak_list.Sf_category                    spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                   spectral_peak_13C
+   _Spectral_peak_list.Entry_ID                       bmse000840
+   _Spectral_peak_list.ID                             2
+   _Spectral_peak_list.Sample_ID                      1
+   _Spectral_peak_list.Sample_label                   $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID       1
+   _Spectral_peak_list.Sample_condition_list_label    $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                  3
+   _Spectral_peak_list.Experiment_name                '1D 13C'
+   _Spectral_peak_list.Number_of_spectral_dimensions  1
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+     1   C   13   'Full C'   29761.9047619048   bmse000840   2    
+
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+     1   $software_1   bmse000840   2    
+
+   stop_
+
+   loop_
+      _Peak.ID
+      _Peak.Entry_ID
+      _Peak.Spectral_peak_list_ID
+
+     1   bmse000840   2    
+     2   bmse000840   2    
+     3   bmse000840   2    
+
+   stop_
+
+   loop_
+      _Peak_char.Peak_ID
+      _Peak_char.Spectral_dim_ID
+      _Peak_char.Chem_shift_val
+      _Peak_char.Entry_ID
+      _Peak_char.Spectral_peak_list_ID
+
+     1   1   205.880   bmse000840   2    
+     2   1   177.994   bmse000840   2    
+     3   1   39.946    bmse000840   2    
+
+   stop_
+
+   loop_
+      _Assigned_peak_chem_shift.Peak_ID
+      _Assigned_peak_chem_shift.Spectral_dim_ID
+      _Assigned_peak_chem_shift.Val
+      _Assigned_peak_chem_shift.Entity_assembly_ID
+      _Assigned_peak_chem_shift.Entity_ID
+      _Assigned_peak_chem_shift.Comp_index_ID
+      _Assigned_peak_chem_shift.Comp_ID
+      _Assigned_peak_chem_shift.Atom_ID
+      _Assigned_peak_chem_shift.Entry_ID
+      _Assigned_peak_chem_shift.Spectral_peak_list_ID
+
+     1   1   205.880   1   1   1   1   C2   bmse000840   2    
+     2   1   177.994   1   1   1   1   C3   bmse000840   2    
+     3   1   39.946    1   1   1   1   C1   bmse000840   2    
+
+   stop_
+
+   loop_
+      _Spectral_transition.ID
+      _Spectral_transition.Entry_ID
+      _Spectral_transition.Spectral_peak_list_ID
+
+     1   bmse000840   2    
+     2   bmse000840   2    
+     3   bmse000840   2    
+
+   stop_
+
+   loop_
+      _Spectral_transition_general_char.Spectral_transition_ID
+      _Spectral_transition_general_char.Intensity_val
+      _Spectral_transition_general_char.Measurement_method
+      _Spectral_transition_general_char.Entry_ID
+      _Spectral_transition_general_char.Spectral_peak_list_ID
+
+     1   50820980    Height   bmse000840   2    
+     2   57724328    Height   bmse000840   2    
+     3   211843920   Height   bmse000840   2    
+
+   stop_
+
+   loop_
+      _Spectral_transition_char.Spectral_transition_ID
+      _Spectral_transition_char.Spectral_dim_ID
+      _Spectral_transition_char.Chem_shift_val
+      _Spectral_transition_char.Entry_ID
+      _Spectral_transition_char.Spectral_peak_list_ID
+
+     1   1   205.903   bmse000840   2    
+     2   1   178.016   bmse000840   2    
+     3   1   39.963    bmse000840   2    
+
+   stop_
+
+save_
+
+save_spectral_peak_DEPT_135
+   _Spectral_peak_list.Sf_category                    spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                   spectral_peak_DEPT_135
+   _Spectral_peak_list.Entry_ID                       bmse000840
+   _Spectral_peak_list.ID                             3
+   _Spectral_peak_list.Sample_ID                      1
+   _Spectral_peak_list.Sample_label                   $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID       1
+   _Spectral_peak_list.Sample_condition_list_label    $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                  5
+   _Spectral_peak_list.Experiment_name                '1D DEPT135'
+   _Spectral_peak_list.Number_of_spectral_dimensions  1
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+     1   C   13   'Full C'   29761.9047619048   bmse000840   3    
+
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+     1   $software_1   bmse000840   3    
+
+   stop_
+
+   loop_
+      _Peak.ID
+      _Peak.Entry_ID
+      _Peak.Spectral_peak_list_ID
+
+     1   bmse000840   3    
+
+   stop_
+
+   loop_
+      _Peak_char.Peak_ID
+      _Peak_char.Spectral_dim_ID
+      _Peak_char.Chem_shift_val
+      _Peak_char.Phase_val
+      _Peak_char.Entry_ID
+      _Peak_char.Spectral_peak_list_ID
+
+     1   1   39.943   negative   bmse000840   3    
+
+   stop_
+
+   loop_
+      _Assigned_peak_chem_shift.Peak_ID
+      _Assigned_peak_chem_shift.Spectral_dim_ID
+      _Assigned_peak_chem_shift.Val
+      _Assigned_peak_chem_shift.Entity_assembly_ID
+      _Assigned_peak_chem_shift.Entity_ID
+      _Assigned_peak_chem_shift.Comp_index_ID
+      _Assigned_peak_chem_shift.Comp_ID
+      _Assigned_peak_chem_shift.Atom_ID
+      _Assigned_peak_chem_shift.Entry_ID
+      _Assigned_peak_chem_shift.Spectral_peak_list_ID
+
+     1   1   39.943   1   1   1   1   C1   bmse000840   3    
+
+   stop_
+
+save_
+
+save_spectral_peak_HSQC
+   _Spectral_peak_list.Sf_category                    spectral_peak_list
+   _Spectral_peak_list.Sf_framecode                   spectral_peak_HSQC
+   _Spectral_peak_list.Entry_ID                       bmse000840
+   _Spectral_peak_list.ID                             4
+   _Spectral_peak_list.Sample_ID                      1
+   _Spectral_peak_list.Sample_label                   $sample_1
+   _Spectral_peak_list.Sample_condition_list_ID       1
+   _Spectral_peak_list.Sample_condition_list_label    $sample_conditions_1
+   _Spectral_peak_list.Experiment_ID                  6
+   _Spectral_peak_list.Experiment_name                '2D [1H,13C]-HSQC'
+   _Spectral_peak_list.Number_of_spectral_dimensions  2
+
+   loop_
+      _Spectral_dim.ID
+      _Spectral_dim.Atom_type
+      _Spectral_dim.Atom_isotope_number
+      _Spectral_dim.Spectral_region
+      _Spectral_dim.Sweep_width
+      _Spectral_dim.Entry_ID
+      _Spectral_dim.Spectral_peak_list_ID
+
+     1   H   1    'Full H'   6493.50649350649   bmse000840   4    
+     2   C   13   'Full C'   18854.049891114    bmse000840   4    
+
+   stop_
+
+   loop_
+      _Spectral_peak_software.Software_ID
+      _Spectral_peak_software.Software_label
+      _Spectral_peak_software.Entry_ID
+      _Spectral_peak_software.Spectral_peak_list_ID
+
+     1   $software_1   bmse000840   4    
+
+   stop_
+
+   loop_
+      _Peak.ID
+      _Peak.Entry_ID
+      _Peak.Spectral_peak_list_ID
+
+     1   bmse000840   4    
+
+   stop_
+
+   loop_
+      _Peak_char.Peak_ID
+      _Peak_char.Spectral_dim_ID
+      _Peak_char.Chem_shift_val
+      _Peak_char.Coupling_pattern
+      _Peak_char.Entry_ID
+      _Peak_char.Spectral_peak_list_ID
+
+     1   1   4.171    1JCH   bmse000840   4    
+     1   2   39.917   1JCH   bmse000840   4    
+
+   stop_
+
+   loop_
+      _Assigned_peak_chem_shift.Peak_ID
+      _Assigned_peak_chem_shift.Spectral_dim_ID
+      _Assigned_peak_chem_shift.Val
+      _Assigned_peak_chem_shift.Entity_assembly_ID
+      _Assigned_peak_chem_shift.Entity_ID
+      _Assigned_peak_chem_shift.Comp_index_ID
+      _Assigned_peak_chem_shift.Comp_ID
+      _Assigned_peak_chem_shift.Atom_ID
+      _Assigned_peak_chem_shift.Entry_ID
+      _Assigned_peak_chem_shift.Spectral_peak_list_ID
+
+     1   1   4.171    1   1   1   1   H8   bmse000840   4    
+     1   1   4.171    1   1   1   1   H9   bmse000840   4    
+     1   2   39.917   1   1   1   1   C1   bmse000840   4    
+
+   stop_
+
+save_

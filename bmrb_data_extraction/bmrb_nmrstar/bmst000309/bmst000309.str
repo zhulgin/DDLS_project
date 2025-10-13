@@ -1,0 +1,659 @@
+data_bmst000309
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmst000309
+   _Entry.Title                         dihydroxyacetone
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2007-01-05
+   _Entry.Accession_date                2007-01-05
+   _Entry.Last_release_date             2011-09-14
+   _Entry.Original_release_date         2007-01-05
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.7
+   _Entry.Original_NMR_STAR_version     'NMR STAR v3.1'
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   theoretical
+   _Entry.Details                       ?
+   _Entry.BMRB_internal_directory_name  dihydroxyacetone
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+     1   William   Westler   M.   ?   bmst000309    
+     2   John      Markley   L.   ?   bmst000309    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   metabolics   'Madison Metabolomics Consortium'   MMC   bmst000309    
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+     other_data_list   1   bmst000309    
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+     'theoretical chemical shifts'   1   bmst000309    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1   .   .   2007-01-05   2007-01-05   original   BMRB   'Original theoretical calculations from NMRFAM'                                                   bmst000309    
+     2   .   .   2008-11-18   2008-11-18   update     BMRB   'updated the file to match latest NMR STAR dictionary'                                            bmst000309    
+     3   .   .   2008-11-25   2008-11-25   update     BMRB   'fixed enumerations: N should be no'                                                              bmst000309    
+     4   .   .   2010-09-16   2010-09-16   update     BMRB   'Removed Shielding_tensor_list_ID and Shielding_tensor_list_label from theoretical_chem_shifts'   bmst000309    
+     5   .   .   2011-09-14   2011-09-14   update     BMRB   'Partially brought up to date with latest Dictionary'                                             bmst000309    
+     6   .   .   2017-10-12   2017-10-12   update     BMRB   'Remediated Experiment_file loop if present and standardized mol and png file tags.'              bmst000309    
+
+   stop_
+
+   loop_
+      _Auxiliary_files.ID
+      _Auxiliary_files.URI
+      _Auxiliary_files.DOI
+      _Auxiliary_files.Path
+      _Auxiliary_files.Format
+      _Auxiliary_files.Details
+      _Auxiliary_files.Entry_ID
+
+     1   .   .   dihydroxyacetone_3484_opt.pdb      x-chemical/x-pdb   'Name of the file containing the atomic coordinates'            bmst000309    
+     2   .   .   dihydroxyacetone_3484.g03.shifts   text/plain         'Name of the file containing theoretical chemical shift data'   bmst000309    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citations
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citations
+   _Citation.Entry_ID      bmst000309
+   _Citation.ID            1
+   _Citation.Class         'reference citation'
+   _Citation.PubMed_ID     18940862
+   _Citation.Title         'Database resources of the National Center for Biotechnology Information.'
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://pubchem.ncbi.nlm.nih.gov/
+   _Citation.Year          2006
+   _Citation.Details       ?
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    D.   Wheeler      D.   L.   ?   bmst000309   1    
+     2    T.   Barrett      T.   ?    ?   bmst000309   1    
+     3    D.   Benson       D.   A.   ?   bmst000309   1    
+     4    S.   Bryant       S.   H.   ?   bmst000309   1    
+     5    K.   Canese       K.   ?    ?   bmst000309   1    
+     6    V.   Chetvenin    V.   ?    ?   bmst000309   1    
+     7    D.   Church       D.   M.   ?   bmst000309   1    
+     8    M.   DiCuccio     M.   ?    ?   bmst000309   1    
+     9    R.   Edgar        R.   ?    ?   bmst000309   1    
+     10   S.   Federhen     S.   ?    ?   bmst000309   1    
+     11   L.   Geer         L.   Y.   ?   bmst000309   1    
+     12   W.   Helmberg     W.   ?    ?   bmst000309   1    
+     13   Y.   Kapustin     Y.   ?    ?   bmst000309   1    
+     14   D.   Kenton       D.   L.   ?   bmst000309   1    
+     15   O.   Khovayko     O.   ?    ?   bmst000309   1    
+     16   D.   Lipman       D.   J.   ?   bmst000309   1    
+     17   T.   Madden       T.   L.   ?   bmst000309   1    
+     18   D.   Maglott      D.   R.   ?   bmst000309   1    
+     19   J.   Ostell       J.   ?    ?   bmst000309   1    
+     20   K.   Pruitt       K.   D.   ?   bmst000309   1    
+     21   G.   Schuler      G.   D.   ?   bmst000309   1    
+     22   L.   Schriml      L.   M.   ?   bmst000309   1    
+     23   E.   Sequeira     E.   ?    ?   bmst000309   1    
+     24   S.   Sherry       S.   T.   ?   bmst000309   1    
+     25   K.   Sirotkin     K.   ?    ?   bmst000309   1    
+     26   A.   Souvorov     A.   ?    ?   bmst000309   1    
+     27   G.   Starchenko   G.   ?    ?   bmst000309   1    
+     28   T.   Suzek        T.   O.   ?   bmst000309   1    
+     29   R.   Tatusov      R.   ?    ?   bmst000309   1    
+     30   T.   Tatusova     T.   A.   ?   bmst000309   1    
+     31   L.   Bagner       L.   ?    ?   bmst000309   1    
+     32   E.   Yaschenko    E.   ?    ?   bmst000309   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmst000309
+   _Assembly.ID                    1
+   _Assembly.Name                  ASSEMBLY_NAME
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Metal_ions            ?
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   ENT_NAME   1   $dihydroxyacetone   yes   native   no   no   ?   ?   ?   bmst000309   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_dihydroxyacetone
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     dihydroxyacetone
+   _Entity.Entry_ID                         bmst000309
+   _Entity.ID                               1
+   _Entity.BMRB_code                        ?
+   _Entity.Name                             Dihydroxyacetone
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmst000309   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                      chem_comp
+   _Chem_comp.Sf_framecode                     chem_comp_1
+   _Chem_comp.Entry_ID                         bmst000309
+   _Chem_comp.ID                               1
+   _Chem_comp.Provenance                       PubChem
+   _Chem_comp.Name                             Dihydroxyacetone
+   _Chem_comp.Type                             non-polymer
+   _Chem_comp.BMRB_code                        ?
+   _Chem_comp.PDB_code                         ?
+   _Chem_comp.InChI_code                       InChI=1/C3H6O3/c4-1-3(6)2-5/h4-5H,1-2H2
+   _Chem_comp.Mon_nstd_flag                    ?
+   _Chem_comp.Std_deriv_one_letter_code        ?
+   _Chem_comp.Std_deriv_three_letter_code      ?
+   _Chem_comp.Std_deriv_BMRB_code              ?
+   _Chem_comp.Std_deriv_PDB_code               ?
+   _Chem_comp.Formal_charge                    ?
+   _Chem_comp.Paramagnetic                     no
+   _Chem_comp.Aromatic                         no
+   _Chem_comp.Formula                          'C3 H6 O3'
+   _Chem_comp.Formula_weight                   90.0779400000
+   _Chem_comp.Formula_mono_iso_wt_nat          90.0316940589
+   _Chem_comp.Formula_mono_iso_wt_13C          93.0417585723
+   _Chem_comp.Formula_mono_iso_wt_15N          90.0316940589
+   _Chem_comp.Formula_mono_iso_wt_13C_15N      93.0417585723
+   _Chem_comp.Image_file_name                  bmst000309.png
+   _Chem_comp.Image_file_format                png
+   _Chem_comp.Topo_file_name                   ?
+   _Chem_comp.Topo_file_format                 ?
+   _Chem_comp.Struct_file_name                 bmst000309.mol
+   _Chem_comp.Struct_file_format               mol
+   _Chem_comp.Stereochem_param_file_name       ?
+   _Chem_comp.Details                          ?
+   _Chem_comp.DB_query_date                    ?
+   _Chem_comp.DB_last_query_revised_last_date  ?
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     'DIHYDROXY ACETONE'              synonym   bmst000309   1    
+     Oxantin                          synonym   bmst000309   1    
+     Glycerone                        synonym   bmst000309   1    
+     Viticolor                        synonym   bmst000309   1    
+     Dihydroxyacetone                 synonym   bmst000309   1    
+     Oxatone                          synonym   bmst000309   1    
+     1,3-Dihydroxy-2-propanone        synonym   bmst000309   1    
+     Soleal                           synonym   bmst000309   1    
+     1,3-Dihydroxyacetone             synonym   bmst000309   1    
+     '2-Propanone, 1,3-dihydroxy'     synonym   bmst000309   1    
+     Chromelin                        synonym   bmst000309   1    
+     Dihyxal                          synonym   bmst000309   1    
+     1,3-Dihydroxypropanone           synonym   bmst000309   1    
+     '2-Propanone, 1,3-dihydroxy-'    synonym   bmst000309   1    
+     Otan                             synonym   bmst000309   1    
+     '1,3-Dihydroxydimethyl ketone'   synonym   bmst000309   1    
+     'BRN 1740268'                    synonym   bmst000309   1    
+     1,3-Dihydroxypropan-2-one        synonym   bmst000309   1    
+     AI3-24477                        synonym   bmst000309   1    
+     Triulose                         synonym   bmst000309   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     1,3-dihydroxypropan-2-one   IUPAC               bmst000309   1    
+     1,3-dihydroxypropan-2-one   IUPAC_TRADITIONAL   bmst000309   1    
+     1,3-dihydroxypropan-2-one   IUPAC_CAS           bmst000309   1    
+     1,3-dihydroxypropan-2-one   IUPAC_OPENEYE       bmst000309   1    
+     1,3-dihydroxypropan-2-one   IUPAC_SYSTEMATIC    bmst000309   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     Isomeric    C(C(=O)CO)O   bmst000309   1    
+     Canonical   C(C(=O)CO)O   bmst000309   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Stereo_config
+      _Chem_comp_atom.Charge
+      _Chem_comp_atom.Oxidation_number
+      _Chem_comp_atom.Unpaired_electron_number
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.Model_Cartn_x
+      _Chem_comp_atom.Model_Cartn_y
+      _Chem_comp_atom.Model_Cartn_z
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     C1    C   ?   ?   ?   ?   5.1350   0.7500    1.385    0.173    -0.424   1    bmst000309   1    
+     O2    O   ?   ?   ?   ?   6.0010   0.2500    2.006    1.319    0.105    2    bmst000309   1    
+     C3    C   ?   ?   ?   ?   4.2690   0.2500    -0.056   0.096    0.088    3    bmst000309   1    
+     O4    O   ?   ?   ?   ?   4.2690   -0.7500   -0.530   0.918    0.832    4    bmst000309   1    
+     C5    C   ?   ?   ?   ?   3.4030   0.7500    -0.843   -1.113   -0.425   5    bmst000309   1    
+     O6    O   ?   ?   ?   ?   2.5369   0.2500    -2.144   -1.080   0.107    6    bmst000309   1    
+     H7    H   ?   ?   ?   ?   5.5335   1.2249    1.354    0.179    -1.528   7    bmst000309   1    
+     H8    H   ?   ?   ?   ?   4.7365   1.2249    1.900    -0.761   -0.132   8    bmst000309   1    
+     H9    H   ?   ?   ?   ?   6.5380   0.5600    2.915    1.341    -0.230   9    bmst000309   1    
+     H10   H   ?   ?   ?   ?   3.8015   1.2249    -0.836   -1.079   -1.529   10   bmst000309   1    
+     H11   H   ?   ?   ?   ?   3.0044   1.2249    -0.290   -2.025   -0.137   11   bmst000309   1    
+     H12   H   ?   ?   ?   ?   2.0000   0.5600    -2.618   -1.855   -0.230   12   bmst000309   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     C1    C1    ?   bmst000309   1    
+     O2    O2    ?   bmst000309   1    
+     C3    C3    ?   bmst000309   1    
+     O4    O4    ?   bmst000309   1    
+     C5    C5    ?   bmst000309   1    
+     O6    O6    ?   bmst000309   1    
+     H7    H7    ?   bmst000309   1    
+     H8    H8    ?   bmst000309   1    
+     H9    H9    ?   bmst000309   1    
+     H10   H10   ?   bmst000309   1    
+     H11   H11   ?   bmst000309   1    
+     H12   H12   ?   bmst000309   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Details
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1    covalent   SING   C1   O2    ?   bmst000309   1    
+     2    covalent   SING   C1   C3    ?   bmst000309   1    
+     3    covalent   SING   C1   H7    ?   bmst000309   1    
+     4    covalent   SING   C1   H8    ?   bmst000309   1    
+     5    covalent   SING   O2   H9    ?   bmst000309   1    
+     6    covalent   DOUB   C3   O4    ?   bmst000309   1    
+     7    covalent   SING   C3   C5    ?   bmst000309   1    
+     8    covalent   SING   C5   O6    ?   bmst000309   1    
+     9    covalent   SING   C5   H10   ?   bmst000309   1    
+     10   covalent   SING   C5   H11   ?   bmst000309   1    
+     11   covalent   SING   O6   H12   ?   bmst000309   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_code
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_experimental_method
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_details
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     no   PubChem                          150342          sid                 ?   Dihydroxyacetone   ?   'matching entry'   ?   bmst000309   1    
+     no   PubChem                          670             cid                 ?   Dihydroxyacetone   ?   'matching entry'   ?   bmst000309   1    
+     no   PubChem                          3484            sid                 ?   Dihydroxyacetone   ?   'matching entry'   ?   bmst000309   1    
+     no   KEGG                             C00184          'compound ID'       ?   Dihydroxyacetone   ?   'matching entry'   ?   bmst000309   1    
+     no   'CAS Registry'                   96-26-4         'registry number'   ?   Dihydroxyacetone   ?   'matching entry'   ?   bmst000309   1    
+     no   CHEBI                            16016           ?                   ?   Dihydroxyacetone   ?   'matching entry'   ?   bmst000309   1    
+     no   'Beilstein Handbook Reference'   4-01-00-04119   ?                   ?   Dihydroxyacetone   ?   'matching entry'   ?   bmst000309   1    
+     no   CCRIS                            4899            ?                   ?   Dihydroxyacetone   ?   'matching entry'   ?   bmst000309   1    
+     no   NSC                              24343           ?                   ?   Dihydroxyacetone   ?   'matching entry'   ?   bmst000309   1    
+     no   EINECS                           202-494-5       ?                   ?   Dihydroxyacetone   ?   'matching entry'   ?   bmst000309   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citations   bmst000309   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmst000309
+   _Software.ID            1
+   _Software.Name          Gaussian
+   _Software.Version       ?
+   _Software.Details       ?
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Gaussian, Inc.'   ?   http://www.gaussian.com/home.htm   bmst000309   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     'geometry optimization'        bmst000309   1    
+     'chemical shift calculation'   bmst000309   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference
+   _Chem_shift_reference.Entry_ID      bmst000309
+   _Chem_shift_reference.ID            1
+   _Chem_shift_reference.Details       ?
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    TMS                  'methyl protons'   ppm   0.00   na   direct   ?   bmst000309   1    
+     C   13   TMS                  'methyl carbons'   ppm   0.00   na   direct   ?   bmst000309   1    
+     N   15   'ammonia pentamer'   nitrogen           ppm   0.00   na   direct   ?   bmst000309   1    
+     P   31   'phosphoric acid'    phosphorus         ppm   0.00   na   direct   ?   bmst000309   1    
+
+   stop_
+
+save_
+
+save_chem_shifts_calc_type
+   _Chem_shifts_calc_type.Sf_category                      chem_shifts_calc_type
+   _Chem_shifts_calc_type.Sf_framecode                     chem_shifts_calc_type
+   _Chem_shifts_calc_type.Entry_ID                         bmst000309
+   _Chem_shifts_calc_type.ID                               1
+   _Chem_shifts_calc_type.Calculation_level                'Density Functional Theory'
+   _Chem_shifts_calc_type.Quantum_mechanical_method        GIAO
+   _Chem_shifts_calc_type.Quantum_mechanical_theory_level  B3LYP
+   _Chem_shifts_calc_type.Quantum_mechanical_basis_set     3-21g**
+   _Chem_shifts_calc_type.Chem_shift_nucleus               ?
+   _Chem_shifts_calc_type.Chem_shift_reference_ID          1
+   _Chem_shifts_calc_type.Chem_shift_reference_label       $chem_shift_reference
+
+   loop_
+      _Chem_shifts_calc_software.Software_ID
+      _Chem_shifts_calc_software.Software_label
+      _Chem_shifts_calc_software.Entry_ID
+      _Chem_shifts_calc_software.Chem_shifts_calc_type_ID
+
+     1   $software_1   bmst000309   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Theoretical chemical shifts  #
+    #################################
+
+save_theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Sf_category                       theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Sf_framecode                      theoretical_chem_shifts
+   _Theoretical_chem_shift_list.Entry_ID                          bmst000309
+   _Theoretical_chem_shift_list.ID                                1
+   _Theoretical_chem_shift_list.Chem_shifts_calc_type_ID          1
+   _Theoretical_chem_shift_list.Chem_shifts_calc_type_label       $chem_shifts_calc_type
+   _Theoretical_chem_shift_list.Model_atomic_coordinates_ID       1
+   _Theoretical_chem_shift_list.Model_atomic_coordinates_label    $conformer_family_coord_set_1
+   _Theoretical_chem_shift_list.Fermi_contact_spin_density_units  ?
+   _Theoretical_chem_shift_list.Chem_shift_1H_err                 ?
+   _Theoretical_chem_shift_list.Chem_shift_2H_err                 ?
+   _Theoretical_chem_shift_list.Chem_shift_13C_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_15N_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_19F_err                ?
+   _Theoretical_chem_shift_list.Chem_shift_31P_err                ?
+   _Theoretical_chem_shift_list.Details                           ?
+   _Theoretical_chem_shift_list.Text_data_format                  ?
+   _Theoretical_chem_shift_list.Text_data                         ?
+
+   loop_
+      _Theoretical_chem_shift.ID
+      _Theoretical_chem_shift.Entity_assembly_ID
+      _Theoretical_chem_shift.Entity_ID
+      _Theoretical_chem_shift.Comp_index_ID
+      _Theoretical_chem_shift.Comp_ID
+      _Theoretical_chem_shift.Atom_ID
+      _Theoretical_chem_shift.Atom_type
+      _Theoretical_chem_shift.Fermi_contact_spin_density
+      _Theoretical_chem_shift.Val
+      _Theoretical_chem_shift.Val_err
+      _Theoretical_chem_shift.Auth_seq_ID
+      _Theoretical_chem_shift.Auth_comp_ID
+      _Theoretical_chem_shift.Auth_atom_ID
+      _Theoretical_chem_shift.Entry_ID
+      _Theoretical_chem_shift.Theoretical_chem_shift_list_ID
+
+     1   1   1   1   1   C1    C   ?   66.049    ?   dihydroxyacetone   ?   ?   bmst000309   1    
+     2   1   1   1   1   C3    C   ?   203.872   ?   dihydroxyacetone   ?   ?   bmst000309   1    
+     3   1   1   1   1   C5    C   ?   66.049    ?   dihydroxyacetone   ?   ?   bmst000309   1    
+     4   1   1   1   1   H7    H   ?   5.307     ?   dihydroxyacetone   ?   ?   bmst000309   1    
+     5   1   1   1   1   H8    H   ?   5.305     ?   dihydroxyacetone   ?   ?   bmst000309   1    
+     6   1   1   1   1   H9    H   ?   -0.142    ?   dihydroxyacetone   ?   ?   bmst000309   1    
+     7   1   1   1   1   H10   H   ?   5.308     ?   dihydroxyacetone   ?   ?   bmst000309   1    
+     8   1   1   1   1   H11   H   ?   5.304     ?   dihydroxyacetone   ?   ?   bmst000309   1    
+     9   1   1   1   1   H12   H   ?   -0.142    ?   dihydroxyacetone   ?   ?   bmst000309   1    
+
+   stop_
+
+save_
+
+    #####################################
+    #  Conformer family coordinate set  #
+    #####################################
+
+save_conformer_family_coord_set_1
+   _Conformer_family_coord_set.Sf_category   conformer_family_coord_set
+   _Conformer_family_coord_set.Sf_framecode  conformer_family_coord_set_1
+   _Conformer_family_coord_set.Entry_ID      bmst000309
+   _Conformer_family_coord_set.ID            1
+   _Conformer_family_coord_set.Details       ?
+
+   loop_
+      _Conformer_family_software.Software_ID
+      _Conformer_family_software.Software_label
+      _Conformer_family_software.Entry_ID
+      _Conformer_family_software.Conformer_family_coord_set_ID
+
+     1   $software_1   bmst000309   1    
+
+   stop_
+
+   loop_
+      _Atom_site.Model_ID
+      _Atom_site.ID
+      _Atom_site.Label_entity_assembly_ID
+      _Atom_site.Label_entity_ID
+      _Atom_site.Label_comp_index_ID
+      _Atom_site.Label_comp_ID
+      _Atom_site.Label_atom_ID
+      _Atom_site.Auth_seq_ID
+      _Atom_site.Auth_comp_ID
+      _Atom_site.Auth_atom_ID
+      _Atom_site.Type_symbol
+      _Atom_site.Cartn_x
+      _Atom_site.Cartn_y
+      _Atom_site.Cartn_z
+      _Atom_site.Entry_ID
+      _Atom_site.Conformer_family_coord_set_ID
+
+     1   1    1   1   1   1   C1    1   1   C1    C   1.385    0.173    -0.424   bmst000309   1    
+     1   2    1   1   1   1   O2    1   1   O2    O   2.006    1.319    0.105    bmst000309   1    
+     1   3    1   1   1   1   C3    1   1   C3    C   -0.056   0.096    0.088    bmst000309   1    
+     1   4    1   1   1   1   O4    1   1   O4    O   -0.530   0.918    0.832    bmst000309   1    
+     1   5    1   1   1   1   C5    1   1   C5    C   -0.843   -1.113   -0.425   bmst000309   1    
+     1   6    1   1   1   1   O6    1   1   O6    O   -2.144   -1.080   0.107    bmst000309   1    
+     1   7    1   1   1   1   H7    1   1   H7    H   1.354    0.179    -1.528   bmst000309   1    
+     1   8    1   1   1   1   H8    1   1   H8    H   1.900    -0.761   -0.132   bmst000309   1    
+     1   9    1   1   1   1   H9    1   1   H9    H   2.915    1.341    -0.230   bmst000309   1    
+     1   10   1   1   1   1   H10   1   1   H10   H   -0.836   -1.079   -1.529   bmst000309   1    
+     1   11   1   1   1   1   H11   1   1   H11   H   -0.290   -2.025   -0.137   bmst000309   1    
+     1   12   1   1   1   1   H12   1   1   H12   H   -2.618   -1.855   -0.230   bmst000309   1    
+
+   stop_
+
+save_

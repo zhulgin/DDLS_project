@@ -1,0 +1,64 @@
+Metadata-Version: 2.4
+Name: pynmrstar
+Version: 3.3.6
+Summary: PyNMR-STAR provides tools for reading, writing, modifying, and interacting with NMR-STAR files. Maintained by the BMRB.
+Home-page: https://github.com/uwbmrb/PyNMRSTAR
+Author: Jon Wedell
+Author-email: Jon Wedell <wedell@uchc.edu>
+License: MIT
+Project-URL: Homepage, https://github.com/bmrb-io/PyNMRSTAR
+Keywords: bmrb,parser,nmr,nmrstar,biomagresbank,biological magnetic resonance bank
+Classifier: Development Status :: 6 - Mature
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: requests<=3,>=2.21.0
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+Welcome to PyNMR-STAR!
+======================================
+
+A Python module for reading, writing, and manipulating NMR-STAR files.
+
+|License| |Wheel| |PythonVersions|
+
+Overview
+--------
+
+This library was developed by the BMRB to give the Python-using NMR
+community tools to work with the NMR-STAR data format. It is used
+internally and is actively maintained. The library is thoroughly
+documented such that calling ``help(object_or_method)`` from an
+interactive python session will print the documentation for the object
+or method. An even more convenient way to learn how to use this library
+is to read the documentation at `read the docs <https://pynmrstar.readthedocs.org>`__.
+
+
+.. |PythonVersions| image:: https://img.shields.io/pypi/pyversions/pynmrstar.svg
+   :target: https://pypi.org/project/PyNMRSTAR
+
+.. |License| image:: https://img.shields.io/pypi/l/pynmrstar.svg
+   :target: https://pypi.org/project/PyNMRSTAR
+
+.. |Wheel| image:: https://img.shields.io/pypi/wheel/pynmrstar.svg
+   :target: https://pypi.org/project/PyNMRSTAR

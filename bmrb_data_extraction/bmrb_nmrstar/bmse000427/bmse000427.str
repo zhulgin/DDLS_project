@@ -1,0 +1,786 @@
+data_bmse000427
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                   entry_information
+   _Entry.Sf_framecode                  entry_information
+   _Entry.ID                            bmse000427
+   _Entry.Title                         phenylacetaldehyde
+   _Entry.Version_type                  update
+   _Entry.Submission_date               2008-02-05
+   _Entry.Accession_date                2008-02-05
+   _Entry.Last_release_date             2011-12-14
+   _Entry.Original_release_date         2008-02-05
+   _Entry.Origination                   author
+   _Entry.NMR_STAR_version              3.1.1.7
+   _Entry.Original_NMR_STAR_version     3.1
+   _Entry.Experimental_method           NMR
+   _Entry.Experimental_method_subtype   solution
+   _Entry.DOI                           10.13018/BMSE000427
+   _Entry.BMRB_internal_directory_name  phenylacetaldehyde
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.Middle_initials
+      _Entry_author.Entry_ID
+
+     1   Qiu    Cui        ?    bmse000427    
+     2   Ian    Lewis      ?    bmse000427    
+     3   Mark   Anderson   E.   bmse000427    
+     4   John   Markley    L.   bmse000427    
+
+   stop_
+
+   loop_
+      _Entry_src.ID
+      _Entry_src.Project_name
+      _Entry_src.Organization_full_name
+      _Entry_src.Organization_initials
+      _Entry_src.Entry_ID
+
+     1   metabolomics   'Madison Metabolomics Consortium'   MMC   bmse000427    
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Format_type
+      _Release.Format_version
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+     1    .   .   2008-02-05   2008-02-05   original   BMRB   'Original spectra from MMC'                                                            bmse000427    
+     2    .   .   2008-02-28   2008-02-28   update     BMRB   'Fixed mismatch between software ids and framecodes'                                   bmse000427    
+     3    .   .   2008-07-09   2008-07-09   update     BMRB   'fixed misplaced 2D coordinates'                                                       bmse000427    
+     4    .   .   2008-10-21   2008-10-21   update     BMRB   'Fixed IUPAC erroneous IUPAC names'                                                    bmse000427    
+     5    .   .   2008-10-21   2008-10-21   update     BMRB   'Added assembly and entity information'                                                bmse000427    
+     6    .   .   2008-10-28   2008-10-28   update     BMRB   'added image and structure file paths'                                                 bmse000427    
+     7    .   .   2008-11-03   2008-11-03   update     BMRB   'Altered tag names due to dictionary update'                                           bmse000427    
+     8    .   .   2009-07-20   2009-07-20   update     BMRB   'Updated the InChI string to match PubChem'                                            bmse000427    
+     9    .   .   2010-10-08   2010-10-08   update     BMRB   'Removed empty loops for database compliance'                                          bmse000427    
+     10   .   .   2010-11-15   2010-11-15   update     BMRB   'Updated chem comp Paramagnetic and Aromatic'                                          bmse000427    
+     11   .   .   2010-11-30   2010-11-30   update     BMRB   'Added 2 PDB IDs to Chem_comp_db_link'                                                 bmse000427    
+     12   .   .   2011-04-04   2011-04-04   update     BMRB   'Added Provenance tag to chem_comp'                                                    bmse000427    
+     13   .   .   2011-09-09   2011-09-09   update     BMRB   'Brought up to date with latest Dictionary'                                            bmse000427    
+     14   .   .   2011-09-21   2011-09-21   update     BMRB   'Standardized Experiment_file data paths'                                              bmse000427    
+     15   .   .   2011-09-21   2011-09-21   update     BMRB   'Added base dir to data file path'                                                     bmse000427    
+     16   .   .   2011-12-14   2011-12-14   update     BMRB   'Set Assembly.Name to match Chem_comp.name'                                            bmse000427    
+     17   .   .   2017-10-12   2017-10-12   update     BMRB   'Remediated Experiment_file loop if present and standardized mol and png file tags.'   bmse000427    
+     18   .   .   2017-12-19   2017-10-12   update     BMRB   'InChI numbering updated according to ALATIS'                                          bmse000427    
+
+   stop_
+
+save_
+
+###############
+#  Citations  #
+###############
+
+save_citation_1
+   _Citation.Sf_category   citations
+   _Citation.Sf_framecode  citation_1
+   _Citation.Entry_ID      bmse000427
+   _Citation.ID            1
+   _Citation.Class         'reference citation'
+   _Citation.PubMed_ID     17170002
+   _Citation.Title         'Database resources of the National Center for Biotechnology Information.'
+   _Citation.Status        published
+   _Citation.Type          internet
+   _Citation.WWW_URL       http://pubchem.ncbi.nlm.nih.gov/
+   _Citation.Year          2006
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+     1    D.   Wheeler      D.   L.   bmse000427   1    
+     2    T.   Barrett      T.   ?    bmse000427   1    
+     3    D.   Benson       D.   A.   bmse000427   1    
+     4    S.   Bryant       S.   H.   bmse000427   1    
+     5    K.   Canese       K.   ?    bmse000427   1    
+     6    V.   Chetvenin    V.   ?    bmse000427   1    
+     7    D.   Church       D.   M.   bmse000427   1    
+     8    M.   DiCuccio     M.   ?    bmse000427   1    
+     9    R.   Edgar        R.   ?    bmse000427   1    
+     10   S.   Federhen     S.   ?    bmse000427   1    
+     11   L.   Geer         L.   Y.   bmse000427   1    
+     12   W.   Helmberg     W.   ?    bmse000427   1    
+     13   Y.   Kapustin     Y.   ?    bmse000427   1    
+     14   D.   Kenton       D.   L.   bmse000427   1    
+     15   O.   Khovayko     O.   ?    bmse000427   1    
+     16   D.   Lipman       D.   J.   bmse000427   1    
+     17   T.   Madden       T.   L.   bmse000427   1    
+     18   D.   Maglott      D.   R.   bmse000427   1    
+     19   J.   Ostell       J.   ?    bmse000427   1    
+     20   K.   Pruitt       K.   D.   bmse000427   1    
+     21   G.   Schuler      G.   D.   bmse000427   1    
+     22   L.   Schriml      L.   M.   bmse000427   1    
+     23   E.   Sequeira     E.   ?    bmse000427   1    
+     24   S.   Sherry       S.   T.   bmse000427   1    
+     25   K.   Sirotkin     K.   ?    bmse000427   1    
+     26   A.   Souvorov     A.   ?    bmse000427   1    
+     27   G.   Starchenko   G.   ?    bmse000427   1    
+     28   T.   Suzek        T.   O.   bmse000427   1    
+     29   R.   Tatusov      R.   ?    bmse000427   1    
+     30   T.   Tatusova     T.   A.   bmse000427   1    
+     31   L.   Bagner       L.   ?    bmse000427   1    
+     32   E.   Yaschenko    E.   ?    bmse000427   1    
+
+   stop_
+
+save_
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category           assembly
+   _Assembly.Sf_framecode          assembly
+   _Assembly.Entry_ID              bmse000427
+   _Assembly.ID                    1
+   _Assembly.Name                  phenylacetaldehyde
+   _Assembly.Number_of_components  1
+   _Assembly.Organic_ligands       0
+   _Assembly.Non_standard_bonds    no
+   _Assembly.Paramagnetic          no
+   _Assembly.Thiol_state           'not reported'
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+     1   phenylacetaldehyde   1   $phenylacetaldehyde   yes   native   no   no   bmse000427   1    
+
+   stop_
+
+save_
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_phenylacetaldehyde
+   _Entity.Sf_category                      entity
+   _Entity.Sf_framecode                     phenylacetaldehyde
+   _Entity.Entry_ID                         bmse000427
+   _Entity.ID                               1
+   _Entity.Name                             phenylacetaldehyde
+   _Entity.Type                             non-polymer
+   _Entity.Ambiguous_conformational_states  no
+   _Entity.Ambiguous_chem_comp_sites        no
+   _Entity.Nstd_monomer                     no
+   _Entity.Nstd_chirality                   no
+   _Entity.Nstd_linkage                     no
+   _Entity.Paramagnetic                     no
+   _Entity.Thiol_state                      'not reported'
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+     1   1   $chem_comp_1   bmse000427   1    
+
+   stop_
+
+save_
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category   natural_source
+   _Entity_natural_src_list.Sf_framecode  natural_source
+   _Entity_natural_src_list.Entry_ID      bmse000427
+   _Entity_natural_src_list.ID            1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+     1   1   $phenylacetaldehyde   n/a   'multiple natural sources'   yes   'not applicable'   n/a   n/a   n/a   n/a   n/a   bmse000427   1    
+
+   stop_
+
+save_
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category   experimental_source
+   _Entity_experimental_src_list.Sf_framecode  experimental_source
+   _Entity_experimental_src_list.Entry_ID      bmse000427
+   _Entity_experimental_src_list.ID            1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+     1   1   $phenylacetaldehyde   'chemical synthesis'   bmse000427   1    
+
+   stop_
+
+save_
+
+    #################################
+    #  Polymer residues and ligands #
+    #################################
+
+save_chem_comp_1
+   _Chem_comp.Sf_category                  chem_comp
+   _Chem_comp.Sf_framecode                 chem_comp_1
+   _Chem_comp.Entry_ID                     bmse000427
+   _Chem_comp.ID                           1
+   _Chem_comp.Provenance                   PubChem
+   _Chem_comp.Name                         phenylacetaldehyde
+   _Chem_comp.Type                         non-polymer
+   _Chem_comp.BMRB_code                    bmse000427
+   _Chem_comp.InChI_code                   InChI=1S/C8H8O/c9-7-6-8-4-2-1-3-5-8/h1-5,7H,6H2
+   _Chem_comp.Paramagnetic                 no
+   _Chem_comp.Aromatic                     yes
+   _Chem_comp.Formula                      'C8 H8 O'
+   _Chem_comp.Formula_weight               120.14852
+   _Chem_comp.Formula_mono_iso_wt_nat      120.0575148789
+   _Chem_comp.Formula_mono_iso_wt_13C      128.0843535813
+   _Chem_comp.Formula_mono_iso_wt_15N      120.0575148789
+   _Chem_comp.Formula_mono_iso_wt_13C_15N  128.0843535813
+   _Chem_comp.Image_file_name              bmse000427.png
+   _Chem_comp.Image_file_format            png
+   _Chem_comp.Struct_file_name             bmse000427.mol
+   _Chem_comp.Struct_file_format           mol
+
+   loop_
+      _Chem_comp_common_name.Name
+      _Chem_comp_common_name.Type
+      _Chem_comp_common_name.Entry_ID
+      _Chem_comp_common_name.Comp_ID
+
+     'alpha-Toluic aldehyde'          synonym   bmse000427   1    
+     'Phenylacetic aldehyde'          synonym   bmse000427   1    
+     phenylacetaldehyde               synonym   bmse000427   1    
+     'Acetaldehyde, phenyl- (8CI)'    synonym   bmse000427   1    
+     1-Oxo-2-phenylethane             synonym   bmse000427   1    
+     PHENYLACETALDEHYDE               synonym   bmse000427   1    
+     Benzeneacetaldehyde              synonym   bmse000427   1    
+     alpha-Tolyaldehyde               synonym   bmse000427   1    
+     Oxophenylethane                  synonym   bmse000427   1    
+     'Phenylacetaldehyde (natural)'   synonym   bmse000427   1    
+     Hyacinthin                       synonym   bmse000427   1    
+     benzeneacetaldehyde              synonym   bmse000427   1    
+     Phenylethanal                    synonym   bmse000427   1    
+     Benzylcarboxaldehyde             synonym   bmse000427   1    
+     Phenylacetaldehyde               synonym   bmse000427   1    
+     alpha-Tolualdehyde               synonym   bmse000427   1    
+     2-Phenylethanal                  synonym   bmse000427   1    
+     'Acetaldehyde, phenyl-'          synonym   bmse000427   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_descriptor.Descriptor
+      _Chem_comp_descriptor.Type
+      _Chem_comp_descriptor.Program
+      _Chem_comp_descriptor.Program_version
+      _Chem_comp_descriptor.Entry_ID
+      _Chem_comp_descriptor.Comp_ID
+
+     InChI=1S/C8H8O/c9-7-6-8-4-2-1-3-5-8/h1-5,7H,6H2   INCHI   na       na      bmse000427   1    
+     InChI=1S/C8H8O/c9-7-6-8-4-2-1-3-5-8/h1-5,7H,6H2   INCHI   ALATIS   3.003   bmse000427   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_systematic_name.Name
+      _Chem_comp_systematic_name.Naming_system
+      _Chem_comp_systematic_name.Entry_ID
+      _Chem_comp_systematic_name.Comp_ID
+
+     2-phenylacetaldehyde   PUBCHEM_IUPAC_NAME               bmse000427   1    
+     2-phenylacetaldehyde   PUBCHEM_IUPAC_TRADITIONAL_NAME   bmse000427   1    
+     2-phenylacetaldehyde   PUBCHEM_IUPAC_OPENEYE_NAME       bmse000427   1    
+     2-phenylacetaldehyde   PUBCHEM_IUPAC_CAS_NAME           bmse000427   1    
+     2-phenylethanal        PUBCHEM_IUPAC_SYSTEMATIC_NAME    bmse000427   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_SMILES.Type
+      _Chem_comp_SMILES.String
+      _Chem_comp_SMILES.Entry_ID
+      _Chem_comp_SMILES.Comp_ID
+
+     Canonical   C1=CC=C(C=C1)CC=O   bmse000427   1    
+     Isomeric    C1=CC=C(C=C1)CC=O   bmse000427   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_atom.Atom_ID
+      _Chem_comp_atom.Type_symbol
+      _Chem_comp_atom.Drawing_2D_coord_x
+      _Chem_comp_atom.Drawing_2D_coord_y
+      _Chem_comp_atom.PDBX_ordinal
+      _Chem_comp_atom.Entry_ID
+      _Chem_comp_atom.Comp_ID
+
+     O9    O   3.7321   2.2500    1    bmse000427   1    
+     C8    C   2.8660   -0.2500   2    bmse000427   1    
+     C6    C   2.8660   0.7500    3    bmse000427   1    
+     C4    C   2.0000   -0.7500   4    bmse000427   1    
+     C5    C   3.7321   -0.7500   5    bmse000427   1    
+     C2    C   2.0000   -1.7500   6    bmse000427   1    
+     C3    C   3.7321   -1.7500   7    bmse000427   1    
+     C1    C   2.8660   -2.2500   8    bmse000427   1    
+     C7    C   3.7321   1.2500    9    bmse000427   1    
+     H15   H   2.6540   1.3326    10   bmse000427   1    
+     H16   H   2.2554   0.6423    11   bmse000427   1    
+     H13   H   1.4631   -0.4400   12   bmse000427   1    
+     H14   H   4.2690   -0.4400   13   bmse000427   1    
+     H11   H   1.4631   -2.0600   14   bmse000427   1    
+     H12   H   4.2690   -2.0600   15   bmse000427   1    
+     H10   H   2.8660   -2.8700   16   bmse000427   1    
+     H17   H   4.2690   0.9400    17   bmse000427   1    
+
+   stop_
+
+   loop_
+      _Atom_nomenclature.Atom_ID
+      _Atom_nomenclature.Atom_name
+      _Atom_nomenclature.Naming_system
+      _Atom_nomenclature.Entry_ID
+      _Atom_nomenclature.Comp_ID
+
+     O9    O1    BMRB     bmse000427   1    
+     C8    C2    BMRB     bmse000427   1    
+     C6    C3    BMRB     bmse000427   1    
+     C4    C4    BMRB     bmse000427   1    
+     C5    C5    BMRB     bmse000427   1    
+     C2    C6    BMRB     bmse000427   1    
+     C3    C7    BMRB     bmse000427   1    
+     C1    C8    BMRB     bmse000427   1    
+     C7    C9    BMRB     bmse000427   1    
+     H15   H10   BMRB     bmse000427   1    
+     H16   H11   BMRB     bmse000427   1    
+     H13   H12   BMRB     bmse000427   1    
+     H14   H13   BMRB     bmse000427   1    
+     H11   H14   BMRB     bmse000427   1    
+     H12   H15   BMRB     bmse000427   1    
+     H10   H16   BMRB     bmse000427   1    
+     H17   H17   BMRB     bmse000427   1    
+     O9    O9    ALATIS   bmse000427   1    
+     C8    C8    ALATIS   bmse000427   1    
+     C6    C6    ALATIS   bmse000427   1    
+     C4    C4    ALATIS   bmse000427   1    
+     C5    C5    ALATIS   bmse000427   1    
+     C2    C2    ALATIS   bmse000427   1    
+     C3    C3    ALATIS   bmse000427   1    
+     C1    C1    ALATIS   bmse000427   1    
+     C7    C7    ALATIS   bmse000427   1    
+     H15   H15   ALATIS   bmse000427   1    
+     H16   H16   ALATIS   bmse000427   1    
+     H13   H13   ALATIS   bmse000427   1    
+     H14   H14   ALATIS   bmse000427   1    
+     H11   H11   ALATIS   bmse000427   1    
+     H12   H12   ALATIS   bmse000427   1    
+     H10   H10   ALATIS   bmse000427   1    
+     H17   H17   ALATIS   bmse000427   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_bond.ID
+      _Chem_comp_bond.Type
+      _Chem_comp_bond.Value_order
+      _Chem_comp_bond.Atom_ID_1
+      _Chem_comp_bond.Atom_ID_2
+      _Chem_comp_bond.Entry_ID
+      _Chem_comp_bond.Comp_ID
+
+     1    covalent   DOUB   O9   C7    bmse000427   1    
+     2    covalent   SING   C8   C6    bmse000427   1    
+     3    covalent   DOUB   C8   C4    bmse000427   1    
+     4    covalent   SING   C8   C5    bmse000427   1    
+     5    covalent   SING   C6   C7    bmse000427   1    
+     6    covalent   SING   C6   H15   bmse000427   1    
+     7    covalent   SING   C6   H16   bmse000427   1    
+     8    covalent   SING   C4   C2    bmse000427   1    
+     9    covalent   SING   C4   H13   bmse000427   1    
+     10   covalent   DOUB   C5   C3    bmse000427   1    
+     11   covalent   SING   C5   H14   bmse000427   1    
+     12   covalent   DOUB   C2   C1    bmse000427   1    
+     13   covalent   SING   C2   H11   bmse000427   1    
+     14   covalent   SING   C3   C1    bmse000427   1    
+     15   covalent   SING   C3   H12   bmse000427   1    
+     16   covalent   SING   C1   H10   bmse000427   1    
+     17   covalent   SING   C7   H17   bmse000427   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_db_link.Author_supplied
+      _Chem_comp_db_link.Database_code
+      _Chem_comp_db_link.Accession_code
+      _Chem_comp_db_link.Accession_code_type
+      _Chem_comp_db_link.Entry_mol_name
+      _Chem_comp_db_link.Entry_relation_type
+      _Chem_comp_db_link.Entry_ID
+      _Chem_comp_db_link.Comp_ID
+
+     no   PubChem                    998              cid                    phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PubChem                    7852975          sid                    phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PubChem                    4868073          sid                    phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PubChem                    37910133         sid                    phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PubChem                    12055686         sid                    phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PubChem                    173263           sid                    phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PubChem                    3876             sid                    phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PubChem                    3065             sid                    phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PubChem                    593989           sid                    phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PubChem                    24846766         sid                    phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PubChem                    8143568          sid                    phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PubChem                    10505869         sid                    phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   'CAS Registry'             122-78-1         'registry number'      phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   Sigma-Aldrich              107395_ALDRICH   ?                      phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   ChEBI                      CHEBI:16424      ?                      phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   ChemIDplus                 000122781        ?                      phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   ChemSpider                 13881437         ?                      phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   EINECS                     204-574-5        ?                      phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   NMRShiftDB                 10024902         ?                      phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   'EPA DSSTox'               1483             ?                      phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   ZINC                       ZINC00895323     ?                      phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   KEGG                       C00601           'compound ID'          phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   ChemDB                     3969194          ?                      phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   'NIST Chemistry WebBook'   1079526415       ?                      phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PDB                        HY1              'Chemical Component'   phenylacetaldehyde   'matching entry'   bmse000427   1    
+     no   PDB                        FER              'Chemical Component'   phenylacetaldehyde   'matching entry'   bmse000427   1    
+
+   stop_
+
+   loop_
+      _Chem_comp_citation.Citation_ID
+      _Chem_comp_citation.Citation_label
+      _Chem_comp_citation.Entry_ID
+      _Chem_comp_citation.Comp_ID
+
+     1   $citation_1   bmse000427   1    
+
+   stop_
+
+save_
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_1
+   _Sample.Sf_category   sample
+   _Sample.Sf_framecode  sample_1
+   _Sample.Entry_ID      bmse000427
+   _Sample.ID            1
+   _Sample.Type          solution
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_units
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+     1   phenylacetaldehyde   'natural abundance'   1   $phenylacetaldehyde   Solute      Saturated   mM   Aldrich   phenylacetaldehyde   107395   bmse000427   1    
+     2   D2O                  ?                     1   ?                     Solvent     100         %    ?         ?                    ?        bmse000427   1    
+     3   'sodium phosphate'   ?                     1   ?                     Buffer      50          mM   ?         ?                    ?        bmse000427   1    
+     4   'sodium azide'       ?                     1   ?                     Cytocide    500         uM   ?         ?                    ?        bmse000427   1    
+     5   DSS                  ?                     1   ?                     Reference   500         uM   ?         ?                    ?        bmse000427   1    
+
+   stop_
+
+save_
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category   sample_conditions
+   _Sample_condition_list.Sf_framecode  sample_conditions_1
+   _Sample_condition_list.Entry_ID      bmse000427
+   _Sample_condition_list.ID            1
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+     pH            7.4   pH   bmse000427   1    
+     temperature   298   K    bmse000427   1    
+
+   stop_
+
+save_
+
+############################
+#  Computer software used  #
+############################
+
+save_software_1
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_1
+   _Software.Entry_ID      bmse000427
+   _Software.ID            1
+   _Software.Name          NMRPipe
+
+   loop_
+      _Vendor.Name
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'F Delaglio, S Grzesiek, GW Vuister, G Zhu, J Pfeifer and A Bax'   bmse000427   1    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     Processing   bmse000427   1    
+
+   stop_
+
+save_
+
+save_software_2
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_2
+   _Software.Entry_ID      bmse000427
+   _Software.ID            2
+   _Software.Name          XWIN-NMR
+   _Software.Version       3.5
+
+   loop_
+      _Vendor.Name
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'Bruker Biospin'   bmse000427   2    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     Collection        bmse000427   2    
+     Processing        bmse000427   2    
+     'Data analysis'   bmse000427   2    
+     'Peak picking'    bmse000427   2    
+
+   stop_
+
+save_
+
+save_software_3
+   _Software.Sf_category   software
+   _Software.Sf_framecode  software_3
+   _Software.Entry_ID      bmse000427
+   _Software.ID            3
+   _Software.Name          NMRDraw
+   _Software.Version       2.3
+
+   loop_
+      _Vendor.Name
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+     'F Delaglio, S Grzesiek, GW Vuister, G Zhu, J Pfeifer and A Bax'   bmse000427   3    
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+     'Data analysis'   bmse000427   3    
+     'Peak picking'    bmse000427   3    
+
+   stop_
+
+save_
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_Bruker_DMX_500
+   _NMR_spectrometer.Sf_category     NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode    Bruker_DMX_500
+   _NMR_spectrometer.Entry_ID        bmse000427
+   _NMR_spectrometer.ID              1
+   _NMR_spectrometer.Manufacturer    Bruker
+   _NMR_spectrometer.Model           DMX
+   _NMR_spectrometer.Field_strength  500
+
+save_
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category   experiment_list
+   _Experiment_list.Sf_framecode  experiment_list
+   _Experiment_list.Entry_ID      bmse000427
+   _Experiment_list.ID            1
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+     1   '1D 1H'              yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000427   1    
+     2   '2D [1H,1H]-TOCSY'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000427   1    
+     3   '1D 13C'             yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000427   1    
+     4   '1D DEPT90'          yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000427   1    
+     5   '1D DEPT135'         yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000427   1    
+     6   '2D [1H,13C]-HSQC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000427   1    
+     7   '2D [1H,13C]-HMBC'   yes   1   $sample_1   isotropic   1   $sample_conditions_1   1   $Bruker_DMX_500   bmse000427   1    
+
+   stop_
+
+   loop_
+      _Experiment_file.Experiment_ID
+      _Experiment_file.Name
+      _Experiment_file.Type
+      _Experiment_file.Directory_path
+      _Experiment_file.Details
+      _Experiment_file.Entry_ID
+      _Experiment_file.Experiment_list_ID
+
+     1   1H                text/directory   nmr/set01/          'NMR experiment directory'   bmse000427   1    
+     1   1H.png            image/png        nmr/set01/spectra   'Spectral image'             bmse000427   1    
+     2   HH_TOCSY          text/directory   nmr/set01/          'NMR experiment directory'   bmse000427   1    
+     2   HH_TOCSY.png      image/png        nmr/set01/spectra   'Spectral image'             bmse000427   1    
+     3   13C               text/directory   nmr/set01/          'NMR experiment directory'   bmse000427   1    
+     3   13C.png           image/png        nmr/set01/spectra   'Spectral image'             bmse000427   1    
+     4   DEPT_90           text/directory   nmr/set01/          'NMR experiment directory'   bmse000427   1    
+     4   DEPT_90.png       image/png        nmr/set01/spectra   'Spectral image'             bmse000427   1    
+     5   DEPT_135          text/directory   nmr/set01/          'NMR experiment directory'   bmse000427   1    
+     5   DEPT_135.png      image/png        nmr/set01/spectra   'Spectral image'             bmse000427   1    
+     6   1H_13C_HSQC       text/directory   nmr/set01/          'NMR experiment directory'   bmse000427   1    
+     6   1H_13C_HSQC.png   image/png        nmr/set01/spectra   'Spectral image'             bmse000427   1    
+     7   1H_13C_HMBC       text/directory   nmr/set01/          'NMR experiment directory'   bmse000427   1    
+     7   1H_13C_HMBC.png   image/png        nmr/set01/spectra   'Spectral image'             bmse000427   1    
+
+   stop_
+
+save_
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference
+   _Chem_shift_reference.Sf_category   chem_shift_reference
+   _Chem_shift_reference.Sf_framecode  chem_shift_reference
+   _Chem_shift_reference.Entry_ID      bmse000427
+   _Chem_shift_reference.ID            1
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+     H   1    DSS   'methyl protons'   ppm   0.00   internal   direct     1.000000000   bmse000427   1    
+     C   13   DSS   'methyl protons'   ppm   0.00   ?          indirect   0.251449530   bmse000427   1    
+
+   stop_
+
+save_
