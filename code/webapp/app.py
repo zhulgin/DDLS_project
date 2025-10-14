@@ -1,6 +1,10 @@
-# app.py — Streamlit web app for calibrated H-NMR classification (auto-run + loud debug)
+# app.py — Streamlit web app for calibrated H-NMR classification (robust load + logs)
 
 import os, io, json, sys, math
+# ---- avoid GPU/Metal lockups & quiet TF logs ----
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -34,24 +38,71 @@ def get_tf():
     global _tf
     if _tf is None:
         import tensorflow as tf
+        # try to ensure CPU only
+        try:
+            tf.config.set_visible_devices([], "GPU")
+        except Exception:
+            pass
         _tf = tf
     return _tf
 
-# ---------- artifacts ----------
+# ---------- artifacts (loaded after file parsed) ----------
 @st.cache_resource(show_spinner=False)
-def load_artifacts():
+def load_artifacts_with_logs():
+    """Load model/bins/config with detailed progress messages."""
+    logs = []
+    def log(msg): logs.append(msg)
+
+    log("Importing TensorFlow…")
     tf = get_tf()
-    model = tf.keras.models.load_model(str(MODEL_PATH))
+    log(f"TF version: {tf.__version__}")
+
+    # Load model (be liberal: compile=False; try keras then tf.keras)
+    log(f"Loading model: {MODEL_PATH}")
+    model = None
+    load_err = None
+    try:
+        from keras.models import load_model as k_load_model  # Keras 3 loader
+        model = k_load_model(str(MODEL_PATH), compile=False)
+        log("Loaded model via keras.models.load_model.")
+    except Exception as e1:
+        load_err = e1
+        try:
+            model = tf.keras.models.load_model(str(MODEL_PATH), compile=False)
+            log("Loaded model via tf.keras.models.load_model.")
+            load_err = None
+        except Exception as e2:
+            load_err = (e1, e2)
+
+    if load_err is not None:
+        raise RuntimeError(f"Failed to load model: {load_err}")
+
+    # Bins / config / labels
+    log(f"Loading bins: {BINS_PATH}")
     bins = np.load(str(BINS_PATH))
+
+    log(f"Loading config: {CFG_PATH}")
     cfg  = json.load(open(CFG_PATH))
+
     labels = None
     if LABELS_PATH.exists():
         try:
             labels = json.load(open(LABELS_PATH))
-        except Exception:
-            labels = None
+            log(f"Loaded labels: {LABELS_PATH}")
+        except Exception as e:
+            log(f"Labels load failed (continuing without): {e}")
+
+    log(f"Loading temperature: {TEMP_PATH}")
     predictor = CalibratedPredictor(model, str(TEMP_PATH))
-    return predictor, bins, cfg, labels
+
+    # Extra: report model input shape
+    try:
+        ishape = model.input_shape
+        log(f"model.input_shape = {ishape}")
+    except Exception:
+        log("model.input_shape = (unknown)")
+
+    return predictor, bins, cfg, labels, logs
 
 # ---------- parsing ----------
 def parse_bytes(raw: bytes) -> pd.DataFrame:
@@ -66,8 +117,8 @@ def parse_bytes(raw: bytes) -> pd.DataFrame:
         df["ppm"] = pd.to_numeric(df["ppm"], errors="coerce")
         df["intensity"] = pd.to_numeric(df["intensity"], errors="coerce")
         return df.dropna()
-    except Exception as e:
-        st.write("Parser 1 failed:", e)
+    except Exception:
+        pass
 
     # 2) Whitespace-separated
     try:
@@ -80,30 +131,25 @@ def parse_bytes(raw: bytes) -> pd.DataFrame:
         df["ppm"] = pd.to_numeric(df["ppm"], errors="coerce")
         df["intensity"] = pd.to_numeric(df["intensity"], errors="coerce")
         return df.dropna()
-    except Exception as e:
-        st.write("Parser 2 failed:", e)
+    except Exception:
+        pass
 
     # 3) Heuristic
-    try:
-        lines = []
-        for ln in io.BytesIO(raw).read().decode("utf-8", errors="ignore").splitlines():
-            ln = ln.strip()
-            if not ln or ln.startswith("#"):  # comment/blank
-                continue
-            ln = ln.replace(";", ",").replace("\t", ",")
-            parts = [p for p in ln.split(",") if p != ""]
-            if len(parts) == 1:
-                lines.append([parts[0], "1.0"])
-            elif len(parts) >= 2:
-                lines.append(parts[:2])
-        df = pd.DataFrame(lines, columns=["ppm", "intensity"])
-        df["ppm"] = pd.to_numeric(df["ppm"], errors="coerce")
-        df["intensity"] = pd.to_numeric(df["intensity"], errors="coerce")
-        return df.dropna()
-    except Exception as e:
-        st.write("Parser 3 failed:", e)
-
-    return pd.DataFrame(columns=["ppm","intensity"])
+    lines = []
+    for ln in io.BytesIO(raw).read().decode("utf-8", errors="ignore").splitlines():
+        ln = ln.strip()
+        if not ln or ln.startswith("#"):  # comment/blank
+            continue
+        ln = ln.replace(";", ",").replace("\t", ",")
+        parts = [p for p in ln.split(",") if p != ""]
+        if len(parts) == 1:
+            lines.append([parts[0], "1.0"])
+        elif len(parts) >= 2:
+            lines.append(parts[:2])
+    df = pd.DataFrame(lines, columns=["ppm", "intensity"])
+    df["ppm"] = pd.to_numeric(df["ppm"], errors="coerce")
+    df["intensity"] = pd.to_numeric(df["intensity"], errors="coerce")
+    return df.dropna()
 
 def bin_spectrum(df: pd.DataFrame, bins: np.ndarray, cfg: dict) -> np.ndarray:
     nbins = len(bins) - 1
@@ -159,11 +205,6 @@ elif local_path.strip():
 raw = st.session_state["raw_bytes"]
 
 if raw is None:
-    st.write("**Paths check**")
-    st.write("MODEL_PATH:", MODEL_PATH, "exists:", MODEL_PATH.exists())
-    st.write("BINS_PATH:",  BINS_PATH,  "exists:", BINS_PATH.exists())
-    st.write("CFG_PATH:",   CFG_PATH,   "exists:", CFG_PATH.exists())
-    st.write("TEMP_PATH:",  TEMP_PATH,  "exists:", TEMP_PATH.exists())
     st.info("Upload a peaklist or enter a local path to continue.")
     st.stop()
 
@@ -187,19 +228,21 @@ ax1.set_xlabel("ppm"); ax1.set_ylabel("intensity")
 ax1.set_title("Uploaded peak list")
 st.pyplot(fig1)
 
-# ========== LOAD → BIN → PREDICT (auto-run + loud debug) ==========
+# ========== LOAD → BIN → PREDICT (auto-run with logs) ==========
 
 st.subheader("Step 1: Load artifacts")
+log_box = st.empty()
 with st.spinner("Loading model & artifacts…"):
     try:
-        predictor, bins, cfg, labels = load_artifacts()
+        predictor, bins, cfg, labels, load_logs = load_artifacts_with_logs()
+        # print logs
+        for line in load_logs:
+            log_box.write(line)
         try:
             model_input_shape = predictor.model.input_shape
         except Exception:
             model_input_shape = "unknown"
-        st.write(f"model.input_shape = {model_input_shape}")
-        st.write(f"bins edges = {len(bins)}  → n_bins = {len(bins)-1}")
-        st.success("Artifacts loaded.")
+        st.success(f"Artifacts loaded. model.input_shape={model_input_shape} · n_bins={len(bins)-1}")
     except Exception as e:
         st.error("Failed to load model artifacts.")
         st.exception(e)
@@ -210,7 +253,6 @@ try:
     vec = bin_spectrum(df, bins, cfg)
     X = prepare_input(vec)
     st.write(f"vector length = {len(vec)} | nonzero bins = {(vec>0).sum()} | X shape = {X.shape}")
-    # sanity vs model
     try:
         expected_bins = predictor.model.input_shape[1]
         st.write(f"expected_bins from model = {expected_bins}")

@@ -1,0 +1,6 @@
+numpy==1.26.4
+pandas==2.2.2
+joblib==1.4.2
+tensorflow==2.15.0
+gradio==4.44.0
+matplotlib==3.8.4
