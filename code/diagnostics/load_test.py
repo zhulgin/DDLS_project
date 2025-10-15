@@ -1,5 +1,14 @@
 # for testing streamlit
 
+# --- Apple Silicon / fork-safety prelude (must be FIRST) ---
+import multiprocessing as _mp
+try:
+    _mp.set_start_method("spawn", force=True)
+except RuntimeError:
+    pass
+# ------------------------------------------------------------
+
+
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"

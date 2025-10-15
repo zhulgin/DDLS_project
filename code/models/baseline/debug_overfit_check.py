@@ -1,3 +1,12 @@
+# --- Apple Silicon / fork-safety prelude (must be FIRST) ---
+import multiprocessing as _mp
+try:
+    _mp.set_start_method("spawn", force=True)
+except RuntimeError:
+    pass
+# ------------------------------------------------------------
+
+
 # debug_overfit_check.py
 import os, io, json, joblib, numpy as np, tensorflow as tf
 from pathlib import Path
