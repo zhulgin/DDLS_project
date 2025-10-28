@@ -16,6 +16,7 @@
 #let rawbox(body) = box(fill: gray.lighten(85%), inset: 8pt, radius: 6pt)[#body]
 #show figure.where(kind: "code"): set figure(supplement: "Code")
 #show figure.caption: set text(10pt, style: "italic")
+#show "CH2": [CH#sub[2]]
 
 = Abstract
 // (≤100 words): problem, method, results.
@@ -121,6 +122,9 @@ Data were partitioned into training, validation, and test sets using stratified 
 
 Stratification ensured each split maintained approximately the same class proportions as the full dataset. A fixed random seed (42) was used for reproducibility. The validation set was used for hyperparameter tuning and early stopping, while the test set remained completely held-out until final model evaluation.
 
+== Exploratory Analysis
+Principal Component Analysis (PCA) revealed significant overlap between classes in low-dimensional projections. The first three principal components captured only 12.0% of total variance, indicating that discriminative information is distributed across many dimensions rather than concentrated in a few dominant features. This high-dimensional structure suggested that ensemble methods like Random Forest might outperform simpler linear classifiers or would require deep neural networks to capture complex non-linear decision boundaries.
+
 = Method Description
 // workflow, models, evaluation metrics.
 
@@ -150,6 +154,13 @@ Stratification ensured each split maintained approximately the same class propor
   image("/fig/rf_tuned_results.png"),
   caption: [RF tuned results]
 )
+
+#figure(
+  image("/fig/feature_importance_nmr_style.png"),
+  caption: [RF feature importance]
+) <features>
+
+The feature importance analysis reveals that the Random Forest model learned chemically interpretable patterns (see @features). The most discriminative regions include the aliphatic CH2 region (1.2-1.6 ppm), critical for lipid identification, and the alpha-to-heteroatom region (3.6 ppm), which distinguishes oxygen- and nitrogen-containing functional groups. This validates that the model bases classifications on meaningful chemical structural differences rather than spurious correlations.
 
 = Conclusion & Discussion
 // findings, limitations, future directions.
