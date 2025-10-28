@@ -43,10 +43,7 @@ def load_model():
 
 def parse_csv_peaks(file_content, ppm_min, ppm_max):
     """
-    Parse peak list files. Handles multiple formats:
-    - Standard CSV: ppm,intensity (one peak per line)
-    - Mestrenova: tab-separated pairs on single line
-    - With or without headers/titles
+    Parse CSV file with ppm,intensity format.
     """
     ppm_list, inten_list = [], []
     
@@ -61,39 +58,23 @@ def parse_csv_peaks(file_content, ppm_min, ppm_max):
         if not line:
             continue
         
-        # Skip obvious headers/titles (containing words, not just numbers)
-        line_lower = line.lower()
-        if any(keyword in line_lower for keyword in ['ppm', 'intensity', 'chemical', 'shift', 'spectrum', 'peak']):
-            # But only if it's not parseable as data
-            try:
-                # Try to parse as data anyway
-                test_parts = line.replace('\t', ',').split(',')
-                float(test_parts[0])
-            except:
-                continue  # Skip if can't parse
+        # Skip header
+        if i == 0 and ('ppm' in line.lower() or 'intensity' in line.lower()):
+            continue
         
-        # Replace tabs with commas to handle Mestrenova format
-        line = line.replace('\t', ',')
-        
-        # Split by comma
         parts = line.split(',')
+        if len(parts) != 2:
+            continue
         
-        # Handle multiple formats:
-        # 1. Standard: one ppm,intensity pair per line
-        # 2. Mestrenova: multiple pairs on one line (ppm1,int1,ppm2,int2,...)
-        
-        if len(parts) >= 2:
-            # Process pairs
-            for j in range(0, len(parts) - 1, 2):
-                try:
-                    ppm = float(parts[j].strip())
-                    inten = float(parts[j + 1].strip())
-                    
-                    if ppm_min <= ppm <= ppm_max and inten > 0:
-                        ppm_list.append(ppm)
-                        inten_list.append(inten)
-                except (ValueError, IndexError):
-                    continue
+        try:
+            ppm = float(parts[0])
+            inten = float(parts[1])
+            
+            if ppm_min <= ppm <= ppm_max and inten > 0:
+                ppm_list.append(ppm)
+                inten_list.append(inten)
+        except ValueError:
+            continue
     
     return np.array(ppm_list, dtype=float), np.array(inten_list, dtype=float)
 
@@ -191,17 +172,13 @@ uploaded_file = st.file_uploader(
 )
 
 # Example format
-with st.expander("ℹ️ Supported file formats"):
-    st.markdown("**Standard CSV format:**")
+with st.expander("ℹ️ Expected file format"):
     st.code("""ppm,intensity
 7.20075,6582.310017
 7.181023,6006.043662
 7.161048,9861.65747
+7.072613,4481.981926
 ...""", language="csv")
-    
-    st.markdown("**Mestrenova export format:**")
-    st.code("""Spectrum Title
-7.20075	6582.31	7.181	6006.04	7.161	9861.66 ...""", language="text")
 
 # Process uploaded file
 if uploaded_file is not None:
