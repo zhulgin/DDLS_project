@@ -162,6 +162,19 @@ Principal Component Analysis (PCA) revealed significant overlap between classes 
 
 The feature importance analysis reveals that the Random Forest model learned chemically interpretable patterns (see @features). The most discriminative regions include the aliphatic CH2 region (1.2-1.6 ppm), critical for lipid identification, and the alpha-to-heteroatom region (3.6 ppm), which distinguishes oxygen- and nitrogen-containing functional groups. This validates that the model bases classifications on meaningful chemical structural differences rather than spurious correlations.
 
+== SHAP
+
+#figure(
+  image("/fig/shap_summary_plot.png"),
+  caption: [SHAP summary plot]
+)
+
+#figure(
+  image("/fig/shap_per_class_importance.png"),
+  caption: [SHAP per class importance]
+)
+
+
 = Conclusion & Discussion
 // findings, limitations, future directions.
 
