@@ -7,30 +7,30 @@
 
 #figure(
   image("/fig/cnn_training_results.png"),
-  caption: [First CNN training results.]
+  caption: [First CNN model training results.]
 ) <cnn1>
 
 #figure(
   image("/fig/cnn_simplified_results.png"),
-  caption: [Simplified CNN training results.]
+  caption: [Simplified CNN model training results.]
 ) <cnn2>
 
 #figure(
   image("/fig/rf_tuned_results.png"),
-  caption: [Tuned RF results.]
+  caption: [Tuned RF model results.]
 ) <rf>
 
 #figure(
   image("/fig/feature_importance_nmr_style.png"),
-  caption: [RF feature importance.]
+  caption: [RF model feature importance.]
 ) <features>
 
 #figure(
   image("/fig/shap_summary_plot.png"),
-  caption: [SHAP summary plot.]
+  caption: [SHAP summary plot for RF model.]
 ) <shap_summary>
 
 #figure(
   image("/fig/shap_per_class_importance.png"),
-  caption: [SHAP per class importance.]
+  caption: [SHAP per class importance for RF model.]
 ) <shap_per_class>

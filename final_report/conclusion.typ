@@ -10,15 +10,16 @@ This project successfully developed a machine learning pipeline for classifying 
 The dramatic superiority of Random Forest over deep learning methods was unexpected but aligns with the data characteristics: with only 847 samples, high feature sparsity, and substantial class overlap (as revealed by PCA), ensemble methods proved more suitable than neural networks requiring large training sets and dense representations.
 */
 
-Two CNN architectures were tested - a complex model (320 000 parameters) and a simplified version (5157 parameters). Both significantly underperformed, achieving only 15.6% and 21.1% test accuracy respectively, barely above random chance (20%). The CNNs exhibited severe overfitting with validation loss exploding beyond 9000, indicating they struggled to learn generalizable patterns from the sparse, high-dimensional spectral features. Initial implementation of Random Forest classifier with 200 trees and max_depth=20 achieved 64.8% test accuracy, substantially outperforming the CNNs. Systematic optimization improved performance to 66.4% test accuracy, representing a modest but meaningful 1.6 percentage point gain over the baseline.
+Two CNN architectures were tested - a complex model (320 000 parameters) and a simplified version (5157 parameters). Both significantly underperformed, achieving only 23.4% and 22.7% test accuracy respectively, barely above random chance (20%). The CNNs exhibited severe overfitting with validation loss exploding beyond 9000, indicating they struggled to learn generalizable patterns from the sparse, high-dimensional spectral features. Initial implementation of Random Forest classifier with 200 trees and max_depth=20 achieved 64.8% test accuracy, substantially outperforming the CNNs. Systematic optimization improved performance to 66.4% test accuracy, representing a 1.6 percentage point gain over the baseline.
 
 The dramatic superiority of Random Forest over deep learning methods was unexpected but aligns with the data characteristics: with only 847 samples, high feature sparsity, and substantial class overlap (as revealed by PCA), ensemble methods proved more suitable than neural networks requiring large training sets and dense representations.
+
 
 == Model Interpretability
 
 Feature importance analysis revealed that the Random Forest model learned chemically meaningful patterns rather than spurious correlations. *Aliphatic region (1.2-1.6 ppm):* Most discriminative for Lipids, corresponding to methylene groups in fatty acid chains. *Alpha to heteroatom region (3.6 ppm):* Critical for distinguishing Nitrogenous & organic acids and Organic oxygen compounds, where protons adjacent to oxygen or nitrogen atoms resonate. *Aromatic region (6-8 ppm):* Important for Aromatics and Heterocycles & nucleotides, reflecting characteristic aromatic proton chemical shifts.
 
-SHAP analysis provided per-prediction interpretability, demonstrating that individual classification decisions aligned with expected chemical functional groups. For instance, lipid classifications were driven primarily by signals in the 1.3-1.6 ppm range, while aromatic compounds showed strong contributions from the 6.9-7.3 ppm region.
+SHAP analysis demonstrated that individual classification decisions aligned with expected chemical functional groups. For instance, lipid classifications were driven primarily by signals in the 1.3-1.6 ppm range, while aromatic compounds showed strong contributions from the 6.9-7.3 ppm region.
 
 == Limitations
 

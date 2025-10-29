@@ -56,7 +56,7 @@
 
 = Data and Code Availability
 // links to dataset and repo (per FAIR guidelines).
-#link("https://github.com/zhulgin/DDLS_project")[Link to Github repo.]
+All code and figures are publicly available in the #link("https://github.com/zhulgin/DDLS_project")[Github repo.]
 
 = Acknowledgments
 // contributions, support, and note on GenAI tools used.
@@ -72,8 +72,10 @@ ChatGPT and Claude were used for assistance with this project. The author thanks
 
 #include("appendix_figures.typ")
 
-== AI transcripts
+== AI Transcripts
 
 #link("https://chatgpt.com/g/g-p-68dcef6aa5888191b9244b9c649a83d7-ddls-project/project")[Link to ChatGPT transcripts.]
 
 #link("https://claude.ai/share/540e0e6c-0ca4-468d-9bea-bb139aeb1cd7")[Link to Claude transcripts.]
+
+== Deep Research Report
