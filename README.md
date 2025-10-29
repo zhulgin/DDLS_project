@@ -1,10 +1,33 @@
 # Automated Metabolite Family Identification from Proton NMR Data
 
+## Overview
+
+This project develops a machine learning pipeline to automatically classify metabolite compounds into five chemical groups based on ¹H-NMR spectroscopy data from the Human Metabolome Database. After evaluating convolutional neural networks (which failed with <25% accuracy) and ensemble methods, a tuned Random Forest classifier achieved 66.4% test accuracy on 847 compounds. Feature importance and SHAP analysis confirmed the model learned chemically meaningful patterns, with aliphatic regions (1.2-1.6 ppm) distinguishing lipids, aromatic signals (6-8 ppm) identifying aromatics, and alpha-to-heteroatom resonances (3.6 ppm) characterizing nitrogen/oxygen-containing compounds. A Streamlit web application enables real-time classification of uploaded NMR peak lists, providing predictions with confidence scores and class probability distributions.
+
 ## How to run
 
+1. Install dependencies (requirements.txt)
+
+2. Run
 ```
 streamlit run streamlit_app.py
 ```
+
+3. Choose H-NMR CSV/TXT peaklist file to classify
+
+## Peaklist format
+
+Peaklists are CSV/TXT files containing two columns: chemical shift (ppm) and intensity. 
+
+Example: 
+```
+ppm,intensity
+1.42,0.0912 	
+1.44,0.2511 	
+1.45,0.3889
+```
+
+Alternatively, peaklist files can be exported directly from Mestrenova by going to Save As > Script: NMR 1D Peak List (*.csv *.txt). In the Custom 1D CSV Export window, make sure Format says `{ppm},{intensity}`.
 
 ## Dependencies
 
@@ -70,6 +93,7 @@ List of dependencies can be found in `requirements.txt`
 │    ├──project-plan-alfred-larsson_v2_deep-research.pdf
 ├── README.md
 ├── requirements.txt
+├── LICENSE
 └── demo.mp4 - Screen recorded demo of how the webapp works
 
 ```
