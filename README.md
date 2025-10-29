@@ -1,5 +1,11 @@
 # Automated Metabolite Family Identification from Proton NMR Data
 
+## How to run
+
+```
+streamlit run streamlit_app.py
+```
+
 ## File structure
 
 ```
