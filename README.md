@@ -6,6 +6,10 @@
 streamlit run streamlit_app.py
 ```
 
+## Dependencies
+
+List of dependencies can be found in `requirements.txt`
+
 ## File structure
 
 ```
@@ -46,19 +50,27 @@ streamlit run streamlit_app.py
 │    ├── shap_analysis.ipynb - SHAP analysis of RF model
 │    ├── streamlit_app.py - Streamlit app
 │    └── streamlit_app_no-mnova.py - Streamlit app (old)
-├── Final report/ - _Typst files and pdf of final report_
+├── Final report/ - _Typst files for final report_
 │    ├── fig/ - _Figures for final report_
 │    ├── main.typ - Main document
-│    ├── main.pdf - Exported pdf
+│    ├── abstract.typ
+│    ├── appendix_figures.typ
+│    ├── background.typ
+│    ├── conclusion.typ
+│    ├── dataset_summary.typ
+│    ├── method.typ
+│    ├── results.typ
 │    ├── references.bib - List of references
-├── Project plan/ - _Typst files and pdf of project plan_
+├── Project plan/ - _Typst files for project plan_
 │    ├──deep-research-report.pdf
 │    ├──main.typ
 │    ├──main_v2.pdf
 │    ├──main_v2.typ
 │    ├──project-plan-alfred-larsson_v1.pdf
 │    ├──project-plan-alfred-larsson_v2_deep-research.pdf
-└── README.md
+├── README.md
+├── requirements.txt
+└── demo.mp4 - Screen recorded demo of how the webapp works
 
 ```
 
